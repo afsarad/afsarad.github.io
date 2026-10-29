@@ -1,19 +1,31 @@
+
 <!DOCTYPE html>
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Adem Afşar'ın toplum, tarih, felsefe ve medeniyet üzerine makaleleri, denemeleri ve kitap çalışmaları.">
+  <meta name="theme-color" content="#172b45">
+  <meta name="description" content="Adem Afşar'ın toplum, tarih, siyaset, felsefe ve medeniyet üzerine kitapları, makaleleri ve düşünsel çalışmaları.">
   <meta name="author" content="Adem Afşar">
-  <title>Adem Afşar — Toplum, Tarih ve Medeniyet</title>
+  <title>Adem Afşar | Toplum, Tarih ve Medeniyet</title>
+
   <style>
     :root {
       --lacivert: #172b45;
-      --zemin: #f7f5f0;
+      --lacivert-acik: #243e5d;
+      --zemin: #f5f2eb;
+      --beyaz: #fffefa;
       --vurgu: #a66b36;
       --metin: #303640;
+      --soluk: #68717b;
+      --cizgi: #e5dfd4;
+      --golge: 0 12px 32px rgba(23, 43, 69, .07);
     }
+
     * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
     body {
       margin: 0;
       font-family: Georgia, "Times New Roman", serif;
@@ -21,156 +33,618 @@
       background: var(--zemin);
       line-height: 1.8;
     }
+
+    a { color: var(--lacivert); }
+
+    a:focus-visible,
+    button:focus-visible {
+      outline: 3px solid var(--vurgu);
+      outline-offset: 4px;
+    }
+
+    .ust-cizgi {
+      height: 5px;
+      background: var(--vurgu);
+    }
+
     header {
-      background: var(--lacivert);
       color: white;
-      padding: 55px 20px 42px;
+      background:
+        radial-gradient(ellipse at top, #304a67 0%, transparent 65%),
+        var(--lacivert);
       text-align: center;
+      padding: 68px 20px 58px;
     }
-    header h1 {
-      font-size: clamp(30px, 6vw, 48px);
-      margin: 0 0 8px;
-      letter-spacing: 1px;
-    }
-    header p { margin: 0; color: #e4dfd6; }
-    nav {
-      background: white;
-      padding: 14px 10px;
-      text-align: center;
-      border-bottom: 1px solid #e5e0d7;
-    }
-    nav a {
-      display: inline-block;
-      margin: 4px 9px;
-      color: var(--lacivert);
-      text-decoration: none;
-      font-family: Arial, sans-serif;
-      font-size: 14px;
-    }
-    nav a:hover { color: var(--vurgu); }
-    main {
-      max-width: 850px;
-      margin: 35px auto;
-      padding: 0 20px;
-    }
-    section {
-      background: white;
-      padding: 25px;
-      margin-bottom: 22px;
-      border: 1px solid #e9e4db;
-      border-radius: 8px;
-    }
-    h2 { color: var(--lacivert); margin-top: 0; }
-    .etiket {
-      color: var(--vurgu);
+
+    .ust-etiket {
+      color: #d8b58e;
       font-family: Arial, sans-serif;
       font-size: 12px;
       font-weight: bold;
-      letter-spacing: 2px;
+      letter-spacing: 3px;
       text-transform: uppercase;
     }
-    .yazi {
-      padding: 15px 0;
-      border-bottom: 1px solid #eee9e1;
+
+    header h1 {
+      margin: 12px 0 5px;
+      font-size: clamp(36px, 7vw, 58px);
+      line-height: 1.2;
+      letter-spacing: .5px;
     }
-    .yazi:last-child { border-bottom: 0; }
-    .yazi h3 { margin: 0; color: var(--lacivert); }
-    .yazi p { margin: 5px 0 0; }
-    footer {
+
+    header .alt-baslik {
+      margin: 12px 0 0;
+      color: #e7e1d8;
+      font-size: clamp(17px, 3vw, 22px);
+    }
+
+    header .aciklama {
+      max-width: 650px;
+      margin: 18px auto 0;
+      color: #d5dce4;
+      font-size: 16px;
+    }
+
+    .butonlar {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .buton {
+      display: inline-block;
+      padding: 11px 19px;
+      border: 1px solid #c69b70;
+      border-radius: 4px;
+      color: white;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      transition: background .2s, color .2s;
+    }
+
+    .buton:hover {
+      background: var(--vurgu);
+      color: white;
+    }
+
+    .buton.acik {
+      border-color: #d9dfe5;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      padding: 12px 10px;
       text-align: center;
-      padding: 25px 15px;
+      background: rgba(255, 254, 250, .97);
+      border-bottom: 1px solid var(--cizgi);
+      box-shadow: 0 3px 12px rgba(0, 0, 0, .025);
+    }
+
+    nav a {
+      display: inline-block;
+      margin: 3px 10px;
+      color: var(--lacivert);
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    nav a:hover { color: var(--vurgu); }
+
+    main {
+      width: min(100% - 32px, 1000px);
+      margin: 38px auto 55px;
+    }
+
+    section {
+      margin-bottom: 26px;
+      padding: clamp(22px, 4vw, 38px);
+      background: var(--beyaz);
+      border: 1px solid var(--cizgi);
+      border-radius: 7px;
+      box-shadow: var(--golge);
+      scroll-margin-top: 80px;
+    }
+
+    .etiket {
+      margin-bottom: 7px;
+      color: var(--vurgu);
+      font-family: Arial, sans-serif;
+      font-size: 11px;
+      font-weight: bold;
+      letter-spacing: 2.2px;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin: 0 0 17px;
+      color: var(--lacivert);
+      font-size: clamp(25px, 4vw, 33px);
+      line-height: 1.35;
+    }
+
+    h3 {
+      margin: 0 0 8px;
+      color: var(--lacivert);
+      font-size: 21px;
+      line-height: 1.4;
+    }
+
+    p { margin: 0 0 15px; }
+
+    p:last-child { margin-bottom: 0; }
+
+    .girizgah {
+      color: var(--soluk);
+      font-size: 17px;
+    }
+
+    .vurgu-alinti {
+      margin: 25px 0;
+      padding: 18px 22px;
+      border-left: 4px solid var(--vurgu);
+      background: #f7f2e9;
+      color: var(--lacivert);
+      font-size: 21px;
+      font-style: italic;
+    }
+
+    .iki-sutun {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .kart {
+      min-width: 0;
+      padding: 21px;
+      border: 1px solid var(--cizgi);
+      border-radius: 6px;
+      background: #fff;
+    }
+
+    .kart p { font-size: 15px; }
+
+    .kitap-karti {
+      display: grid;
+      grid-template-columns: minmax(110px, 175px) minmax(0, 1fr);
+      align-items: start;
+      gap: 22px;
+    }
+
+    .kapak-alani {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 220px;
+      overflow: hidden;
+      background: #eee7da;
+      border: 1px solid #ded4c5;
+    }
+
+    .kapak-alani img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+
+    .durum {
+      display: inline-block;
+      margin: 0 0 10px;
+      padding: 4px 9px;
+      color: #69451f;
+      background: #f4e9d9;
+      border-radius: 3px;
+      font-family: Arial, sans-serif;
+      font-size: 11px;
+      font-weight: bold;
+    }
+
+    .kitap-alt-baslik {
+      color: var(--soluk);
+      font-size: 14px;
+      font-style: italic;
+    }
+
+    .yazi {
+      padding: 19px 0;
+      border-bottom: 1px solid var(--cizgi);
+    }
+
+    .yazi:first-of-type { padding-top: 5px; }
+    .yazi:last-child { padding-bottom: 0; border-bottom: 0; }
+
+    .yazi p { margin-top: 5px; }
+
+    .kucuk-not {
+      color: var(--soluk);
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+    }
+
+    .konu-listesi {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .konu {
+      padding: 15px;
+      border: 1px solid var(--cizgi);
+      background: #fbf8f2;
+      color: var(--lacivert);
+    }
+
+    .konu strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .konu span {
+      display: block;
+      color: var(--soluk);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .iletisim-kutu {
+      padding: 20px;
+      background: #f7f2e9;
+      border: 1px solid #e7dac7;
+    }
+
+    .iletisim-kutu a {
+      overflow-wrap: anywhere;
+    }
+
+    footer {
+      padding: 30px 18px;
       background: var(--lacivert);
       color: #e4dfd6;
+      text-align: center;
       font-size: 14px;
     }
-    @media (max-width: 480px) {
-      section { padding: 19px; }
-      header { padding-top: 40px; }
+
+    footer p { margin: 4px 0; }
+
+    footer a { color: #e8c49c; }
+
+    @media (max-width: 650px) {
+      header { padding: 48px 18px 42px; }
+
+      nav { padding: 9px 5px; }
+
+      nav a {
+        margin: 5px 7px;
+        font-size: 12px;
+      }
+
+      main {
+        width: min(100% - 20px, 1000px);
+        margin-top: 20px;
+      }
+
+      section { margin-bottom: 17px; }
+
+      .iki-sutun,
+      .konu-listesi {
+        grid-template-columns: 1fr;
+      }
+
+      .kitap-karti {
+        grid-template-columns: 105px minmax(0, 1fr);
+        gap: 15px;
+      }
+
+      .kapak-alani { min-height: 150px; }
+
+      .kitap-karti h3 { font-size: 18px; }
+
+      .kitap-karti p { font-size: 14px; }
+
+      .vurgu-alinti { font-size: 18px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      * { transition: none !important; }
     }
   </style>
 </head>
+
 <body>
+  <div class="ust-cizgi"></div>
+
   <header>
+    <div class="ust-etiket">Yazar · Araştırmacı · Düşünce</div>
     <h1>Adem Afşar</h1>
-    <p>Toplum, Tarih ve Medeniyet</p>
-    <p>İnsanı, toplumu ve iktidarı anlamak üzerine yazılar.</p>
+    <p class="alt-baslik">Toplum, Tarih ve Medeniyet</p>
+    <p class="aciklama">
+      İnsanı, toplumsal dayanışmayı, tarihsel değişimi ve iktidarı
+      anlamaya yönelik kitaplar, makaleler ve düşünsel çalışmalar.
+    </p>
+    <div class="butonlar">
+      <a class="buton" href="#kitaplar">Kitap çalışmalarım</a>
+      <a class="buton acik" href="#hakkinda">Yazar hakkında</a>
+    </div>
   </header>
 
-  <nav>
+  <nav aria-label="Ana menü">
     <a href="#hakkinda">Yazar Hakkında</a>
+    <a href="#kitaplar">Kitaplar</a>
+    <a href="#dusunceler">Düşünce Dünyası</a>
     <a href="#makaleler">Makaleler</a>
-    <a href="#kitaplar">Kitap Çalışmaları</a>
     <a href="#iletisim">İletişim</a>
   </nav>
 
   <main>
     <section id="hakkinda">
-      <div class="etiket">Düşünce ve Araştırma</div>
-      <h2>Birlikte düşünmek için</h2>
-      <p>
-        Bu platform; insanı, toplumu, tarihi ve medeniyeti
-        anlamaya yönelik makalelerin, denemelerin ve kitap
-        çalışmalarının yayımlandığı kişisel bir yayın alanıdır.
-      </p>
-      <p>
-        Amacım, yerleşik kabulleri sorgulamak, farklı düşünceleri
-        karşılaştırmak ve toplumsal meseleleri akıl, gözlem
-        ve eleştirel düşünceyle ele almaktır.
-      </p>
-    </section>
+      <div class="etiket">Yazarın yaklaşımı</div>
+      <h2>Birlikte düşünmek, yeniden değerlendirmek</h2>
 
-    <section id="makaleler">
-      <div class="etiket">Yazılar</div>
-      <h2>Makaleler ve Denemeler</h2>
-      <div class="yazi">
-        <h3>İrade ve Gerçek Özgürlük</h3>
-        <p>
-          Özgürlük, insanın kendi iradesi üzerinde sağlıklı
-          tasarrufta bulunabilme becerisi olabilir mi?
-        </p>
-        <p><em>Yeni yazılar burada yayımlanacak.</em></p>
+      <p class="girizgah">
+        Toplumu anlamak, yalnızca insanların ne yaptığını değil;
+        hangi şartlarda, hangi ihtiyaçlarla ve hangi ilişkiler
+        içinde hareket ettiklerini de incelemeyi gerektirir.
+      </p>
+
+      <p>
+        Çalışmalarımda toplumun kuruluşunu, dayanışmanın güce
+        dönüşmesini, kurumların oluşumunu ve zamanla değişen
+        insan davranışlarını ele alıyorum. Tarihi yalnızca
+        geçmişte yaşanmış olayların sıralaması olarak değil,
+        bugünü anlamamıza yardımcı olabilecek bir gözlem alanı
+        olarak değerlendirmeye çalışıyorum.
+      </p>
+
+      <p>
+        İbn-i Haldun'un toplum ve asabiyet anlayışı ile
+        Machiavelli'nin iktidar ve siyasal gerçekçilik yaklaşımı,
+        çalışmalarımın önemli düşünsel dayanakları arasındadır.
+        Bu düşünürlerden yararlanırken kavramları tarihsel
+        bağlamlarında incelemeyi ve günümüz koşullarında yeniden
+        sınamayı önemsiyorum.
+      </p>
+
+      <div class="vurgu-alinti">
+        İnsan her yerde aynı insandır; yaşamını sürdürebilmek
+        için ürettiği şartlar farklılık gösterir.
       </div>
-      <div class="yazi">
-        <h3>İnsan, Toplum ve Sorumluluk</h3>
-        <p>
-          Bireysel ihtiyaçlardan ortak yaşama uzanan
-          sorumluluk halkaları üzerine düşünceler.
-        </p>
-        <p><em>Bu yazı henüz yayımlanmamıştır.</em></p>
-      </div>
+
+      <p>
+        Bu site, kitap çalışmalarımı, makalelerimi ve geliştirmekte
+        olduğum düşünceleri paylaşmak; okurlarla eleştirel ve
+        yapıcı bir düşünce alışverişi kurmak amacıyla hazırlanmıştır.
+      </p>
     </section>
 
     <section id="kitaplar">
       <div class="etiket">Kitaplık</div>
-      <h2>Kitap Çalışmaları</h2>
+      <h2>Kitap çalışmaları</h2>
+      <p class="girizgah">
+        Toplumun kuruluşundan iktidarın işleyişine uzanan iki
+        çalışma: tarihsel gözlem, kavramsal karşılaştırma ve
+        eleştirel değerlendirme.
+      </p>
+
       <div class="yazi">
-        <h3>İbn-i Haldun'u Anlamak</h3>
-        <p>
-          Toplum, dayanışma, asabiyet, iktidar ve medeniyet
-          üzerine bir düşünce çalışması.
-        </p>
+        <div class="kitap-karti">
+          <div class="kapak-alani">
+            <img
+              src="images/kitap-1-kapak.png"
+              alt="İbn-i Haldun'u Anlamak kitap kapağı"
+              loading="lazy">
+          </div>
+
+          <div>
+            <span class="durum">Tamamlandı</span>
+            <h3>İbn-i Haldun'u Anlamak</h3>
+            <p class="kitap-alt-baslik">
+              Toplum, dayanışma ve medeniyet üzerine bir inceleme
+            </p>
+            <p>
+              İbn-i Haldun'un umran, asabiyet, şehir, üretim ve
+              iktidar gözlemlerini tarihsel bağlamında ele alan
+              bir düşünce çalışmasıdır.
+            </p>
+            <p>
+              Çalışma, toplulukları birlikte hareket edebilir
+              kılan bağları ve bu bağların değişen şartlarda
+              nasıl dönüşebildiğini sorgular.
+            </p>
+            <p class="kucuk-not">
+              Kitap çalışması tamamlanmıştır. Yayın bilgileri,
+              kesinleştiğinde bu alana eklenecektir.
+            </p>
+          </div>
+        </div>
       </div>
+
       <div class="yazi">
-        <h3>İbn-i Haldun ve Machiavelli</h3>
-        <p>
-          Toplumu kuran güç ile iktidarı koruyan akıl
-          arasındaki ilişki üzerine çalışma.
-        </p>
+        <div class="kitap-karti">
+          <div class="kapak-alani">
+            <img
+              src="images/kitap-2-kapak.png"
+              alt="İbn-i Haldun ve Machiavelli kitap kapağı"
+              loading="lazy">
+          </div>
+
+          <div>
+            <span class="durum">Son çalışma aşamasında</span>
+            <h3>İbn-i Haldun ve Machiavelli</h3>
+            <p class="kitap-alt-baslik">
+              Toplumu Kuran Güç ile İktidarı Koruyan Akıl
+            </p>
+            <p>
+              Toplumsal dayanışmanın siyasal güce dönüşmesi ile
+              iktidarın kendisini koruma biçimleri arasındaki
+              ilişkiyi karşılaştırmalı olarak inceler.
+            </p>
+            <p>
+              İki düşünürün kavramlarını karşı karşıya getirerek
+              kuruluş, kurumsallaşma, siyasal dayanıklılık ve
+              değişen şartlara uyum meselelerini araştırır.
+            </p>
+            <p class="kucuk-not">
+              Kitap çalışması son düzenleme aşamasındadır.
+              Yayın tarihi henüz duyurulmamıştır.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="iletisim">
-      <div class="etiket">Bağlantı</div>
-      <h2>İletişim ve Paylaşım</h2>
+    <section id="dusunceler">
+      <div class="etiket">Kavramsal çalışmalar</div>
+      <h2>Düşünce dünyası</h2>
+
       <p>
-        Yeni yazılar ve yayın duyuruları bu sayfada yer alacak.
-        Sosyal medya bağlantıları site yayımlandıktan sonra eklenecek.
+        Bazı kavramları yalnızca açıklamakla yetinmek yerine,
+        onları tarihsel ve toplumsal örnekler üzerinden sınamayı
+        amaçlıyorum. Aşağıdaki başlıklar bu düşünsel alanın
+        temel çalışma konularındandır.
       </p>
+
+      <div class="konu-listesi">
+        <div class="konu">
+          <strong>Asabiyet ve ortak hareket</strong>
+          <span>
+            İnsanları birlikte davranmaya yönelten bağlar ve
+            bu bağların siyasal güce dönüşmesi.
+          </span>
+        </div>
+
+        <div class="konu">
+          <strong>Toplumsal dayanıklılık</strong>
+          <span>
+            Ortaklık, kurumlar ve değişen şartlara uyum
+            kapasitesi arasındaki ilişki.
+          </span>
+        </div>
+
+        <div class="konu">
+          <strong>Sorumluluk daireleri</strong>
+          <span>
+            Bireyden aileye, yakın çevreden insanlığın geneline
+            uzanan sorumluluk alanları.
+          </span>
+        </div>
+
+        <div class="konu">
+          <strong>Döngü değil, sarmal</strong>
+          <span>
+            Tarihsel süreçlerin aynı noktaya dönmekten çok,
+            değişen koşullar içinde yeniden şekillenmesi.
+          </span>
+        </div>
+
+        <div class="konu">
+          <strong>İnsan, özgürlük ve sorumluluk</strong>
+          <span>
+            İrade, toplumsal çevre, ahlaki değerlendirme ve
+            bireysel kararlar üzerine sorgulamalar.
+          </span>
+        </div>
+
+        <div class="konu">
+          <strong>İktidar ve siyasal gerçekçilik</strong>
+          <span>
+            Gücün kurulması, korunması, sınırlandırılması ve
+            kurumlarla ilişkisi.
+          </span>
+        </div>
+      </div>
+
+      <p class="kucuk-not" style="margin-top:18px">
+        Bu başlıklar yazarın çalışma ve düşünce alanlarını
+        tanıtır; her biri için ayrı bir makale veya yayın
+        bulunduğu anlamına gelmez.
+      </p>
+    </section>
+
+    <section id="makaleler">
+      <div class="etiket">Yazılar ve incelemeler</div>
+      <h2>Makaleler ve denemeler</h2>
+
+      <p class="girizgah">
+        Toplum, ekonomi, felsefe, tarih ve insan davranışları
+        üzerine yazılar bu bölümde bir araya getirilecektir.
+      </p>
+
+      <div class="yazi">
+        <h3>İnsan, Toplum ve Sorumluluk</h3>
+        <p>
+          Bireysel ihtiyaçlar ile ortak yaşamın gerekleri
+          arasındaki ilişki; sorumluluğun yakın çevreden daha
+          geniş toplumsal alanlara uzanması.
+        </p>
+        <span class="kucuk-not">Çalışma konusu</span>
+      </div>
+
+      <div class="yazi">
+        <h3>İrade ve Gerçek Özgürlük</h3>
+        <p>
+          İnsanın karar verme kapasitesi, çevresinin etkisi
+          ve kendi davranışlarını değerlendirme imkânı üzerine
+          düşünceler.
+        </p>
+        <span class="kucuk-not">Çalışma konusu</span>
+      </div>
+
+      <div class="yazi">
+        <h3>Toplumu Kuran Güç ve İktidarı Koruyan Akıl</h3>
+        <p>
+          İbn-i Haldun ve Machiavelli'nin yaklaşımlarından
+          hareketle toplumsal dayanışma, siyasal kuruluş ve
+          iktidarın devamlılığı arasındaki ilişkinin incelenmesi.
+        </p>
+        <span class="kucuk-not">Kitap çalışmasıyla bağlantılı konu</span>
+      </div>
+
+      <p class="kucuk-not" style="margin-top:18px">
+        Yeni yazılar yayımlandıkça başlıkları ve tam metin
+        bağlantıları bu bölüme eklenecektir.
+      </p>
+    </section>
+
+    <section id="iletisim">
+      <div class="etiket">İletişim ve paylaşım</div>
+      <h2>İletişim</h2>
+
+      <p>
+        Kitap çalışmaları, makaleler ve düşünsel konular
+        hakkında iletişim kurmak veya görüş paylaşmak için
+        aşağıdaki e-posta adresini kullanabilirsiniz.
+      </p>
+
+      <div class="iletisim-kutu">
+        <p><strong>Adem Afşar</strong></p>
+        <p>
+          E-posta:
+          <a href="mailto:afsarad@gmail.com">afsarad@gmail.com</a>
+        </p>
+        <p>
+          Yazar sitesi:
+          <a href="https://afsarad.github.io/">
+            afsarad.github.io
+          </a>
+        </p>
+      </div>
     </section>
   </main>
 
   <footer>
-    © 2026 Adem Afşar — Toplum, Tarih ve Medeniyet
+    <p><strong>Adem Afşar</strong></p>
+    <p>Toplum, Tarih ve Medeniyet</p>
+    <p>© 2026 Adem Afşar. Tüm hakları saklıdır.</p>
   </footer>
 </body>
 </html>
