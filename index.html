@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -23,7 +22,6 @@
     }
 
     * { box-sizing: border-box; }
-
     html { scroll-behavior: smooth; }
 
     body {
@@ -35,17 +33,12 @@
     }
 
     a { color: var(--lacivert); }
-
-    a:focus-visible,
-    button:focus-visible {
+    a:focus-visible, button:focus-visible {
       outline: 3px solid var(--vurgu);
       outline-offset: 4px;
     }
 
-    .ust-cizgi {
-      height: 5px;
-      background: var(--vurgu);
-    }
+    .ust-cizgi { height: 5px; background: var(--vurgu); }
 
     header {
       color: white;
@@ -105,14 +98,8 @@
       transition: background .2s, color .2s;
     }
 
-    .buton:hover {
-      background: var(--vurgu);
-      color: white;
-    }
-
-    .buton.acik {
-      border-color: #d9dfe5;
-    }
+    .buton:hover { background: var(--vurgu); color: white; }
+    .buton.acik { border-color: #d9dfe5; }
 
     nav {
       position: sticky;
@@ -177,13 +164,9 @@
     }
 
     p { margin: 0 0 15px; }
-
     p:last-child { margin-bottom: 0; }
 
-    .girizgah {
-      color: var(--soluk);
-      font-size: 17px;
-    }
+    .girizgah { color: var(--soluk); font-size: 17px; }
 
     .vurgu-alinti {
       margin: 25px 0;
@@ -260,7 +243,6 @@
 
     .yazi:first-of-type { padding-top: 5px; }
     .yazi:last-child { padding-bottom: 0; border-bottom: 0; }
-
     .yazi p { margin-top: 5px; }
 
     .kucuk-not {
@@ -283,11 +265,7 @@
       color: var(--lacivert);
     }
 
-    .konu strong {
-      display: block;
-      margin-bottom: 4px;
-    }
-
+    .konu strong { display: block; margin-bottom: 4px; }
     .konu span {
       display: block;
       color: var(--soluk);
@@ -301,8 +279,25 @@
       border: 1px solid #e7dac7;
     }
 
-    .iletisim-kutu a {
-      overflow-wrap: anywhere;
+    .iletisim-kutu a { overflow-wrap: anywhere; }
+
+    .makale-baglantisi {
+      display: inline-block;
+      margin-top: 7px;
+      padding: 9px 14px;
+      border: 1px solid #c69b70;
+      border-radius: 4px;
+      color: var(--lacivert);
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    .makale-baglantisi:hover {
+      background: var(--lacivert);
+      border-color: var(--lacivert);
+      color: white;
     }
 
     footer {
@@ -314,18 +309,12 @@
     }
 
     footer p { margin: 4px 0; }
-
     footer a { color: #e8c49c; }
 
     @media (max-width: 650px) {
       header { padding: 48px 18px 42px; }
-
       nav { padding: 9px 5px; }
-
-      nav a {
-        margin: 5px 7px;
-        font-size: 12px;
-      }
+      nav a { margin: 5px 7px; font-size: 12px; }
 
       main {
         width: min(100% - 20px, 1000px);
@@ -333,11 +322,7 @@
       }
 
       section { margin-bottom: 17px; }
-
-      .iki-sutun,
-      .konu-listesi {
-        grid-template-columns: 1fr;
-      }
+      .iki-sutun, .konu-listesi { grid-template-columns: 1fr; }
 
       .kitap-karti {
         grid-template-columns: 105px minmax(0, 1fr);
@@ -345,11 +330,8 @@
       }
 
       .kapak-alani { min-height: 150px; }
-
       .kitap-karti h3 { font-size: 18px; }
-
       .kitap-karti p { font-size: 14px; }
-
       .vurgu-alinti { font-size: 18px; }
     }
 
@@ -438,12 +420,9 @@
       <div class="yazi">
         <div class="kitap-karti">
           <div class="kapak-alani">
-            <img
-              src="images/kitap-1-kapak.png"
-              alt="İbn-i Haldun'u Anlamak kitap kapağı"
-              loading="lazy">
+            <img src="images/kitap-1-kapak.png"
+              alt="İbn-i Haldun'u Anlamak kitap kapağı" loading="lazy">
           </div>
-
           <div>
             <span class="durum">Tamamlandı</span>
             <h3>İbn-i Haldun'u Anlamak</h3>
@@ -471,12 +450,9 @@
       <div class="yazi">
         <div class="kitap-karti">
           <div class="kapak-alani">
-            <img
-              src="images/kitap-2-kapak.png"
-              alt="İbn-i Haldun ve Machiavelli kitap kapağı"
-              loading="lazy">
+            <img src="images/kitap-2-kapak.png"
+              alt="İbn-i Haldun ve Machiavelli kitap kapağı" loading="lazy">
           </div>
-
           <div>
             <span class="durum">Son çalışma aşamasında</span>
             <h3>İbn-i Haldun ve Machiavelli</h3>
@@ -521,7 +497,6 @@
             bu bağların siyasal güce dönüşmesi.
           </span>
         </div>
-
         <div class="konu">
           <strong>Toplumsal dayanıklılık</strong>
           <span>
@@ -529,7 +504,6 @@
             kapasitesi arasındaki ilişki.
           </span>
         </div>
-
         <div class="konu">
           <strong>Sorumluluk daireleri</strong>
           <span>
@@ -537,7 +511,6 @@
             uzanan sorumluluk alanları.
           </span>
         </div>
-
         <div class="konu">
           <strong>Döngü değil, sarmal</strong>
           <span>
@@ -545,7 +518,6 @@
             değişen koşullar içinde yeniden şekillenmesi.
           </span>
         </div>
-
         <div class="konu">
           <strong>İnsan, özgürlük ve sorumluluk</strong>
           <span>
@@ -553,7 +525,6 @@
             bireysel kararlar üzerine sorgulamalar.
           </span>
         </div>
-
         <div class="konu">
           <strong>İktidar ve siyasal gerçekçilik</strong>
           <span>
@@ -578,6 +549,24 @@
         Toplum, ekonomi, felsefe, tarih ve insan davranışları
         üzerine yazılar bu bölümde bir araya getirilecektir.
       </p>
+
+      <div class="yazi">
+        <h3>Yapay Zekâ Rekabetinden Düşünsel Sinerjiye</h3>
+        <p class="kitap-alt-baslik">
+          İnsan–Yapay Zekâ İlişkisinde Üretim Kapasitesinin Genişlemesi
+        </p>
+        <p>
+          Yapay zekâ alanındaki rekabeti yalnızca şirketlerin
+          birbirlerine üstünlük iddiaları üzerinden değil,
+          insanın düşünme ve üretme kapasitesine kazandırdığı
+          imkânlar üzerinden değerlendiren bir inceleme.
+        </p>
+        <span class="kucuk-not">Makale · 30 Ekim 2026</span>
+        <br>
+        <a class="makale-baglantisi" href="yapay-zeka-dusunsel-sinerji.html">
+          Makaleyi oku
+        </a>
+      </div>
 
       <div class="yazi">
         <h3>İnsan, Toplum ve Sorumluluk</h3>
@@ -633,9 +622,7 @@
         </p>
         <p>
           Yazar sitesi:
-          <a href="https://afsarad.github.io/">
-            afsarad.github.io
-          </a>
+          <a href="https://afsarad.github.io/">afsarad.github.io</a>
         </p>
       </div>
     </section>
@@ -648,4 +635,3 @@
   </footer>
 </body>
 </html>
-
