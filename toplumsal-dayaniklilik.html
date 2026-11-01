@@ -1,0 +1,876 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#172b45">
+<meta name="author" content="Adem Afşar">
+<meta name="description" content="Adem Afşar'ın toplumsal dayanıklılık, kriz, dayanışma, kurumsal kapasite ve toplumsal yeniden üretim üzerine kavramsal incelemesi.">
+<title>Toplumsal Dayanıklılık | Adem Afşar</title>
+
+<style>
+:root {
+  --lacivert:#172b45;
+  --zemin:#f5f2eb;
+  --beyaz:#fffefa;
+  --vurgu:#a66b36;
+  --metin:#303640;
+  --soluk:#68717b;
+  --cizgi:#e5dfd4;
+}
+* {box-sizing:border-box}
+html {scroll-behavior:smooth}
+body {
+  margin:0;
+  background:var(--zemin);
+  color:var(--metin);
+  font-family:Georgia,"Times New Roman",serif;
+  line-height:1.85;
+}
+a {color:var(--lacivert);overflow-wrap:anywhere}
+a:focus-visible {
+  outline:3px solid var(--vurgu);
+  outline-offset:4px;
+}
+.ust-cizgi {
+  height:5px;
+  background:var(--vurgu);
+}
+header {
+  padding:65px 20px 55px;
+  background:var(--lacivert);
+  color:white;
+  text-align:center;
+}
+.ust-etiket {
+  color:#dfbb91;
+  font:700 12px Arial,sans-serif;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+header h1 {
+  max-width:850px;
+  margin:16px auto;
+  font-size:clamp(34px,6vw,54px);
+  line-height:1.2;
+}
+header p {
+  max-width:740px;
+  margin:12px auto;
+  color:#e4dfd6;
+  font-size:19px;
+}
+nav {
+  padding:14px 12px;
+  background:var(--beyaz);
+  border-bottom:1px solid var(--cizgi);
+  text-align:center;
+}
+nav a {
+  display:inline-block;
+  margin:5px 12px;
+  text-decoration:none;
+  font:700 13px Arial,sans-serif;
+}
+main {
+  width:min(100% - 28px,860px);
+  margin:35px auto 55px;
+}
+article {
+  padding:clamp(24px,5vw,50px);
+  background:var(--beyaz);
+  border:1px solid var(--cizgi);
+  border-radius:7px;
+  box-shadow:0 12px 32px rgba(23,43,69,.06);
+}
+.meta {
+  margin-bottom:30px;
+  padding-bottom:18px;
+  border-bottom:1px solid var(--cizgi);
+  color:var(--soluk);
+  font:13px/1.8 Arial,sans-serif;
+}
+h2 {
+  margin:38px 0 14px;
+  color:var(--lacivert);
+  font-size:clamp(23px,4vw,29px);
+  line-height:1.35;
+}
+h3 {
+  margin:25px 0 10px;
+  color:var(--lacivert);
+  font-size:20px;
+}
+p {margin:0 0 18px}
+.giris {
+  color:var(--lacivert);
+  font-size:19px;
+}
+blockquote {
+  margin:28px 0;
+  padding:20px 24px;
+  border-left:4px solid var(--vurgu);
+  background:#f7f2e9;
+  color:var(--lacivert);
+  font-size:20px;
+  font-style:italic;
+}
+.kavram {
+  margin:20px 0;
+  padding:18px 20px;
+  background:#fbf8f2;
+  border:1px solid var(--cizgi);
+  border-left:4px solid var(--vurgu);
+}
+.kavram strong {
+  display:block;
+  color:var(--lacivert);
+}
+.kavram p {margin:5px 0 0}
+.soru {
+  margin:28px 0;
+  padding:22px;
+  background:#f7f2e9;
+  border:1px solid #e7dac7;
+}
+.soru strong {color:var(--lacivert)}
+.kaynaklar {padding-left:23px}
+.kaynaklar li {
+  margin-bottom:16px;
+  overflow-wrap:anywhere;
+}
+.not {
+  margin-top:35px;
+  padding-top:18px;
+  border-top:1px solid var(--cizgi);
+  color:var(--soluk);
+  font-size:13px;
+}
+.geri {
+  display:inline-block;
+  margin-top:25px;
+  padding:10px 17px;
+  border:1px solid var(--vurgu);
+  border-radius:4px;
+  text-decoration:none;
+  font:700 13px Arial,sans-serif;
+}
+.geri:hover {
+  background:var(--lacivert);
+  color:white;
+}
+footer {
+  padding:30px 18px;
+  background:var(--lacivert);
+  color:#e4dfd6;
+  text-align:center;
+  font-size:14px;
+}
+footer p {margin:4px 0}
+@media(max-width:600px) {
+  header {padding:45px 18px}
+  header p {font-size:16px}
+  main {margin-top:18px}
+  blockquote {font-size:18px}
+}
+@media(prefers-reduced-motion:reduce) {
+  html {scroll-behavior:auto}
+}
+</style>
+</head>
+
+<body>
+<div class="ust-cizgi"></div>
+
+<header>
+  <div class="ust-etiket">
+    Adem Afşar · Kavramsal Çalışmalar
+  </div>
+  <h1>Toplumsal Dayanıklılık</h1>
+  <p>
+    Kriz, Dayanışma, Kurumlar ve
+    Toplumsal Yeniden Üretim
+  </p>
+</header>
+
+<nav aria-label="Sayfa menüsü">
+  <a href="index-turkce.html">Ana Sayfa</a>
+  <a href="index-turkce.html#dusunceler">
+    Düşünce Dünyası
+  </a>
+  <a href="toplum_iktidar_duzen_kitap_serisi.html">
+    Kitaplar
+  </a>
+  <a href="index-turkce.html#iletisim">
+    İletişim
+  </a>
+</nav>
+
+<main>
+<article>
+
+<div class="meta">
+  Adem Afşar · Kavramsal İnceleme ·
+  1 Kasım 2026 · Sürüm 1.0
+</div>
+
+<p class="giris">
+  Bir toplumun kriz karşısında
+  ayakta kalabilmesi, yalnızca
+  bireylerinin fedakârlığına mı
+  bağlıdır? Yoksa dayanıklılık,
+  dayanışmanın ötesinde
+  kurumsal ve yapısal koşullar
+  da gerektirir mi?
+</p>
+
+<p>
+  Toplumlar doğal afetler,
+  ekonomik daralmalar, salgınlar,
+  siyasal çatışmalar ve
+  teknolojik dönüşümler gibi
+  farklı nitelikteki sorunlarla
+  karşılaşabilir.
+</p>
+
+<p>
+  Bu sorunlar karşısında
+  gösterilen tepkiler,
+  toplumun yalnızca
+  mevcut gücünü değil,
+  değişen koşullara uyum
+  sağlama kapasitesini de
+  görünür hâle getirir.
+</p>
+
+<h2>1. Toplumsal dayanıklılık nedir?</h2>
+
+<p>
+  Toplumsal dayanıklılık,
+  bir toplumun karşılaştığı
+  sarsıntılar karşısında
+  temel işlevlerini sürdürebilme,
+  ortaya çıkan zararları
+  sınırlayabilme, değişen
+  koşullara uyum sağlayabilme
+  ve gerektiğinde kurumlarını
+  yeniden düzenleyebilme
+  kapasitesi olarak ele alınabilir.
+</p>
+
+<p>
+  Bu tanım, dayanıklılığı
+  yalnızca eski duruma
+  geri dönme yeteneğiyle
+  sınırlamaz.
+</p>
+
+<p>
+  Çünkü kriz öncesindeki
+  koşulların kendisi
+  eşitsizlik, güvensizlik
+  veya yapısal yetersizlikler
+  içeriyor olabilir.
+</p>
+
+<blockquote>
+  Bir toplumun dayanıklılığı,
+  yalnızca yaşadığı krizi
+  atlatmasıyla değil,
+  krizden sonra nasıl bir
+  toplumsal düzen ürettiğiyle
+  de değerlendirilmelidir.
+</blockquote>
+
+<h2>2. Dayanışma ve dayanıklılık aynı şey midir?</h2>
+
+<p>
+  Dayanışma, bireylerin
+  ortak bir sorun karşısında
+  birbirlerine destek
+  olabilmesini ifade eder.
+</p>
+
+<p>
+  Dayanıklılık ise bu desteğin
+  yanı sıra kaynakların
+  kullanılmasını, kurumların
+  işlemesini, kararların
+  uygulanmasını ve
+  toplumsal yaşamın
+  sürdürülebilmesini
+  kapsayan daha geniş
+  bir kapasitedir.
+</p>
+
+<p>
+  Örneğin büyük bir deprem
+  sonrasında insanlar
+  birbirlerine yiyecek,
+  barınma ve ulaşım
+  desteği sağlayabilir.
+</p>
+
+<p>
+  Ancak sağlık hizmetleri,
+  haberleşme, altyapı
+  ve kamu koordinasyonu
+  işlemez durumdaysa,
+  güçlü dayanışmaya rağmen
+  toplumun kriz yönetme
+  kapasitesi sınırlı kalabilir.
+</p>
+
+<div class="kavram">
+  <strong>Dayanışma</strong>
+  <p>
+    Ortak sorunlar karşısında
+    yardımlaşma ve karşılıklı
+    destek üretme ilişkisi.
+  </p>
+</div>
+
+<div class="kavram">
+  <strong>Dayanıklılık</strong>
+  <p>
+    Sarsıntı karşısında temel
+    işlevleri koruma, uyum
+    sağlama ve gerektiğinde
+    yeniden yapılanma kapasitesi.
+  </p>
+</div>
+
+<p>
+  Bu iki kavram birbirini
+  destekleyebilir; ancak
+  birbirinin yerine
+  kullanılmamalıdır.
+</p>
+
+<h2>3. İbn Haldun açısından değerlendirme</h2>
+
+<p>
+  İbn Haldun'un asabiyet
+  anlayışı, toplulukların
+  ortak hareket kapasitesinin
+  siyasal ve toplumsal
+  sonuçlarını anlamak için
+  önemli bir başlangıç
+  noktasıdır.
+</p>
+
+<p>
+  Asabiyet, topluluğun
+  üyeleri arasındaki
+  bağlılığı ve ortak
+  eylem yeteneğini
+  güçlendirebilir.
+</p>
+
+<p>
+  Ancak çağdaş anlamdaki
+  toplumsal dayanıklılık
+  kavramı, İbn Haldun'un
+  doğrudan kullandığı
+  bir kavram değildir.
+</p>
+
+<p>
+  Bu nedenle burada
+  yapılan değerlendirme,
+  onun tarihsel çözümlemesi
+  ile çağdaş dayanıklılık
+  tartışmaları arasında
+  kurulan bir karşılaştırmadır.
+</p>
+
+<h2>4. Kurumların dayanıklılıktaki rolü</h2>
+
+<p>
+  Toplumlar yalnızca
+  bireylerin toplamından
+  oluşmaz. Hukuk,
+  eğitim, sağlık,
+  ekonomi ve kamu
+  yönetimi gibi kurumlar
+  ortak yaşamın
+  sürekliliğinde
+  önemli işlevler üstlenir.
+</p>
+
+<p>
+  Bir kurumun varlığı,
+  onun her koşulda
+  etkili çalıştığını
+  göstermez.
+</p>
+
+<p>
+  Kurumsal dayanıklılık,
+  görevlerin açık biçimde
+  tanımlanmasını,
+  bilgi akışını,
+  kaynakların uygun
+  kullanımını ve
+  olağanüstü koşullarda
+  karar alabilme
+  kapasitesini gerektirir.
+</p>
+
+<p>
+  Bu noktada önemli olan,
+  kurumların yalnızca
+  güçlü görünmesi değil,
+  karşılaştıkları sorunlar
+  karşısında işlevlerini
+  ne ölçüde
+  yerine getirebildikleridir.
+</p>
+
+<h2>5. Birey, toplum ve sorumluluk</h2>
+
+<p>
+  Toplumsal dayanıklılığın
+  bireysel sorumluluklarla
+  da ilişkisi vardır.
+</p>
+
+<p>
+  İnsanlar kendi
+  yaşamlarını ve
+  yakın çevrelerini
+  korumaya çalışırken
+  toplumsal kurumların
+  işleyişine de katkıda
+  bulunabilir.
+</p>
+
+<p>
+  Bununla birlikte
+  bireylerin fedakârlığı,
+  kurumların yerine
+  getirmesi gereken
+  görevleri sürekli
+  olarak üstlenmelerini
+  gerektiren bir
+  beklentiye dönüşmemelidir.
+</p>
+
+<p>
+  Burada Sorumluluk
+  Daireleri yaklaşımıyla
+  önemli bir bağlantı
+  ortaya çıkar.
+</p>
+
+<p>
+  Bireyin kendisine,
+  ailesine ve yakın
+  çevresine karşı
+  sorumlulukları
+  bulunurken, kamu
+  kurumlarının da
+  toplumun bütününe
+  karşı tanımlanmış
+  yükümlülükleri vardır.
+</p>
+
+<p>
+  Bu sorumlulukların
+  birbirine karıştırılması,
+  krizin gerçek
+  nedenlerinin
+  değerlendirilmesini
+  zorlaştırabilir.
+</p>
+
+<h2>6. Kriz karşısında uyum sağlamak</h2>
+
+<p>
+  Toplumsal dayanıklılık
+  yalnızca mevcut
+  düzeni koruma
+  çabası değildir.
+</p>
+
+<p>
+  Bazen kriz,
+  mevcut kurumların
+  ve alışkanlıkların
+  yetersizliğini
+  açığa çıkarır.
+</p>
+
+<p>
+  Böyle durumlarda
+  dayanıklılık,
+  eski uygulamaları
+  aynen sürdürmekten
+  ziyade daha etkili
+  yöntemler geliştirmeyi
+  gerektirebilir.
+</p>
+
+<p>
+  Bu nedenle dayanıklılığın
+  değerlendirilmesinde
+  değişime direnme ile
+  değişime uyum sağlama
+  arasındaki fark
+  önemlidir.
+</p>
+
+<div class="soru">
+  <strong>Temel araştırma sorusu</strong>
+  <p>
+    Bir toplumun kriz
+    karşısında mevcut
+    düzenini koruması
+    mı, yoksa yetersiz
+    kalan kurumlarını
+    değiştirebilmesi mi
+    daha güçlü bir
+    dayanıklılık
+    göstergesidir?
+  </p>
+</div>
+
+<h2>7. Dayanıklılık ve eşitsizlik</h2>
+
+<p>
+  Toplumun bütün üyeleri,
+  krizlerden aynı
+  ölçüde etkilenmez.
+</p>
+
+<p>
+  Gelir, barınma,
+  sağlık hizmetlerine
+  erişim, yaş,
+  çalışma koşulları
+  ve toplumsal
+  ilişkiler, bireylerin
+  kriz karşısındaki
+  imkânlarını
+  farklılaştırabilir.
+</p>
+
+<p>
+  Bu nedenle bir
+  toplumun genel
+  olarak ayakta
+  kalması, bütün
+  üyelerinin benzer
+  ölçüde korunduğu
+  anlamına gelmez.
+</p>
+
+<p>
+  Dayanıklılığın
+  değerlendirilmesinde
+  yalnızca kurumların
+  devamlılığı değil,
+  zararların kimler
+  üzerinde yoğunlaştığı
+  da incelenmelidir.
+</p>
+
+<h2>8. Krizden sonra toplumsal öğrenme</h2>
+
+<p>
+  Bir krizden çıkmak
+  ile o krizden
+  ders çıkarmak
+  aynı şey değildir.
+</p>
+
+<p>
+  Kriz sonrası
+  değerlendirmeler,
+  eksikliklerin
+  belirlenmesi,
+  yeni yöntemlerin
+  geliştirilmesi
+  ve kurumların
+  iyileştirilmesi
+  bakımından
+  önemlidir.
+</p>
+
+<p>
+  Toplumsal öğrenme,
+  yaşanan sorunların
+  yalnızca hatırlanması
+  değil, elde edilen
+  deneyimin gelecekteki
+  karar ve uygulamalara
+  aktarılmasıdır.
+</p>
+
+<p>
+  Bu nedenle
+  dayanıklılığın
+  uzun vadeli
+  boyutu, toplumun
+  kendi deneyimini
+  ne ölçüde
+  kurumsal bilgiye
+  dönüştürebildiğiyle
+  de ilişkilidir.
+</p>
+
+<h2>9. Dayanıklılığın sınırları</h2>
+
+<p>
+  Dayanıklılık
+  kavramı her durumda
+  olumlu bir sonuç
+  ifade etmeyebilir.
+</p>
+
+<p>
+  Örneğin adaletsiz
+  bir düzenin krizlere
+  rağmen varlığını
+  sürdürebilmesi,
+  o düzenin toplum
+  açısından arzu
+  edilir olduğunu
+  göstermez.
+</p>
+
+<p>
+  Bu nedenle
+  dayanıklılık
+  değerlendirmesi,
+  yalnızca sistemin
+  devam edip
+  etmediğiyle
+  sınırlanmamalıdır.
+</p>
+
+<p>
+  Korunan düzenin
+  niteliği, ürettiği
+  fayda, ortaya
+  çıkardığı zarar
+  ve bireylerin
+  yaşam koşulları
+  da dikkate
+  alınmalıdır.
+</p>
+
+<h2>10. Sonuç</h2>
+
+<p>
+  Toplumsal dayanıklılık,
+  dayanışma, kurumsal
+  kapasite, kaynak
+  yönetimi ve
+  değişime uyum
+  sağlama becerisinin
+  birlikte ele
+  alınmasını gerektirir.
+</p>
+
+<p>
+  Dayanışma güçlü
+  olabilir; ancak
+  kurumlar yetersiz
+  kalabilir.
+</p>
+
+<p>
+  Kurumlar varlığını
+  sürdürebilir; ancak
+  toplumun belirli
+  kesimleri ciddi
+  zararlar yaşayabilir.
+</p>
+
+<p>
+  Bu nedenle
+  dayanıklılığın
+  ölçülmesinde
+  yalnızca hayatta
+  kalma veya
+  düzenin sürmesi
+  yeterli değildir.
+</p>
+
+<blockquote>
+  Toplumsal dayanıklılık,
+  bir toplumun yalnızca
+  ne kadar sarsıntıya
+  dayanabildiğiyle
+  değil, sarsıntıdan
+  sonra hangi
+  koşulları yeniden
+  üretebildiğiyle
+  de ilgilidir.
+</blockquote>
+
+<p>
+  Bu sonuç,
+  çalışmanın
+  düşünsel
+  değerlendirmesidir;
+  herhangi bir
+  düşünürden
+  doğrudan
+  alıntı değildir.
+</p>
+
+<h2>11. Akademik kaynaklar</h2>
+
+<p>
+  Aşağıdaki çalışmalar,
+  toplumsal dayanıklılık
+  kavramını farklı
+  açılardan incelemek
+  için seçilmiş
+  başlangıç kaynaklarıdır.
+</p>
+
+<ol class="kaynaklar">
+  <li>
+    <strong>Adger, W. N. (2000).</strong>
+    Social and ecological resilience:
+    Are they related?
+    <em>Progress in Human Geography,
+    24</em>(3), 347–364.
+    <a href="https://doi.org/10.1191/030913200701540465"
+       target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+  </li>
+
+  <li>
+    <strong>Norris, F. H., Stevens, S. P.,
+    Pfefferbaum, B., Wyche, K. F.
+    ve Pfefferbaum, R. L. (2008).</strong>
+    Community resilience as a metaphor,
+    theory, set of capacities, and
+    strategy for disaster readiness.
+    <em>American Journal of
+    Community Psychology, 41</em>,
+    127–150.
+    <a href="https://doi.org/10.1007/s10464-007-9156-6"
+       target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+  </li>
+
+  <li>
+    <strong>Folke, C. (2006).</strong>
+    Resilience: The emergence of
+    a perspective for social–ecological
+    systems analyses.
+    <em>Global Environmental Change,
+    16</em>(3), 253–267.
+    <a href="https://doi.org/10.1016/j.gloenvcha.2006.04.002"
+       target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+  </li>
+
+  <li>
+    <strong>İbn Haldun.</strong>
+    <em>Mukaddime.</em>
+    Asabiyet, toplumsal örgütlenme
+    ve siyasal otoriteyle ilgili
+    bölümler.
+    Kullanılacak Türkçe baskı
+    ve sayfa numaraları
+    sonraki sürümde
+    kesinleştirilecektir.
+  </li>
+</ol>
+
+<h2>12. Akademik geliştirme planı</h2>
+
+<p>
+  Sonraki sürümde
+  dayanıklılık,
+  dayanışma,
+  uyarlanabilir
+  kapasite ve
+  kurumsal süreklilik
+  kavramları
+  ayrıntılı biçimde
+  karşılaştırılacaktır.
+</p>
+
+<p>
+  Ayrıca doğal afetler,
+  ekonomik krizler
+  ve toplumsal
+  dönüşümlerden
+  seçilecek örnekler,
+  doğrulanabilir
+  verilerle
+  incelenecektir.
+</p>
+
+<p>
+  Metin içi
+  akademik atıflar,
+  ilgili kaynakların
+  sayfa numaraları
+  ve karşıt
+  kuramsal görüşler
+  sonraki sürümde
+  genişletilecektir.
+</p>
+
+<p>
+  Bu metin,
+  tamamlanmış bir
+  hakemli akademik
+  makale değil,
+  geliştirilmekte
+  olan bir
+  kavramsal
+  incelemedir.
+</p>
+
+<div class="not">
+  <p>
+    <strong>Yazar notu:</strong>
+    Bu metin,
+    Adem Afşar'ın
+    toplumsal dayanıklılık
+    üzerine kavramsal
+    incelemesinin
+    ilk düzenlenmiş
+    sürümüdür.
+    Akademik kaynaklandırma
+    ve karşılaştırmalı
+    kuramsal inceleme
+    sonraki sürümlerde
+    geliştirilecektir.
+  </p>
+
+  <p>
+    © 2026 Adem Afşar.
+    Tüm hakları saklıdır.
+  </p>
+</div>
+
+<a class="geri"
+   href="index-turkce.html#dusunceler">
+  Düşünce Dünyasına Dön
+</a>
+
+</article>
+</main>
+
+<footer>
+  <p><strong>Adem Afşar</strong></p>
+  <p>Toplum, Tarih ve Medeniyet</p>
+  <p>© 2026 Adem Afşar. Tüm hakları saklıdır.</p>
+</footer>
+
+</body>
+</html>
