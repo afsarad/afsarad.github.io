@@ -1,0 +1,788 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#172b45">
+<meta name="author" content="Adem Afşar">
+<meta name="description" content="Adem Afşar'ın asabiyet, ortak hareket, toplumsal dayanışma ve iktidarın oluşumu üzerine kavramsal incelemesi.">
+<title>Asabiyet ve Ortak Hareket | Adem Afşar</title>
+
+<style>
+:root {
+  --lacivert:#172b45;
+  --zemin:#f5f2eb;
+  --beyaz:#fffefa;
+  --vurgu:#a66b36;
+  --metin:#303640;
+  --soluk:#68717b;
+  --cizgi:#e5dfd4;
+}
+* {box-sizing:border-box}
+html {scroll-behavior:smooth}
+body {
+  margin:0;
+  background:var(--zemin);
+  color:var(--metin);
+  font-family:Georgia,"Times New Roman",serif;
+  line-height:1.85;
+}
+a {color:var(--lacivert);overflow-wrap:anywhere}
+a:focus-visible {
+  outline:3px solid var(--vurgu);
+  outline-offset:4px;
+}
+.ust-cizgi {
+  height:5px;
+  background:var(--vurgu);
+}
+header {
+  padding:65px 20px 55px;
+  background:var(--lacivert);
+  color:white;
+  text-align:center;
+}
+.ust-etiket {
+  color:#dfbb91;
+  font:700 12px Arial,sans-serif;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+header h1 {
+  max-width:850px;
+  margin:16px auto;
+  font-size:clamp(34px,6vw,54px);
+  line-height:1.2;
+}
+header p {
+  max-width:740px;
+  margin:12px auto;
+  color:#e4dfd6;
+  font-size:19px;
+}
+nav {
+  padding:14px 12px;
+  background:var(--beyaz);
+  border-bottom:1px solid var(--cizgi);
+  text-align:center;
+}
+nav a {
+  display:inline-block;
+  margin:5px 12px;
+  text-decoration:none;
+  font:700 13px Arial,sans-serif;
+}
+main {
+  width:min(100% - 28px,860px);
+  margin:35px auto 55px;
+}
+article {
+  padding:clamp(24px,5vw,50px);
+  background:var(--beyaz);
+  border:1px solid var(--cizgi);
+  border-radius:7px;
+  box-shadow:0 12px 32px rgba(23,43,69,.06);
+}
+.meta {
+  margin-bottom:30px;
+  padding-bottom:18px;
+  border-bottom:1px solid var(--cizgi);
+  color:var(--soluk);
+  font:13px/1.8 Arial,sans-serif;
+}
+h2 {
+  margin:38px 0 14px;
+  color:var(--lacivert);
+  font-size:clamp(23px,4vw,29px);
+  line-height:1.35;
+}
+h3 {
+  margin:25px 0 10px;
+  color:var(--lacivert);
+  font-size:20px;
+}
+p {margin:0 0 18px}
+.giris {
+  color:var(--lacivert);
+  font-size:19px;
+}
+blockquote {
+  margin:28px 0;
+  padding:20px 24px;
+  border-left:4px solid var(--vurgu);
+  background:#f7f2e9;
+  color:var(--lacivert);
+  font-size:20px;
+  font-style:italic;
+}
+.kavram {
+  margin:20px 0;
+  padding:18px 20px;
+  background:#fbf8f2;
+  border:1px solid var(--cizgi);
+  border-left:4px solid var(--vurgu);
+}
+.kavram strong {
+  display:block;
+  color:var(--lacivert);
+}
+.kavram p {margin:5px 0 0}
+.soru {
+  margin:28px 0;
+  padding:22px;
+  background:#f7f2e9;
+  border:1px solid #e7dac7;
+}
+.soru strong {color:var(--lacivert)}
+.kaynaklar {
+  padding-left:23px;
+}
+.kaynaklar li {
+  margin-bottom:16px;
+  overflow-wrap:anywhere;
+}
+.not {
+  margin-top:35px;
+  padding-top:18px;
+  border-top:1px solid var(--cizgi);
+  color:var(--soluk);
+  font-size:13px;
+}
+.geri {
+  display:inline-block;
+  margin-top:25px;
+  padding:10px 17px;
+  border:1px solid var(--vurgu);
+  border-radius:4px;
+  text-decoration:none;
+  font:700 13px Arial,sans-serif;
+}
+.geri:hover {
+  background:var(--lacivert);
+  color:white;
+}
+footer {
+  padding:30px 18px;
+  background:var(--lacivert);
+  color:#e4dfd6;
+  text-align:center;
+  font-size:14px;
+}
+footer p {margin:4px 0}
+@media(max-width:600px) {
+  header {padding:45px 18px}
+  header p {font-size:16px}
+  main {margin-top:18px}
+  blockquote {font-size:18px}
+}
+@media(prefers-reduced-motion:reduce) {
+  html {scroll-behavior:auto}
+}
+</style>
+</head>
+
+<body>
+<div class="ust-cizgi"></div>
+
+<header>
+  <div class="ust-etiket">
+    Adem Afşar · Kavramsal Çalışmalar
+  </div>
+  <h1>Asabiyet ve Ortak Hareket</h1>
+  <p>
+    Dayanışmadan Siyasal Güce,
+    Ortak Amaçtan Kurumsal Düzene
+  </p>
+</header>
+
+<nav aria-label="Sayfa menüsü">
+  <a href="index-turkce.html">Ana Sayfa</a>
+  <a href="index-turkce.html#dusunceler">
+    Düşünce Dünyası
+  </a>
+  <a href="toplum_iktidar_duzen_kitap_serisi.html">
+    Kitaplar
+  </a>
+  <a href="index-turkce.html#iletisim">
+    İletişim
+  </a>
+</nav>
+
+<main>
+<article>
+
+<div class="meta">
+  Adem Afşar · Kavramsal İnceleme ·
+  1 Kasım 2026 · Sürüm 1.0
+</div>
+
+<p class="giris">
+  İnsanlar neden birlikte hareket eder?
+  Ortak bir tehlike, ortak bir ihtiyaç veya
+  ortak bir gelecek beklentisi, birbirinden
+  farklı bireyleri nasıl bir araya getirir?
+</p>
+
+<p>
+  Bu sorular, toplumsal dayanışmanın
+  yalnızca duygusal bir yakınlık olmadığını,
+  aynı zamanda ortak eylem üretme
+  kapasitesiyle ilişkili olduğunu gösterir.
+</p>
+
+<p>
+  İbn Haldun'un asabiyet kavramı,
+  bu ilişkinin tarihsel açıklamalarından
+  biridir. Ancak kavramın çağdaş toplumlara
+  uygulanması, tarihsel bağlamın ve
+  yeni kurumsal koşulların ayrıca
+  değerlendirilmesini gerektirir.
+</p>
+
+<h2>1. İbn Haldun'da asabiyet</h2>
+
+<p>
+  İbn Haldun, Mukaddime'de toplulukların
+  birbirlerini koruma, ortak hareket etme
+  ve siyasal üstünlük elde etme
+  kapasitelerini açıklarken
+  asabiyet kavramına başvurur.
+</p>
+
+<p>
+  Asabiyet, yalnızca kan bağına indirgenemez.
+  Akrabalık önemli bir kaynak olmakla
+  birlikte müttefiklik, birlikte yaşama,
+  ortak deneyim ve karşılıklı bağlılık
+  da dayanışmayı güçlendirebilir.
+</p>
+
+<p>
+  İbn Haldun'un çözümlemesinde güçlü
+  asabiyet, siyasal otoritenin
+  kurulmasında belirleyici bir etkendir.
+  Bununla birlikte siyasal gücün
+  yerleşmesi, onu mümkün kılan
+  dayanışma ilişkilerini zamanla
+  dönüştürebilir.
+</p>
+
+<p>
+  Bu açıklamalar Mukaddime'nin
+  asabiyet ve hükümdarlık üzerine
+  bölümlerine dayanmaktadır.
+  [1]
+</p>
+
+<div class="kavram">
+  <strong>Kavramsal ayrım</strong>
+  <p>
+    Asabiyet, toplumsal dayanışmayla
+    ilişkili olmakla birlikte yalnızca
+    yardımlaşma anlamına gelmez.
+    Bir topluluğun kendisini savunma,
+    ortak eylem gerçekleştirme ve
+    güç ilişkileri içinde etkili
+    olabilme kapasitesini de kapsar.
+  </p>
+</div>
+
+<h2>2. Ortak hareketin başlangıç koşulları</h2>
+
+<p>
+  İnsanların ortak hareket etmesi için
+  her zaman aynı düşünceye, aynı
+  kimliğe veya aynı yaşam biçimine
+  sahip olmaları gerekmez.
+</p>
+
+<p>
+  Bir doğal afet, ekonomik kriz,
+  güvenlik ihtiyacı veya ortak
+  bir üretim hedefi, farklı
+  bireyleri geçici ya da
+  kalıcı bir birlikteliğe
+  yönlendirebilir.
+</p>
+
+<p>
+  Burada üç unsurun birlikte
+  değerlendirilmesi önerilmektedir:
+</p>
+
+<div class="kavram">
+  <strong>Ortak ihtiyaç</strong>
+  <p>
+    Bireylerin tek başlarına
+    karşılamakta zorlandıkları
+    bir gereksinimin bulunması.
+  </p>
+</div>
+
+<div class="kavram">
+  <strong>Ortak amaç</strong>
+  <p>
+    İhtiyaca karşı geliştirilen
+    çözümün belirli bir hedef
+    etrafında tanımlanması.
+  </p>
+</div>
+
+<div class="kavram">
+  <strong>Karşılıklı güven</strong>
+  <p>
+    Katılımcıların birbirlerinin
+    davranışlarına ilişkin makul
+    beklentiler geliştirebilmesi.
+  </p>
+</div>
+
+<p>
+  Bu üçlü ayrım, İbn Haldun'dan
+  doğrudan alınmış bir sınıflandırma
+  değildir. Ortak hareketin
+  incelenmesi için bu çalışmada
+  önerilen analitik bir çerçevedir.
+</p>
+
+<h2>3. Dayanışma ne zaman güce dönüşür?</h2>
+
+<p>
+  Bir topluluğun üyeleri arasında
+  güçlü dayanışma bulunması,
+  tek başına siyasal iktidarın
+  ortaya çıkacağını göstermez.
+</p>
+
+<p>
+  Dayanışmanın siyasal güce
+  dönüşebilmesi için örgütlenme,
+  kaynakların kullanılması,
+  karar alma kapasitesi ve
+  ortak eylemin sürekliliği
+  gibi koşullar önem kazanır.
+</p>
+
+<p>
+  İbn Haldun'un asabiyet ile
+  hükümdarlık arasındaki ilişkiye
+  verdiği önem, bu dönüşümün
+  tarihsel bir açıklamasını sunar.
+  [1]
+</p>
+
+<blockquote>
+  Birlikte hareket edebilmek,
+  ortak bir gücün doğmasını
+  mümkün kılar; fakat bu gücün
+  nasıl kullanılacağı ayrı
+  bir sorumluluk meselesidir.
+</blockquote>
+
+<h2>4. Ortak amaç gerçekleştiğinde ne olur?</h2>
+
+<p>
+  Bu çalışmanın temel sorularından
+  biri, ortak amaç gerçekleştiğinde
+  birlikteliğin nasıl değiştiğidir.
+</p>
+
+<p>
+  Başlangıçta belirli bir ihtiyacı
+  karşılamak için oluşan örgütlenme,
+  amacına ulaştıktan sonra
+  varlığını sürdürmek isteyebilir.
+</p>
+
+<p>
+  Bu istek her zaman olumsuz
+  değildir. Kazanımların korunması,
+  yeni ihtiyaçların karşılanması
+  ve kurumsal süreklilik
+  bakımından yararlı olabilir.
+</p>
+
+<p>
+  Bununla birlikte başlangıçtaki
+  ortak amaç ile örgütün sonraki
+  çıkarları arasında ayrışma
+  ortaya çıkması da mümkündür.
+</p>
+
+<div class="soru">
+  <strong>Temel araştırma sorusu</strong>
+  <p>
+    Ortak bir ihtiyacı karşılamak
+    üzere oluşturulan yapı,
+    hangi koşullarda başlangıçtaki
+    amacına hizmet etmeyi sürdürür;
+    hangi koşullarda kendi
+    varlığını korumayı
+    öncelikli amaç hâline getirir?
+  </p>
+</div>
+
+<h2>5. Dayanışmadan kurumsal düzene</h2>
+
+<p>
+  Ortak hareket süreklilik kazandığında,
+  görevlerin dağıtılması,
+  karar alma usullerinin belirlenmesi
+  ve kaynakların yönetilmesi
+  gibi ihtiyaçlar ortaya çıkar.
+</p>
+
+<p>
+  Bu aşamada başlangıçtaki
+  kişisel bağlılıkların yerini
+  kısmen kurallar, görevler
+  ve kurumsal ilişkiler alabilir.
+</p>
+
+<p>
+  Ancak kurumsallaşma ile
+  dayanışma birbirinin zorunlu
+  karşıtı değildir. Kurumlar,
+  ortak amaçları koruyabilir;
+  aynı zamanda üyeler arasındaki
+  ilişkileri yeniden şekillendirebilir.
+</p>
+
+<p>
+  Bu nedenle incelenmesi gereken
+  yalnızca kurumun varlığı değil,
+  kurumun hangi amaca hizmet ettiği
+  ve kimlere karşı sorumlu olduğudur.
+</p>
+
+<h2>6. Dayanışmanın dışlayıcı yönü</h2>
+
+<p>
+  Güçlü grup bağlılığı,
+  üyeler arasında güven ve
+  karşılıklı yardımlaşma
+  oluşturabilir.
+</p>
+
+<p>
+  Bununla birlikte aynı bağlılık,
+  grup dışındaki bireylerin
+  haklarının ikinci plana
+  itilmesine de yol açabilir.
+</p>
+
+<p>
+  Örneğin bir kurumda çalışanların
+  birbirlerini desteklemesi
+  olumlu sonuçlar doğurabilir.
+  Ancak bu destek, yapılan
+  hataların gizlenmesine veya
+  yeterlilik yerine yakınlığın
+  tercih edilmesine dönüşürse
+  kamusal sorumlulukla çatışır.
+</p>
+
+<p>
+  Asabiyet ile kayırmacılık
+  arasındaki ilişkinin güncel
+  akademik çalışmalarda da
+  tartışılması, kavramın
+  yalnızca olumlu dayanışma
+  olarak ele alınmaması
+  gerektiğini göstermektedir.
+  [3]
+</p>
+
+<h2>7. Asabiyetin zayıflaması</h2>
+
+<p>
+  İbn Haldun, siyasal gücün
+  yerleşmesiyle birlikte
+  yönetici topluluğun yaşam
+  koşullarında ve dayanışma
+  ilişkilerinde değişimler
+  meydana gelebileceğini
+  tartışır.
+</p>
+
+<p>
+  Bu yaklaşımda güç, refah
+  ve yönetim biçimleri arasındaki
+  ilişki önemlidir. Kuruluş
+  dönemindeki mücadele koşulları
+  ile yerleşik yönetim döneminin
+  koşulları aynı değildir.
+  [1]
+</p>
+
+<p>
+  Ancak bu tarihsel açıklamadan
+  hareketle bütün devletlerin
+  aynı aşamalardan geçeceği
+  veya aynı biçimde çökeceği
+  sonucuna doğrudan varılamaz.
+</p>
+
+<p>
+  Çağdaş kurumlar, hukuk düzeni,
+  teknoloji, uluslararası ilişkiler
+  ve ekonomik yapılar ayrıca
+  değerlendirilmelidir.
+</p>
+
+<h2>8. Döngü mü, dönüşüm mü?</h2>
+
+<p>
+  Bu noktada asabiyet tartışması,
+  başka bir kavramsal çalışmamız
+  olan "Döngü Değil, Sarmal"
+  yaklaşımıyla birleşmektedir.
+</p>
+
+<p>
+  Tarih boyunca dayanışmayla
+  güç kazanan toplulukların
+  değişmesi, benzer süreçlerin
+  tekrarlandığını düşündürebilir.
+</p>
+
+<p>
+  Ancak benzerlik, tarihsel
+  koşulların aynı olduğu
+  anlamına gelmez.
+</p>
+
+<p>
+  Her yeni siyasal ve toplumsal
+  yapı, önceki dönemlerden
+  devraldığı bilgi, kurumlar
+  ve deneyimlerle birlikte
+  şekillenir.
+</p>
+
+<p>
+  Bu nedenle tarihsel
+  dönüşümleri incelerken
+  tekrarlanan örüntülerle
+  değişen koşulların
+  birbirinden ayrılması gerekir.
+</p>
+
+<h2>9. Eleştirel değerlendirme</h2>
+
+<p>
+  Asabiyet kavramının
+  çağdaş toplumları açıklamak
+  için kullanılmasında
+  bazı sorular açık kalmaktadır.
+</p>
+
+<p>
+  Akrabalık ve yüz yüze
+  ilişkilerle gelişen bağlılık,
+  büyük ve karmaşık toplumlarda
+  hangi mekanizmalarla
+  karşılık bulmaktadır?
+</p>
+
+<p>
+  Ortak bir amaç etrafında
+  birleşen bireylerin
+  beklentileri birbirinden
+  farklıysa, birlikteliğin
+  başarısı nasıl ölçülmelidir?
+</p>
+
+<p>
+  Bir topluluğun kendi üyelerine
+  sağladığı fayda, başka
+  topluluklara verdiği
+  zarar pahasına gerçekleşirse
+  bu birliktelik nasıl
+  değerlendirilmelidir?
+</p>
+
+<p>
+  Bu sorular, asabiyetin
+  tarihsel açıklama gücü ile
+  günümüz toplumlarına
+  uygulanmasının sınırlarını
+  birlikte araştırmayı
+  gerektirmektedir.
+</p>
+
+<h2>10. Sonuç</h2>
+
+<p>
+  Asabiyet, insanların ortak
+  hareket edebilme kapasitesini
+  anlamak bakımından önemli
+  bir tarihsel kavramdır.
+</p>
+
+<p>
+  Ancak dayanışmanın varlığı,
+  onun her durumda adil,
+  kapsayıcı veya toplumun
+  bütünü için yararlı
+  olduğu anlamına gelmez.
+</p>
+
+<p>
+  Ortak hareketin neden
+  ortaya çıktığı kadar,
+  hangi amaçla sürdürüldüğü,
+  kimler tarafından yönetildiği
+  ve sonuçlarından kimlerin
+  etkilendiği de önemlidir.
+</p>
+
+<blockquote>
+  Bir topluluğun birlikte
+  hareket etme gücü,
+  yalnızca neyi başarabileceğiyle
+  değil, başardığı şeyin
+  sorumluluğunu nasıl
+  taşıdığıyla da değerlendirilmelidir.
+</blockquote>
+
+<p>
+  Bu önerme, İbn Haldun'dan
+  yapılmış bir alıntı değildir.
+  Asabiyet kavramından
+  hareketle geliştirilen
+  bu çalışmanın düşünsel
+  sonuç önermesidir.
+</p>
+
+<h2>11. Akademik kaynaklar</h2>
+
+<p>
+  Aşağıdaki kaynaklar
+  ilk sürümün kuramsal
+  dayanaklarını oluşturur.
+  Kaynakların tamamı metindeki
+  her yorumun doğrudan
+  doğrulaması olarak
+  değerlendirilmemelidir.
+</p>
+
+<ol class="kaynaklar">
+
+  <li>
+    <strong>[1] İbn Haldun.</strong>
+    <em>The Muqaddimah: An Introduction to History.</em>
+    Çeviren: Franz Rosenthal.
+    Princeton University Press, 1958.
+    <a href="https://doi.org/10.1515/9780691281926-026"
+       target="_blank" rel="noopener noreferrer">
+      Yayınevi kaynak kaydı
+    </a>.
+  </li>
+
+  <li>
+    <strong>[2] Stanford Encyclopedia of Philosophy.</strong>
+    <em>Medieval Political Philosophy.</em>
+    İbn Haldun'un siyasal otorite ve
+    asabiyet anlayışına ilişkin
+    değerlendirmeler.
+    <a href="https://plato.stanford.edu/entries/medieval-political/"
+       target="_blank" rel="noopener noreferrer">
+      Kaynağı incele
+    </a>.
+  </li>
+
+  <li>
+    <strong>[3] Orhan, U., Uçkaç, Z. ve Uçgun, E.</strong>
+    (2026).
+    <em>
+      Two Sides of the Coin in The State Administration:
+      Asabiyya and Nepotism In Ibn Khaldun's Muqaddimah.
+    </em>
+    International Journal of Economics,
+    Business and Politics, 10(2).
+    <a href="https://dergipark.org.tr/en/pub/ueip/article/1938642"
+       target="_blank" rel="noopener noreferrer">
+      Makaleyi incele
+    </a>.
+  </li>
+
+</ol>
+
+<h2>12. Akademik geliştirme planı</h2>
+
+<p>
+  Sonraki sürümde
+  Mukaddime'nin ilgili
+  bölümleri seçilecek,
+  kullanılan çevirinin
+  sayfa numaraları
+  doğrulanacak ve
+  metin içi atıflar
+  ayrıntılandırılacaktır.
+</p>
+
+<p>
+  Asabiyet, toplumsal dayanışma,
+  kurumsallaşma ve siyasal
+  otorite arasındaki ilişkiler
+  farklı kuramsal yaklaşımlarla
+  karşılaştırılacaktır.
+</p>
+
+<p>
+  Özellikle İbn Haldun'un
+  özgün açıklamaları,
+  sonraki araştırmacıların
+  yorumları ve Adem Afşar'ın
+  kendi değerlendirmeleri
+  ayrı biçimde
+  gösterilecektir.
+</p>
+
+<p>
+  Bu çalışma henüz
+  tamamlanmış bir hakemli
+  akademik makale değil,
+  kaynaklandırılması
+  geliştirilecek bir
+  kavramsal incelemedir.
+</p>
+
+<div class="not">
+  <p>
+    <strong>Yazar notu:</strong>
+    Bu metin, Adem Afşar'ın
+    asabiyet ve ortak hareket
+    üzerine düşünsel
+    incelemesinin ilk sürümüdür.
+    Kuramsal karşılaştırma
+    ve ayrıntılı akademik
+    kaynaklandırma
+    sonraki sürümlerde
+    genişletilecektir.
+  </p>
+
+  <p>
+    © 2026 Adem Afşar.
+    Tüm hakları saklıdır.
+  </p>
+</div>
+
+<a class="geri"
+   href="index-turkce.html#dusunceler">
+  Düşünce Dünyasına Dön
+</a>
+
+</article>
+</main>
+
+<footer>
+  <p><strong>Adem Afşar</strong></p>
+  <p>Toplum, Tarih ve Medeniyet</p>
+  <p>© 2026 Adem Afşar. Tüm hakları saklıdır.</p>
+</footer>
+
+</body>
+</html>
