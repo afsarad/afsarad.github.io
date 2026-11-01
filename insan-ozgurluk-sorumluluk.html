@@ -1,0 +1,982 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#172b45">
+<meta name="author" content="Adem Afşar">
+<meta name="description" content="Adem Afşar'ın insan, özgürlük, toplumsal normlar, ahlaki tutarlılık ve sorumluluk üzerine kavramsal incelemesi.">
+<title>İnsan, Özgürlük ve Sorumluluk | Adem Afşar</title>
+
+<style>
+:root {
+  --lacivert:#172b45;
+  --zemin:#f5f2eb;
+  --beyaz:#fffefa;
+  --vurgu:#a66b36;
+  --metin:#303640;
+  --soluk:#68717b;
+  --cizgi:#e5dfd4;
+}
+* {box-sizing:border-box}
+html {scroll-behavior:smooth}
+body {
+  margin:0;
+  background:var(--zemin);
+  color:var(--metin);
+  font-family:Georgia,"Times New Roman",serif;
+  line-height:1.85;
+}
+a {color:var(--lacivert);overflow-wrap:anywhere}
+a:focus-visible {
+  outline:3px solid var(--vurgu);
+  outline-offset:4px;
+}
+.ust-cizgi {
+  height:5px;
+  background:var(--vurgu);
+}
+header {
+  padding:65px 20px 55px;
+  background:var(--lacivert);
+  color:white;
+  text-align:center;
+}
+.ust-etiket {
+  color:#dfbb91;
+  font:700 12px Arial,sans-serif;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+header h1 {
+  max-width:850px;
+  margin:16px auto;
+  font-size:clamp(34px,6vw,54px);
+  line-height:1.2;
+}
+header p {
+  max-width:740px;
+  margin:12px auto;
+  color:#e4dfd6;
+  font-size:19px;
+}
+nav {
+  padding:14px 12px;
+  background:var(--beyaz);
+  border-bottom:1px solid var(--cizgi);
+  text-align:center;
+}
+nav a {
+  display:inline-block;
+  margin:5px 12px;
+  text-decoration:none;
+  font:700 13px Arial,sans-serif;
+}
+main {
+  width:min(100% - 28px,860px);
+  margin:35px auto 55px;
+}
+article {
+  padding:clamp(24px,5vw,50px);
+  background:var(--beyaz);
+  border:1px solid var(--cizgi);
+  border-radius:7px;
+  box-shadow:0 12px 32px rgba(23,43,69,.06);
+}
+.meta {
+  margin-bottom:30px;
+  padding-bottom:18px;
+  border-bottom:1px solid var(--cizgi);
+  color:var(--soluk);
+  font:13px/1.8 Arial,sans-serif;
+}
+h2 {
+  margin:38px 0 14px;
+  color:var(--lacivert);
+  font-size:clamp(23px,4vw,29px);
+  line-height:1.35;
+}
+p {margin:0 0 18px}
+.giris {
+  color:var(--lacivert);
+  font-size:19px;
+}
+blockquote {
+  margin:28px 0;
+  padding:20px 24px;
+  border-left:4px solid var(--vurgu);
+  background:#f7f2e9;
+  color:var(--lacivert);
+  font-size:20px;
+  font-style:italic;
+}
+.kavram {
+  margin:20px 0;
+  padding:18px 20px;
+  background:#fbf8f2;
+  border:1px solid var(--cizgi);
+  border-left:4px solid var(--vurgu);
+}
+.kavram strong {
+  display:block;
+  color:var(--lacivert);
+}
+.kavram p {margin:5px 0 0}
+.soru {
+  margin:28px 0;
+  padding:22px;
+  background:#f7f2e9;
+  border:1px solid #e7dac7;
+}
+.soru strong {color:var(--lacivert)}
+.kaynaklar {padding-left:23px}
+.kaynaklar li {
+  margin-bottom:16px;
+  overflow-wrap:anywhere;
+}
+.not {
+  margin-top:35px;
+  padding-top:18px;
+  border-top:1px solid var(--cizgi);
+  color:var(--soluk);
+  font-size:13px;
+}
+.geri {
+  display:inline-block;
+  margin-top:25px;
+  padding:10px 17px;
+  border:1px solid var(--vurgu);
+  border-radius:4px;
+  text-decoration:none;
+  font:700 13px Arial,sans-serif;
+}
+.geri:hover {
+  background:var(--lacivert);
+  color:white;
+}
+footer {
+  padding:30px 18px;
+  background:var(--lacivert);
+  color:#e4dfd6;
+  text-align:center;
+  font-size:14px;
+}
+footer p {margin:4px 0}
+@media(max-width:600px) {
+  header {padding:45px 18px}
+  header p {font-size:16px}
+  main {margin-top:18px}
+  blockquote {font-size:18px}
+}
+@media(prefers-reduced-motion:reduce) {
+  html {scroll-behavior:auto}
+}
+</style>
+</head>
+
+<body>
+<div class="ust-cizgi"></div>
+
+<header>
+  <div class="ust-etiket">
+    Adem Afşar · Kavramsal Çalışmalar
+  </div>
+  <h1>İnsan, Özgürlük ve Sorumluluk</h1>
+  <p>
+    Bireysel Tercih, Toplumsal Normlar
+    ve Ahlaki Tutarlılık
+  </p>
+</header>
+
+<nav aria-label="Sayfa menüsü">
+  <a href="index-turkce.html">Ana Sayfa</a>
+  <a href="index-turkce.html#dusunceler">
+    Düşünce Dünyası
+  </a>
+  <a href="toplum_iktidar_duzen_kitap_serisi.html">
+    Kitaplar
+  </a>
+  <a href="index-turkce.html#iletisim">
+    İletişim
+  </a>
+</nav>
+
+<main>
+<article>
+
+<div class="meta">
+  Adem Afşar · Kavramsal İnceleme ·
+  1 Kasım 2026 · Sürüm 1.0
+</div>
+
+<p class="giris">
+  İnsan, davranışlarını kendi
+  tercihleriyle mi belirler,
+  yoksa içinde yaşadığı
+  toplumun beklentileri
+  tarafından mı yönlendirilir?
+</p>
+
+<p>
+  Özgürlük, yalnızca
+  seçim yapabilmek midir?
+  Yoksa yapılan seçimin
+  sonuçlarını üstlenebilmek
+  de özgürlüğün
+  ayrılmaz bir boyutu mudur?
+</p>
+
+<p>
+  Bu inceleme, bireysel
+  tercih ile toplumsal
+  sorumluluk arasındaki
+  ilişkiyi; normların,
+  kültürün ve ahlaki
+  tutarlılığın etkileri
+  üzerinden tartışmaktadır.
+</p>
+
+<h2>1. İnsan her yerde aynı insan mıdır?</h2>
+
+<blockquote>
+  İnsan her yerde aynı insandır;
+  yaşamını sürdürebilmek için
+  ürettiği şartlar farklılık gösterir.
+  <br>
+  — Adem Afşar
+</blockquote>
+
+<p>
+  Bu önerme, insanların
+  bütün toplumlarda
+  aynı davranışları
+  sergilediğini
+  ileri sürmez.
+</p>
+
+<p>
+  İnsanların beslenme,
+  barınma, güvenlik
+  ve yaşamlarını
+  sürdürme gibi
+  temel ihtiyaçları
+  ortak özellikler
+  gösterebilir.
+</p>
+
+<p>
+  Ancak bu ihtiyaçları
+  karşılamak için
+  oluşturulan kurumlar,
+  değerler, alışkanlıklar
+  ve toplumsal
+  ilişkiler tarihsel
+  ve coğrafi
+  koşullara göre
+  farklılaşır.
+</p>
+
+<p>
+  Bu nedenle insanın
+  ortak biyolojik
+  özellikleriyle
+  kültürel farklılıkları
+  birbirinin karşıtı
+  olarak değil,
+  birlikte incelenmesi
+  gereken olgular
+  olarak ele alınmalıdır.
+</p>
+
+<h2>2. Özgürlük ve tercih</h2>
+
+<p>
+  Özgürlük, bireyin
+  tercih yapabilmesiyle
+  yakından ilişkilidir.
+</p>
+
+<p>
+  Ancak her tercih
+  eşit koşullarda
+  gerçekleşmez.
+</p>
+
+<p>
+  Ekonomik imkânlar,
+  eğitim, hukuk,
+  toplumsal baskı,
+  aile ilişkileri
+  ve siyasal koşullar,
+  bireyin karşısındaki
+  seçenekleri
+  genişletebilir
+  veya daraltabilir.
+</p>
+
+<p>
+  Bu nedenle bir
+  davranışın görünüşte
+  tercih edilmiş
+  olması, o tercihin
+  bütün baskılardan
+  bağımsız gerçekleştiğini
+  kanıtlamaz.
+</p>
+
+<div class="kavram">
+  <strong>Biçimsel tercih özgürlüğü</strong>
+  <p>
+    Bir seçeneği
+    tercih etmenin
+    hukuken veya
+    görünüşte
+    mümkün olması.
+  </p>
+</div>
+
+<div class="kavram">
+  <strong>Fiilî tercih imkânı</strong>
+  <p>
+    Bireyin mevcut
+    koşullarda o
+    seçeneği gerçekten
+    değerlendirebilmesi
+    ve uygulayabilmesi.
+  </p>
+</div>
+
+<h2>3. Toplumsal normların oluşumu</h2>
+
+<p>
+  Toplumsal normlar,
+  belirli bir toplumda
+  hangi davranışların
+  uygun, beklenen
+  veya kabul edilebilir
+  sayıldığını
+  şekillendirir.
+</p>
+
+<p>
+  Bireyler bu normları
+  aile, eğitim,
+  gündelik ilişkiler
+  ve toplumsal
+  kurumlar aracılığıyla
+  öğrenebilir.
+</p>
+
+<p>
+  Émile Durkheim'ın
+  toplumsal olgular
+  yaklaşımı,
+  bireyin dışında
+  varlık gösteren
+  ve davranışları
+  etkileyebilen
+  toplumsal kuralların
+  incelenmesi
+  bakımından
+  önemlidir.
+</p>
+
+<p>
+  Ancak bir normun
+  toplum tarafından
+  benimsenmesi,
+  onun ahlaken
+  doğru olduğunu
+  tek başına
+  göstermez.
+</p>
+
+<h2>4. İnsan yalnızken ne kadar insandır?</h2>
+
+<blockquote>
+  İnsan yalnızken ne kadar insansa
+  o kadar insandır.
+  <br>
+  — Adem Afşar
+</blockquote>
+
+<p>
+  Bu önerme,
+  bireyin yalnız
+  kaldığında
+  insan olma
+  niteliğini
+  kaybettiği
+  anlamına gelmez.
+</p>
+
+<p>
+  Burada sorgulanan,
+  bireyin başkalarının
+  denetimi altında
+  benimsediğini
+  söylediği değerlerle,
+  denetim bulunmadığında
+  sergilediği
+  davranışların
+  ne ölçüde
+  örtüştüğüdür.
+</p>
+
+<p>
+  Örneğin bir
+  kişinin dürüstlüğü
+  yalnızca yakalanma
+  ihtimali bulunduğunda
+  önemsemesiyle,
+  kimsenin görmediği
+  koşullarda da
+  aynı ölçüyü
+  koruması
+  arasında
+  ahlaki tutarlılık
+  bakımından
+  fark vardır.
+</p>
+
+<p>
+  Ancak yalnızken
+  yapılan tek bir
+  davranıştan
+  hareketle kişinin
+  bütün ahlaki
+  karakteri hakkında
+  kesin hüküm
+  vermek doğru
+  olmayacaktır.
+</p>
+
+<h2>5. Ahlaki tutarlılık ve toplumsal denetim</h2>
+
+<p>
+  Toplumsal denetim,
+  davranışların
+  belirli kurallara
+  uygun gerçekleşmesine
+  katkı sağlayabilir.
+</p>
+
+<p>
+  Bununla birlikte
+  kurallara uyulmasının
+  nedeni her zaman
+  aynı değildir.
+</p>
+
+<p>
+  Bir birey,
+  cezalandırılmaktan
+  korktuğu,
+  toplumdan
+  dışlanmak istemediği
+  veya ilgili
+  kuralı gerçekten
+  benimsediği için
+  benzer davranışlar
+  sergileyebilir.
+</p>
+
+<p>
+  Dışarıdan
+  birbirine benzeyen
+  davranışların
+  ardında farklı
+  gerekçeler
+  bulunabileceği
+  için yalnızca
+  davranışın
+  görünüşüne
+  bakmak yeterli
+  değildir.
+</p>
+
+<h2>6. Her toplumun normu aynı mıdır?</h2>
+
+<p>
+  Toplumlar,
+  tarihsel deneyimleri,
+  inançları,
+  ekonomik koşulları
+  ve kültürel
+  ilişkileri
+  bakımından
+  farklılaşabilir.
+</p>
+
+<p>
+  Bu nedenle
+  bir toplumda
+  olağan karşılanan
+  davranış,
+  başka bir
+  toplumda
+  onaylanmayabilir.
+</p>
+
+<p>
+  Ancak kültürel
+  farklılıkların
+  bulunması,
+  her uygulamanın
+  eleştiriden
+  muaf olduğu
+  anlamına da
+  gelmez.
+</p>
+
+<p>
+  Bireylerin
+  yaşam hakkı,
+  güvenliği,
+  özgürlüğü
+  ve insan
+  onuruyla ilgili
+  meseleler,
+  toplumsal
+  kabulün ötesinde
+  ayrıca
+  değerlendirilmelidir.
+</p>
+
+<h2>7. Toplumsal kabul ve ahlaki doğruluk</h2>
+
+<p>
+  Bir toplumda
+  yaygın olan
+  davranışlarla
+  ahlaken
+  savunulabilir
+  davranışlar
+  her zaman
+  örtüşmeyebilir.
+</p>
+
+<p>
+  Tarihsel olarak
+  ayrımcılığın
+  veya eşitsizliğin
+  belirli toplumlarda
+  normalleştirilmiş
+  olması, bu
+  uygulamaların
+  adil olduğunu
+  göstermez.
+</p>
+
+<p>
+  Bu nedenle
+  sosyolojik
+  açıklama ile
+  ahlaki değerlendirme
+  birbirinden
+  ayrılmalıdır.
+</p>
+
+<div class="kavram">
+  <strong>Sosyolojik soru</strong>
+  <p>
+    İnsanlar belirli
+    bir davranışı
+    hangi koşullarda
+    benimser ve
+    sürdürür?
+  </p>
+</div>
+
+<div class="kavram">
+  <strong>Ahlaki soru</strong>
+  <p>
+    Bu davranışın
+    başkaları üzerindeki
+    sonuçları
+    nasıl değerlendirilmelidir?
+  </p>
+</div>
+
+<h2>8. Özgürlük sorumluluğu ortadan kaldırır mı?</h2>
+
+<p>
+  Bireyin kendi
+  yaşamına ilişkin
+  tercihler yapabilmesi,
+  özgürlüğün önemli
+  bir boyutudur.
+</p>
+
+<p>
+  Ancak bazı
+  tercihler yalnızca
+  tercih sahibini
+  etkilemez.
+</p>
+
+<p>
+  Başka insanların
+  haklarına,
+  güvenliğine
+  veya ortak
+  yaşam koşullarına
+  etki eden
+  davranışlarda
+  sorumluluk
+  sorusu ortaya çıkar.
+</p>
+
+<p>
+  John Stuart Mill'in
+  özgürlük üzerine
+  tartışmaları,
+  bireysel tercih
+  ile başkalarına
+  verilen zarar
+  arasındaki ilişkinin
+  incelenmesinde
+  önemli bir
+  karşılaştırma
+  zemini sunar.
+</p>
+
+<p>
+  Bununla birlikte
+  zarar kavramının
+  sınırları ve
+  toplumun müdahale
+  yetkisi ayrıca
+  tartışılmalıdır.
+</p>
+
+<h2>9. Sorumluluk daireleriyle ilişki</h2>
+
+<p>
+  Bireyin kendisine,
+  ailesine,
+  yakın çevresine
+  ve daha geniş
+  topluma karşı
+  sorumlulukları
+  farklı biçimlerde
+  ortaya çıkabilir.
+</p>
+
+<p>
+  Bu yaklaşım,
+  Sorumluluk Daireleri
+  başlıklı çalışmada
+  daha ayrıntılı
+  ele alınmaktadır.
+</p>
+
+<p>
+  Yakın ilişkilere
+  öncelik verilmesi,
+  başka bireylerin
+  temel haklarının
+  göz ardı
+  edilmesini
+  haklı çıkarmaz.
+</p>
+
+<p>
+  Dolayısıyla
+  özgürlük ve
+  sorumluluk
+  ilişkisi,
+  bireyin
+  yakın çevresiyle
+  sınırlı değildir.
+</p>
+
+<h2>10. Karşıt görüşler ve sınırlar</h2>
+
+<p>
+  Bu incelemede
+  savunulan ahlaki
+  tutarlılık yaklaşımı,
+  bazı sorulara
+  açıktır.
+</p>
+
+<p>
+  İnsan davranışları
+  farklı koşullarda
+  değişebilir.
+  Korku, baskı,
+  yoksunluk ve
+  bilgi eksikliği
+  bireyin
+  kararlarını
+  etkileyebilir.
+</p>
+
+<p>
+  Bu nedenle
+  kişinin
+  davranışlarını
+  değerlendirirken
+  yalnızca
+  sonucuna değil,
+  içinde bulunduğu
+  koşullara da
+  bakılmalıdır.
+</p>
+
+<p>
+  Ayrıca bir
+  bireyin toplumun
+  yaygın normlarına
+  karşı çıkması,
+  her zaman
+  sorumsuzluk
+  anlamına gelmez.
+</p>
+
+<p>
+  Bazı durumlarda
+  haksız bir
+  toplumsal kurala
+  karşı çıkmak,
+  ahlaki
+  sorumluluğun
+  gereği olabilir.
+</p>
+
+<div class="soru">
+  <strong>Temel araştırma sorusu</strong>
+  <p>
+    Bireyin ahlaki
+    tutarlılığı,
+    toplumun denetimi
+    altında ve
+    denetim bulunmadığında
+    sergilediği
+    davranışlar
+    karşılaştırılarak
+    hangi sınırlar
+    içinde
+    değerlendirilebilir?
+  </p>
+</div>
+
+<h2>11. Sonuç</h2>
+
+<p>
+  İnsanların
+  ortak yaşamsal
+  ihtiyaçları
+  bulunabilir;
+  ancak bu
+  ihtiyaçları
+  karşılama
+  biçimleri
+  toplumsal
+  koşullara göre
+  farklılaşır.
+</p>
+
+<p>
+  Bireysel
+  özgürlük,
+  tercih yapma
+  imkânıyla
+  ilişkilidir.
+  Sorumluluk ise
+  bu tercihlerin
+  sonuçlarını
+  ve başkaları
+  üzerindeki
+  etkilerini
+  değerlendirmeyi
+  gerektirir.
+</p>
+
+<p>
+  Ahlaki tutarlılık,
+  bireyin benimsediğini
+  ifade ettiği
+  değerlerle
+  davranışları
+  arasındaki
+  ilişkiyi
+  sorgulamamıza
+  yardımcı olur.
+</p>
+
+<blockquote>
+  İnsanın özgürlüğü,
+  tercih yapabilmesinde;
+  sorumluluğu ise
+  tercihinin sonuçlarıyla
+  kurduğu ilişkide
+  görünür hâle gelir.
+</blockquote>
+
+<p>
+  Bu sonuç,
+  çalışmanın
+  kavramsal
+  değerlendirmesidir;
+  başka bir
+  düşünürden
+  doğrudan
+  alıntı değildir.
+</p>
+
+<h2>12. Akademik kaynaklar</h2>
+
+<p>
+  Aşağıdaki eserler,
+  sonraki sürümde
+  ayrıntılı olarak
+  karşılaştırılacak
+  başlangıç
+  kaynaklarıdır.
+  Bu liste,
+  metnin bütün
+  iddialarının
+  henüz sayfa
+  düzeyinde
+  kaynaklandırıldığı
+  anlamına gelmez.
+</p>
+
+<ol class="kaynaklar">
+  <li>
+    <strong>Durkheim, Émile (1895).</strong>
+    <em>Les Règles de la méthode
+    sociologique.</em>
+    Toplumsal olguların
+    tanımlanması ve
+    incelenmesine
+    ilişkin temel eser.
+  </li>
+
+  <li>
+    <strong>Mill, John Stuart (1859).</strong>
+    <em>On Liberty.</em>
+    Bireysel özgürlük,
+    toplumsal müdahale
+    ve zarar ilkesi
+    üzerine temel eser.
+  </li>
+
+  <li>
+    <strong>Fromm, Erich (1941).</strong>
+    <em>Escape from Freedom.</em>
+    Özgürlük, güvensizlik
+    ve otoriteye
+    yönelme arasındaki
+    ilişkilerin
+    incelenmesi.
+  </li>
+
+  <li>
+    <strong>Bandura, Albert (1991).</strong>
+    Social cognitive theory
+    of moral thought and action.
+    İçinde:
+    <em>Handbook of Moral
+    Behavior and Development,
+    Volume 1: Theory.</em>
+    Lawrence Erlbaum Associates.
+    Ahlaki davranışın
+    öz-düzenleme
+    boyutuna ilişkin
+    kuramsal çalışma.
+  </li>
+</ol>
+
+<h2>13. Akademik geliştirme planı</h2>
+
+<p>
+  Sonraki sürümde
+  toplumsal norm,
+  ahlaki yargı,
+  bireysel özgürlük
+  ve sorumluluk
+  kavramları
+  sistematik
+  biçimde
+  ayrıştırılacaktır.
+</p>
+
+<p>
+  Durkheim,
+  Mill ve Fromm'un
+  yaklaşımları,
+  özgün eserleri
+  üzerinden
+  karşılaştırılacak;
+  kullanılacak
+  baskıların
+  sayfa numaraları
+  doğrulanacaktır.
+</p>
+
+<p>
+  Ayrıca ahlaki
+  tutarlılık
+  önermesinin
+  hangi koşullarda
+  araştırılabilir
+  bir hipoteze
+  dönüştürülebileceği
+  tartışılacaktır.
+</p>
+
+<p>
+  Bu metin,
+  tamamlanmış
+  hakemli bir
+  akademik makale
+  değil,
+  geliştirilmekte
+  olan kavramsal
+  bir incelemedir.
+</p>
+
+<div class="not">
+  <p>
+    <strong>Yazar notu:</strong>
+    Bu çalışma,
+    Adem Afşar'ın
+    insan, özgürlük,
+    toplumsal normlar
+    ve ahlaki
+    tutarlılık
+    üzerine düşünsel
+    incelemesinin
+    ilk sürümüdür.
+    Ayrıntılı akademik
+    kaynaklandırma
+    sonraki sürümlerde
+    geliştirilecektir.
+  </p>
+
+  <p>
+    © 2026 Adem Afşar.
+    Tüm hakları saklıdır.
+  </p>
+</div>
+
+<a class="geri"
+   href="index-turkce.html#dusunceler">
+  Düşünce Dünyasına Dön
+</a>
+
+</article>
+</main>
+
+<footer>
+  <p><strong>Adem Afşar</strong></p>
+  <p>Toplum, Tarih ve Medeniyet</p>
+  <p>© 2026 Adem Afşar. Tüm hakları saklıdır.</p>
+</footer>
+
+</body>
+</html>
