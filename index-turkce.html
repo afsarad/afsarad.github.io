@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#172b45">
-  <meta name="description" content="Adem Afşar'ın toplum, tarih, siyaset, felsefe ve medeniyet üzerine kitapları, makaleleri ve araştırmaları.">
   <meta name="author" content="Adem Afşar">
+  <meta name="description" content="Adem Afşar'ın toplum, tarih, siyaset, felsefe ve medeniyet üzerine kitapları, makaleleri ve kavramsal çalışmaları.">
   <title>Adem Afşar | Toplum, Tarih ve Medeniyet</title>
 
   <style>
@@ -22,8 +22,13 @@
       --golge: 0 12px 32px rgba(23,43,69,.07);
     }
 
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
 
     body {
       margin: 0;
@@ -33,7 +38,9 @@
       line-height: 1.8;
     }
 
-    a { color: var(--lacivert); }
+    a {
+      color: var(--lacivert);
+    }
 
     a:focus-visible {
       outline: 3px solid var(--vurgu);
@@ -48,7 +55,11 @@
     header {
       color: white;
       background:
-        radial-gradient(ellipse at top, #304a67 0%, transparent 65%),
+        radial-gradient(
+          ellipse at top,
+          #304a67 0%,
+          transparent 65%
+        ),
         var(--lacivert);
       text-align: center;
       padding: 65px 20px 55px;
@@ -198,8 +209,13 @@
       line-height: 1.4;
     }
 
-    p { margin: 0 0 15px; }
-    p:last-child { margin-bottom: 0; }
+    p {
+      margin: 0 0 15px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
 
     .girizgah {
       color: var(--soluk);
@@ -238,33 +254,38 @@
 
     .konu-listesi {
       display: grid;
-      grid-template-columns: repeat(2,minmax(0,1fr));
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 12px;
       margin-top: 20px;
     }
 
     .konu {
-      padding: 15px;
+      padding: 18px;
       border: 1px solid var(--cizgi);
       background: #fbf8f2;
     }
 
     .konu strong {
       display: block;
-      margin-bottom: 4px;
+      margin-bottom: 5px;
       color: var(--lacivert);
+      font-size: 17px;
     }
 
     .konu span {
       display: block;
       color: var(--soluk);
       font-size: 14px;
-      line-height: 1.6;
+      line-height: 1.65;
+    }
+
+    .konu .makale-baglantisi {
+      margin-top: 15px;
     }
 
     .kitap-karti {
       display: grid;
-      grid-template-columns: 160px 1fr;
+      grid-template-columns: 160px minmax(0, 1fr);
       gap: 23px;
       padding: 22px 0;
       border-bottom: 1px solid var(--cizgi);
@@ -351,8 +372,13 @@
       border-left: 4px solid var(--vurgu);
     }
 
-    .haklar-notu h3 { font-size: 19px; }
-    .haklar-notu p { font-size: 14px; }
+    .haklar-notu h3 {
+      font-size: 19px;
+    }
+
+    .haklar-notu p {
+      font-size: 14px;
+    }
 
     footer {
       padding: 30px 18px;
@@ -362,25 +388,67 @@
       font-size: 14px;
     }
 
-    footer p { margin: 4px 0; }
-
-    @media(max-width:650px) {
-      header { padding: 48px 18px 42px; }
-      nav { padding: 9px 5px; }
-      nav a { margin: 5px 7px; font-size: 12px; }
-      main { width: min(100% - 20px,1000px); margin-top: 20px; }
-      section { margin-bottom: 17px; }
-      .konu-listesi { grid-template-columns: 1fr; }
-      .yazar-ozet { grid-template-columns: 1fr; }
-      .yazar-ozet img { max-width: 190px; }
-      .kitap-karti { grid-template-columns: 105px 1fr; gap: 15px; }
-      .kitap-karti h3 { font-size: 18px; }
-      .kitap-karti p { font-size: 14px; }
-      .motto { padding: 20px 8px; }
+    footer p {
+      margin: 4px 0;
     }
 
-    @media(prefers-reduced-motion:reduce) {
-      html { scroll-behavior: auto; }
+    @media (max-width: 650px) {
+      header {
+        padding: 48px 18px 42px;
+      }
+
+      nav {
+        padding: 9px 5px;
+      }
+
+      nav a {
+        margin: 5px 7px;
+        font-size: 12px;
+      }
+
+      main {
+        width: min(100% - 20px, 1000px);
+        margin-top: 20px;
+      }
+
+      section {
+        margin-bottom: 17px;
+      }
+
+      .konu-listesi {
+        grid-template-columns: 1fr;
+      }
+
+      .yazar-ozet {
+        grid-template-columns: 1fr;
+      }
+
+      .yazar-ozet img {
+        max-width: 190px;
+      }
+
+      .kitap-karti {
+        grid-template-columns: 105px minmax(0, 1fr);
+        gap: 15px;
+      }
+
+      .kitap-karti h3 {
+        font-size: 18px;
+      }
+
+      .kitap-karti p {
+        font-size: 14px;
+      }
+
+      .motto {
+        padding: 20px 8px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
     }
   </style>
 </head>
@@ -389,14 +457,21 @@
   <div class="ust-cizgi"></div>
 
   <header>
-    <div class="ust-etiket">Yazar · Araştırmacı · Düşünce</div>
+    <div class="ust-etiket">
+      Yazar · Araştırmacı · Düşünce
+    </div>
+
     <h1>Adem Afşar</h1>
-    <p class="alt-baslik">Toplum, Tarih ve Medeniyet</p>
+
+    <p class="alt-baslik">
+      Toplum, Tarih ve Medeniyet
+    </p>
 
     <div class="motto">
       <blockquote>
-        “İnsan her yerde aynı insandır; yaşamını sürdürebilmek
-        için ürettiği şartlar farklılık gösterir.”
+        “İnsan her yerde aynı insandır;
+        yaşamını sürdürebilmek için ürettiği
+        şartlar farklılık gösterir.”
       </blockquote>
       <cite>— Adem Afşar</cite>
     </div>
@@ -409,15 +484,22 @@
     </p>
 
     <div class="butonlar">
-      <a class="buton" href="#kitaplar">Kitap çalışmalarım</a>
-      <a class="buton acik" href="#hakkinda">Yazar hakkında</a>
+      <a class="buton" href="#kitaplar">
+        Kitap çalışmalarım
+      </a>
+
+      <a class="buton acik" href="#hakkinda">
+        Yazar hakkında
+      </a>
     </div>
   </header>
 
   <nav aria-label="Ana menü">
     <a href="#hakkinda">Yazar Hakkında</a>
     <a href="#kitaplar">Kitaplar</a>
-    <a href="toplum_iktidar_duzen_kitap_serisi.html">Kitap Serisi — 6 Eser</a>
+    <a href="toplum_iktidar_duzen_kitap_serisi.html">
+      Kitap Serisi — 6 Eser
+    </a>
     <a href="#dusunceler">Düşünce Dünyası</a>
     <a href="#makaleler">Makaleler</a>
     <a href="#iletisim">İletişim</a>
@@ -425,7 +507,8 @@
 
   <main>
 
-    <section class="calisma-odasi" aria-label="Adem Afşar çalışma odası">
+    <section class="calisma-odasi"
+             aria-label="Adem Afşar çalışma odası">
       <img
         src="images/calisma-odasi.png"
         alt="Adem Afşar'ın çalışma odası ve Yellice Dağı manzarası"
@@ -434,6 +517,7 @@
 
     <section id="hakkinda">
       <div class="etiket">Yazar hakkında</div>
+
       <h2>Toplumu anlamak, nedenlerini sorgulamak</h2>
 
       <div class="yazar-ozet">
@@ -444,54 +528,60 @@
 
         <div>
           <p>
-            Adem Afşar; sosyoloji, arkeoloji, tarih ve
-            uluslararası dış ticaret ve lojistik yönetimi
-            alanlarında lisans eğitimlerini tamamlamıştır.
-            Sosyoloji alanında yüksek lisans eğitimini
-            tez aşamasına kadar sürdürmüştür.
+            Adem Afşar; sosyoloji, arkeoloji, tarih
+            ve uluslararası dış ticaret ve lojistik
+            yönetimi alanlarında lisans eğitimlerini
+            tamamlamıştır. Sosyoloji alanında
+            yüksek lisans eğitimini tez aşamasına
+            kadar sürdürmüştür.
           </p>
 
           <p>
-            Toplumların tarihsel gelişimi, siyasal iktidarın
-            oluşumu, birey ile toplum arasındaki ilişkiler,
-            toplumsal sorumluluk ve birlikte yaşamanın
-            koşulları üzerine araştırma ve yazı çalışmalarını
+            Toplumların tarihsel gelişimi,
+            siyasal iktidarın oluşumu, birey ile
+            toplum arasındaki ilişkiler,
+            toplumsal sorumluluk ve birlikte
+            yaşamanın koşulları üzerine
+            araştırma ve yazı çalışmalarını
             sürdürmektedir.
           </p>
 
           <p>
-            Çalışmalarında tarihsel olayları yalnızca
-            sonuçlarıyla değil, bu sonuçları ortaya çıkaran
-            toplumsal koşullar, kurumsal yapılar ve insan
-            davranışlarıyla birlikte değerlendirmeyi
+            Çalışmalarında tarihsel olayları
+            yalnızca sonuçlarıyla değil,
+            bu sonuçları ortaya çıkaran
+            toplumsal koşullar, kurumsal
+            yapılar ve insan davranışlarıyla
+            birlikte değerlendirmeyi
             esas almaktadır.
           </p>
         </div>
       </div>
 
       <div class="vurgu-alinti">
-        Bir toplumsal olguyu anlamak, yalnızca sonucunu
-        görmek değil; o sonucu ortaya çıkaran koşulları
+        Bir toplumsal olguyu anlamak,
+        yalnızca sonucunu görmek değil;
+        o sonucu ortaya çıkaran koşulları
         da sorgulamaktır.
       </div>
 
       <p>
-        Yayımlanmamış araştırma ve düşünce çalışmaları;
-        göç ve mülteci politikaları, bu politikaları
-        belirleyen irade ile uygulayıcı kurumlar arasındaki
-        uyum, insan hakları ve kamu güvenliği ilişkisi,
-        dışa görece kapalı yerleşimlerde toplumsal güç
-        ilişkileri, kuşaklar arası cinsiyet algıları
-        ve siyasal istikrar karşısında toplumsal
+        Yayımlanmamış araştırma ve düşünce
+        çalışmaları; göç ve mülteci politikaları,
+        bu politikaları belirleyen irade ile
+        uygulayıcı kurumlar arasındaki uyum,
+        insan hakları ve kamu güvenliği ilişkisi,
+        dışa görece kapalı yerleşimlerde
+        toplumsal güç ilişkileri, kuşaklar
+        arası cinsiyet algıları ve siyasal
+        istikrar karşısında toplumsal
         beklentiler gibi konuları kapsamaktadır.
       </p>
 
-      <p>
-        <a class="makale-baglantisi"
-           href="toplum_iktidar_duzen_kitap_serisi.html#yazar">
-          Ayrıntılı yazar biyografisi
-        </a>
-      </p>
+      <a class="makale-baglantisi"
+         href="toplum_iktidar_duzen_kitap_serisi.html#yazar">
+        Ayrıntılı yazar biyografisi
+      </a>
     </section>
 
     <section id="kitaplar">
@@ -499,9 +589,9 @@
       <h2>Kitap çalışmaları</h2>
 
       <p class="girizgah">
-        Toplumun kuruluşundan siyasal iktidarın işleyişine,
-        tarihsel düşünürlerden çağdaş toplumsal sorunlara
-        uzanan çalışmalar.
+        Toplumun kuruluşundan siyasal iktidarın
+        işleyişine, tarihsel düşünürlerden
+        çağdaş toplumsal sorunlara uzanan çalışmalar.
       </p>
 
       <div class="kitap-karti">
@@ -513,21 +603,29 @@
               loading="lazy">
           </a>
         </div>
+
         <div>
           <span class="durum">Tamamlandı</span>
           <h3>İbn-i Haldun'u Anlamak</h3>
+
           <p class="kitap-alt-baslik">
-            Kadim medeniyetlerden modern toplumlara
+            Toplum, dayanışma ve medeniyet
+            üzerine bir inceleme
           </p>
+
           <p>
-            Toplumların kuruluşu, asabiyet, dayanışma,
-            üretim ve siyasal düzenin oluşumu üzerine
-            tarihsel ve sosyolojik bir inceleme.
+            Toplumların kuruluşu, asabiyet,
+            dayanışma, üretim ve siyasal
+            düzenin oluşumu üzerine tarihsel
+            ve sosyolojik bir inceleme.
           </p>
+
           <p class="kucuk-not">
-            Kitap tamamlanmıştır. Yayın bilgileri
-            kesinleştiğinde duyurulacaktır.
+            Kitap tamamlanmıştır. Yayın
+            bilgileri kesinleştiğinde
+            duyurulacaktır.
           </p>
+
           <a class="makale-baglantisi"
              href="ibni-haldunu-anlamak.html">
             Seçilmiş okuma
@@ -537,125 +635,206 @@
 
       <div class="kitap-karti">
         <div class="kapak-alani">
-          <a href="toplum_iktidar_duzen_kitap_serisi.html#cilt-2">
+          <a href="toplum_iktidar_duzen_kitap_serisi.html">
             <img
               src="kitap-2-on-kapak.jpg"
               alt="İbn-i Haldun ve Machiavelli kitap kapağı"
               loading="lazy">
           </a>
         </div>
+
         <div>
-          <span class="durum">Son çalışma aşamasında</span>
+          <span class="durum">
+            Son çalışma aşamasında
+          </span>
+
           <h3>İbn-i Haldun ve Machiavelli</h3>
+
           <p class="kitap-alt-baslik">
-            Toplumu kuran güç, iktidarı koruyan akıl
+            Toplumu Kuran Güç ile
+            İktidarı Koruyan Akıl
           </p>
+
           <p>
-            İki düşünürün toplum, iktidar ve siyasal
-            gerçekçilik anlayışlarını karşılaştıran;
-            benzerlikleri, ayrılıkları ve olası düşünsel
-            etkileşim sorusunu inceleyen çalışma.
+            İki düşünürün toplum, iktidar
+            ve siyasal gerçekçilik
+            anlayışlarını karşılaştıran;
+            benzerlikleri, ayrılıkları
+            ve olası düşünsel etkileşim
+            sorusunu inceleyen çalışma.
           </p>
+
           <p class="kucuk-not">
-            Yayın tarihi henüz kesinleşmemiştir.
+            Yayın tarihi henüz
+            kesinleşmemiştir.
           </p>
         </div>
       </div>
 
-      <p>
-        <a class="makale-baglantisi"
-           href="toplum_iktidar_duzen_kitap_serisi.html">
-          Altı kitaplık serinin tamamını incele
-        </a>
-      </p>
+      <a class="makale-baglantisi"
+         href="toplum_iktidar_duzen_kitap_serisi.html">
+        Altı kitaplık serinin tamamını incele
+      </a>
     </section>
 
     <section id="dusunceler">
-      <div class="etiket">Kavramsal çalışmalar</div>
+      <div class="etiket">
+        Kavramsal çalışmalar
+      </div>
+
       <h2>Düşünce dünyası</h2>
 
       <p>
-        Kavramları yalnızca açıklamakla yetinmek yerine,
-        tarihsel ve toplumsal örnekler üzerinden
+        Kavramları yalnızca açıklamakla
+        yetinmek yerine, tarihsel ve
+        toplumsal örnekler üzerinden
         değerlendirmeyi amaçlıyorum.
       </p>
 
+      <p class="girizgah">
+        Bu bölümde her kavram, bağımsız
+        bir düşünsel inceleme olarak
+        ele alınacaktır. Tamamlanan
+        çalışmaların tam metinlerine
+        aşağıdaki bağlantılardan
+        ulaşabilirsiniz.
+      </p>
+
       <div class="konu-listesi">
+
         <div class="konu">
-          <strong>Asabiyet ve ortak hareket</strong>
+          <strong>
+            Asabiyet ve ortak hareket
+          </strong>
           <span>
-            Toplumsal dayanışmanın siyasal güce dönüşmesi.
+            Toplumsal dayanışmanın
+            siyasal güce dönüşmesi.
           </span>
+          <p class="kucuk-not">
+            Hazırlanacak inceleme
+          </p>
         </div>
 
         <div class="konu">
-          <strong>Toplumsal dayanıklılık</strong>
+          <strong>
+            Toplumsal dayanıklılık
+          </strong>
           <span>
-            Kurumlar, ortaklık ve değişen şartlara uyum.
+            Kurumlar, ortaklık ve
+            değişen şartlara uyum.
           </span>
+          <p class="kucuk-not">
+            Hazırlanacak inceleme
+          </p>
         </div>
 
         <div class="konu">
-          <strong>Sorumluluk daireleri</strong>
+          <strong>
+            Sorumluluk daireleri
+          </strong>
           <span>
-            Bireyden aileye, yakın çevreden insanlığın
-            geneline uzanan sorumluluk alanları.
+            Bireyden aileye, yakın
+            çevreden insanlığın
+            geneline uzanan
+            sorumluluk alanları.
           </span>
+
+          <a class="makale-baglantisi"
+             href="sorumluluk-daireleri.html">
+            İncelemeyi oku
+          </a>
         </div>
 
         <div class="konu">
-          <strong>Döngü değil, sarmal</strong>
+          <strong>
+            Döngü değil, sarmal
+          </strong>
           <span>
-            Tarihsel süreçlerin değişen koşullar
-            içerisinde yeniden şekillenmesi.
+            Tarihsel süreçlerin değişen
+            koşullar içerisinde
+            yeniden şekillenmesi.
           </span>
+          <p class="kucuk-not">
+            Hazırlanacak inceleme
+          </p>
         </div>
 
         <div class="konu">
-          <strong>İnsan, özgürlük ve sorumluluk</strong>
+          <strong>
+            İnsan, özgürlük ve sorumluluk
+          </strong>
           <span>
-            İrade, toplumsal çevre ve bireysel kararlar.
+            İrade, toplumsal çevre
+            ve bireysel kararlar.
           </span>
+          <p class="kucuk-not">
+            Hazırlanacak inceleme
+          </p>
         </div>
 
         <div class="konu">
-          <strong>İktidar ve siyasal gerçekçilik</strong>
+          <strong>
+            İktidar ve siyasal gerçekçilik
+          </strong>
           <span>
-            Gücün kurulması, korunması ve sınırlandırılması.
+            Gücün kurulması,
+            korunması ve
+            sınırlandırılması.
           </span>
+          <p class="kucuk-not">
+            Hazırlanacak inceleme
+          </p>
         </div>
+
       </div>
 
-      <p class="kucuk-not" style="margin-top:18px">
-        Bu başlıklar çalışma ve düşünce alanlarını tanıtır;
-        her biri için ayrı bir yayın bulunduğu anlamına gelmez.
+      <p class="kucuk-not" style="margin-top:20px">
+        Kavramsal çalışmalar, yazarın
+        geliştirmekte olduğu düşünsel
+        incelemelerdir. İlk sürümler
+        sonraki araştırmalarla
+        genişletilebilir.
       </p>
     </section>
 
     <section id="makaleler">
-      <div class="etiket">Yazılar ve incelemeler</div>
+      <div class="etiket">
+        Yazılar ve incelemeler
+      </div>
+
       <h2>Makaleler ve denemeler</h2>
 
       <p class="girizgah">
-        Yayımlanan yazılar ve geliştirilmekte olan
+        Yayımlanan yazılar ve
+        geliştirilmekte olan
         araştırma konuları.
       </p>
 
       <div class="makale">
-        <h3>Yapay Zekâ Rekabetinden Düşünsel Sinerjiye</h3>
+        <h3>
+          Yapay Zekâ Rekabetinden
+          Düşünsel Sinerjiye
+        </h3>
+
         <p class="kitap-alt-baslik">
-          İnsan–Yapay Zekâ İlişkisinde Üretim
-          Kapasitesinin Genişlemesi
+          İnsan–Yapay Zekâ İlişkisinde
+          Üretim Kapasitesinin Genişlemesi
         </p>
+
         <p>
-          Yapay zekâ rekabetini, insanın düşünme ve üretme
-          kapasitesine kazandırdığı imkânlar üzerinden
+          Yapay zekâ rekabetini,
+          insanın düşünme ve üretme
+          kapasitesine kazandırdığı
+          imkânlar üzerinden
           değerlendiren bir inceleme.
         </p>
+
         <span class="kucuk-not">
           Makale · 30 Ekim 2026
         </span>
+
         <br>
+
         <a class="makale-baglantisi"
            href="yapay-zeka-dusunsel-sinerji.html">
           Makaleyi oku
@@ -665,26 +844,38 @@
       <div class="makale">
         <h3>İnsan, Toplum ve Sorumluluk</h3>
         <p>
-          Bireysel ihtiyaçlar ile ortak yaşamın gerekleri
+          Bireysel ihtiyaçlar ile
+          ortak yaşamın gerekleri
           arasındaki ilişki.
         </p>
-        <span class="kucuk-not">Çalışma konusu</span>
+        <span class="kucuk-not">
+          Çalışma konusu
+        </span>
       </div>
 
       <div class="makale">
         <h3>İrade ve Gerçek Özgürlük</h3>
         <p>
-          Karar verme kapasitesi, çevrenin etkisi ve
-          bireyin kendi davranışlarını değerlendirmesi.
+          Karar verme kapasitesi,
+          çevrenin etkisi ve bireyin
+          kendi davranışlarını
+          değerlendirmesi.
         </p>
-        <span class="kucuk-not">Çalışma konusu</span>
+        <span class="kucuk-not">
+          Çalışma konusu
+        </span>
       </div>
 
       <div class="makale">
-        <h3>Göç Politikaları ve Toplumsal Güvenlik</h3>
+        <h3>
+          Göç Politikaları ve
+          Toplumsal Güvenlik
+        </h3>
         <p>
-          Göç politikalarının belirlenmesi ve uygulanması,
-          bireysel mağduriyetlerin korunması, kamu güvenliği
+          Göç politikalarının
+          belirlenmesi ve uygulanması,
+          bireysel mağduriyetlerin
+          korunması, kamu güvenliği
           ve kurumsal sorumluluk ilişkileri.
         </p>
         <span class="kucuk-not">
@@ -693,10 +884,14 @@
       </div>
 
       <div class="makale">
-        <h3>Toplumsal İlişkiler ve Görünmeyen Suistimaller</h3>
+        <h3>
+          Toplumsal İlişkiler ve
+          Görünmeyen Suistimaller
+        </h3>
         <p>
-          Küçük ve dışa görece kapalı yerleşimlerde
-          güç ilişkilerinin olası suistimallerin
+          Küçük ve dışa görece kapalı
+          yerleşimlerde güç ilişkilerinin
+          olası suistimallerin
           görünürlüğüne etkileri.
         </p>
         <span class="kucuk-not">
@@ -705,10 +900,14 @@
       </div>
 
       <div class="makale">
-        <h3>Kuşaklar Arasında Cinsiyet Algısı</h3>
+        <h3>
+          Kuşaklar Arasında
+          Cinsiyet Algısı
+        </h3>
         <p>
-          Cinsiyet kavramına yüklenen anlamların,
-          toplumsal rollerin ve beklentilerin değişimi.
+          Cinsiyet kavramına yüklenen
+          anlamların, toplumsal rollerin
+          ve beklentilerin değişimi.
         </p>
         <span class="kucuk-not">
           Yayımlanmamış araştırma konusu
@@ -716,11 +915,15 @@
       </div>
 
       <div class="makale">
-        <h3>Siyasal İstikrar ve Toplumsal Memnuniyetsizlik</h3>
+        <h3>
+          Siyasal İstikrar ve
+          Toplumsal Memnuniyetsizlik
+        </h3>
         <p>
-          Uzun süreli yönetimlerde kamusal hizmetler,
-          hak ve yükümlülükler, beklentiler ve
-          siyasal eleştirinin gerekçeleri.
+          Uzun süreli yönetimlerde
+          kamusal hizmetler, hak ve
+          yükümlülükler, beklentiler
+          ve siyasal eleştirinin gerekçeleri.
         </p>
         <span class="kucuk-not">
           Yayımlanmamış araştırma konusu
@@ -728,29 +931,37 @@
       </div>
 
       <p class="kucuk-not" style="margin-top:18px">
-        Yeni yazılar yayımlandıkça tam metin bağlantıları
+        Yeni yazılar yayımlandıkça
+        tam metin bağlantıları
         bu bölüme eklenecektir.
       </p>
     </section>
 
     <section id="iletisim">
-      <div class="etiket">İletişim ve paylaşım</div>
+      <div class="etiket">
+        İletişim ve paylaşım
+      </div>
+
       <h2>İletişim</h2>
 
       <p>
-        Kitap çalışmaları, makaleler ve düşünsel konular
-        hakkında iletişim kurmak veya görüş paylaşmak için
-        aşağıdaki e-posta adresini kullanabilirsiniz.
+        Kitap çalışmaları, makaleler
+        ve düşünsel konular hakkında
+        iletişim kurmak veya görüş
+        paylaşmak için aşağıdaki
+        e-posta adresini kullanabilirsiniz.
       </p>
 
       <div class="iletisim-kutu">
         <p><strong>Adem Afşar</strong></p>
+
         <p>
           E-posta:
           <a href="mailto:afsarad@gmail.com">
             afsarad@gmail.com
           </a>
         </p>
+
         <p>
           Yazar sitesi:
           <a href="https://afsarad.github.io/">
@@ -760,51 +971,67 @@
       </div>
 
       <div class="haklar-notu">
-        <h3>Eserlerin kullanımı ve yayın izinleri</h3>
+        <h3>
+          Eserlerin kullanımı ve yayın izinleri
+        </h3>
 
         <p>
-          Bu sitede yayımlanan makale, deneme ve diğer
-          özgün metinlerin eser sahipliği Adem Afşar'a
-          aittir. İçeriklerin çevrim içi erişime açık
-          olması, bunların serbestçe yeniden
-          yayımlanabileceği veya ticari amaçla
-          kullanılabileceği anlamına gelmez.
+          Bu sitede yayımlanan makale,
+          deneme ve diğer özgün metinlerin
+          eser sahipliği Adem Afşar'a
+          aittir. İçeriklerin çevrim içi
+          erişime açık olması, bunların
+          serbestçe yeniden yayımlanabileceği
+          veya ticari amaçla kullanılabileceği
+          anlamına gelmez.
         </p>
 
         <p>
-          Bilimsel, eleştirel ve haber verme amaçlı
-          alıntılar, ilgili mevzuatın izin verdiği
-          sınırlar içinde ve eser ile yazar adı
+          Bilimsel, eleştirel ve haber
+          verme amaçlı alıntılar, ilgili
+          mevzuatın izin verdiği sınırlar
+          içinde ve eser ile yazar adı
           açıkça belirtilerek yapılabilir.
-          Bir yazının tamamının veya önemli bir
-          bölümünün başka bir yerde yayımlanması;
-          çoğaltılması, çevrilmesi, uyarlanması,
-          derlenmesi ya da ticari kullanımı için,
-          kanuni istisnalar saklı kalmak üzere,
-          önceden yazılı izin alınmalıdır.
+          Bir yazının tamamının veya
+          önemli bir bölümünün başka
+          bir yerde yayımlanması;
+          çoğaltılması, çevrilmesi,
+          uyarlanması, derlenmesi ya
+          da ticari kullanımı için,
+          kanuni istisnalar saklı
+          kalmak üzere, önceden
+          yazılı izin alınmalıdır.
         </p>
 
         <p>
-          Yayınevleri, akademisyenler, araştırmacılar,
-          eğitim ve kültür kurumları, basın kuruluşları
-          ve diğer ilgililer; basılı veya dijital
-          yayın, ders/etkinlik kullanımı, çeviri,
-          yeniden basım ve diğer lisans talepleri
-          için e-posta yoluyla başvurabilir.
+          Yayınevleri, akademisyenler,
+          araştırmacılar, eğitim ve
+          kültür kurumları, basın
+          kuruluşları ve diğer ilgililer;
+          basılı veya dijital yayın,
+          ders/etkinlik kullanımı,
+          çeviri, yeniden basım ve
+          diğer lisans talepleri için
+          e-posta yoluyla başvurabilir.
         </p>
 
         <p>
-          İzin değerlendirmesinde kullanım amacı,
-          kullanılacak bölüm, mecra, basım/adet
-          veya erişim kapsamı, ülke, süre, ücret
-          ve münhasırlık durumu ayrıca kararlaştırılır.
-          Yazılı onay verilmedikçe izin verilmiş sayılmaz.
+          İzin değerlendirmesinde
+          kullanım amacı, kullanılacak
+          bölüm, mecra, basım/adet
+          veya erişim kapsamı, ülke,
+          süre, ücret ve münhasırlık
+          durumu ayrıca kararlaştırılır.
+          Yazılı onay verilmedikçe
+          izin verilmiş sayılmaz.
         </p>
 
         <p class="kucuk-not">
-          © 2026 Adem Afşar. Tüm hakları saklıdır.
-          Bu bildirim, yürürlükteki yasal alıntı
-          ve kullanım istisnalarını ortadan kaldırmaz.
+          © 2026 Adem Afşar.
+          Tüm hakları saklıdır.
+          Bu bildirim, yürürlükteki
+          yasal alıntı ve kullanım
+          istisnalarını ortadan kaldırmaz.
         </p>
       </div>
     </section>
@@ -816,5 +1043,6 @@
     <p>Toplum, Tarih ve Medeniyet</p>
     <p>© 2026 Adem Afşar. Tüm hakları saklıdır.</p>
   </footer>
+
 </body>
 </html>
