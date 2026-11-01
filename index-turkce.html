@@ -370,6 +370,21 @@ footer p {margin:4px 0}
 .sosyal-baglantilar {display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
 .sosyal-baglantilar a {display:inline-block;padding:10px 16px;border:1px solid var(--cizgi);border-radius:5px;background:var(--beyaz);font:600 14px Arial,sans-serif;text-decoration:none}
 .sosyal-baglantilar a:hover {background:var(--lacivert);color:#fff}
+
+/* Makale arşivi: mevcut site paletiyle uyumlu */
+.makale-araclar {display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:24px 0 14px}
+.makale-arama {flex:1 1 230px;min-width:0;padding:12px 14px;border:1px solid var(--cizgi);border-radius:4px;background:white;color:var(--metin);font:15px Arial,sans-serif}
+.makale-filtreler {display:flex;gap:8px;flex-wrap:wrap}
+.makale-filtre {padding:10px 13px;border:1px solid #c69b70;border-radius:4px;background:transparent;color:var(--lacivert);font:600 13px Arial,sans-serif;cursor:pointer}
+.makale-filtre[aria-pressed="true"] {background:var(--lacivert);color:white;border-color:var(--lacivert)}
+.makale-arama:focus-visible,.makale-filtre:focus-visible {outline:3px solid var(--vurgu);outline-offset:3px}
+.makale-durum {display:inline-block;margin:0 0 9px;padding:4px 9px;border-radius:3px;background:#f4e9d9;color:#69451f;font:700 11px Arial,sans-serif}
+.makale-durum.yayinda {background:#e8eee8;color:#345b3c}
+.makale-sayac {color:var(--soluk);font:13px Arial,sans-serif;margin:0 0 12px}
+.makale[hidden] {display:none!important}
+.makale-bos {padding:16px;background:#f7f2e9;border-left:4px solid var(--vurgu)}
+.makale-arsiv-notu {margin-top:20px;padding:16px;background:#fbf8f2;border:1px solid var(--cizgi);font-size:14px}
+
 </style>
 </head>
 
@@ -748,19 +763,22 @@ footer p {margin:4px 0}
 </section>
 
 <section id="makaleler">
-  <div class="etiket">
-    Yazılar ve incelemeler
-  </div>
-
+  <div class="etiket">Yazılar ve incelemeler</div>
   <h2>Makaleler ve denemeler</h2>
+  <p class="girizgah">Yayımlanan yazılarımı ve geliştirmekte olduğum araştırma konularını burada bulabilirsiniz. Başlığa veya konuya göre arama yapabilir, yayımlanma durumuna göre listeyi süzebilirsiniz.</p>
 
-  <p class="girizgah">
-    Yayımlanan yazılar ve
-    geliştirilmekte olan
-    araştırma konuları.
-  </p>
-
-  <div class="makale">
+  <div class="makale-araclar" role="search" aria-label="Makalelerde arama">
+    <input class="makale-arama" id="makale-arama" type="search" placeholder="Başlık veya konu ara…" aria-label="Makale başlığı veya konusu ara">
+    <div class="makale-filtreler" role="group" aria-label="Yayımlanma durumuna göre filtrele">
+      <button class="makale-filtre" type="button" data-filtre="tum" aria-pressed="true">Tümü</button>
+      <button class="makale-filtre" type="button" data-filtre="yayinda" aria-pressed="false">Yayımlananlar</button>
+      <button class="makale-filtre" type="button" data-filtre="plan" aria-pressed="false">Çalışma konuları</button>
+    </div>
+  </div>
+  <p id="makale-sayac" class="makale-sayac" role="status" aria-live="polite">7 kayıt gösteriliyor.</p>
+  <div id="makale-listesi">
+<div class="makale" data-durum="yayinda">
+    <span class="makale-durum yayinda">Yayımlanmış makale</span>
     <h3>
       Yapay Zekâ Rekabetinden
       Düşünsel Sinerjiye
@@ -790,8 +808,8 @@ footer p {margin:4px 0}
       Makaleyi oku
     </a>
   </div>
-
-  <div class="makale">
+<div class="makale" data-durum="plan">
+    <span class="makale-durum ">Çalışma konusu</span>
     <h3>İnsan, Toplum ve Sorumluluk</h3>
     <p>
       Bireysel ihtiyaçlar ile
@@ -802,8 +820,8 @@ footer p {margin:4px 0}
       Çalışma konusu
     </span>
   </div>
-
-  <div class="makale">
+<div class="makale" data-durum="plan">
+    <span class="makale-durum ">Çalışma konusu</span>
     <h3>İrade ve Gerçek Özgürlük</h3>
     <p>
       Karar verme kapasitesi,
@@ -815,8 +833,8 @@ footer p {margin:4px 0}
       Çalışma konusu
     </span>
   </div>
-
-  <div class="makale">
+<div class="makale" data-durum="plan">
+    <span class="makale-durum ">Çalışma konusu</span>
     <h3>
       Göç Politikaları ve
       Toplumsal Güvenlik
@@ -832,8 +850,8 @@ footer p {margin:4px 0}
       Yayımlanmamış araştırma konusu
     </span>
   </div>
-
-  <div class="makale">
+<div class="makale" data-durum="plan">
+    <span class="makale-durum ">Çalışma konusu</span>
     <h3>
       Toplumsal İlişkiler ve
       Görünmeyen Suistimaller
@@ -848,8 +866,8 @@ footer p {margin:4px 0}
       Yayımlanmamış araştırma konusu
     </span>
   </div>
-
-  <div class="makale">
+<div class="makale" data-durum="plan">
+    <span class="makale-durum ">Çalışma konusu</span>
     <h3>
       Kuşaklar Arasında
       Cinsiyet Algısı
@@ -863,8 +881,8 @@ footer p {margin:4px 0}
       Yayımlanmamış araştırma konusu
     </span>
   </div>
-
-  <div class="makale">
+<div class="makale" data-durum="plan">
+    <span class="makale-durum ">Çalışma konusu</span>
     <h3>
       Siyasal İstikrar ve
       Toplumsal Memnuniyetsizlik
@@ -879,12 +897,9 @@ footer p {margin:4px 0}
       Yayımlanmamış araştırma konusu
     </span>
   </div>
-
-  <p class="kucuk-not" style="margin-top:18px">
-    Yeni yazılar yayımlandıkça
-    tam metin bağlantıları
-    bu bölüme eklenecektir.
-  </p>
+  </div>
+  <p id="makale-bos" class="makale-bos" hidden>Aramanızla eşleşen kayıt bulunamadı. Başka bir sözcük deneyebilirsiniz.</p>
+  <div class="makale-arsiv-notu">Kavramsal incelemelerime ayrıca <a href="#dusunceler">Düşünce Dünyası</a> bölümünden ulaşabilirsiniz. Yeni yazılar yayımlandıkça bu arşiv güncellenecektir.</div>
 </section>
 
 <section id="iletisim">
@@ -1001,5 +1016,37 @@ footer p {margin:4px 0}
   <p>© 2026 Adem Afşar. Tüm hakları saklıdır.</p>
 </footer>
 
+<script>
+(function () {
+  "use strict";
+  const arama = document.getElementById("makale-arama");
+  const filtreler = Array.from(document.querySelectorAll(".makale-filtre"));
+  const kayitlar = Array.from(document.querySelectorAll("#makale-listesi .makale"));
+  const sayac = document.getElementById("makale-sayac");
+  const bos = document.getElementById("makale-bos");
+  let secili = "tum";
+  function yenile() {
+    const sorgu = arama.value.toLocaleLowerCase("tr-TR").trim();
+    let gorunen = 0;
+    kayitlar.forEach(function (kayit) {
+      const durumUygun = secili === "tum" || kayit.dataset.durum === secili;
+      const metinUygun = kayit.textContent.toLocaleLowerCase("tr-TR").includes(sorgu);
+      kayit.hidden = !(durumUygun && metinUygun);
+      if (!kayit.hidden) gorunen++;
+    });
+    sayac.textContent = gorunen + " kayıt gösteriliyor.";
+    bos.hidden = gorunen !== 0;
+  }
+  arama.addEventListener("input", yenile);
+  filtreler.forEach(function (dugme) {
+    dugme.addEventListener("click", function () {
+      secili = dugme.dataset.filtre;
+      filtreler.forEach(function (d) { d.setAttribute("aria-pressed", String(d === dugme)); });
+      yenile();
+    });
+  });
+  yenile();
+}());
+</script>
 </body>
 </html>
