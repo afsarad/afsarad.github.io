@@ -1,0 +1,569 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172b45">
+  <meta name="author" content="Adem Afşar">
+  <meta name="description" content="Adem Afşar'ın sorumluluk daireleri üzerine kavramsal incelemesi: bireyden aileye, toplumdan insanlığa uzanan sorumluluk ilişkileri.">
+  <title>Sorumluluk Daireleri | Adem Afşar</title>
+
+  <style>
+    :root {
+      --lacivert: #172b45;
+      --zemin: #f5f2eb;
+      --beyaz: #fffefa;
+      --vurgu: #a66b36;
+      --metin: #303640;
+      --soluk: #68717b;
+      --cizgi: #e5dfd4;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: var(--zemin);
+      color: var(--metin);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.85;
+    }
+
+    a { color: var(--lacivert); }
+
+    a:focus-visible {
+      outline: 3px solid var(--vurgu);
+      outline-offset: 4px;
+    }
+
+    .ust-cizgi {
+      height: 5px;
+      background: var(--vurgu);
+    }
+
+    header {
+      padding: 65px 20px 55px;
+      background: var(--lacivert);
+      color: white;
+      text-align: center;
+    }
+
+    .etiket {
+      color: #dfbb91;
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    header h1 {
+      max-width: 900px;
+      margin: 15px auto;
+      font-size: clamp(34px, 6vw, 54px);
+      line-height: 1.2;
+    }
+
+    header p {
+      max-width: 750px;
+      margin: 12px auto;
+      color: #e4dfd6;
+      font-size: 19px;
+    }
+
+    nav {
+      padding: 14px 12px;
+      background: var(--beyaz);
+      border-bottom: 1px solid var(--cizgi);
+      text-align: center;
+    }
+
+    nav a {
+      display: inline-block;
+      margin: 5px 12px;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    main {
+      width: min(100% - 28px, 860px);
+      margin: 35px auto 55px;
+    }
+
+    article {
+      padding: clamp(24px, 5vw, 50px);
+      background: var(--beyaz);
+      border: 1px solid var(--cizgi);
+      border-radius: 7px;
+      box-shadow: 0 12px 32px rgba(23,43,69,.06);
+    }
+
+    h2 {
+      margin: 38px 0 14px;
+      color: var(--lacivert);
+      font-size: clamp(23px, 4vw, 29px);
+      line-height: 1.35;
+    }
+
+    h3 {
+      margin: 25px 0 10px;
+      color: var(--lacivert);
+      font-size: 20px;
+    }
+
+    p { margin: 0 0 18px; }
+
+    .meta {
+      margin-bottom: 30px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid var(--cizgi);
+      color: var(--soluk);
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+    }
+
+    .giris {
+      font-size: 19px;
+      color: var(--lacivert);
+    }
+
+    blockquote {
+      margin: 28px 0;
+      padding: 20px 24px;
+      border-left: 4px solid var(--vurgu);
+      background: #f7f2e9;
+      color: var(--lacivert);
+      font-size: 20px;
+      font-style: italic;
+    }
+
+    .daireler {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin: 25px 0;
+    }
+
+    .daire {
+      padding: 16px 20px;
+      border: 1px solid var(--cizgi);
+      border-left: 4px solid var(--vurgu);
+      background: #fbf8f2;
+    }
+
+    .daire strong {
+      display: block;
+      color: var(--lacivert);
+    }
+
+    .daire span {
+      display: block;
+      margin-top: 4px;
+      color: var(--soluk);
+      font-size: 15px;
+    }
+
+    .soru {
+      margin: 28px 0;
+      padding: 22px;
+      background: #f7f2e9;
+      border: 1px solid #e7dac7;
+    }
+
+    .soru strong {
+      color: var(--lacivert);
+    }
+
+    .not {
+      margin-top: 35px;
+      padding-top: 18px;
+      border-top: 1px solid var(--cizgi);
+      color: var(--soluk);
+      font-size: 13px;
+    }
+
+    .geri {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 10px 17px;
+      border: 1px solid var(--vurgu);
+      border-radius: 4px;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    .geri:hover {
+      background: var(--lacivert);
+      color: white;
+    }
+
+    footer {
+      padding: 30px 18px;
+      background: var(--lacivert);
+      color: #e4dfd6;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    footer p { margin: 4px 0; }
+
+    @media (max-width: 600px) {
+      header { padding: 45px 18px; }
+      header p { font-size: 16px; }
+      main { margin-top: 18px; }
+      blockquote { font-size: 18px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="ust-cizgi"></div>
+
+  <header>
+    <div class="etiket">Adem Afşar · Kavramsal Çalışmalar</div>
+    <h1>Sorumluluk Daireleri</h1>
+    <p>Bireyden İnsanlığa Uzanan Sorumluluğun Sınırları</p>
+  </header>
+
+  <nav aria-label="Sayfa menüsü">
+    <a href="index-turkce.html">Ana Sayfa</a>
+    <a href="index-turkce.html#dusunceler">Düşünce Dünyası</a>
+    <a href="toplum_iktidar_duzen_kitap_serisi.html">Kitaplar</a>
+    <a href="index-turkce.html#iletisim">İletişim</a>
+  </nav>
+
+  <main>
+    <article>
+      <div class="meta">
+        Adem Afşar · Düşünsel İnceleme ·
+        1 Kasım 2026 · Sürüm 1.0
+      </div>
+
+      <p class="giris">
+        Bir insanın kendi çocuğuna karşı sorumluluğuyla
+        hiç tanımadığı bir insana karşı sorumluluğu
+        aynı biçimde mi ortaya çıkar?
+        Sorumluluğun kapsamı genişledikçe
+        öncelikler değişebilir mi?
+      </p>
+
+      <p>
+        İnsan, yaşamını tek başına sürdürmeyen;
+        ailesiyle, yakın çevresiyle, toplumla ve
+        giderek insanlığın bütünüyle ilişkiler
+        kuran bir varlıktır. Bu ilişkiler,
+        yalnızca karşılıklı fayda üretmez;
+        aynı zamanda çeşitli sorumluluklar doğurur.
+      </p>
+
+      <p>
+        Ancak her sorumluluğun kapsamı, ağırlığı
+        ve yerine getirilme biçimi aynı değildir.
+        Bu çalışma, sorumluluğu iç içe geçmiş
+        daireler üzerinden düşünmeyi önermektedir.
+      </p>
+
+      <h2>1. Sorumluluk neden dairelerle açıklanıyor?</h2>
+
+      <p>
+        İç içe geçmiş daireler, insanın
+        sorumluluk ilişkilerinin birbirinden
+        tamamen bağımsız olmadığını gösterir.
+        Merkezde bireyin kendisi ve en yakın
+        ilişkileri bulunur. Dışa doğru
+        ilerledikçe sorumluluğun muhatapları
+        çoğalır ve kapsamı genişler.
+      </p>
+
+      <p>
+        Burada esas olan, dış dairelerdeki
+        insanların daha az değerli olması
+        değildir. Daireler, insan değerini
+        değil; sorumlulukların yakınlık,
+        ilişki, imkân ve öncelik bakımından
+        nasıl farklılaşabildiğini anlatır.
+      </p>
+
+      <blockquote>
+        Sorumluluğun merkezinde birey ve
+        yakın çevresi bulunabilir; ancak
+        sorumluluğun sınırları bireyin
+        yakın çevresiyle sona ermez.
+      </blockquote>
+
+      <h2>2. İç içe geçmiş sorumluluk alanları</h2>
+
+      <div class="daireler">
+        <div class="daire">
+          <strong>Birinci daire: Birey</strong>
+          <span>
+            Kendi yaşamını sürdürme, davranışlarının
+            sonuçlarını değerlendirme ve üstlendiği
+            yükümlülükleri yerine getirme.
+          </span>
+        </div>
+
+        <div class="daire">
+          <strong>İkinci daire: Aile ve yakın ilişkiler</strong>
+          <span>
+            Bakım, emek, dayanışma, güven ve
+            doğrudan üstlenilmiş sorumluluklar.
+          </span>
+        </div>
+
+        <div class="daire">
+          <strong>Üçüncü daire: Yakın çevre</strong>
+          <span>
+            Komşuluk, arkadaşlık, iş ilişkileri
+            ve gündelik karşılıklı sorumluluklar.
+          </span>
+        </div>
+
+        <div class="daire">
+          <strong>Dördüncü daire: Toplum ve kurumlar</strong>
+          <span>
+            Ortak yaşam, kamusal kurallar,
+            haklar, yükümlülükler ve
+            toplumsal dayanışma.
+          </span>
+        </div>
+
+        <div class="daire">
+          <strong>Beşinci daire: İnsanlık ve doğa</strong>
+          <span>
+            Sınırları aşan etkiler, çevresel
+            sorumluluk, gelecek kuşaklar ve
+            insanlığın ortak sorunları.
+          </span>
+        </div>
+      </div>
+
+      <h2>3. Yakın olana öncelik vermek ne anlama gelir?</h2>
+
+      <p>
+        Bir insanın bakımından doğrudan
+        sorumlu olduğu çocuğuna zaman,
+        emek ve kaynak ayırması, tanımadığı
+        diğer çocukların yaşamlarının
+        değersiz olduğu anlamına gelmez.
+      </p>
+
+      <p>
+        Burada farklılaşan, insanın değeri
+        değil; bireyin üstlendiği görevin
+        niteliği ve doğrudan ilişkisidir.
+      </p>
+
+      <p>
+        Yakınlığa dayalı öncelik, başkalarının
+        temel haklarını ihlal etmeyi
+        meşrulaştırmaz. Aynı şekilde,
+        yakın çevreye duyulan sorumluluk
+        daha geniş toplumsal sorumlulukları
+        bütünüyle ortadan kaldırmaz.
+      </p>
+
+      <h2>4. Sorumluluk yalnızca mesafeye mi bağlıdır?</h2>
+
+      <p>
+        Hayır. Sorumluluğun derecesini
+        yalnızca fiziksel veya duygusal
+        yakınlık belirlemez.
+      </p>
+
+      <p>
+        Bir insanın sahip olduğu yetki,
+        bilgisi, kaynakları, eylemlerinin
+        başkaları üzerindeki etkisi ve
+        önceden üstlendiği yükümlülükler
+        de değerlendirmeye katılmalıdır.
+      </p>
+
+      <p>
+        Örneğin bir kamu yöneticisinin
+        kararları, hiç tanımadığı binlerce
+        insanı etkileyebilir. Böyle bir
+        durumda kişisel yakınlık bulunmasa
+        da kamusal görev nedeniyle
+        güçlü sorumluluklar doğar.
+      </p>
+
+      <p>
+        Benzer şekilde bir kişinin
+        faaliyetleri uzak bir bölgede
+        çevresel zarara yol açıyorsa,
+        coğrafi mesafe sorumluluğu
+        kendiliğinden ortadan kaldırmaz.
+      </p>
+
+      <h2>5. Ortak sorunlar ve en dış daire</h2>
+
+      <p>
+        İklim değişikliği, çevre kirliliği,
+        doğal kaynakların tükenmesi ve
+        gelecek kuşakları etkileyen
+        kararlar, sorumluluğun yalnızca
+        yakın ilişkilerle açıklanamayacağını
+        gösterir.
+      </p>
+
+      <p>
+        Bir kişinin gündelik davranışları
+        küçük ölçekte sonuçlar doğurabilir.
+        Ancak benzer davranışların çok
+        sayıda insan tarafından tekrarlanması,
+        ortak yaşamı etkileyen sonuçlara
+        dönüşebilir.
+      </p>
+
+      <p>
+        Bu nedenle en dış daire, yalnızca
+        soyut bir insanlık sevgisini değil;
+        bireysel ve kurumsal eylemlerin
+        geniş ölçekteki sonuçlarını
+        değerlendirme gereğini de ifade eder.
+      </p>
+
+      <h2>6. Daireler arasında çatışma olduğunda</h2>
+
+      <p>
+        Sorumluluk daireleri her zaman
+        birbiriyle uyumlu çalışmayabilir.
+        Bireyin ailesine yarar sağlayan
+        bir tercih, toplumun başka
+        üyelerine zarar verebilir.
+      </p>
+
+      <p>
+        Örneğin bir yöneticinin yakınını,
+        gerekli yeterliliğe sahip olmadığı
+        hâlde kamusal bir göreve getirmesi,
+        aileye öncelik verme gerekçesiyle
+        savunulamaz.
+      </p>
+
+      <p>
+        Çünkü burada kişisel yakınlık,
+        kamusal yetkinin doğurduğu
+        sorumlulukla çatışmaktadır.
+        Bir dairedeki bağlılık,
+        diğer dairedeki hakların
+        ihlaline gerekçe olamaz.
+      </p>
+
+      <div class="soru">
+        <strong>Temel araştırma sorusu</strong>
+        <p>
+          Bireyin yakın çevresine karşı
+          öncelikli sorumlulukları ile
+          daha geniş toplumsal yükümlülükleri
+          çatıştığında, hangi ölçütlere
+          göre karar verilmelidir?
+        </p>
+      </div>
+
+      <h2>7. Bu yaklaşımın sınırları</h2>
+
+      <p>
+        Sorumluluk daireleri, bütün ahlaki
+        sorunlara tek başına çözüm sunan
+        tamamlanmış bir teori olarak
+        değerlendirilmemelidir.
+      </p>
+
+      <p>
+        Önceliğin hangi koşullarda
+        değişeceği, bireyin ne ölçüde
+        fedakârlıkla yükümlü olduğu,
+        kamusal sorumlulukla kişisel
+        sorumluluğun nasıl dengeleneceği
+        ve gelecek kuşakların haklarının
+        nasıl korunacağı ayrıca
+        tartışılmalıdır.
+      </p>
+
+      <p>
+        Yakın çevreye öncelik verilmesinin
+        kayırmacılığa dönüşme ihtimali
+        de bu yaklaşımın eleştirel
+        biçimde incelenmesini gerektirir.
+      </p>
+
+      <h2>8. Sonuç: Öncelik ve sorumluluk</h2>
+
+      <p>
+        İnsan, birbirinden kopuk
+        toplumsal alanlarda yaşamaz.
+        Kendisinden başlayarak ailesi,
+        yakın çevresi, toplum ve
+        insanlığın bütünüyle farklı
+        ilişkiler kurar.
+      </p>
+
+      <p>
+        Bu ilişkilerin doğurduğu
+        sorumluluklar aynı biçimde
+        yerine getirilmeyebilir.
+        Bununla birlikte sorumluluğun
+        farklılaşması, insan değerinin
+        farklılaşması anlamına gelmez.
+      </p>
+
+      <blockquote>
+        Yakın olana öncelik vermek,
+        uzak olana karşı sorumsuz
+        olmak değildir.
+      </blockquote>
+
+      <p>
+        Sorumluluk daireleri yaklaşımı,
+        bireyin hangi ilişkide neyi
+        üstlendiğini, hangi imkânlara
+        sahip olduğunu ve eylemlerinin
+        kimleri etkilediğini birlikte
+        değerlendirmeye yönelik
+        bir düşünce çerçevesidir.
+      </p>
+
+      <div class="not">
+        <p>
+          <strong>Yazar notu:</strong>
+          Bu metin, Adem Afşar'ın
+          sorumluluk daireleri üzerine
+          düşünsel yaklaşımının
+          ilk düzenlenmiş sürümüdür.
+          Akademik kaynaklandırma ve
+          karşılaştırmalı kuramsal
+          inceleme sonraki sürümlerde
+          geliştirilecektir.
+        </p>
+        <p>
+          © 2026 Adem Afşar.
+          Tüm hakları saklıdır.
+        </p>
+      </div>
+
+      <a class="geri"
+         href="index-turkce.html#dusunceler">
+        Düşünce Dünyasına Dön
+      </a>
+    </article>
+  </main>
+
+  <footer>
+    <p><strong>Adem Afşar</strong></p>
+    <p>Toplum, Tarih ve Medeniyet</p>
+    <p>© 2026 Adem Afşar. Tüm hakları saklıdır.</p>
+  </footer>
+</body>
+</html>
