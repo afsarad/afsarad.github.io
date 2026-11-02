@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://afsarad.github.io/</loc>
-  </url>
-  <url>
-    <loc>https://afsarad.github.io/yapay-zeka-dusunsel-sinerji.html</loc>
-  </url>
+  <url><loc>https://afsarad.github.io/</loc></url>
+  <url><loc>https://afsarad.github.io/index-english.html</loc></url>
+  <url><loc>https://afsarad.github.io/yapay-zeka-dusunsel-sinerji.html</loc></url>
+  <url><loc>https://afsarad.github.io/toplum_iktidar_duzen_kitap_serisi.html</loc></url>
+  <url><loc>https://afsarad.github.io/istikrar-egitim-erdem-ekonomik-duzen.html</loc></url>
 </urlset>
