@@ -693,6 +693,8 @@ nav a{white-space:normal}
 /* v0.36 conference-paper registry */
 #akademik-etkinlikler .bildiri-kart{border:1px solid #d8d4cd;border-left:4px solid #a66b36;border-radius:12px;padding:1.2rem;margin:1rem 0;background:#fffdf9}#akademik-etkinlikler .bildiri-kart p{margin:.55rem 0}#akademik-etkinlikler ol{padding-left:1.5rem}#akademik-etkinlikler li{margin:.4rem 0}
 
+/* v0.60 — Kategorili ve aranabilir sözlük */
+#sozluk-filtreler button{border:1px solid #cfc3b3;background:#fff;color:#172b45;border-radius:5px;padding:6px 10px;cursor:pointer;font:inherit;font-size:.85rem}#sozluk-filtreler button[aria-pressed=true]{background:#172b45;color:white}#sozluk-sonuclar button:focus-visible{outline:2px solid #a66b36}
 /* v0.57 — Kelime bazında sözlük desteği */
 .sozluk-yonerge{line-height:1.65}.sozluk-genel-kelime{cursor:help;text-decoration:underline;text-decoration-style:dotted;text-decoration-color:#bca781;text-underline-offset:3px}.sozluk-kutu a{overflow-wrap:anywhere}
 /* v0.55 — Metin içi dokunmatik kavram sözlüğü */
@@ -854,7 +856,20 @@ nav a{white-space:normal}
 </div>
 <p class="tema-aciklama">Bu harita bir konu keşif rehberidir. Bir eser birden fazla başlık altında bulunabilir. “Çalışma konusu” olarak işaretlenen başlıklar henüz yayımlanmış tam metin değildir.</p>
 </section>
-<section aria-labelledby="kavram-baslik" id="kavram-sozlugu">
+<section aria-labelledby="kavram-baslik" id="kavram-sozlugu"><div id="sozluk-dizin" style="margin:20px 0;padding:16px;border:1px solid #ddd2c2;border-radius:9px;background:#faf8f4">
+<h3 style="margin:0 0 10px">Etkileşimli sözlük dizini</h3>
+<p class="kucuk-not">Terimleri sınıflandırılmış olarak arayın. Bu dizin, sayfadaki dokunmatik açıklamalarla aynı kayıtları kullanır.</p>
+<label for="sozluk-arama">Kelime veya kavram ara</label>
+<input id="sozluk-arama" type="search" placeholder="Örn. asabiyet, tarih, toplumsal sözleşme" style="width:100%;max-width:550px;display:block;margin:8px 0 12px;padding:10px;border:1px solid #c9bcaa;border-radius:6px;font:inherit"/>
+<div id="sozluk-filtreler" role="group" aria-label="Sözlük kategorileri" style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px">
+<button type="button" data-sozluk-filtre="Tümü" aria-pressed="true">Tümü</button>
+<button type="button" data-sozluk-filtre="Akademik terim" aria-pressed="false">Akademik terimler</button>
+<button type="button" data-sozluk-filtre="Genel kelime" aria-pressed="false">Genel kelimeler</button>
+<button type="button" data-sozluk-filtre="Çok sözcüklü ifade" aria-pressed="false">Çok sözcüklü ifadeler</button>
+</div>
+<p id="sozluk-sonuc-sayisi" class="kucuk-not" aria-live="polite"></p>
+<div id="sozluk-sonuclar" style="display:flex;flex-wrap:wrap;gap:7px;max-height:260px;overflow:auto"></div>
+</div>
 <div class="etiket">Karşılaştırmalı düşünce sözlüğü · taslak v0.9</div>
 <h2 id="kavram-baslik">Kavramlar ve çağdaş yorumları</h2>
 <p class="girizgah">Bir kavramın genel anlamını, eserlerde ele alınışını ve uluslararası literatürle olası ilişkilerini ayrı ayrı inceleyin. Birbirini andıran ifadeler, farklı dönemlerde aynı kapsam ve anlama sahip olmak zorunda değildir.</p>
@@ -2322,7 +2337,7 @@ nav a{white-space:normal}
 </script>
 
 <!-- v0.55: Metin içindeki kavramlara dokunarak anlamlarını görüntüleme -->
-<div id="sozluk-pencere" class="sozluk-pencere" hidden role="dialog" aria-modal="true" aria-labelledby="sozluk-baslik"><div class="sozluk-kutu"><div class="sozluk-ust"><h2 id="sozluk-baslik"></h2><button type="button" class="sozluk-kapat" id="sozluk-kapat" aria-label="Sözlüğü kapat">×</button></div><p id="sozluk-aciklama"></p><p class="sozluk-bilgi">Kısa açıklama · Kavramın anlamı kullanıldığı bağlama göre değişebilir. Ayrıntılı değerlendirme için Kavramlar ve çağdaş yorumları bölümüne bakınız.</p><a href="#kavram-sozlugu" id="sozluk-ayrinti">Kavram sözlüğüne git</a></div></div>
+<div id="sozluk-pencere" class="sozluk-pencere" hidden role="dialog" aria-modal="true" aria-labelledby="sozluk-baslik"><div class="sozluk-kutu"><div class="sozluk-ust"><h2 id="sozluk-baslik"></h2><button type="button" class="sozluk-kapat" id="sozluk-kapat" aria-label="Sözlüğü kapat">×</button></div><p id="sozluk-kategori" class="sozluk-bilgi" style="margin:0 0 9px"></p><p id="sozluk-aciklama"></p><p class="sozluk-bilgi">Kısa açıklama · Kavramın anlamı kullanıldığı bağlama göre değişebilir. Ayrıntılı değerlendirme için Kavramlar ve çağdaş yorumları bölümüne bakınız.</p><a href="#kavram-sozlugu" id="sozluk-ayrinti">Kavram sözlüğüne git</a></div></div>
 <script>
 (function(){
 'use strict';
@@ -2393,16 +2408,35 @@ const entries=[
 ['intihal','Başkasının düşünce, ifade veya çalışmasını uygun atıf olmaksızın kendine aitmiş gibi sunma.'],
 ['atıf','Bir iddia, alıntı veya bilginin dayandığı kaynağı gösterme işlemi.']
 ];
+// v0.60: Sözlük kayıtlarının editoryal sınıflandırması.
+const gundelik=new Set(['dayanışma','özgürlük','sorumluluk','adalet','eşitlik','devlet','kurum','kültür','kimlik','ahlak','etik','tarih','özgünlük']);
+function kategori(kelime){if(kelime.includes(' '))return 'Çok sözcüklü ifade';return gundelik.has(kelime)?'Genel kelime':'Akademik terim';}
+const kayitlar=entries.map(([kelime,aciklama])=>({kelime,aciklama,kategori:kategori(kelime)}));
 const map=new Map(entries);const pattern=new RegExp('(?<![\\p{L}\\p{N}])('+entries.map(e=>e[0]).sort((a,b)=>b.length-a.length).join('|')+')(?![\\p{L}\\p{N}])','giu');
 const root=document.getElementById('ana-icerik');if(!root)return;
 const skip='a,button,script,style,textarea,select,option,code,pre,h1,h2,h3,h4,nav,svg,[contenteditable],.kavram-panel,.kavram-ornekleri,.sozluk-pencere';
 const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode(node){if(!node.parentElement||node.parentElement.closest(skip)||!node.nodeValue.trim())return NodeFilter.FILTER_REJECT;pattern.lastIndex=0;return pattern.test(node.nodeValue)?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT;}});
 const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
 for(const node of nodes){const text=node.nodeValue;pattern.lastIndex=0;let match,last=0;const frag=document.createDocumentFragment();while((match=pattern.exec(text))!==null){if(match.index>last)frag.appendChild(document.createTextNode(text.slice(last,match.index)));const b=document.createElement('button');b.type='button';b.className='sozluk-kelime';b.textContent=match[0];b.dataset.sozluk=match[0].toLocaleLowerCase('tr-TR');b.title='Anlamını görmek için dokunun';b.setAttribute('aria-label',match[0]+' — anlamını aç');frag.appendChild(b);last=pattern.lastIndex;}if(last<text.length)frag.appendChild(document.createTextNode(text.slice(last)));node.replaceWith(frag);}
+// Dizin arama ve kategori filtreleri.
+const arama=document.getElementById('sozluk-arama'),sonuclar=document.getElementById('sozluk-sonuclar'),sayac=document.getElementById('sozluk-sonuc-sayisi');
+let aktifFiltre='Tümü';
+function dizinCiz(){
+ if(!arama||!sonuclar)return;
+ const q=arama.value.trim().toLocaleLowerCase('tr-TR');
+ const bulunan=kayitlar.filter(k=>(aktifFiltre==='Tümü'||k.kategori===aktifFiltre)&&(!q||k.kelime.includes(q)));
+ sonuclar.replaceChildren();
+ bulunan.sort((a,b)=>a.kelime.localeCompare(b.kelime,'tr')).forEach(k=>{
+ const btn=document.createElement('button');btn.type='button';btn.textContent=k.kelime;btn.title=k.kategori;btn.style.cssText='font:inherit;font-size:.88rem;padding:6px 9px;border:1px solid #d5c7b3;border-radius:5px;background:white;color:#172b45;cursor:pointer';
+ btn.addEventListener('click',()=>kelimeAc(k.kelime));sonuclar.appendChild(btn);
+ });
+ sayac.textContent=bulunan.length+' kayıt gösteriliyor';
+}
+if(arama){arama.addEventListener('input',dizinCiz);document.querySelectorAll('[data-sozluk-filtre]').forEach(btn=>btn.addEventListener('click',()=>{aktifFiltre=btn.dataset.sozlukFiltre;document.querySelectorAll('[data-sozluk-filtre]').forEach(b=>b.setAttribute('aria-pressed',String(b===btn)));dizinCiz();}));dizinCiz();}
 const panel=document.getElementById('sozluk-pencere'),close=document.getElementById('sozluk-kapat');
 const detail=document.getElementById('sozluk-ayrinti');let previous=null;
 function hide(){panel.hidden=true;document.body.style.overflow='';if(previous)previous.focus();}
-root.addEventListener('click',function(e){const btn=e.target.closest('.sozluk-kelime');if(!btn)return;const key=btn.dataset.sozluk;const value=map.get(key);if(!value)return;previous=btn;document.getElementById('sozluk-baslik').textContent=btn.textContent;document.getElementById('sozluk-aciklama').textContent=value;panel.hidden=false;document.body.style.overflow='hidden';close.focus();});
+root.addEventListener('click',function(e){const btn=e.target.closest('.sozluk-kelime');if(!btn)return;const key=btn.dataset.sozluk;const value=map.get(key);if(!value)return;previous=btn;document.getElementById('sozluk-baslik').textContent=btn.textContent;document.getElementById('sozluk-aciklama').textContent=value;document.getElementById('sozluk-kategori').textContent=kategori(key);panel.hidden=false;document.body.style.overflow='hidden';close.focus();});
 
 // v0.57: Normal kelimeleri de dokunmayla tanı. Sayfayı binlerce düğmeyle doldurmak yerine
 // dokunulan konumdaki metin aralığını belirle; tanımsız kelime için doğrulanmamış anlam üretme.
@@ -2412,6 +2446,7 @@ function kelimeAc(kelime){
  const anahtar=temiz.toLocaleLowerCase('tr-TR');
  document.getElementById('sozluk-baslik').textContent=temiz;
  const tanim=map.get(anahtar);
+ document.getElementById('sozluk-kategori').textContent=tanim?kategori(anahtar):'Genel kelime · Dış sözlükte ara';
  document.getElementById('sozluk-aciklama').textContent=tanim||'Bu kelimenin doğrulanmış tanımı henüz sitemizin sözlüğünde bulunmuyor. Anlamını Türkçe Vikisözlük üzerinde inceleyebilirsiniz.';
  detail.textContent=tanim?'Kavram sözlüğüne git':'Vikisözlük üzerinde anlamını ara';
  detail.href=tanim?'#kavram-sozlugu':'https://tr.wiktionary.org/wiki/'+encodeURIComponent(anahtar);
