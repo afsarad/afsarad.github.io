@@ -693,6 +693,8 @@ nav a{white-space:normal}
 /* v0.36 conference-paper registry */
 #akademik-etkinlikler .bildiri-kart{border:1px solid #d8d4cd;border-left:4px solid #a66b36;border-radius:12px;padding:1.2rem;margin:1rem 0;background:#fffdf9}#akademik-etkinlikler .bildiri-kart p{margin:.55rem 0}#akademik-etkinlikler ol{padding-left:1.5rem}#akademik-etkinlikler li{margin:.4rem 0}
 
+/* v0.57 — Kelime bazında sözlük desteği */
+.sozluk-yonerge{line-height:1.65}.sozluk-genel-kelime{cursor:help;text-decoration:underline;text-decoration-style:dotted;text-decoration-color:#bca781;text-underline-offset:3px}.sozluk-kutu a{overflow-wrap:anywhere}
 /* v0.55 — Metin içi dokunmatik kavram sözlüğü */
 .sozluk-kelime{border:1px solid #d6bd91;border-bottom:2px dashed #a66b36;border-radius:4px;background:#fff0cb;color:#683c13;font:inherit;font-weight:600;cursor:pointer;padding:0 3px;text-align:inherit;touch-action:manipulation}.sozluk-kelime::after{content:' ⓘ';font-size:.65em;vertical-align:super;color:#a66b36}.sozluk-kelime:hover,.sozluk-kelime:active{background:#f9d995}.sozluk-kelime:focus-visible{outline:2px solid #a66b36;outline-offset:2px}.sozluk-pencere[hidden]{display:none}.sozluk-pencere{position:fixed;inset:0;z-index:9999;display:grid;place-items:center;background:rgba(12,26,42,.65);padding:20px}.sozluk-kutu{width:min(520px,100%);max-height:80vh;overflow:auto;background:#fffaf1;color:#172b45;border-radius:12px;padding:24px;box-shadow:0 14px 48px #0005}.sozluk-ust{display:flex;align-items:start;justify-content:space-between;gap:12px}.sozluk-kapat{border:1px solid #b7a58e;background:white;color:#172b45;border-radius:7px;font-size:24px;cursor:pointer;padding:2px 12px}.sozluk-kutu h2{margin:0 0 12px;font-size:1.5rem}.sozluk-kutu p{line-height:1.7;margin:0 0 12px}.sozluk-bilgi{font-size:.85rem;color:#665a4b}
 </style>
@@ -736,7 +738,7 @@ nav a{white-space:normal}
 </div>
 </header>
 <nav aria-label="Ana menü" class="gruplu-menu"><div class="menu-hizli"><a href="#ana-icerik">İçeriğe geç</a><a href="#icerik-ara">Sitede ara</a></div><details class="menu-grup"><summary>Yazar ve Eserler</summary><div class="menu-baglantilar"><a href="#hakkinda">Yazar Hakkında</a><a href="#kitaplar">Kitaplar</a><a href="toplum_iktidar_duzen_kitap_serisi.html">Kitap Serisi — 6 Eser</a><a href="#makaleler">Makaleler</a><a href="#gundeme-bakis">Gündeme Bakış</a><a href="#eser-kimlikleri">Eser Kimlikleri</a></div></details><details class="menu-grup"><summary>Düşünce ve Kavramlar</summary><div class="menu-baglantilar"><a href="#dusunceler">Düşünce Dünyası</a><a href="#icerik-haritasi">İçerik Haritası</a><a href="#kavram-sozlugu">Kavram Sözlüğü</a><a href="#eser-iliskileri">Eserler Arası İlişkiler</a><a href="#onerme-arsivi">Önermeler ve Sorular</a><a href="#ozgunluk-matrisi">Özgünlük Matrisi</a></div></details><details class="menu-grup"><summary>Akademik Araştırmalar</summary><div class="menu-baglantilar"><a href="#kaynak-karsilastirma">Akademik Karşılaştırmalar</a><a href="#elestirel-karsilastirma">Karşıt Görüşler</a><a href="#sinanabilirlik">Araştırma ve Sınama</a><a href="#kanit-kayitlari">Kanıt Kayıtları</a><a href="#arastirma-dosyalari">Araştırma Dosyaları</a><a href="#iddia-eslestirme">İddia ve Kanıt Eşleştirmesi</a><a href="#arastirma-yol-haritasi">Araştırma Yol Haritası</a><a href="#yayin-dosyalari">Makale Taslakları</a><a href="#akademik-atif-haritasi">Katkı ve Atıf Haritası</a><a href="#akademik-etkinlikler">Bildiriler ve Sempozyumlar</a></div></details><details class="menu-grup"><summary>Kaynaklar ve Yayın Etiği</summary><div class="menu-baglantilar"><a href="#yayin-etigi">Yayın Etiği</a><a href="#okuyucu-rehberi">Okuyucu Rehberi</a><a href="#katmanli-okuma">Katmanlı Okuma</a><a href="#icerik-dogruluk-denetimi">İçerik Doğruluk Denetimi</a><a href="#son-icerik-kontrolu">Son İçerik Kontrolü</a><a href="#site-denetimi">Yayın Öncesi Denetim</a><a href="#degisiklik-gunlugu">Değişiklik Günlüğü</a><a href="#iki-dilli-yayin">Türkçe–İngilizce Yayın Hazırlığı</a></div></details><details class="menu-grup"><summary>İletişim ve İş Birliği</summary><div class="menu-baglantilar"><a href="#arastirma">Araştırma ve İş Birliği</a><a href="#iletisim">İletişim</a></div></details><a href="#dil-tutarlilik-denetimi">İki Dilli Tutarlılık Denetimi</a><a href="#sorumluluk-daireleri-kapsam-v44">Sorumluluk Daireleri · v0.44</a></nav>
-<main id="ana-icerik" tabindex="-1"><p class="sozluk-yonerge" role="note" style="padding:13px 17px;background:#fff0cb;border-left:4px solid #a66b36;border-radius:7px;margin:18px 0;font-size:1rem"><strong>📖 Dokunarak öğren:</strong> Yazılardaki <span style="background:#fff0cb;color:#683c13;border-bottom:2px dashed #a66b36;font-weight:bold">renkli ve ⓘ işaretli kavramlara</span> dokun; anlamı burada açılır. Bu özellik Türkçe ana sayfanın bütün metin bölümlerinde etkindir.</p>
+<main id="ana-icerik" tabindex="-1"><p class="sozluk-yonerge" role="note" style="padding:13px 17px;background:#fff0cb;border-left:4px solid #a66b36;border-radius:7px;margin:18px 0;font-size:1rem"><strong>📖 Dokunarak öğren:</strong> Yazılardaki <span style="background:#fff0cb;color:#683c13;border-bottom:2px dashed #a66b36;font-weight:bold">renkli ve ⓘ işaretli kavramlara</span> dokun; anlamı burada açılır. Akademik kavramlar vurgulanır; diğer kelimelere de bir kez dokunarak sözlükte arayabilirsiniz.</p>
 <aside id="ingilizce-surum-v45" style="margin:1rem auto;max-width:1020px;padding:1rem;border-left:4px solid #a66b36;background:#fff8ec;border-radius:6px"><strong>English research companion · v0.45: </strong> <a href="index-english.html" hreflang="en" lang="en">Read the English working edition</a>. İngilizce sürüm, akademik kayıtlarımızın özetlenmiş karşılığıdır; henüz tam metin çevirisi değildir. Yayın öncesi taslaktır.</aside>
 <section aria-label="Adem Afşar çalışma odası" class="calisma-odasi">
 <img src="calisma-odasi-laptop-v054.jpg" alt="Adem Afşar'ın laptoplu çalışma odası; pencereden Kütahya manzarası" loading="eager" decoding="async" style="display:block;width:100%;height:auto;border-radius:10px;" />
@@ -2392,9 +2394,43 @@ const skip='a,button,script,style,textarea,select,option,code,pre,h1,h2,h3,h4,na
 const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode(node){if(!node.parentElement||node.parentElement.closest(skip)||!node.nodeValue.trim())return NodeFilter.FILTER_REJECT;pattern.lastIndex=0;return pattern.test(node.nodeValue)?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT;}});
 const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
 for(const node of nodes){const text=node.nodeValue;pattern.lastIndex=0;let match,last=0;const frag=document.createDocumentFragment();while((match=pattern.exec(text))!==null){if(match.index>last)frag.appendChild(document.createTextNode(text.slice(last,match.index)));const b=document.createElement('button');b.type='button';b.className='sozluk-kelime';b.textContent=match[0];b.dataset.sozluk=match[0].toLocaleLowerCase('tr-TR');b.title='Anlamını görmek için dokunun';b.setAttribute('aria-label',match[0]+' — anlamını aç');frag.appendChild(b);last=pattern.lastIndex;}if(last<text.length)frag.appendChild(document.createTextNode(text.slice(last)));node.replaceWith(frag);}
-const panel=document.getElementById('sozluk-pencere'),close=document.getElementById('sozluk-kapat');let previous=null;
+const panel=document.getElementById('sozluk-pencere'),close=document.getElementById('sozluk-kapat');
+const detail=document.getElementById('sozluk-ayrinti');let previous=null;
 function hide(){panel.hidden=true;document.body.style.overflow='';if(previous)previous.focus();}
 root.addEventListener('click',function(e){const btn=e.target.closest('.sozluk-kelime');if(!btn)return;const key=btn.dataset.sozluk;const value=map.get(key);if(!value)return;previous=btn;document.getElementById('sozluk-baslik').textContent=btn.textContent;document.getElementById('sozluk-aciklama').textContent=value;panel.hidden=false;document.body.style.overflow='hidden';close.focus();});
+
+// v0.57: Normal kelimeleri de dokunmayla tanı. Sayfayı binlerce düğmeyle doldurmak yerine
+// dokunulan konumdaki metin aralığını belirle; tanımsız kelime için doğrulanmamış anlam üretme.
+function kelimeAc(kelime){
+ const temiz=kelime.replace(/^[^\\p{L}]+|[^\\p{L}]+$/gu,'').trim();
+ if(temiz.length<2||temiz.length>55)return;
+ const anahtar=temiz.toLocaleLowerCase('tr-TR');
+ document.getElementById('sozluk-baslik').textContent=temiz;
+ const tanim=map.get(anahtar);
+ document.getElementById('sozluk-aciklama').textContent=tanim||'Bu kelimenin doğrulanmış tanımı henüz sitemizin sözlüğünde bulunmuyor. Anlamını Türkçe Vikisözlük üzerinde inceleyebilirsiniz.';
+ detail.textContent=tanim?'Kavram sözlüğüne git':'Vikisözlük üzerinde anlamını ara';
+ detail.href=tanim?'#kavram-sozlugu':'https://tr.wiktionary.org/wiki/'+encodeURIComponent(anahtar);
+ detail.target=tanim?'':'_blank';detail.rel=tanim?'':'noopener noreferrer';
+ previous=null;panel.hidden=false;document.body.style.overflow='hidden';close.focus();
+}
+root.addEventListener('click',function(event){
+ if(event.target.closest('a,button,nav,input,textarea,select,label,summary,[contenteditable],.kavram-panel,.sozluk-pencere'))return;
+ const target=event.target.closest('p,li,dd,dt,blockquote,figcaption');
+ if(!target||!root.contains(target))return;
+ if(window.getSelection&&String(window.getSelection()).trim())return;
+ let range=null;
+ if(document.caretRangeFromPoint)range=document.caretRangeFromPoint(event.clientX,event.clientY);
+ else if(document.caretPositionFromPoint){const pos=document.caretPositionFromPoint(event.clientX,event.clientY);if(pos){range=document.createRange();range.setStart(pos.offsetNode,pos.offset);range.collapse(true);}}
+ if(!range||range.startContainer.nodeType!==Node.TEXT_NODE||!target.contains(range.startContainer))return;
+ const t=range.startContainer.nodeValue,at=range.startOffset;
+ const letters=/[\\p{L}\\p{M}]/u;
+ let left=at,right=at;
+ while(left>0&&letters.test(t[left-1]))left--;
+ while(right<t.length&&letters.test(t[right]))right++;
+ if(left===right&&left>0&&letters.test(t[left-1])){left--;while(left>0&&letters.test(t[left-1]))left--;right=at;}
+ if(right>left)kelimeAc(t.slice(left,right));
+});
+
 close.addEventListener('click',hide);panel.addEventListener('click',e=>{if(e.target===panel)hide();});document.getElementById('sozluk-ayrinti').addEventListener('click',hide);document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!panel.hidden)hide();});
 })();
 </script>
