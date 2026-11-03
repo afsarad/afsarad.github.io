@@ -2338,7 +2338,7 @@ const entries=[
 ['özgünlük','Bir düşünce veya çalışmanın öncekilerden ayrılan niteliği. Akademik özgünlük iddiası karşılaştırmalı kaynak incelemesi gerektirir.'],
 ['kolektif eylem','Birden çok kişinin ortak hedef doğrultusunda eşgüdümlü hareket etmesi.']
 ];
-const map=new Map(entries);const pattern=new RegExp('\\b('+entries.map(e=>e[0].replace(/[.*+?^$()|[\\]{}]/g,'\\</body>')).sort((a,b)=>b.length-a.length).join('|')+')\\b','giu');
+const map=new Map(entries);const pattern=new RegExp('('+entries.map(e=>e[0]).sort((a,b)=>b.length-a.length).join('|')+')','giu');
 const root=document.getElementById('ana-icerik');if(!root)return;
 const skip='a,button,script,style,textarea,select,option,code,pre,h1,h2,h3,h4,nav,svg,[contenteditable],.kavram-panel,.kavram-ornekleri,.sozluk-pencere';
 const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode(node){if(!node.parentElement||node.parentElement.closest(skip)||!node.nodeValue.trim())return NodeFilter.FILTER_REJECT;pattern.lastIndex=0;return pattern.test(node.nodeValue)?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT;}});
