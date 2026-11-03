@@ -692,6 +692,9 @@ nav a{white-space:normal}
 
 /* v0.36 conference-paper registry */
 #akademik-etkinlikler .bildiri-kart{border:1px solid #d8d4cd;border-left:4px solid #a66b36;border-radius:12px;padding:1.2rem;margin:1rem 0;background:#fffdf9}#akademik-etkinlikler .bildiri-kart p{margin:.55rem 0}#akademik-etkinlikler ol{padding-left:1.5rem}#akademik-etkinlikler li{margin:.4rem 0}
+
+/* v0.55 — Metin içi dokunmatik kavram sözlüğü */
+.sozluk-kelime{border:0;border-bottom:1px dotted #a66b36;background:transparent;color:inherit;font:inherit;cursor:pointer;padding:0 1px;text-align:inherit}.sozluk-kelime:focus-visible{outline:2px solid #a66b36;outline-offset:2px}.sozluk-pencere[hidden]{display:none}.sozluk-pencere{position:fixed;inset:0;z-index:9999;display:grid;place-items:center;background:rgba(12,26,42,.65);padding:20px}.sozluk-kutu{width:min(520px,100%);max-height:80vh;overflow:auto;background:#fffaf1;color:#172b45;border-radius:12px;padding:24px;box-shadow:0 14px 48px #0005}.sozluk-ust{display:flex;align-items:start;justify-content:space-between;gap:12px}.sozluk-kapat{border:1px solid #b7a58e;background:white;color:#172b45;border-radius:7px;font-size:24px;cursor:pointer;padding:2px 12px}.sozluk-kutu h2{margin:0 0 12px;font-size:1.5rem}.sozluk-kutu p{line-height:1.7;margin:0 0 12px}.sozluk-bilgi{font-size:.85rem;color:#665a4b}
 </style>
 <link href="index-english.html" hreflang="en" rel="alternate"/>
 <style>.dil34-tablo{width:100%;border-collapse:collapse;margin:1rem 0}.dil34-tablo th,.dil34-tablo td{border:1px solid #d6d0c7;padding:.65rem;text-align:left;vertical-align:top}.dil34-tablo th{background:#eee8de}.dil34-not{padding:1rem;border-left:4px solid #a66b36;background:#f5f2eb}@media(max-width:650px){.dil34-tablo{display:block;overflow-x:auto}}</style><link href="https://afsarad.github.io/" rel="canonical"/><meta content="index, follow" name="robots"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfilePage", "url": "https://afsarad.github.io/", "name": "Adem Afşar — Toplum, Tarih ve Medeniyet", "mainEntity": {"@type": "Person", "name": "Adem Afşar", "url": "https://afsarad.github.io/"}}</script></head>
@@ -2314,6 +2317,38 @@ nav a{white-space:normal}
   buttons.forEach(function (button) { button.addEventListener('click', function () {render(button.dataset.kavram);}); });
   render('asabiyet');
 }());
+</script>
+
+<!-- v0.55: Metin içindeki kavramlara dokunarak anlamlarını görüntüleme -->
+<div id="sozluk-pencere" class="sozluk-pencere" hidden role="dialog" aria-modal="true" aria-labelledby="sozluk-baslik"><div class="sozluk-kutu"><div class="sozluk-ust"><h2 id="sozluk-baslik"></h2><button type="button" class="sozluk-kapat" id="sozluk-kapat" aria-label="Sözlüğü kapat">×</button></div><p id="sozluk-aciklama"></p><p class="sozluk-bilgi">Kısa açıklama · Kavramın anlamı kullanıldığı bağlama göre değişebilir. Ayrıntılı değerlendirme için Kavramlar ve çağdaş yorumları bölümüne bakınız.</p><a href="#kavram-sozlugu" id="sozluk-ayrinti">Kavram sözlüğüne git</a></div></div>
+<script>
+(function(){
+'use strict';
+const entries=[
+['asabiyet','İbn Haldun’da toplumsal bağlılık, ortak hareket ve dayanışma gücünü açıklamak için kullanılan kavram. Yalnızca akrabalıkla sınırlı değildir.'],
+['sorumluluk daireleri','Bireyin kendisinden ve yakın çevresinden daha geniş toplumsal ve küresel çevrelere uzanan, kapsamı ve öncelikleri değişen sorumluluk ilişkilerine dair yazarın kavramsal önerisi.'],
+['dayanışma','Bireylerin veya grupların ortak ihtiyaç ve güçlükler karşısında birbirine destek vermesi.'],
+['toplumsal norm','Bir toplulukta davranışlara ilişkin paylaşılan beklenti ve kurallar.'],
+['toplumsal normlar','Bir toplulukta davranışlara ilişkin paylaşılan beklenti ve kurallar.'],
+['meşruiyet','Bir yetki, kurum veya düzenin haklı ve kabul edilebilir görülmesi; yalnızca hukuken geçerli olmasıyla aynı şey değildir.'],
+['sekülerleşme','Dinin toplumsal kurumlar, kamusal hayat ve bireysel yaşam içindeki konumunun tarihsel dönüşümünü inceleyen kavram. Tek yönlü bir süreç olduğu varsayılmamalıdır.'],
+['iktidar','Kişilerin veya kurumların kararları, davranışları ve kaynak dağılımını etkileyebilme kapasitesi.'],
+['muris muvazaası','Miras bırakanın gerçek iradesini gizleyen görünüşteki işlemle ilgili hukuk terimi; somut uyuşmazlıklar uzman değerlendirmesi gerektirir.'],
+['sarmal','Benzer süreçlerin birebir tekrarı yerine, önceki birikimlerle değişerek ilerlemesini anlatan benzetme.'],
+['özgünlük','Bir düşünce veya çalışmanın öncekilerden ayrılan niteliği. Akademik özgünlük iddiası karşılaştırmalı kaynak incelemesi gerektirir.'],
+['kolektif eylem','Birden çok kişinin ortak hedef doğrultusunda eşgüdümlü hareket etmesi.']
+];
+const map=new Map(entries);const pattern=new RegExp('\\b('+entries.map(e=>e[0].replace(/[.*+?^$()|[\\]{}]/g,'\\</body>')).sort((a,b)=>b.length-a.length).join('|')+')\\b','giu');
+const root=document.getElementById('ana-icerik');if(!root)return;
+const skip='a,button,script,style,textarea,select,option,code,pre,h1,h2,h3,h4,nav,svg,[contenteditable],.kavram-panel,.kavram-ornekleri,.sozluk-pencere';
+const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode(node){if(!node.parentElement||node.parentElement.closest(skip)||!node.nodeValue.trim())return NodeFilter.FILTER_REJECT;pattern.lastIndex=0;return pattern.test(node.nodeValue)?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT;}});
+const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
+for(const node of nodes){const text=node.nodeValue;pattern.lastIndex=0;let match,last=0;const frag=document.createDocumentFragment();while((match=pattern.exec(text))!==null){if(match.index>last)frag.appendChild(document.createTextNode(text.slice(last,match.index)));const b=document.createElement('button');b.type='button';b.className='sozluk-kelime';b.textContent=match[0];b.dataset.sozluk=match[0].toLocaleLowerCase('tr-TR');b.title='Anlamını görmek için dokunun';b.setAttribute('aria-label',match[0]+' — anlamını aç');frag.appendChild(b);last=pattern.lastIndex;}if(last<text.length)frag.appendChild(document.createTextNode(text.slice(last)));node.replaceWith(frag);}
+const panel=document.getElementById('sozluk-pencere'),close=document.getElementById('sozluk-kapat');let previous=null;
+function hide(){panel.hidden=true;document.body.style.overflow='';if(previous)previous.focus();}
+root.addEventListener('click',function(e){const btn=e.target.closest('.sozluk-kelime');if(!btn)return;const key=btn.dataset.sozluk;const value=map.get(key);if(!value)return;previous=btn;document.getElementById('sozluk-baslik').textContent=btn.textContent;document.getElementById('sozluk-aciklama').textContent=value;panel.hidden=false;document.body.style.overflow='hidden';close.focus();});
+close.addEventListener('click',hide);panel.addEventListener('click',e=>{if(e.target===panel)hide();});document.getElementById('sozluk-ayrinti').addEventListener('click',hide);document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!panel.hidden)hide();});
+})();
 </script>
 </body>
 </html>
