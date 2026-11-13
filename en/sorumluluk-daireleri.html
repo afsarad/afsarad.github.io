@@ -1,0 +1,445 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#172b45" name="theme-color"/>
+<meta content="Adem Afşar" name="author"/>
+<meta content="Sorumluluk Daireleri: Bireyden İnsanlığa Uzanan Sorumluluğun Sınırları" name="citation_title"/>
+<meta content="Afşar, Adem" name="citation_author"/>
+<meta content="2026/11/01" name="citation_publication_date"/>
+<meta content="10.5281/zenodo.24059607" name="citation_doi"/>
+<meta content="Adem Afşar's conceptual study of circles of responsibility: relationships of responsibility extending from individuals to family, society and humanity." name="description"/>
+<title>Circles of Responsibility | Adem Afşar</title>
+<style>
+    :root {
+      --lacivert: #172b45;
+      --zemin: #f5f2eb;
+      --beyaz: #fffefa;
+      --vurgu: #a66b36;
+      --metin: #303640;
+      --soluk: #68717b;
+      --cizgi: #e5dfd4;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: var(--zemin);
+      color: var(--metin);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.85;
+    }
+
+    a { color: var(--lacivert); }
+
+    a:focus-visible {
+      outline: 3px solid var(--vurgu);
+      outline-offset: 4px;
+    }
+
+    .ust-cizgi {
+      height: 5px;
+      background: var(--vurgu);
+    }
+
+    header {
+      padding: 65px 20px 55px;
+      background: var(--lacivert);
+      color: white;
+      text-align: center;
+    }
+
+    .etiket {
+      color: #dfbb91;
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    header h1 {
+      max-width: 900px;
+      margin: 15px auto;
+      font-size: clamp(34px, 6vw, 54px);
+      line-height: 1.2;
+    }
+
+    header p {
+      max-width: 750px;
+      margin: 12px auto;
+      color: #e4dfd6;
+      font-size: 19px;
+    }
+
+    nav {
+      padding: 14px 12px;
+      background: var(--beyaz);
+      border-bottom: 1px solid var(--cizgi);
+      text-align: center;
+    }
+
+    nav a {
+      display: inline-block;
+      margin: 5px 12px;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    main {
+      width: min(100% - 28px, 860px);
+      margin: 35px auto 55px;
+    }
+
+    article {
+      padding: clamp(24px, 5vw, 50px);
+      background: var(--beyaz);
+      border: 1px solid var(--cizgi);
+      border-radius: 7px;
+      box-shadow: 0 12px 32px rgba(23,43,69,.06);
+    }
+
+    h2 {
+      margin: 38px 0 14px;
+      color: var(--lacivert);
+      font-size: clamp(23px, 4vw, 29px);
+      line-height: 1.35;
+    }
+
+    h3 {
+      margin: 25px 0 10px;
+      color: var(--lacivert);
+      font-size: 20px;
+    }
+
+    p { margin: 0 0 18px; }
+
+    .meta {
+      margin-bottom: 30px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid var(--cizgi);
+      color: var(--soluk);
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+    }
+
+    .giris {
+      font-size: 19px;
+      color: var(--lacivert);
+    }
+
+    blockquote {
+      margin: 28px 0;
+      padding: 20px 24px;
+      border-left: 4px solid var(--vurgu);
+      background: #f7f2e9;
+      color: var(--lacivert);
+      font-size: 20px;
+      font-style: italic;
+    }
+
+    .daireler {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin: 25px 0;
+    }
+
+    .daire {
+      padding: 16px 20px;
+      border: 1px solid var(--cizgi);
+      border-left: 4px solid var(--vurgu);
+      background: #fbf8f2;
+    }
+
+    .daire strong {
+      display: block;
+      color: var(--lacivert);
+    }
+
+    .daire span {
+      display: block;
+      margin-top: 4px;
+      color: var(--soluk);
+      font-size: 15px;
+    }
+
+    .soru {
+      margin: 28px 0;
+      padding: 22px;
+      background: #f7f2e9;
+      border: 1px solid #e7dac7;
+    }
+
+    .soru strong {
+      color: var(--lacivert);
+    }
+
+    .not {
+      margin-top: 35px;
+      padding-top: 18px;
+      border-top: 1px solid var(--cizgi);
+      color: var(--soluk);
+      font-size: 13px;
+    }
+
+    .geri {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 10px 17px;
+      border: 1px solid var(--vurgu);
+      border-radius: 4px;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    .geri:hover {
+      background: var(--lacivert);
+      color: white;
+    }
+
+    footer {
+      padding: 30px 18px;
+      background: var(--lacivert);
+      color: #e4dfd6;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    footer p { margin: 4px 0; }
+
+    @media (max-width: 600px) {
+      header { padding: 45px 18px; }
+      header p { font-size: 16px; }
+      main { margin-top: 18px; }
+      blockquote { font-size: 18px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+  </style>
+<style>/* v0.67 — Kavramsal inceleme okuma rehberi */html{scroll-behavior:smooth;scroll-padding-top:16px}body{overflow-wrap:break-word}main{min-width:0}main img{max-width:100%;height:auto}main h2,main h3{overflow-wrap:anywhere;line-height:1.4}.inceleme-icindekiler{margin:0 0 24px;padding:16px 18px;border:1px solid #ddd0bd;border-left:4px solid #a66b36;border-radius:10px;background:#faf7f1;font:15px/1.65 system-ui,sans-serif}.inceleme-icindekiler summary{cursor:pointer;font-weight:700;color:#172b45}.inceleme-icindekiler ol{margin:12px 0;padding-left:24px}.inceleme-icindekiler li{margin:5px 0}.inceleme-icindekiler a{color:#694623;text-underline-offset:3px}.inceleme-gecis{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}.inceleme-gecis a{display:inline-block;padding:6px 10px;border:1px solid #e1d6c8;border-radius:6px;background:#fff;text-decoration:none}a:focus-visible,summary:focus-visible{outline:3px solid #a66b36;outline-offset:3px}@media(max-width:600px){.inceleme-icindekiler{padding:12px 14px;font-size:14px;margin-bottom:18px}main{max-width:100%;}main p{text-align:left}}@media print{.inceleme-icindekiler{display:none!important}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}</style><style>.kaynakca{padding-left:22px}.kaynakca li{margin:16px 0;overflow-wrap:anywhere}article ol li{margin:12px 0}section[aria-label="Öz ve yöntem"]{padding:18px;background:#f7f2e9;border-left:4px solid #a66b36;margin:0 0 28px}h2,h3,li[id]{scroll-margin-top:20px}</style><link href="https://afsarad.github.io/en/sorumluluk-daireleri.html" rel="canonical"/><link href="https://afsarad.github.io/sorumluluk-daireleri.html" hreflang="tr" rel="alternate"/><link href="https://afsarad.github.io/en/sorumluluk-daireleri.html" hreflang="en" rel="alternate"/><link href="https://afsarad.github.io/sorumluluk-daireleri.html" hreflang="x-default" rel="alternate"/></head>
+<body><nav aria-label="Language selection" class="language-switch" style="max-width:1100px;margin:12px auto;padding:8px 18px;font:15px/1.6 Arial,sans-serif"><a href="/sorumluluk-daireleri.html" hreflang="tr" lang="tr">Türkçe</a> · English</nav>
+<div class="ust-cizgi"></div>
+<header>
+<div class="etiket">Adem Afşar · Conceptual Studies</div>
+<h1>Circles of Responsibility</h1>
+<p>The Boundaries of Responsibility from the Individual to Humanity</p>
+</header>
+<nav aria-label="Page menu">
+<a href="/en/index.html">Home</a>
+<a href="/en/index.html#dusunceler">World of Ideas</a>
+<a href="/en/toplum_iktidar_duzen_kitap_serisi.html">Books</a>
+<a href="/en/index.html#iletisim">Contact</a>
+</nav>
+<main><nav aria-label="Study contents" class="inceleme-icindekiler"><details><summary>Contents · 12 sections</summary><ol><li><a href="#inceleme-bolum-1">1. Why explain responsibility through circles?</a></li><li><a href="#inceleme-bolum-2">2. Nested spheres of responsibility</a></li><li><a href="#inceleme-bolum-3">3. What does prioritizing those close to us mean?</a></li><li><a href="#inceleme-bolum-4">4. Does responsibility depend only on distance?</a></li><li><a href="#inceleme-bolum-5">5. Shared problems and the outermost circle</a></li><li><a href="#inceleme-bolum-6">6. When circles conflict</a></li><li><a href="#inceleme-bolum-7">7. Limits of this approach</a></li><li><a href="#inceleme-bolum-8">8. Theoretical comparison: Proximity, care and justice</a></li><li><a href="#inceleme-bolum-9">9. Assessing conflicts of priority</a></li><li><a href="#inceleme-bolum-10">10. Critical limits and a research agenda</a></li><li><a href="#inceleme-bolum-11">11. Conclusion: Priority and responsibility</a></li><li><a href="#inceleme-bolum-12">12. References and scope of access</a></li></ol></details><div class="inceleme-gecis"><a href="/en/index.html#dusunceler">Return to ideas and studies</a><a href="/en/index.html#kitaplar">Bookshelf</a></div></nav>
+<article>
+<div class="meta">
+        Adem Afşar · Intellectual Study · 1 November 2026 · Updated: 8 November 2026<br/>
+<a href="https://orcid.org/0009-0007-9535-9313" rel="me">ORCID: 0009-0007-9535-9313</a>
+<br/><a href="https://doi.org/10.5281/zenodo.24059607">DOI: 10.5281/zenodo.24059607</a> · <a href="https://zenodo.org/records/24059607">Archive record and PDF</a>
+</div>
+<section aria-label="Abstract and method">
+<p><strong>Abstract.</strong> This conceptual study discusses relations of responsibility extending from individuals to their families, immediate circles, institutions and humanity as a whole. Its central proposition is that priorities arising from close relationships do not entirely remove broader obligations. Circles are used as a relational map identifying those toward whom responsibility is directed, rather than as layers ranking human worth. The approach is compared with debates on care ethics, duties of assistance and structural responsibility; proximity, need, assumed duties and opportunities to intervene should be considered together.</p>
+<p><strong>Keywords:</strong> Circles of responsibility; care ethics; proximity; public responsibility; structural injustice; social solidarity.</p>
+<p><strong>Method and scope.</strong> The study relies on normative conceptual analysis and a limited comparison with primary works whose scope of access is specified below. Examples are constructed for illustration and are not field data or research findings. The arrangement of five circles is the conceptual proposal Adem Afşar uses in this text; no claim is made that it is historically the first or unique in the literature.</p>
+</section>
+<p class="giris">
+        Does a person's responsibility toward their own child arise in the same way as their responsibility toward someone they have never met? Can priorities change as the scope of responsibility expands?
+      </p>
+<p>
+        Human beings do not live alone: they form relationships with family, immediate circles, society and, increasingly, humanity as a whole. These relationships not only produce mutual benefits but also generate various responsibilities.
+      </p>
+<p>
+        However, responsibilities differ in scope, weight and manner of fulfillment. This study proposes thinking about responsibility through nested circles.
+      </p>
+<h2 id="inceleme-bolum-1">1. Why explain responsibility through circles?</h2>
+<p>
+        Nested circles show that people's relations of responsibility are not entirely independent. Individuals and their closest relationships occupy the center. Moving outward increases the number of people to whom responsibility is directed and expands its scope.
+      </p>
+<p>
+        The point is not that people in outer circles are less valuable. Circles describe differences in responsibility based on proximity, relationship, means and priority, not differences in human worth.
+      </p>
+<blockquote>
+        Individuals and their immediate circles may lie at the center of responsibility, but responsibility does not end at the boundaries of one's immediate circle.
+      </blockquote>
+<h2 id="inceleme-bolum-2">2. Nested spheres of responsibility</h2>
+<div class="daireler">
+<div class="daire">
+<strong>First circle: The individual</strong>
+<span>
+            Maintaining one's life, assessing the consequences of one's behavior and fulfilling obligations one has assumed.
+          </span>
+</div>
+<div class="daire">
+<strong>Second circle: Family and close relationships</strong>
+<span>
+            Care, labor, solidarity, trust and directly assumed responsibilities.
+          </span>
+</div>
+<div class="daire">
+<strong>Third circle: The immediate social circle</strong>
+<span>
+            Neighborly, friendship and work relationships, and everyday mutual responsibilities.
+          </span>
+</div>
+<div class="daire">
+<strong>Fourth circle: Society and institutions</strong>
+<span>
+            Shared life, public rules, rights, obligations and social solidarity.
+          </span>
+</div>
+<div class="daire">
+<strong>Fifth circle: Humanity and nature</strong>
+<span>
+            Cross-border effects, environmental responsibility, future generations and humanity's shared problems.
+          </span>
+</div>
+</div>
+<h2 id="inceleme-bolum-3">3. What does prioritizing those close to us mean?</h2>
+<p>
+        Devoting time, effort and resources to a child for whose care one is directly responsible does not mean that other, unknown children's lives are worthless.
+      </p>
+<p>
+        What differs is not human worth but the nature of the duty assumed and the direct relationship involved.
+      </p>
+<p>
+        Priority based on proximity does not justify violating others' fundamental rights. Nor does responsibility toward one's immediate circle completely remove broader social responsibilities.
+      </p>
+<h2 id="inceleme-bolum-4">4. Does responsibility depend only on distance?</h2>
+<p>
+        No. Physical or emotional proximity alone does not determine the degree of responsibility.
+      </p>
+<p>
+        A person's authority, knowledge, resources, effects on others and previously assumed obligations must also be considered.
+      </p>
+<p>
+        For example, a public administrator's decisions can affect thousands of people they have never met. Public duties generate strong responsibilities even without personal proximity.
+      </p>
+<p>
+        Similarly, if someone's activities cause environmental harm in a distant region, geographical distance does not automatically remove responsibility.
+      </p>
+<h2 id="inceleme-bolum-5">5. Shared problems and the outermost circle</h2>
+<p>
+        Climate change, environmental pollution, resource depletion and decisions affecting future generations show that responsibility cannot be explained solely through close relationships.
+      </p>
+<p>
+        A person's everyday behavior may have small-scale consequences. Repetition of similar behavior by many people, however, may produce consequences affecting shared life.
+      </p>
+<p>
+        The outermost circle therefore expresses not only an abstract love of humanity but also the need to assess the large-scale consequences of individual and institutional actions.
+      </p>
+<h2 id="inceleme-bolum-6">6. When circles conflict</h2>
+<p>
+        Circles of responsibility may not always operate harmoniously. A choice benefiting one's family can harm other members of society.
+      </p>
+<p>
+        For example, an administrator's appointment of an unqualified relative to public office cannot be defended by invoking family priority.
+      </p>
+<p>
+        Here, personal proximity conflicts with responsibility arising from public authority. Loyalty in one circle cannot justify violating rights in another.
+      </p>
+<div class="soru">
+<strong>Central research question</strong>
+<p>
+          When priority responsibilities toward one's immediate circle conflict with broader social obligations, what criteria should guide decisions?
+        </p>
+</div>
+<h2 id="inceleme-bolum-7">7. Limits of this approach</h2>
+<p>
+        Circles of responsibility should not be treated as a completed theory offering a solution to every moral problem on its own.
+      </p>
+<p>
+        Further discussion is required about when priorities should change, how much sacrifice individuals owe, how public and personal responsibilities should be balanced and how future generations' rights should be protected.
+      </p>
+<p>
+        The possibility that prioritizing one's immediate circle could become favoritism also calls for critical examination.
+      </p>
+<h2 id="inceleme-bolum-8">8. Theoretical comparison: Proximity, care and justice</h2>
+<h3>8.1. Tronto: Responsibility within the practice of care</h3>
+<p>Joan C. Tronto discusses the requirements of care ethics through attentiveness, taking responsibility, competence and responsiveness to the care recipient. In “An Ethic of Care,” she links these elements to recognizing a need, assuming responsibility, providing care and assessing the response <a href="#kaynak-tronto">(Tronto, 1993, p. 127, pp. 131–134)</a>.</p>
+<p>Compared with this framework, Circles of Responsibility should do more than identify the existence of a relationship. We should also ask which need a caregiver recognizes, what they can do and whether they actually meet a child's needs. The distinction I propose is this: while circles map <em>those toward whom responsibility is directed,</em> questions about the quality of care help assess <em>how it is fulfilled.</em> Tronto also discusses the sources and social context of responsibility, so this distinction does not mean that her approach is confined to implementation. The relationship drawn here is this study's analytical interpretation.</p>
+<h3>8.2. Singer: Does distance reduce obligation?</h3>
+<p>Peter Singer argues that we ought to act if we can prevent a serious evil without sacrificing anything of comparable moral significance. He states that physical distance alone does not justify a lesser duty to help, while separately considering practical differences such as the greater effectiveness of helping someone nearby <a href="#kaynak-singer">(Singer, 1972, pp. 231–232)</a>.</p>
+<p>This objection is decisive for Circles of Responsibility: we cannot always place a loved one's minor comfort above a distant person's urgent need. Defending proximity-based priority requires justification beyond emotional closeness alone. A direct care relationship, a duty no one else can fulfill or the ability to deliver help effectively may provide such reasons. Their adequacy must be considered in each case.</p>
+<h3>8.3. Young: Responsibility without acquaintance</h3>
+<p>Iris Marion Young discusses the responsibilities of actors whose actions participate in structural processes producing unjust outcomes to help remedy those outcomes. Her social connection model does not reduce responsibility to identifying a single past perpetrator; it emphasizes shared, forward-looking responsibility fulfilled through collective action. It is not presented as a substitute eliminating assessment of an individual perpetrator's fault or responsibility <a href="#kaynak-young">(Young, 2006, pp. 119–123; full-text transcription)</a>.</p>
+<p>This comparison shows why the outermost circle cannot adequately be framed as benevolence alone. Production or consumption relations can connect us to people we have never encountered. This text interprets the responsibility map as needing to show institutional and structural connections alongside personal ties. Young's model does not validate the five circles proposed here; it offers a comparison for thinking about relationships beyond spatial proximity.</p>
+<h2 id="inceleme-bolum-9">9. Assessing conflicts of priority</h2>
+<p>Always prioritizing those closer to the center would turn this approach into an automatic ranking. Instead, I propose an assessment whose reasons can be explained in each conflict. The following criteria are normative proposals of this study, not a validated scale or scoring system.</p>
+<ol>
+<li><strong>Severity and urgency of need:</strong> A vital need and a deferrable preference should not be treated as equivalent.</li>
+<li><strong>Nature of the assumed duty:</strong> Care, professional or public duties may generate obligations independent of personal closeness.</li>
+<li><strong>Connection between action and outcome:</strong> A person's or institution's contribution to harm, ability to prevent it and capacity to foresee consequences must be considered.</li>
+<li><strong>Capacity and alternatives:</strong> Assess who can provide effective help, whether another responsible party exists and how the duty can be shared.</li>
+<li><strong>Rights and justification:</strong> Benefiting those close to us should not justify violating others' rights or the impartiality required by public office.</li>
+</ol>
+<p>For example, allocating one's own income to caring for a child is not the same kind of decision as allocating public resources to a relative's benefit. The former concerns care obligations and personal resources, the latter the scope of a duty undertaken on the public's behalf. The same person may therefore owe different priorities in different roles.</p>
+<p>In another example, a loved one's deferrable wish may conflict with an unknown person's urgent basic need. The circle map identifies those affected by a decision but does not determine its outcome alone. Explaining the decision requires returning to the severity of need, opportunities for effective assistance and other obligations.</p>
+<h2 id="inceleme-bolum-10">10. Critical limits and a research agenda</h2>
+<p>The first objection is that circles might legitimize existing family and social loyalties, perpetually postponing the needs of outsiders. Explaining the grounds for proximity-based priority and safeguarding rights aim to limit this danger, but these criteria cannot be claimed to resolve every conflict.</p>
+<p>The second objection is that expanding spheres of responsibility may impose more obligations than individuals can fulfill. Institutions, shared duties and collective action become important here. Sharing responsibility must not become a dispersal that obscures everyone's responsibility. Who can act, with what means and duties, must be specified.</p>
+<p>A third limitation is that the circle metaphor inadequately represents intersecting relationships. A colleague may also be a relative; a distant person may depend directly on our care. Circles are therefore not fixed social compartments but a map to be reinterpreted according to needs and roles.</p>
+<p>To develop the approach, comparative interviews or vignette studies could vary proximity, urgency, public duty and capacity to help separately within the same need scenario. Observing what people prefer and arguing what they ought to prefer are distinct activities. Such research would not directly prove the normative proposition, but could examine people's reasons and the comprehensibility of the proposed distinctions.</p>
+<p>No participant data have yet been collected for this study. A comprehensive originality claim cannot be made without systematically reviewing historical uses of circle analogies and alternative models of responsibility.</p>
+<h2 id="inceleme-bolum-11">11. Conclusion: Priority and responsibility</h2>
+<p>
+        People do not inhabit disconnected social spheres. Starting with themselves, they form different relationships with family, immediate circles, society and humanity as a whole.
+      </p>
+<p>
+        Responsibilities arising from these relationships may be fulfilled differently. Differences in responsibility nevertheless do not mean differences in human worth.
+      </p>
+<blockquote>
+        Prioritizing those nearby does not mean being irresponsible toward those far away.
+      </blockquote>
+<p>
+        Circles of Responsibility is a framework for considering together what individuals assume in a relationship, what means they possess and whom their actions affect.
+      </p>
+<h2 id="inceleme-bolum-12">12. References and scope of access</h2>
+<ul class="kaynakca">
+<li id="kaynak-singer">Singer, Peter. 1972. “Famine, Affluence, and Morality.” <em>Philosophy &amp; Public Affairs</em> 1 (3): 229–243. <a href="https://www.jstor.org/stable/2265052">Original publication record</a>; <a href="https://clas.ucdenver.edu/hbsc/sites/default/files/attached-files/singer_famine_affluence_and_morality_2.pdf">Scan of the original article hosted by the University of Colorado Denver</a>. The assistance principle and discussion of distance were checked against printed pages 231–232.</li>
+<li id="kaynak-tronto">Tronto, Joan C. 1993. <em>Moral Boundaries: A Political Argument for an Ethic of Care.</em> New York: Routledge. Chapter 5, “An Ethic of Care.” <a href="https://doi.org/10.4324/9781003070672-8">Chapter DOI and publisher's abstract</a>. The four ethical elements were checked on printed page 127; responsibility, competence and responsiveness were checked on pages 131–134. <a href="https://syllabus.pirate.care/library/Joan%20C.%20Tronto/Moral%20Boundaries_%20A%20Political%20Argument%20for%20an%20Ethic%20of%20Care%20%28416%29/Moral%20Boundaries_%20A%20Political%20Argument%20for%20-%20Joan%20C.%20Tronto.pdf">Book scan accessed</a>. The chapter DOI links to the digital publication.</li>
+<li id="kaynak-young">Young, Iris Marion. 2006. “Responsibility and Global Justice: A Social Connection Model.” <em>Social Philosophy and Policy</em> 23 (1): 102–130. <a href="https://doi.org/10.1017/S0265052506060043">https://doi.org/10.1017/S0265052506060043</a>. Publication details and the central argument were verified against the Cambridge University Press record. Pages 119–123 concerning the social connection model were checked against <a href="https://paperzz.com/doc/7682828/responsibility-and-global-justice--a-social">an available full-text transcription retaining printed pagination.</a> This transcription was not compared against images of the original PDF.</li>
+</ul>
+<p class="not">Online sources checked: 8 November 2026. No direct quotations are used. Summaries of source arguments are distinguished from the interpretations and proposals developed here. This text is not a peer-reviewed journal publication.</p>
+<div class="not">
+<p>
+<strong>Author's note:</strong>
+          This text examines Adem Afşar's intellectual approach to circles of responsibility. This update adds comparative theoretical discussion, in-text citations and references. Page references to relevant source passages have been added; the scope of access and verification is specified in the bibliography.
+        </p>
+<p>
+          © 2026 Adem Afşar. All rights reserved.
+        </p>
+</div>
+<nav aria-label="Other conceptual studies" class="not">
+<h2>Other conceptual studies</h2>
+<ul>
+<li><a href="/en/asabiyet-ve-ortak-hareket.html">Asabiyyah and Collective Action</a></li>
+<li><a href="/en/toplumsal-dayaniklilik.html">Social Resilience</a></li>
+<li><a href="/en/dongu-degil-sarmal.html">Not a Cycle, but a Spiral</a></li>
+<li><a href="/en/insan-ozgurluk-sorumluluk.html">Human Beings, Freedom and Responsibility</a></li>
+</ul>
+</nav>
+<a class="geri" href="/en/index.html#dusunceler">
+        Return to the World of Ideas
+      </a>
+</article>
+</main>
+<footer>
+<p><strong>Adem Afşar</strong></p>
+<p>Society, History and Civilization</p>
+<p>© 2026 Adem Afşar. All rights reserved.</p>
+<p style="font:14px/1.8 Arial,sans-serif;margin-top:16px"><a href="/en/gizlilik.html" style="color:inherit">Privacy and visitor statistics</a> · <a href="/en/index.html#iletisim" style="color:inherit">Contact</a></p></footer>
+<script async="" data-goatcounter="https://afsarad.goatcounter.com/count" src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>

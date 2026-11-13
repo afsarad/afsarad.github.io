@@ -1,0 +1,477 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#172b45" name="theme-color"/>
+<meta content="Adem Afşar" name="author"/>
+<meta content="Adem Afşar's conceptual study of human beings, freedom, social norms, moral consistency and responsibility." name="description"/>
+<title>Human Beings, Freedom and Responsibility | Adem Afşar</title>
+<style>
+:root {
+  --lacivert:#172b45;
+  --zemin:#f5f2eb;
+  --beyaz:#fffefa;
+  --vurgu:#a66b36;
+  --metin:#303640;
+  --soluk:#68717b;
+  --cizgi:#e5dfd4;
+}
+* {box-sizing:border-box}
+html {scroll-behavior:smooth}
+body {
+  margin:0;
+  background:var(--zemin);
+  color:var(--metin);
+  font-family:Georgia,"Times New Roman",serif;
+  line-height:1.85;
+}
+a {color:var(--lacivert);overflow-wrap:anywhere}
+a:focus-visible {
+  outline:3px solid var(--vurgu);
+  outline-offset:4px;
+}
+.ust-cizgi {
+  height:5px;
+  background:var(--vurgu);
+}
+header {
+  padding:65px 20px 55px;
+  background:var(--lacivert);
+  color:white;
+  text-align:center;
+}
+.ust-etiket {
+  color:#dfbb91;
+  font:700 12px Arial,sans-serif;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+header h1 {
+  max-width:850px;
+  margin:16px auto;
+  font-size:clamp(34px,6vw,54px);
+  line-height:1.2;
+}
+header p {
+  max-width:740px;
+  margin:12px auto;
+  color:#e4dfd6;
+  font-size:19px;
+}
+nav {
+  padding:14px 12px;
+  background:var(--beyaz);
+  border-bottom:1px solid var(--cizgi);
+  text-align:center;
+}
+nav a {
+  display:inline-block;
+  margin:5px 12px;
+  text-decoration:none;
+  font:700 13px Arial,sans-serif;
+}
+main {
+  width:min(100% - 28px,860px);
+  margin:35px auto 55px;
+}
+article {
+  padding:clamp(24px,5vw,50px);
+  background:var(--beyaz);
+  border:1px solid var(--cizgi);
+  border-radius:7px;
+  box-shadow:0 12px 32px rgba(23,43,69,.06);
+}
+.meta {
+  margin-bottom:30px;
+  padding-bottom:18px;
+  border-bottom:1px solid var(--cizgi);
+  color:var(--soluk);
+  font:13px/1.8 Arial,sans-serif;
+}
+h2 {
+  margin:38px 0 14px;
+  color:var(--lacivert);
+  font-size:clamp(23px,4vw,29px);
+  line-height:1.35;
+}
+p {margin:0 0 18px}
+.giris {
+  color:var(--lacivert);
+  font-size:19px;
+}
+blockquote {
+  margin:28px 0;
+  padding:20px 24px;
+  border-left:4px solid var(--vurgu);
+  background:#f7f2e9;
+  color:var(--lacivert);
+  font-size:20px;
+  font-style:italic;
+}
+.kavram {
+  margin:20px 0;
+  padding:18px 20px;
+  background:#fbf8f2;
+  border:1px solid var(--cizgi);
+  border-left:4px solid var(--vurgu);
+}
+.kavram strong {
+  display:block;
+  color:var(--lacivert);
+}
+.kavram p {margin:5px 0 0}
+.soru {
+  margin:28px 0;
+  padding:22px;
+  background:#f7f2e9;
+  border:1px solid #e7dac7;
+}
+.soru strong {color:var(--lacivert)}
+.kaynaklar {padding-left:23px}
+.kaynaklar li {
+  margin-bottom:16px;
+  overflow-wrap:anywhere;
+}
+.not {
+  margin-top:35px;
+  padding-top:18px;
+  border-top:1px solid var(--cizgi);
+  color:var(--soluk);
+  font-size:13px;
+}
+.geri {
+  display:inline-block;
+  margin-top:25px;
+  padding:10px 17px;
+  border:1px solid var(--vurgu);
+  border-radius:4px;
+  text-decoration:none;
+  font:700 13px Arial,sans-serif;
+}
+.geri:hover {
+  background:var(--lacivert);
+  color:white;
+}
+footer {
+  padding:30px 18px;
+  background:var(--lacivert);
+  color:#e4dfd6;
+  text-align:center;
+  font-size:14px;
+}
+footer p {margin:4px 0}
+@media(max-width:600px) {
+  header {padding:45px 18px}
+  header p {font-size:16px}
+  main {margin-top:18px}
+  blockquote {font-size:18px}
+}
+@media(prefers-reduced-motion:reduce) {
+  html {scroll-behavior:auto}
+}
+
+/* İnceleme içinde gezinme */
+.inceleme-icindekiler{margin:0 0 24px;padding:16px 18px;border:1px solid #ddd0bd;border-left:4px solid #a66b36;border-radius:10px;background:#faf7f1;font:15px/1.65 system-ui,sans-serif}.inceleme-icindekiler summary{cursor:pointer;font-weight:700;color:#172b45}.inceleme-icindekiler ol{margin:12px 0;padding-left:24px}.inceleme-icindekiler li{margin:5px 0}.inceleme-icindekiler a{color:#694623;text-underline-offset:3px}.inceleme-gecis{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}.inceleme-gecis a{display:inline-block;padding:6px 10px;border:1px solid #e1d6c8;border-radius:6px;background:#fff;text-decoration:none}a:focus-visible,summary:focus-visible{outline:3px solid #a66b36;outline-offset:3px}@media(max-width:600px){.inceleme-icindekiler{padding:12px 14px;font-size:14px;margin-bottom:18px}main{max-width:100%;}main p{text-align:left}}@media print{.inceleme-icindekiler{display:none!important}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+main h2[id]{scroll-margin-top:110px}
+</style>
+<link href="https://afsarad.github.io/en/insan-ozgurluk-sorumluluk.html" rel="canonical"/><link href="https://afsarad.github.io/insan-ozgurluk-sorumluluk.html" hreflang="tr" rel="alternate"/><link href="https://afsarad.github.io/en/insan-ozgurluk-sorumluluk.html" hreflang="en" rel="alternate"/><link href="https://afsarad.github.io/insan-ozgurluk-sorumluluk.html" hreflang="x-default" rel="alternate"/></head>
+<body><nav aria-label="Language selection" class="language-switch" style="max-width:1100px;margin:12px auto;padding:8px 18px;font:15px/1.6 Arial,sans-serif"><a href="/insan-ozgurluk-sorumluluk.html" hreflang="tr" lang="tr">Türkçe</a> · English</nav>
+<div class="ust-cizgi"></div>
+<header>
+<div class="ust-etiket">
+    Adem Afşar · Conceptual Studies
+  </div>
+<h1>Human Beings, Freedom and Responsibility</h1>
+<p>
+    Individual Choice, Social Norms and Moral Consistency
+  </p>
+</header>
+<nav aria-label="Page menu">
+<a href="/en/index.html">Home</a>
+<a href="/en/index.html#dusunceler">
+    World of Ideas
+  </a>
+<a href="/en/toplum_iktidar_duzen_kitap_serisi.html">
+    Books
+  </a>
+<a href="/en/index.html#iletisim">
+    Contact
+  </a>
+</nav>
+<main><nav aria-label="Study contents" class="inceleme-icindekiler"><details><summary>Contents · 13 sections</summary><ol><li><a href="#inceleme-bolum-1">1. Are human beings the same everywhere?</a></li><li><a href="#inceleme-bolum-2">2. Freedom and choice</a></li><li><a href="#inceleme-bolum-3">3. The formation of social norms</a></li><li><a href="#inceleme-bolum-4">4. How human are we when alone?</a></li><li><a href="#inceleme-bolum-5">5. Moral consistency and social control</a></li><li><a href="#inceleme-bolum-6">6. Are norms the same in every society?</a></li><li><a href="#inceleme-bolum-7">7. Social acceptance and moral rightness</a></li><li><a href="#inceleme-bolum-8">8. Does freedom remove responsibility?</a></li><li><a href="#inceleme-bolum-9">9. Connections with circles of responsibility</a></li><li><a href="#inceleme-bolum-10">10. Opposing views and limitations</a></li><li><a href="#inceleme-bolum-11">11. Conclusion</a></li><li><a href="#inceleme-bolum-12">12. Academic sources</a></li><li><a href="#inceleme-bolum-13">13. Academic development plan</a></li></ol></details><div class="inceleme-gecis"><a href="/en/index.html#dusunceler">Return to ideas and studies</a><a href="/en/index.html#kitaplar">Bookshelf</a></div></nav>
+<article>
+<div class="meta">
+  Adem Afşar · Conceptual Study · 1 November 2026
+</div>
+<p class="giris">
+  Do people determine their behavior through their own choices, or are they directed by the expectations of the society in which they live?
+</p>
+<p>
+  Does freedom mean only being able to choose? Or is accepting the consequences of a choice also an inseparable dimension of freedom?
+</p>
+<p>
+  This study discusses the relationship between individual choice and social responsibility through the effects of norms, culture and moral consistency.
+</p>
+<h2 id="inceleme-bolum-1">1. Are human beings the same everywhere?</h2>
+<blockquote>
+  Human beings are the same everywhere; the conditions they create to sustain their lives differ.
+  <br/>
+  — Adem Afşar
+</blockquote>
+<p>
+  This proposition does not claim that people exhibit identical behavior in every society.
+</p>
+<p>
+  People's basic needs, such as food, shelter, security and sustaining life, may share common features.
+</p>
+<p>
+  However, the institutions, values, habits and social relationships created to meet these needs differ according to historical and geographical conditions.
+</p>
+<p>
+  Shared biological characteristics and cultural differences should therefore be treated not as opposites but as phenomena to examine together.
+</p>
+<h2 id="inceleme-bolum-2">2. Freedom and choice</h2>
+<p>
+  Freedom is closely related to individuals' ability to choose.
+</p>
+<p>
+  Not every choice, however, is made under equal conditions.
+</p>
+<p>
+  Economic means, education, law, social pressure, family relationships and political conditions can expand or restrict the options available.
+</p>
+<p>
+  The apparent choice of a behavior therefore does not prove that the choice was made free of all pressure.
+</p>
+<div class="kavram">
+<strong>Formal freedom of choice</strong>
+<p>
+    An option being legally or apparently available to choose.
+  </p>
+</div>
+<div class="kavram">
+<strong>Practical opportunity to choose</strong>
+<p>
+    An individual's actual ability to consider and pursue that option under existing conditions.
+  </p>
+</div>
+<h2 id="inceleme-bolum-3">3. The formation of social norms</h2>
+<p>
+  Social norms shape which behaviors are regarded as appropriate, expected or acceptable in a society.
+</p>
+<p>
+  Individuals can learn these norms through family, education, everyday relationships and social institutions.
+</p>
+<p>
+  Émile Durkheim's approach to social facts is important for examining social rules that exist outside individuals and can influence their behavior.
+</p>
+<p>
+  However, a society's acceptance of a norm does not itself establish its moral rightness.
+</p>
+<h2 id="inceleme-bolum-4">4. How human are we when alone?</h2>
+<blockquote>
+  A person's humanity is measured by how human they remain when alone.
+  <br/>
+  — Adem Afşar
+</blockquote>
+<p>
+  This proposition does not mean that individuals lose their human status when alone.
+</p>
+<p>
+  It asks how closely the values people claim to embrace under others' scrutiny align with their behavior when no scrutiny is present.
+</p>
+<p>
+  For example, there is a difference in moral consistency between valuing honesty only when one might be caught and maintaining the same standard when nobody is watching.
+</p>
+<p>
+  However, a single act performed alone cannot justify a definitive judgment of someone's entire moral character.
+</p>
+<h2 id="inceleme-bolum-5">5. Moral consistency and social control</h2>
+<p>
+  Social control can help behavior conform to certain rules.
+</p>
+<p>
+  Nevertheless, reasons for following rules are not always the same.
+</p>
+<p>
+  Individuals may behave similarly because they fear punishment, wish to avoid social exclusion or genuinely embrace the relevant rule.
+</p>
+<p>
+  Because outwardly similar behaviors can have different underlying reasons, appearances alone are insufficient.
+</p>
+<h2 id="inceleme-bolum-6">6. Are norms the same in every society?</h2>
+<p>
+  Societies can differ in historical experiences, beliefs, economic circumstances and cultural relationships.
+</p>
+<p>
+  Behavior considered ordinary in one society may therefore be disapproved of in another.
+</p>
+<p>
+  Yet the existence of cultural differences does not exempt every practice from criticism.
+</p>
+<p>
+  Questions involving individuals' right to life, security, freedom and human dignity require assessment beyond social acceptance.
+</p>
+<h2 id="inceleme-bolum-7">7. Social acceptance and moral rightness</h2>
+<p>
+  Common behavior in a society does not always coincide with morally defensible behavior.
+</p>
+<p>
+  The historical normalization of discrimination or inequality in certain societies does not establish the justice of those practices.
+</p>
+<p>
+  Sociological explanation and moral evaluation should therefore be distinguished.
+</p>
+<div class="kavram">
+<strong>Sociological question</strong>
+<p>
+    Under what conditions do people adopt and maintain a particular behavior?
+  </p>
+</div>
+<div class="kavram">
+<strong>Moral question</strong>
+<p>
+    How should this behavior's consequences for others be evaluated?
+  </p>
+</div>
+<h2 id="inceleme-bolum-8">8. Does freedom remove responsibility?</h2>
+<p>
+  The ability to make choices about one's own life is an important dimension of freedom.
+</p>
+<p>
+  Some choices, however, affect more than the person making them.
+</p>
+<p>
+  Responsibility arises when behavior affects other people's rights, safety or conditions of shared life.
+</p>
+<p>
+  John Stuart Mill's discussions of liberty provide an important basis for comparing individual choice with harm to others.
+</p>
+<p>
+  However, the boundaries of harm and society's authority to intervene require separate discussion.
+</p>
+<h2 id="inceleme-bolum-9">9. Connections with circles of responsibility</h2>
+<p>
+  Individuals' responsibilities toward themselves, their families, immediate circles and broader society may arise in different ways.
+</p>
+<p>
+  This approach is discussed in greater detail in Circles of Responsibility.
+</p>
+<p>
+  Prioritizing close relationships does not justify disregarding other individuals' fundamental rights.
+</p>
+<p>
+  The relationship between freedom and responsibility is therefore not confined to one's immediate circle.
+</p>
+<h2 id="inceleme-bolum-10">10. Opposing views and limitations</h2>
+<p>
+  The approach to moral consistency advocated here remains open to several questions.
+</p>
+<p>
+  Human behavior may change under different circumstances. Fear, pressure, deprivation and insufficient knowledge can affect decisions.
+</p>
+<p>
+  Assessing behavior therefore requires examining circumstances as well as outcomes.
+</p>
+<p>
+  Furthermore, opposing society's prevailing norms does not always mean being irresponsible.
+</p>
+<p>
+  In some circumstances, resisting an unjust social rule may be required by moral responsibility.
+</p>
+<div class="soru">
+<strong>Central research question</strong>
+<p>
+    Within what limits can an individual's moral consistency be assessed by comparing behavior under social scrutiny with behavior in its absence?
+  </p>
+</div>
+<h2 id="inceleme-bolum-11">11. Conclusion</h2>
+<p>
+  People may share basic needs, but the ways they meet those needs differ according to social circumstances.
+</p>
+<p>
+  Individual freedom concerns the opportunity to choose. Responsibility requires evaluating choices' consequences and effects on others.
+</p>
+<p>
+  Moral consistency helps us question the relationship between people's professed values and their behavior.
+</p>
+<blockquote>
+  Human freedom becomes visible in the capacity to choose; responsibility in one's relationship with the consequences of that choice.
+</blockquote>
+<p>
+  This conclusion is the study's conceptual evaluation, not a direct quotation from another thinker.
+</p>
+<h2 id="inceleme-bolum-12">12. Academic sources</h2>
+<p>
+  The following works are initial sources for detailed comparison in later studies. This list does not mean that every claim in the text has yet been supported by page-specific citations.
+</p>
+<ol class="kaynaklar">
+<li>
+<strong>Durkheim, Émile (1895).</strong>
+<em>Les Règles de la méthode sociologique.</em>
+    A foundational work on defining and examining social facts.
+  </li>
+<li>
+<strong>Mill, John Stuart (1859).</strong>
+<em>On Liberty.</em>
+    A foundational work on individual liberty, social intervention and the harm principle.
+  </li>
+<li>
+<strong>Fromm, Erich (1941).</strong>
+<em>Escape from Freedom.</em>
+    An examination of relationships between freedom, insecurity and the turn toward authority.
+  </li>
+<li>
+<strong>Bandura, Albert (1991).</strong>
+    Social cognitive theory of moral thought and action. In:
+    <em>Handbook of Moral Behavior and Development, Volume 1: Theory.</em>
+    Lawrence Erlbaum Associates. A theoretical study of self-regulation in moral behavior.
+  </li>
+</ol>
+<h2 id="inceleme-bolum-13">13. Academic development plan</h2>
+<p>
+  Future studies will systematically distinguish social norms, moral judgment, individual freedom and responsibility.
+</p>
+<p>
+  Durkheim's, Mill's and Fromm's approaches will be compared through their original works, and page references in the editions used will be verified.
+</p>
+<p>
+  The conditions under which the proposition about moral consistency could become a researchable hypothesis will also be discussed.
+</p>
+<p>
+  This text is a conceptual study under development, not a completed peer-reviewed academic article.
+</p>
+<div class="not">
+<p>
+<strong>Author's note:</strong>
+    This is Adem Afşar's intellectual study of human beings, freedom, social norms and moral consistency. Detailed academic referencing will be developed in subsequent work.
+  </p>
+<p>
+    © 2026 Adem Afşar. All rights reserved.
+  </p>
+</div>
+<nav aria-label="Other conceptual studies" class="not">
+<h2>Other conceptual studies</h2>
+<ul>
+<li><a href="/en/asabiyet-ve-ortak-hareket.html">Asabiyyah and Collective Action</a></li>
+<li><a href="/en/toplumsal-dayaniklilik.html">Social Resilience</a></li>
+<li><a href="/en/sorumluluk-daireleri.html">Circles of Responsibility</a></li>
+<li><a href="/en/dongu-degil-sarmal.html">Not a Cycle, but a Spiral</a></li>
+</ul>
+</nav>
+<a class="geri" href="/en/index.html#dusunceler">
+  Return to the World of Ideas
+</a>
+</article>
+</main>
+<footer>
+<p><strong>Adem Afşar</strong></p>
+<p>Society, History and Civilization</p>
+<p>© 2026 Adem Afşar. All rights reserved.</p>
+<p style="font:14px/1.8 Arial,sans-serif;margin-top:16px"><a href="/en/gizlilik.html" style="color:inherit">Privacy and visitor statistics</a> · <a href="/en/index.html#iletisim" style="color:inherit">Contact</a></p></footer>
+<script async="" data-goatcounter="https://afsarad.goatcounter.com/count" src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>

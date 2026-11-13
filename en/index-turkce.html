@@ -1,0 +1,822 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#172b45" name="theme-color"/>
+<meta content="Adem Afşar" name="author"/>
+<meta content="Adem Afşar’s books, articles and conceptual studies on society, history, politics, philosophy and civilization." name="description"/>
+<title>Adem Afşar | Society, History and Civilization</title>
+<style>
+:root {
+  --lacivert:#172b45;
+  --lacivert-acik:#243e5d;
+  --zemin:#f5f2eb;
+  --beyaz:#fffefa;
+  --vurgu:#a66b36;
+  --metin:#303640;
+  --soluk:#68717b;
+  --cizgi:#e5dfd4;
+  --golge:0 12px 32px rgba(23,43,69,.07);
+}
+* {box-sizing:border-box}
+html {scroll-behavior:smooth}
+body {
+  margin:0;
+  font-family:Georgia,"Times New Roman",serif;
+  color:var(--metin);
+  background:var(--zemin);
+  line-height:1.8;
+}
+a {color:var(--lacivert);overflow-wrap:anywhere}
+a:focus-visible {
+  outline:3px solid var(--vurgu);
+  outline-offset:4px;
+}
+.ust-cizgi {
+  height:5px;
+  background:var(--vurgu);
+}
+header {
+  color:white;
+  background:
+    radial-gradient(
+      ellipse at top,
+      #304a67 0%,
+      transparent 65%
+    ),
+    var(--lacivert);
+  text-align:center;
+  padding:65px 20px 55px;
+}
+.ust-etiket {
+  color:#d8b58e;
+  font:700 12px Arial,sans-serif;
+  letter-spacing:3px;
+  text-transform:uppercase;
+}
+header h1 {
+  margin:12px 0 5px;
+  font-size:clamp(36px,7vw,58px);
+  line-height:1.2;
+}
+.alt-baslik {
+  margin:12px 0;
+  color:#e7e1d8;
+  font-size:clamp(17px,3vw,22px);
+}
+.motto {
+  max-width:850px;
+  margin:32px auto 0;
+  padding:26px 22px;
+  border-top:1px solid #b58b60;
+  border-bottom:1px solid #b58b60;
+}
+.motto blockquote {
+  margin:0;
+  color:#fff5e6;
+  font-size:clamp(22px,4vw,33px);
+  font-style:italic;
+  line-height:1.55;
+}
+.motto cite {
+  display:block;
+  margin-top:14px;
+  color:#dfbb91;
+  font-size:15px;
+  font-style:normal;
+}
+.motto-aciklama {
+  max-width:720px;
+  margin:19px auto 0;
+  color:#d5dce4;
+  font-size:15px;
+}
+.butonlar {
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:28px;
+}
+.buton {
+  display:inline-block;
+  padding:11px 19px;
+  border:1px solid #c69b70;
+  border-radius:4px;
+  color:white;
+  text-decoration:none;
+  font:14px Arial,sans-serif;
+}
+.buton:hover {
+  background:var(--vurgu);
+  color:white;
+}
+.buton.acik {
+  border-color:#d9dfe5;
+}
+nav {
+  position:sticky;
+  top:0;
+  z-index:10;
+  padding:12px 10px;
+  text-align:center;
+  background:rgba(255,254,250,.97);
+  border-bottom:1px solid var(--cizgi);
+  box-shadow:0 3px 12px rgba(0,0,0,.025);
+}
+nav a {
+  display:inline-block;
+  margin:3px 10px;
+  color:var(--lacivert);
+  text-decoration:none;
+  font:600 13px Arial,sans-serif;
+}
+nav a:hover {color:var(--vurgu)}
+main {
+  width:min(100% - 32px,1000px);
+  margin:38px auto 55px;
+}
+section {
+  margin-bottom:26px;
+  padding:clamp(22px,4vw,38px);
+  background:var(--beyaz);
+  border:1px solid var(--cizgi);
+  border-radius:7px;
+  box-shadow:var(--golge);
+  scroll-margin-top:105px;
+}
+.etiket {
+  margin-bottom:7px;
+  color:var(--vurgu);
+  font:700 11px Arial,sans-serif;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+h2 {
+  margin:0 0 17px;
+  color:var(--lacivert);
+  font-size:clamp(25px,4vw,33px);
+  line-height:1.35;
+}
+h3 {
+  margin:0 0 8px;
+  color:var(--lacivert);
+  font-size:21px;
+  line-height:1.4;
+}
+p {margin:0 0 15px}
+p:last-child {margin-bottom:0}
+.girizgah {
+  color:var(--soluk);
+  font-size:17px;
+}
+.vurgu-alinti {
+  margin:25px 0;
+  padding:18px 22px;
+  border-left:4px solid var(--vurgu);
+  background:#f7f2e9;
+  color:var(--lacivert);
+  font-size:20px;
+  font-style:italic;
+}
+.calisma-odasi img {
+  display:block;
+  width:100%;
+  height:auto;
+  border-radius:10px;
+}
+.yazar-ozet {
+  display:grid;
+  grid-template-columns:160px 1fr;
+  gap:25px;
+  align-items:start;
+}
+.yazar-ozet img {
+  width:100%;
+  height:auto;
+  border-radius:5px;
+}
+.konu-listesi {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:14px;
+  margin-top:22px;
+}
+.konu {
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  padding:20px;
+  border:1px solid var(--cizgi);
+  border-top:3px solid var(--vurgu);
+  background:#fbf8f2;
+  border-radius:4px;
+}
+.konu strong {
+  display:block;
+  margin-bottom:8px;
+  color:var(--lacivert);
+  font-size:18px;
+  line-height:1.4;
+}
+.konu span {
+  display:block;
+  color:var(--soluk);
+  font-size:14px;
+  line-height:1.7;
+}
+.konu .makale-baglantisi {
+  margin-top:auto;
+  position:relative;
+  top:12px;
+  margin-bottom:12px;
+}
+.kitap-karti {
+  display:grid;
+  grid-template-columns:160px minmax(0,1fr);
+  gap:23px;
+  padding:22px 0;
+  border-bottom:1px solid var(--cizgi);
+}
+.kitap-karti:last-of-type {
+  border-bottom:none;
+}
+.kapak-alani img {
+  display:block;
+  width:100%;
+  height:auto;
+  border:1px solid #ded4c5;
+  box-shadow:0 6px 18px #0002;
+}
+.durum {
+  display:inline-block;
+  margin-bottom:10px;
+  padding:4px 9px;
+  color:#69451f;
+  background:#f4e9d9;
+  border-radius:3px;
+  font:700 11px Arial,sans-serif;
+}
+.kitap-alt-baslik {
+  color:var(--soluk);
+  font-size:14px;
+  font-style:italic;
+}
+.makale {
+  padding:20px 0;
+  border-bottom:1px solid var(--cizgi);
+}
+.makale:last-of-type {
+  border-bottom:none;
+}
+.kucuk-not {
+  color:var(--soluk);
+  font:12px/1.7 Arial,sans-serif;
+}
+.makale-baglantisi {
+  display:inline-block;
+  margin-top:10px;
+  padding:9px 14px;
+  border:1px solid #c69b70;
+  border-radius:4px;
+  color:var(--lacivert);
+  text-decoration:none;
+  font:700 13px Arial,sans-serif;
+}
+.makale-baglantisi:hover {
+  background:var(--lacivert);
+  color:white;
+}
+.arastirma-notu {
+  margin-top:24px;
+  padding:19px 21px;
+  background:#f7f2e9;
+  border-left:4px solid var(--vurgu);
+}
+.arastirma-notu strong {
+  color:var(--lacivert);
+}
+.arastirma-notu p {
+  margin-top:8px;
+  font-size:14px;
+}
+.iletisim-kutu {
+  padding:20px;
+  background:#f7f2e9;
+  border:1px solid #e7dac7;
+}
+.haklar-notu {
+  margin-top:20px;
+  padding:20px;
+  background:#fbf8f2;
+  border:1px solid var(--cizgi);
+  border-left:4px solid var(--vurgu);
+}
+.haklar-notu h3 {font-size:19px}
+.haklar-notu p {font-size:14px}
+footer {
+  padding:30px 18px;
+  background:var(--lacivert);
+  color:#e4dfd6;
+  text-align:center;
+  font-size:14px;
+}
+footer p {margin:4px 0}
+@media(max-width:650px) {
+  header {padding:48px 18px 42px}
+  nav {padding:9px 5px}
+  nav a {
+    margin:5px 7px;
+    font-size:12px;
+  }
+  main {
+    width:min(100% - 20px,1000px);
+    margin-top:20px;
+  }
+  section {
+    margin-bottom:17px;
+    scroll-margin-top:140px;
+  }
+  .konu-listesi {
+    grid-template-columns:1fr;
+  }
+  .yazar-ozet {
+    grid-template-columns:1fr;
+  }
+  .yazar-ozet img {max-width:190px}
+  .kitap-karti {
+    grid-template-columns:105px minmax(0,1fr);
+    gap:15px;
+  }
+  .kitap-karti h3 {font-size:18px}
+  .kitap-karti p {font-size:14px}
+  .motto {padding:20px 8px}
+}
+@media(max-width:360px) {
+  .kitap-karti {
+    grid-template-columns:1fr;
+  }
+  .kapak-alani img {
+    max-width:145px;
+  }
+}
+@media(prefers-reduced-motion:reduce) {
+  html {scroll-behavior:auto}
+}
+
+.sosyal-baglantilar {display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
+.sosyal-baglantilar a {display:inline-block;padding:10px 16px;border:1px solid var(--cizgi);border-radius:5px;background:var(--beyaz);font:600 14px Arial,sans-serif;text-decoration:none}
+.sosyal-baglantilar a:hover {background:var(--lacivert);color:#fff}
+
+/* Makale arşivi: mevcut site paletiyle uyumlu */
+.makale-araclar {display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:24px 0 14px}
+.makale-arama {flex:1 1 230px;min-width:0;padding:12px 14px;border:1px solid var(--cizgi);border-radius:4px;background:white;color:var(--metin);font:15px Arial,sans-serif}
+.makale-filtreler {display:flex;gap:8px;flex-wrap:wrap}
+.makale-filtre {padding:10px 13px;border:1px solid #c69b70;border-radius:4px;background:transparent;color:var(--lacivert);font:600 13px Arial,sans-serif;cursor:pointer}
+.makale-filtre[aria-pressed="true"] {background:var(--lacivert);color:white;border-color:var(--lacivert)}
+.makale-arama:focus-visible,.makale-filtre:focus-visible {outline:3px solid var(--vurgu);outline-offset:3px}
+.makale-durum {display:inline-block;margin:0 0 9px;padding:4px 9px;border-radius:3px;background:#f4e9d9;color:#69451f;font:700 11px Arial,sans-serif}
+.makale-durum.yayinda {background:#e8eee8;color:#345b3c}
+.makale-sayac {color:var(--soluk);font:13px Arial,sans-serif;margin:0 0 12px}
+.makale[hidden] {display:none!important}
+.makale-bos {padding:16px;background:#f7f2e9;border-left:4px solid var(--vurgu)}
+.makale-arsiv-notu {margin-top:20px;padding:16px;background:#fbf8f2;border:1px solid var(--cizgi);font-size:14px}
+
+/* Makale paylaşım düğmesi: mevcut renk ve tipografiyle uyumlu */
+.makale-paylas {
+  display:inline-block;
+  margin:10px 0 0 9px;
+  padding:9px 14px;
+  border:1px solid #c69b70;
+  border-radius:4px;
+  background:#fbf8f2;
+  color:var(--lacivert);
+  font:700 13px Arial,sans-serif;
+  cursor:pointer;
+}
+.makale-paylas:hover {background:var(--lacivert);color:white}
+.makale-paylas:focus-visible {outline:3px solid var(--vurgu);outline-offset:3px}
+@media(max-width:360px) {.makale-paylas {margin-left:0}}
+</style>
+<meta content="index, follow" name="robots"/><meta content="https://afsarad.github.io/en/index-turkce.html" property="og:url"/><meta content="Adem Afşar | Society, History and Civilization" property="og:title"/><meta content="Adem Afşar’s books, articles and conceptual studies on society, history, politics, philosophy and civilization." property="og:description"/><meta content="ca-pub-8680757769164688" name="google-adsense-account"/>
+<link href="https://afsarad.github.io/en/index-turkce.html" rel="canonical"/><link href="https://afsarad.github.io/index-turkce.html" hreflang="tr" rel="alternate"/><link href="https://afsarad.github.io/en/index-turkce.html" hreflang="en" rel="alternate"/><link href="https://afsarad.github.io/index-turkce.html" hreflang="x-default" rel="alternate"/></head>
+<body><nav aria-label="Language selection" class="language-switch" style="max-width:1100px;margin:12px auto;padding:8px 18px;font:15px/1.6 Arial,sans-serif"><a href="/index-turkce.html" hreflang="tr" lang="tr">Türkçe</a> · English</nav>
+<div class="ust-cizgi"></div>
+<header>
+<div class="ust-etiket">
+    Writer · Researcher · Thought
+  </div>
+<h1>Adem Afşar</h1>
+<p class="alt-baslik">
+    Society, History and Civilization
+  </p>
+<div class="motto">
+<blockquote>
+      “Human beings are fundamentally the same everywhere; what differs are the conditions they create to sustain their lives.”
+    </blockquote>
+<cite>— Adem Afşar</cite>
+</div>
+<p class="motto-aciklama">
+    Human beings’ basic needs may be shared, but the institutions, values, relationships and social arrangements developed to meet them vary with historical and geographical conditions.
+  </p>
+<div class="butonlar">
+<a class="buton" href="#kitaplar">
+      My book projects
+    </a>
+<a class="buton acik" href="#hakkinda">
+      About the author
+    </a>
+<a class="buton" href="#dusunceler">
+      Conceptual studies
+    </a>
+</div>
+</header>
+<nav aria-label="Main menu">
+<a href="#hakkinda">About the Author</a>
+<a href="#kitaplar">Books</a>
+<a href="/en/toplum_iktidar_duzen_kitap_serisi.html">
+    Book Series — 6 Works
+  </a>
+<a href="#dusunceler">World of Ideas</a>
+<a href="#makaleler">Articles</a>
+<a href="#iletisim">Contact</a>
+</nav>
+<main>
+<section aria-label="Adem Afşar’s study" class="calisma-odasi">
+<img alt="Adem Afşar’s study and the view of Mount Yellice" loading="lazy" src="/images/calisma-odasi.png"/>
+</section>
+<section id="hakkinda">
+<div class="etiket">About the author</div>
+<h2>Understanding society, questioning its causes</h2>
+<div class="yazar-ozet">
+<img alt="Adem Afşar" loading="lazy" src="/adem-afsar-orijinal.jpg"/>
+<div>
+<p>
+        Adem Afşar has completed undergraduate degrees in sociology, archaeology, history, and international foreign trade and logistics management. He pursued postgraduate study in sociology to the thesis stage.
+      </p>
+<p>
+        He continues to research and write about societies’ historical development, the formation of political power, relationships between individuals and society, social responsibility and the conditions of living together.
+      </p>
+<p>
+        His work seeks to evaluate historical events through not only their outcomes but also the social conditions, institutional structures and human behaviours that produced them.
+      </p>
+</div>
+</div>
+<div class="vurgu-alinti">
+    Understanding a social phenomenon means questioning not only its outcome but also the conditions that produced it.
+  </div>
+<p>
+    Unpublished research and conceptual work encompass migration and refugee policies; alignment between the will determining such policies and implementing institutions; human rights and public security; social power relations in relatively closed settlements; gender perceptions across generations; and social expectations of political stability.
+  </p>
+<a class="makale-baglantisi" href="/en/toplum_iktidar_duzen_kitap_serisi.html#yazar">
+    Detailed author biography
+  </a>
+</section>
+<section id="kitaplar">
+<div class="etiket">Library</div>
+<h2>Book projects</h2>
+<p class="girizgah">
+    Studies extending from the formation of society to the operation of political power, and from historical thinkers to contemporary social problems.
+  </p>
+<div class="kitap-karti">
+<div class="kapak-alani">
+<a href="/en/ibni-haldunu-anlamak.html">
+<img alt="Understanding Ibn Khaldun book cover" loading="lazy" src="/kitap-1-on-kapak.jpg"/>
+</a>
+</div>
+<div>
+<span class="durum">Completed</span>
+<h3>Understanding Ibn Khaldun</h3>
+<p class="kitap-alt-baslik">
+        A study of society, solidarity and civilization
+      </p>
+<p>
+        A historical and sociological study of the formation of societies, asabiyyah, solidarity, production and political order.
+      </p>
+<p class="kucuk-not">
+        The manuscript is completed. Publication details will be announced once confirmed.
+      </p>
+<a class="makale-baglantisi" href="/en/ibni-haldunu-anlamak.html">
+        Selected reading
+      </a>
+</div>
+</div>
+<div class="kitap-karti">
+<div class="kapak-alani">
+<a href="/en/toplum_iktidar_duzen_kitap_serisi.html">
+<img alt="Ibn Khaldun and Machiavelli book cover" loading="lazy" src="/kitap-2-on-kapak.jpg"/>
+</a>
+</div>
+<div>
+<span class="durum">
+        Final working stage
+      </span>
+<h3>Ibn Khaldun and Machiavelli</h3>
+<p class="kitap-alt-baslik">
+        The Force That Builds Society and the Reason That Preserves Power
+      </p>
+<p>
+        A comparative study of the two thinkers’ understandings of society, power and political realism, examining similarities, differences and possible intellectual influence.
+      </p>
+<p class="kucuk-not">
+        The publication date has not yet been confirmed.
+      </p>
+</div>
+</div>
+<a class="makale-baglantisi" href="/en/toplum_iktidar_duzen_kitap_serisi.html">
+    Explore the complete six-book series
+  </a>
+</section>
+<section id="dusunceler">
+<div class="etiket">
+    Conceptual studies
+  </div>
+<h2>World of ideas</h2>
+<p>
+    Rather than merely explaining concepts, I aim to evaluate them through historical and social examples.
+  </p>
+<p class="girizgah">
+    The texts of five conceptual studies are accessible here. Each can be read independently; together they address relationships among individuals, society, history and political power.
+  </p>
+<div class="konu-listesi">
+<div class="konu">
+<strong>
+        Asabiyyah and Collective Action
+      </strong>
+<span>
+        The conditions under which social solidarity becomes collective action, political power and institutional order.
+      </span>
+<a class="makale-baglantisi" href="/en/asabiyet-ve-ortak-hareket.html">
+        Read the study
+      </a>
+</div>
+<div class="konu">
+<strong>
+        Social Resilience
+      </strong>
+<span>
+        Solidarity, institutional capacity, adaptation and social learning in the face of crises.
+      </span>
+<a class="makale-baglantisi" href="/en/toplumsal-dayaniklilik.html">
+        Read the study
+      </a>
+</div>
+<div class="konu">
+<strong>
+        Circles of Responsibility
+      </strong>
+<span>
+        Domains of responsibility extending from individuals to families and from immediate circles to society and humanity as a whole.
+      </span>
+<a class="makale-baglantisi" href="/en/sorumluluk-daireleri.html">
+        Read the study
+      </a>
+</div>
+<div class="konu">
+<strong>
+        Not a Cycle, but a Spiral
+      </strong>
+<span>
+        The difference between historical recurrence and historical sameness; accumulation, change and social transformation.
+      </span>
+<a class="makale-baglantisi" href="/en/dongu-degil-sarmal.html">
+        Read the study
+      </a>
+</div>
+<div class="konu">
+<strong>
+        Human Beings, Freedom and Responsibility
+      </strong>
+<span>
+        Individual choice, social norms, moral consistency and the relationship between freedom and responsibility.
+      </span>
+<a class="makale-baglantisi" href="/en/insan-ozgurluk-sorumluluk.html">
+        Read the study
+      </a>
+</div>
+<div class="konu">
+<strong>
+        Power and Political Realism
+      </strong>
+<span>
+        The formation of political power, legitimacy, administrative responsibility and social benefit.
+      </span>
+<p class="kucuk-not">A standalone work has not yet been verified.</p>
+</div>
+</div>
+<div class="arastirma-notu">
+<strong>
+      Academic development process
+    </strong>
+<p>
+      The texts in this section are developing conceptual studies. The author’s own conceptual propositions are treated separately from historical thinkers’ views.
+    </p>
+<p>
+      Future work will expand academic referencing, verified in-text citations, page numbers, opposing theoretical approaches and historical comparisons.
+    </p>
+</div>
+</section>
+<section id="makaleler">
+<div class="etiket">Articles and studies</div>
+<h2>Articles and essays</h2>
+<p class="girizgah">Find my published articles and developing research topics here. Search by title or topic, or filter the list by publication status.</p>
+<div aria-label="Search articles" class="makale-araclar" role="search">
+<input aria-label="Search article title or topic" class="makale-arama" id="makale-arama" placeholder="Search title or topic…" type="search"/>
+<div aria-label="Filter by publication status" class="makale-filtreler" role="group">
+<button aria-pressed="true" class="makale-filtre" data-filtre="tum" type="button">All</button>
+<button aria-pressed="false" class="makale-filtre" data-filtre="yayinda" type="button">Published</button>
+<button aria-pressed="false" class="makale-filtre" data-filtre="plan" type="button">Research topics</button>
+</div>
+</div>
+<p aria-live="polite" class="makale-sayac" id="makale-sayac" role="status">7 entries shown.</p>
+<div id="makale-listesi">
+<div class="makale" data-durum="yayinda">
+<span class="makale-durum yayinda">Published article</span>
+<h3>
+      From AI Competition to Intellectual Synergy
+    </h3>
+<p class="kitap-alt-baslik">
+      Expanding Productive Capacity in Human–AI Interaction
+    </p>
+<p>
+      A study evaluating competition in artificial intelligence through the opportunities it brings to human thinking and productive capacity.
+    </p>
+<span class="kucuk-not">
+      Article · 30 October 2026
+    </span>
+<br/>
+<a class="makale-baglantisi" href="/en/yapay-zeka-dusunsel-sinerji.html">
+      Read the article
+    </a>
+<button aria-label="Share From AI Competition to Intellectual Synergy" class="makale-paylas" data-baslik="From AI Competition to Intellectual Synergy — Adem Afşar" data-url="/en/yapay-zeka-dusunsel-sinerji.html" type="button">
+      Share
+    </button>
+</div>
+<div class="makale" data-durum="yayinda">
+<span class="makale-durum yayinda">Published article</span>
+<h3>Human Beings, Society and Responsibility</h3>
+<p>An examination of responsibilities extending from individuals to families and public life in terms of solidarity, freedom, capacity and fair distribution.</p>
+<span class="kucuk-not">Adem Afşar · <time datetime="2026-11-07">7 November 2026</time></span><br/>
+<a class="makale-baglantisi" href="/en/insan-toplum-ve-sorumluluk.html">Read the article</a>
+<button aria-label="Share Human Beings, Society and Responsibility" class="makale-paylas" data-baslik="Human Beings, Society and Responsibility — Adem Afşar" data-url="/en/insan-toplum-ve-sorumluluk.html" type="button">Share</button>
+</div>
+<div class="makale" data-durum="yayinda">
+<span class="makale-durum yayinda">Published article</span>
+<h3>Will and Genuine Freedom</h3>
+<p>A conceptual study of control over one’s will, environmental influences, actual alternatives and reconsidering decisions.</p>
+<span class="kucuk-not">Adem Afşar · <time datetime="2026-11-07">7 November 2026</time></span><br/>
+<a class="makale-baglantisi" href="/en/irade-ve-gercek-ozgurluk.html">Read the article</a>
+<button aria-label="Share Will and Genuine Freedom" class="makale-paylas" data-baslik="Will and Genuine Freedom — Adem Afşar" data-url="/en/irade-ve-gercek-ozgurluk.html" type="button">Share</button>
+</div>
+<div class="makale" data-durum="yayinda">
+<span class="makale-durum yayinda">Published article</span>
+<h3>Migration Policies and Societal Security</h3>
+<p>A source-based assessment of governmental continuity, trust in leadership, public services and social cohesion in Turkey as a country of both immigration and emigration.</p>
+<span class="kucuk-not">Adem Afşar · <time datetime="2026-11-07">7 November 2026</time></span><br/>
+<a class="makale-baglantisi" href="/en/goc-politikalari-ve-toplumsal-guvenlik.html">Read the article</a>
+<button aria-label="Share Migration Policies and Societal Security" class="makale-paylas" data-baslik="Migration Policies and Societal Security — Adem Afşar" data-url="/en/goc-politikalari-ve-toplumsal-guvenlik.html" type="button">Share</button>
+</div>
+<div class="makale" data-durum="yayinda">
+<span class="makale-durum yayinda">Published article</span>
+<h3>Social Relationships and Invisible Abuses</h3>
+<p>Corruption, accumulated civilization and the normalization of wrongdoing: a study of exploitation becoming invisible in everyday relationships.</p>
+<span class="kucuk-not">Adem Afşar · <time datetime="2026-11-07">7 November 2026</time></span><br/>
+<a class="makale-baglantisi" href="/en/toplumsal-iliskiler-ve-gorunmeyen-suistimaller.html">Read the article</a>
+<button aria-label="Share Social Relationships and Invisible Abuses" class="makale-paylas" data-baslik="Social Relationships and Invisible Abuses — Adem Afşar" data-url="/en/toplumsal-iliskiler-ve-gorunmeyen-suistimaller.html" type="button">Share</button>
+</div>
+<div class="makale" data-durum="yayinda">
+<span class="makale-durum yayinda">Published article</span>
+<h3>Gender Perceptions Across Generations</h3>
+<p>An examination of gender roles through generations, life stages and changing conditions, maintaining the limitations of local research in Kütahya.</p>
+<span class="kucuk-not">Adem Afşar · <time datetime="2026-11-07">7 November 2026</time></span><br/>
+<a class="makale-baglantisi" href="/en/kusaklar-arasinda-cinsiyet-algisi.html">Read the article</a>
+<button aria-label="Share Gender Perceptions Across Generations" class="makale-paylas" data-baslik="Gender Perceptions Across Generations — Adem Afşar" data-url="/en/kusaklar-arasinda-cinsiyet-algisi.html" type="button">Share</button>
+</div>
+<div class="makale" data-durum="yayinda">
+<span class="makale-durum yayinda">Published article</span>
+<h3>Political Stability and Social Dissatisfaction</h3>
+<p>A study of continuity in government, trust created by completed work and citizens’ changing expectations.</p>
+<span class="kucuk-not">Adem Afşar · <time datetime="2026-11-07">7 November 2026</time></span><br/>
+<a class="makale-baglantisi" href="/en/siyasal-istikrar-ve-toplumsal-memnuniyetsizlik.html">Read the article</a>
+<button aria-label="Share Political Stability and Social Dissatisfaction" class="makale-paylas" data-baslik="Political Stability and Social Dissatisfaction — Adem Afşar" data-url="/en/siyasal-istikrar-ve-toplumsal-memnuniyetsizlik.html" type="button">Share</button>
+</div>
+</div>
+<p class="makale-bos" hidden="" id="makale-bos">No entries match your search. Try another word.</p>
+<div class="makale-arsiv-notu">You can also access my conceptual studies in the <a href="#dusunceler">World of Ideas</a> section. This archive will be updated as new articles are published.</div>
+</section>
+<section id="iletisim">
+<div class="etiket">
+    Contact and sharing
+  </div>
+<h2>Contact</h2>
+<p>
+    Use the email address below to get in touch or share views about book projects, articles and intellectual subjects.
+  </p>
+<div class="iletisim-kutu">
+<p><strong>Adem Afşar</strong></p>
+<p>
+      Email:
+      <a href="mailto:afsarad@gmail.com">
+        afsarad@gmail.com
+      </a>
+</p>
+<p>
+      Author website:
+      <a href="/en/index.html">
+        afsarad.github.io
+      </a>
+</p>
+</div>
+<h3 style="margin-top:26px">My writing and profiles on other platforms</h3>
+<p>You can also follow my writing and intellectual work on other platforms.</p>
+<div aria-label="Social media and author profiles" class="sosyal-baglantilar">
+<a href="https://www.reddit.com/user/afsarad/" rel="noopener noreferrer" target="_blank">Reddit — Adem Afşar</a>
+<a href="https://www.quora.com/profile/Adem-Afsar" rel="noopener noreferrer" target="_blank">Quora — Adem Afşar</a>
+</div>
+<div class="haklar-notu">
+<h3>
+      Use of works and publication permissions
+    </h3>
+<p>
+      Adem Afşar holds authorship of the articles, essays and other original texts published on this site. Online availability does not mean they may be freely republished or used commercially.
+    </p>
+<p>
+      Quotations for scholarly, critical and reporting purposes may be made within the limits permitted by applicable law, clearly identifying the work and author. Prior written permission is required to republish all or a substantial part of an article elsewhere, reproduce, translate, adapt, compile or commercially use it, subject to statutory exceptions.
+    </p>
+<p>
+      Publishers, academics, researchers, educational and cultural institutions, media organizations and other interested parties may email requests for print or digital publication, teaching/event use, translation, reprinting and other licences.
+    </p>
+<p>
+      Permission decisions separately specify the purpose, portion used, medium, print run or audience scope, territory, duration, fee and exclusivity. Permission is not granted without written approval.
+    </p>
+<p class="kucuk-not">
+      © 2026 Adem Afşar. All rights reserved. This notice does not override applicable statutory quotation and use exceptions.
+    </p>
+</div>
+</section>
+</main>
+<footer>
+<p><strong>Adem Afşar</strong></p>
+<p>Society, History and Civilization</p>
+<p>© 2026 Adem Afşar. All rights reserved.</p>
+<p style="font:14px/1.8 Arial,sans-serif;margin-top:16px"><a href="/en/gizlilik.html" style="color:inherit">Privacy and visitor statistics</a> · <a href="/en/index.html#iletisim" style="color:inherit">Contact</a></p></footer>
+<script>
+(function () {
+  "use strict";
+  const arama = document.getElementById("makale-arama");
+  const filtreler = Array.from(document.querySelectorAll(".makale-filtre"));
+  const kayitlar = Array.from(document.querySelectorAll("#makale-listesi .makale"));
+  const sayac = document.getElementById("makale-sayac");
+  const bos = document.getElementById("makale-bos");
+  let secili = "tum";
+  function yenile() {
+    const sorgu = arama.value.toLocaleLowerCase("en-GB").trim();
+    let gorunen = 0;
+    kayitlar.forEach(function (kayit) {
+      const durumUygun = secili === "tum" || kayit.dataset.durum === secili;
+      const metinUygun = kayit.textContent.toLocaleLowerCase("en-GB").includes(sorgu);
+      kayit.hidden = !(durumUygun && metinUygun);
+      if (!kayit.hidden) gorunen++;
+    });
+    sayac.textContent = gorunen + " records shown.";
+    bos.hidden = gorunen !== 0;
+  }
+  arama.addEventListener("input", yenile);
+  filtreler.forEach(function (dugme) {
+    dugme.addEventListener("click", function () {
+      secili = dugme.dataset.filtre;
+      filtreler.forEach(function (d) { d.setAttribute("aria-pressed", String(d === dugme)); });
+      yenile();
+    });
+  });
+  yenile();
+  document.querySelectorAll(".makale-paylas").forEach(function (dugme) {
+    dugme.addEventListener("click", async function () {
+      const adres = new URL(dugme.dataset.url, window.location.href).href;
+      const baslik = dugme.dataset.baslik;
+      if (navigator.share) {
+        try {
+          await navigator.share({title:baslik, url:adres});
+          return;
+        } catch (hata) {
+          if (hata.name === "AbortError") return;
+        }
+      }
+      try {
+        await navigator.clipboard.writeText(adres);
+        const onceki = dugme.textContent;
+        dugme.textContent = "Link copied";
+        setTimeout(function () {dugme.textContent = onceki;}, 2500);
+      } catch (hata) {
+        window.prompt("Copy the article link:", adres);
+      }
+    });
+  });
+}());
+</script>
+<script async="" data-goatcounter="https://afsarad.goatcounter.com/count" src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>

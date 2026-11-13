@@ -1,0 +1,466 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#172b45" name="theme-color"/>
+<meta content="Adem Afşar" name="author"/>
+<meta content="Adem Afşar’s conceptual study of asabiyyah, collective action, social solidarity and the emergence of political power." name="description"/>
+<title>Asabiyyah and Collective Action | Adem Afşar</title>
+<style>
+:root {
+  --lacivert:#172b45;
+  --zemin:#f5f2eb;
+  --beyaz:#fffefa;
+  --vurgu:#a66b36;
+  --metin:#303640;
+  --soluk:#68717b;
+  --cizgi:#e5dfd4;
+}
+* {box-sizing:border-box}
+html {scroll-behavior:smooth}
+body {
+  margin:0;
+  background:var(--zemin);
+  color:var(--metin);
+  font-family:Georgia,"Times New Roman",serif;
+  line-height:1.85;
+}
+a {color:var(--lacivert);overflow-wrap:anywhere}
+a:focus-visible {
+  outline:3px solid var(--vurgu);
+  outline-offset:4px;
+}
+.ust-cizgi {
+  height:5px;
+  background:var(--vurgu);
+}
+header {
+  padding:65px 20px 55px;
+  background:var(--lacivert);
+  color:white;
+  text-align:center;
+}
+.ust-etiket {
+  color:#dfbb91;
+  font:700 12px Arial,sans-serif;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+header h1 {
+  max-width:850px;
+  margin:16px auto;
+  font-size:clamp(34px,6vw,54px);
+  line-height:1.2;
+}
+header p {
+  max-width:740px;
+  margin:12px auto;
+  color:#e4dfd6;
+  font-size:19px;
+}
+nav {
+  padding:14px 12px;
+  background:var(--beyaz);
+  border-bottom:1px solid var(--cizgi);
+  text-align:center;
+}
+nav a {
+  display:inline-block;
+  margin:5px 12px;
+  text-decoration:none;
+  font:700 13px Arial,sans-serif;
+}
+main {
+  width:min(100% - 28px,860px);
+  margin:35px auto 55px;
+}
+article {
+  padding:clamp(24px,5vw,50px);
+  background:var(--beyaz);
+  border:1px solid var(--cizgi);
+  border-radius:7px;
+  box-shadow:0 12px 32px rgba(23,43,69,.06);
+}
+.meta {
+  margin-bottom:30px;
+  padding-bottom:18px;
+  border-bottom:1px solid var(--cizgi);
+  color:var(--soluk);
+  font:13px/1.8 Arial,sans-serif;
+}
+h2 {
+  margin:38px 0 14px;
+  color:var(--lacivert);
+  font-size:clamp(23px,4vw,29px);
+  line-height:1.35;
+}
+h3 {
+  margin:25px 0 10px;
+  color:var(--lacivert);
+  font-size:20px;
+}
+p {margin:0 0 18px}
+.giris {
+  color:var(--lacivert);
+  font-size:19px;
+}
+blockquote {
+  margin:28px 0;
+  padding:20px 24px;
+  border-left:4px solid var(--vurgu);
+  background:#f7f2e9;
+  color:var(--lacivert);
+  font-size:20px;
+  font-style:italic;
+}
+.kavram {
+  margin:20px 0;
+  padding:18px 20px;
+  background:#fbf8f2;
+  border:1px solid var(--cizgi);
+  border-left:4px solid var(--vurgu);
+}
+.kavram strong {
+  display:block;
+  color:var(--lacivert);
+}
+.kavram p {margin:5px 0 0}
+.soru {
+  margin:28px 0;
+  padding:22px;
+  background:#f7f2e9;
+  border:1px solid #e7dac7;
+}
+.soru strong {color:var(--lacivert)}
+.kaynaklar {
+  padding-left:23px;
+}
+.kaynaklar li {
+  margin-bottom:16px;
+  overflow-wrap:anywhere;
+}
+.not {
+  margin-top:35px;
+  padding-top:18px;
+  border-top:1px solid var(--cizgi);
+  color:var(--soluk);
+  font-size:13px;
+}
+.geri {
+  display:inline-block;
+  margin-top:25px;
+  padding:10px 17px;
+  border:1px solid var(--vurgu);
+  border-radius:4px;
+  text-decoration:none;
+  font:700 13px Arial,sans-serif;
+}
+.geri:hover {
+  background:var(--lacivert);
+  color:white;
+}
+footer {
+  padding:30px 18px;
+  background:var(--lacivert);
+  color:#e4dfd6;
+  text-align:center;
+  font-size:14px;
+}
+footer p {margin:4px 0}
+@media(max-width:600px) {
+  header {padding:45px 18px}
+  header p {font-size:16px}
+  main {margin-top:18px}
+  blockquote {font-size:18px}
+}
+@media(prefers-reduced-motion:reduce) {
+  html {scroll-behavior:auto}
+}
+</style>
+<style>/* v0.67 — Kavramsal inceleme okuma rehberi */html{scroll-behavior:smooth;scroll-padding-top:16px}body{overflow-wrap:break-word}main{min-width:0}main img{max-width:100%;height:auto}main h2,main h3{overflow-wrap:anywhere;line-height:1.4}.inceleme-icindekiler{margin:0 0 24px;padding:16px 18px;border:1px solid #ddd0bd;border-left:4px solid #a66b36;border-radius:10px;background:#faf7f1;font:15px/1.65 system-ui,sans-serif}.inceleme-icindekiler summary{cursor:pointer;font-weight:700;color:#172b45}.inceleme-icindekiler ol{margin:12px 0;padding-left:24px}.inceleme-icindekiler li{margin:5px 0}.inceleme-icindekiler a{color:#694623;text-underline-offset:3px}.inceleme-gecis{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}.inceleme-gecis a{display:inline-block;padding:6px 10px;border:1px solid #e1d6c8;border-radius:6px;background:#fff;text-decoration:none}a:focus-visible,summary:focus-visible{outline:3px solid #a66b36;outline-offset:3px}@media(max-width:600px){.inceleme-icindekiler{padding:12px 14px;font-size:14px;margin-bottom:18px}main{max-width:100%;}main p{text-align:left}}@media print{.inceleme-icindekiler{display:none!important}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}</style><link href="https://afsarad.github.io/en/asabiyet-ve-ortak-hareket.html" rel="canonical"/><link href="https://afsarad.github.io/asabiyet-ve-ortak-hareket.html" hreflang="tr" rel="alternate"/><link href="https://afsarad.github.io/en/asabiyet-ve-ortak-hareket.html" hreflang="en" rel="alternate"/><link href="https://afsarad.github.io/asabiyet-ve-ortak-hareket.html" hreflang="x-default" rel="alternate"/></head>
+<body><nav aria-label="Language selection" class="language-switch" style="max-width:1100px;margin:12px auto;padding:8px 18px;font:15px/1.6 Arial,sans-serif"><a href="/asabiyet-ve-ortak-hareket.html" hreflang="tr" lang="tr">Türkçe</a> · English</nav>
+<div class="ust-cizgi"></div>
+<header>
+<div class="ust-etiket">
+    Adem Afşar · Conceptual Studies
+  </div>
+<h1>Asabiyyah and Collective Action</h1>
+<p>
+    From Solidarity to Political Power, from Shared Purpose to Institutional Order
+  </p>
+</header>
+<nav aria-label="Page menu">
+<a href="/en/index.html">Home</a>
+<a href="/en/index.html#dusunceler">
+    World of Ideas
+  </a>
+<a href="/en/toplum_iktidar_duzen_kitap_serisi.html">
+    Books
+  </a>
+<a href="/en/index.html#iletisim">
+    Contact
+  </a>
+</nav>
+<main><nav aria-label="Study contents" class="inceleme-icindekiler"><details><summary>Contents · 12 sections</summary><ol><li><a href="#inceleme-bolum-1">1. Asabiyyah in Ibn Khaldun</a></li><li><a href="#inceleme-bolum-2">2. Initial conditions for collective action</a></li><li><a href="#inceleme-bolum-3">3. When does solidarity become power?</a></li><li><a href="#inceleme-bolum-4">4. What happens when a shared purpose is achieved?</a></li><li><a href="#inceleme-bolum-5">5. From solidarity to institutional order</a></li><li><a href="#inceleme-bolum-6">6. The exclusionary aspect of solidarity</a></li><li><a href="#inceleme-bolum-7">7. The weakening of asabiyyah</a></li><li><a href="#inceleme-bolum-8">8. Cycle or transformation?</a></li><li><a href="#inceleme-bolum-9">9. Critical assessment</a></li><li><a href="#inceleme-bolum-10">10. Conclusion</a></li><li><a href="#inceleme-bolum-11">11. Academic sources</a></li><li><a href="#inceleme-bolum-12">12. Academic development plan</a></li></ol></details><div class="inceleme-gecis"><a href="/en/index.html#dusunceler">Return to ideas and studies</a><a href="/en/index.html#kitaplar">Library</a></div></nav>
+<article>
+<div class="meta">
+  Adem Afşar · Conceptual Study · 1 November 2026
+</div>
+<p class="giris">
+  Why do people act together? How can a shared danger, a shared need or an expectation of a common future bring different individuals together?
+</p>
+<p>
+  These questions show that social solidarity is not merely emotional closeness; it is also related to the capacity to produce collective action.
+</p>
+<p>
+  Ibn Khaldun’s concept of asabiyyah is one historical explanation of this relationship. Applying the concept to contemporary societies, however, requires separate consideration of historical context and new institutional conditions.
+</p>
+<h2 id="inceleme-bolum-1">1. Asabiyyah in Ibn Khaldun</h2>
+<p>
+  In the Muqaddimah, Ibn Khaldun invokes asabiyyah to explain communities’ capacities to protect one another, act together and attain political supremacy.
+</p>
+<p>
+  Asabiyyah cannot be reduced to blood ties alone. Although kinship is an important source, alliances, living together, shared experience and mutual commitment can also strengthen solidarity.
+</p>
+<p>
+  In Ibn Khaldun’s analysis, strong asabiyyah is a decisive factor in establishing political authority. Yet the consolidation of political power can gradually transform the relationships of solidarity that made it possible.
+</p>
+<p>
+  These explanations are based on the Muqaddimah’s sections on asabiyyah and royal authority. [1]
+</p>
+<div class="kavram">
+<strong>Conceptual distinction</strong>
+<p>
+    Although asabiyyah relates to social solidarity, it does not mean mutual assistance alone. It also encompasses a community’s capacity to defend itself, undertake collective action and be effective within power relations.
+  </p>
+</div>
+<h2 id="inceleme-bolum-2">2. Initial conditions for collective action</h2>
+<p>
+  People do not always need to share the same opinions, identity or way of life to act together.
+</p>
+<p>
+  A natural disaster, economic crisis, security need or shared production goal can lead different individuals towards temporary or lasting association.
+</p>
+<p>
+  Three elements are proposed for consideration together here:
+</p>
+<div class="kavram">
+<strong>Shared need</strong>
+<p>
+    The existence of a need that individuals find difficult to meet alone.
+  </p>
+</div>
+<div class="kavram">
+<strong>Shared purpose</strong>
+<p>
+    Defining the response to the need around a specific goal.
+  </p>
+</div>
+<div class="kavram">
+<strong>Mutual trust</strong>
+<p>
+    Participants being able to develop reasonable expectations of one another’s behaviour.
+  </p>
+</div>
+<p>
+  This threefold distinction is not a classification taken directly from Ibn Khaldun. It is an analytical framework proposed in this study for examining collective action.
+</p>
+<h2 id="inceleme-bolum-3">3. When does solidarity become power?</h2>
+<p>
+  Strong solidarity among a community’s members does not, on its own, show that political power will emerge.
+</p>
+<p>
+  For solidarity to become political power, conditions such as organisation, the use of resources, decision-making capacity and continuity of collective action become important.
+</p>
+<p>
+  Ibn Khaldun’s emphasis on the relationship between asabiyyah and royal authority provides a historical explanation of this transformation. [1]
+</p>
+<blockquote>
+  Being able to act together makes a common power possible; how that power will be used is a separate question of responsibility.
+</blockquote>
+<h2 id="inceleme-bolum-4">4. What happens when a shared purpose is achieved?</h2>
+<p>
+  One of this study’s central questions is how an association changes once its shared purpose has been achieved.
+</p>
+<p>
+  An organisation initially formed to meet a specific need may wish to continue existing after achieving its purpose.
+</p>
+<p>
+  This desire is not always negative. It may be useful for preserving gains, meeting new needs and ensuring institutional continuity.
+</p>
+<p>
+  Nevertheless, the initial shared purpose and the organisation’s later interests may also diverge.
+</p>
+<div class="soru">
+<strong>Main research question</strong>
+<p>
+    Under what conditions does a structure established to meet a shared need continue serving its original purpose, and under what conditions does preserving its own existence become its primary objective?
+  </p>
+</div>
+<h2 id="inceleme-bolum-5">5. From solidarity to institutional order</h2>
+<p>
+  When collective action becomes continuous, needs arise to allocate tasks, establish decision-making procedures and manage resources.
+</p>
+<p>
+  At this stage, rules, duties and institutional relationships may partly replace the initial personal commitments.
+</p>
+<p>
+  Institutionalisation and solidarity, however, are not necessarily opposites. Institutions can preserve shared purposes while also reshaping relationships among members.
+</p>
+<p>
+  What needs examination, therefore, is not merely the institution’s existence, but the purpose it serves and to whom it is accountable.
+</p>
+<h2 id="inceleme-bolum-6">6. The exclusionary aspect of solidarity</h2>
+<p>
+  Strong group commitment can generate trust and mutual assistance among members.
+</p>
+<p>
+  The same commitment, however, may also lead to the rights of individuals outside the group being pushed into the background.
+</p>
+<p>
+  For example, employees supporting one another within an institution can produce positive results. But if this support turns into concealing mistakes or favouring personal connections over competence, it conflicts with public responsibility.
+</p>
+<p>
+  The relationship between asabiyyah and nepotism also being discussed in contemporary scholarship shows that the concept should not be treated solely as positive solidarity. [3]
+</p>
+<h2 id="inceleme-bolum-7">7. The weakening of asabiyyah</h2>
+<p>
+  Ibn Khaldun discusses how the consolidation of political power can bring changes to the ruling community’s living conditions and relationships of solidarity.
+</p>
+<p>
+  The relationship between power, prosperity and forms of government matters in this approach. Conditions of struggle during a founding period differ from those under established government. [1]
+</p>
+<p>
+  This historical explanation, however, does not directly establish that all states will pass through the same stages or collapse in the same way.
+</p>
+<p>
+  Contemporary institutions, legal orders, technology, international relations and economic structures must be assessed separately.
+</p>
+<h2 id="inceleme-bolum-8">8. Cycle or transformation?</h2>
+<p>
+  At this point, the discussion of asabiyyah joins another of our conceptual studies, the “Not a Cycle, but a Spiral” approach.
+</p>
+<p>
+  The transformation of communities that gain strength through solidarity throughout history may suggest recurring processes.
+</p>
+<p>
+  Similarity, however, does not mean historical conditions are identical.
+</p>
+<p>
+  Every new political and social structure takes shape alongside knowledge, institutions and experiences inherited from previous periods.
+</p>
+<p>
+  When examining historical transformations, recurring patterns must therefore be distinguished from changing conditions.
+</p>
+<h2 id="inceleme-bolum-9">9. Critical assessment</h2>
+<p>
+  Some questions remain open when using asabiyyah to explain contemporary societies.
+</p>
+<p>
+  Through what mechanisms does commitment developed through kinship and face-to-face relationships find a counterpart in large and complex societies?
+</p>
+<p>
+  If individuals united around a common goal have different expectations, how should the success of their association be measured?
+</p>
+<p>
+  If the benefits a community provides to its own members come at the cost of harm to other communities, how should this association be assessed?
+</p>
+<p>
+  These questions require investigating both the historical explanatory power of asabiyyah and the limits of its application to contemporary societies.
+</p>
+<h2 id="inceleme-bolum-10">10. Conclusion</h2>
+<p>
+  Asabiyyah is an important historical concept for understanding people’s capacity for collective action.
+</p>
+<p>
+  The existence of solidarity, however, does not mean it is always fair, inclusive or beneficial to society as a whole.
+</p>
+<p>
+  Why collective action emerges matters, as do the purposes for which it continues, who governs it and who is affected by its outcomes.
+</p>
+<blockquote>
+  A community’s power to act together should be assessed not only by what it can achieve, but also by how it bears responsibility for what it achieves.
+</blockquote>
+<p>
+  This proposition is not a quotation from Ibn Khaldun. It is this study’s concluding proposition, developed through reflection on the concept of asabiyyah.
+</p>
+<h2 id="inceleme-bolum-11">11. Academic sources</h2>
+<p>
+  The following sources constitute this study’s theoretical foundations. They should not all be treated as direct verification of every interpretation in the text.
+</p>
+<ol class="kaynaklar">
+<li>
+<strong>[1] Ibn Khaldun.</strong>
+<em>The Muqaddimah: An Introduction to History.</em>
+    Translated by Franz Rosenthal. Princeton University Press, 1958.
+    <a href="https://doi.org/10.1515/9780691281926-026" rel="noopener noreferrer" target="_blank">
+      Publisher’s source record
+    </a>.
+  </li>
+<li>
+<strong>[2] Stanford Encyclopedia of Philosophy.</strong>
+<em>Medieval Political Philosophy.</em>
+    Assessments of Ibn Khaldun’s understanding of political authority and asabiyyah.
+    <a href="https://plato.stanford.edu/entries/medieval-political/" rel="noopener noreferrer" target="_blank">
+      Examine the source
+    </a>.
+  </li>
+<li>
+<strong>[3] Orhan, U., Uçkaç, Z. and Uçgun, E.</strong>
+    (2026).
+    <em>
+      Two Sides of the Coin in The State Administration: Asabiyya and Nepotism In Ibn Khaldun's Muqaddimah.
+    </em>
+    International Journal of Economics, Business and Politics, 10(2).
+    <a href="https://dergipark.org.tr/en/pub/ueip/article/1938642" rel="noopener noreferrer" target="_blank">
+      Read the article
+    </a>.
+  </li>
+</ol>
+<h2 id="inceleme-bolum-12">12. Academic development plan</h2>
+<p>
+  In subsequent work, relevant sections of the Muqaddimah will be selected, page numbers of the translation used will be verified and in-text citations will be expanded.
+</p>
+<p>
+  Relationships between asabiyyah, social solidarity, institutionalisation and political authority will be compared with different theoretical approaches.
+</p>
+<p>
+  In particular, Ibn Khaldun’s original explanations, later researchers’ interpretations and Adem Afşar’s own assessments will be presented separately.
+</p>
+<p>
+  This work is not yet a completed peer-reviewed academic article, but a conceptual study whose sourcing will be developed.
+</p>
+<div class="not">
+<p>
+<strong>Author’s note:</strong>
+    This text is Adem Afşar’s conceptual study of asabiyyah and collective action. Theoretical comparison and detailed academic referencing will be expanded in subsequent work.
+  </p>
+<p>
+    © 2026 Adem Afşar. All rights reserved.
+  </p>
+</div>
+<nav aria-label="Other conceptual studies" class="not">
+<h2>Other conceptual studies</h2>
+<ul>
+<li><a href="/en/toplumsal-dayaniklilik.html">Social Resilience</a></li>
+<li><a href="/en/sorumluluk-daireleri.html">Circles of Responsibility</a></li>
+<li><a href="/en/dongu-degil-sarmal.html">Not a Cycle, but a Spiral</a></li>
+<li><a href="/en/insan-ozgurluk-sorumluluk.html">Human Beings, Freedom and Responsibility</a></li>
+</ul>
+</nav>
+<a class="geri" href="/en/index.html#dusunceler">
+  Return to the World of Ideas
+</a>
+</article>
+</main>
+<footer>
+<p><strong>Adem Afşar</strong></p>
+<p>Society, History and Civilization</p>
+<p>© 2026 Adem Afşar. All rights reserved.</p>
+<p style="font:14px/1.8 Arial,sans-serif;margin-top:16px"><a href="/en/gizlilik.html" style="color:inherit">Privacy and visitor statistics</a> · <a href="/en/index.html#iletisim" style="color:inherit">Contact</a></p></footer>
+<script async="" data-goatcounter="https://afsarad.goatcounter.com/count" src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>

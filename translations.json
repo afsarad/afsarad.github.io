@@ -1,0 +1,140 @@
+{
+  "policy": "Full Turkish and English editions must be reviewed and published together.",
+  "pages": {
+    "asabiyet-ve-ortak-hareket.html": {
+      "english": "en/asabiyet-ve-ortak-hareket.html",
+      "source_sha256": "f4d37f2bae34bd25b3e0ee020e408d5368814b566d8ca92ba9e02d4bbb6eeb6d",
+      "english_sha256": "17b6ff36f4fd9c1eaba87e27996ec881773051da7b243732bc4e4103a599a980"
+    },
+    "dongu-degil-sarmal.html": {
+      "english": "en/dongu-degil-sarmal.html",
+      "source_sha256": "fa5b3cd339f55d3ef37cbaa108f0288675384c9ab7aee88e678cf9bd5d0cc2bb",
+      "english_sha256": "746cf335e4d069a1a67b84afb87c0c9a086d704fde1ab3738323099519145e48"
+    },
+    "gizlilik.html": {
+      "english": "en/gizlilik.html",
+      "source_sha256": "5d36ac7567b806e6f2010d90ce745477cd6a6914e80b6e5d8f54d00eaecfcdc3",
+      "english_sha256": "17a113e66eeb31e71c5ae6858df35d60095d1920799ee90973db3d4ffbdc2a5b"
+    },
+    "goc-politikalari-ve-toplumsal-guvenlik.html": {
+      "english": "en/goc-politikalari-ve-toplumsal-guvenlik.html",
+      "source_sha256": "5e1046a0c5a69f6245195feafe9325afbc9af6dc90867f49e86d9a383fdca955",
+      "english_sha256": "d138533fd02492ac146d4f4b876525672a7fe55f4f5eb012113868847d1d477e"
+    },
+    "hangi-sonuc-bizi-ikna-eder.html": {
+      "english": "en/hangi-sonuc-bizi-ikna-eder.html",
+      "source_sha256": "88c8252a52284bafc8ab5486409169938a6d124b5e4330d9fb46d604c31f0b00",
+      "english_sha256": "45b20f06558f2ce1a7938d990002f4c29be90f6939fc0a994789ce911779fb7b"
+    },
+    "ibni-haldun-ve-machiavelli.html": {
+      "english": "en/ibni-haldun-ve-machiavelli.html",
+      "source_sha256": "38e450948727171a7f0fae1eccf38d238d44a1e69308bb17687d1dbddd4e156f",
+      "english_sha256": "8966fd3ab7058f3ec3f0c05229d748d3d9bdd878d36fdd95dc3d534fe38a3569"
+    },
+    "ibni-haldunu-anlamak.html": {
+      "english": "en/ibni-haldunu-anlamak.html",
+      "source_sha256": "5457048e4860700b19b8844a3e00f92611d56de6f4650a193061946184939aec",
+      "english_sha256": "cff0ae598551b1f6f997410d6683eec5846b119c0223f18d394d548c62ca3407"
+    },
+    "iktidar-siyasal-gercekcilik.html": {
+      "english": "en/iktidar-siyasal-gercekcilik.html",
+      "source_sha256": "2af4737742c19848c338e64307e3e047b185dfb392c60a90f58490dbae6c8d4c",
+      "english_sha256": "b037a36fea19c1b6276c17aceaa41e83d5b03983eabc96f6d5f18f87e692b314"
+    },
+    "index-turkce.html": {
+      "english": "en/index-turkce.html",
+      "source_sha256": "a38757a93a65a1fed8608be5da6a846b6292325bfc42b7cd5ce6f4ebcd51767b",
+      "english_sha256": "728d091e5512cbe80a0e8755a8a135db292680bbfae7a1e15c1e4cd45ed8aeda"
+    },
+    "index.html": {
+      "english": "en/index.html",
+      "source_sha256": "10d49632a77c46b17ec3df8026ba21c219dbc3f1bb8bc33c0371b854fad38d37",
+      "english_sha256": "8fc6d0b4bf5b96932c2518834424c4c92ab1dd9b46c8530b66da5bb58022e18d"
+    },
+    "insan-ozgurluk-sorumluluk.html": {
+      "english": "en/insan-ozgurluk-sorumluluk.html",
+      "source_sha256": "c92d117f45c49a38e5af073271304b9543795d2268a41c942d45395b2942cfc1",
+      "english_sha256": "30dc904571bb5bca01f14d91bd37392e909e90cc9b086e67304cd71505d8769a"
+    },
+    "insan-toplum-ve-sorumluluk.html": {
+      "english": "en/insan-toplum-ve-sorumluluk.html",
+      "source_sha256": "65983cf0b618f2127bcc6a7eb4e27f6586179a7038990cc6e99a7a21614e9755",
+      "english_sha256": "729e76a9615ebae0027bdd190c95394d45e73ac357d16735b22a77ee63991a63"
+    },
+    "irade-ve-gercek-ozgurluk.html": {
+      "english": "en/irade-ve-gercek-ozgurluk.html",
+      "source_sha256": "599cb9851a1e6707ecf43abf7adf8267cdc0d1ff1758766ef72353326d728b7a",
+      "english_sha256": "e6ba4a7240299449c7b09962d66657ca795b5e615db4859fdaec51ac9fae226e"
+    },
+    "istikrar-egitim-erdem-ekonomik-duzen.html": {
+      "english": "en/istikrar-egitim-erdem-ekonomik-duzen.html",
+      "source_sha256": "473f2f9a04f29b845629924d79c8c58c2c0ae490f79fd90cb03b3f61d6fd8f74",
+      "english_sha256": "f5d60aa5d168c8b0e0a5395936f443be1e46fb36da338b9a4f2636d3f190e797"
+    },
+    "istikrardan-insan-bikar-mi.html": {
+      "english": "en/istikrardan-insan-bikar-mi.html",
+      "source_sha256": "1e11c2d8b658dde0bf2318414d450d2c910006a4c6f4ea5eaca9ae91703e2cf7",
+      "english_sha256": "133a2a90de29c5f31efee34b424f69e8da63d28b53c7a80599c46012e96e373e"
+    },
+    "kitaplar/ibn-haldunla-devlet-refah-ve-cozulme.html": {
+      "english": "en/kitaplar/ibn-haldunla-devlet-refah-ve-cozulme.html",
+      "source_sha256": "4c7255dd32284f92f8d6780003747e812f05482a33f9b1a55602cde63ac9b61b",
+      "english_sha256": "f58229886487927f68533e05c1183297e491b0a92c9f71bfa56cafbd1b07b037"
+    },
+    "kusaklar-arasinda-cinsiyet-algisi.html": {
+      "english": "en/kusaklar-arasinda-cinsiyet-algisi.html",
+      "source_sha256": "d6290955df2b3c082c1c18a25d82669b94c5fa124ae608eeb929d4abc1f2e189",
+      "english_sha256": "65a8fe28ea79a07db9d20ccb678740cb2436aa9f2c6fcdcde90a10599826ffea"
+    },
+    "mekanda-kalan-insan-izi.html": {
+      "english": "en/mekanda-kalan-insan-izi.html",
+      "source_sha256": "2a234fb462a5ad4fb8098ca832ac99af0ce8aca16ace670700561423b507580b",
+      "english_sha256": "e4a5c09e63444d492653f110e0e57c882a49eb5409cbab2e00ad0defcda26973"
+    },
+    "siyasal-istikrar-ve-toplumsal-memnuniyetsizlik.html": {
+      "english": "en/siyasal-istikrar-ve-toplumsal-memnuniyetsizlik.html",
+      "source_sha256": "e6b60eebfe10a1337eac57ab09fa7e0b27a613f00ed28a85aa79b0f3c1fafe84",
+      "english_sha256": "9eba07d39e7cf8fcc7c5befda17fc0f5c759fb7f1de8b1487d313009d9d7febd"
+    },
+    "sorumluluk-daireleri.html": {
+      "english": "en/sorumluluk-daireleri.html",
+      "source_sha256": "26d06e160ac213c56b22e39785f080821665c0a7ce6f50d3af559a42272ecb87",
+      "english_sha256": "b8ad9a0d793bc84818f73003380b3477a7e5b3187990f5dca64dceab86ede873"
+    },
+    "toplum_iktidar_duzen_kitap_serisi.html": {
+      "english": "en/toplum_iktidar_duzen_kitap_serisi.html",
+      "source_sha256": "4f71fc98bdda3d891f390b1fc7641f579b14400492bccc23c92a9b5794850d3f",
+      "english_sha256": "ecd7010be00f90da1a7bfcec3c099c6fd140d976a8d65d6452cd24b352506af1"
+    },
+    "toplumsal-dayaniklilik.html": {
+      "english": "en/toplumsal-dayaniklilik.html",
+      "source_sha256": "290074290ffa3395637dc1fb70709e8cf3deeff691fbf77bd3a5ea5c58049151",
+      "english_sha256": "cf25f20686b53d51dbcc6062ba6e5e02b1a83b30e4901934542c24e6bcae672e"
+    },
+    "toplumsal-hayatin-sonbahari.html": {
+      "english": "en/toplumsal-hayatin-sonbahari.html",
+      "source_sha256": "0976fb51f69d924d14a3adc388c868d16f04048d7217ec3bd37ebcd2deacc9ca",
+      "english_sha256": "64bfdbcdfce13578cbda12cfd07b67d2dc0394acac23d8d72e41804f1298e3ae"
+    },
+    "toplumsal-iliskiler-ve-gorunmeyen-suistimaller.html": {
+      "english": "en/toplumsal-iliskiler-ve-gorunmeyen-suistimaller.html",
+      "source_sha256": "cb89a9ab7bbda4e62ad771358105578519af3896a2665cef49db1c4b7b350434",
+      "english_sha256": "9d0d3b03fdf4a76ae458e202f0ecf29e57e4ba0fd31b9389fec315096b6c9bec"
+    },
+    "yapay-zeka-dusunsel-sinerji.html": {
+      "english": "en/yapay-zeka-dusunsel-sinerji.html",
+      "source_sha256": "af9aee6ae419eed23d2a241a502fca5913ce6b0eab0cac01463b5ff8d75d78a4",
+      "english_sha256": "fd56c66868039c45e1d982954fc788061397f63d778980c022e8a9a38854681a"
+    },
+    "yapay-zeka-reklamlarinda-karsilastirma-ve-fayda-2.html": {
+      "english": "en/yapay-zeka-reklamlarinda-karsilastirma-ve-fayda-2.html",
+      "source_sha256": "819383f19a8c45cc7397f41bba55dbc42a004c6699fcbcdfa93ba88f1dc343a1",
+      "english_sha256": "397ce834b0247101924badb08c703cb5032f6225e44e21cc7cbd327b59d1b018"
+    },
+    "yapay-zeka-reklamlarinda-karsilastirma-ve-fayda.html": {
+      "english": "en/yapay-zeka-reklamlarinda-karsilastirma-ve-fayda.html",
+      "source_sha256": "17850d55d62d2889ae7d839b6c800228b91993b7675c001f813bedea5bd9d12e",
+      "english_sha256": "a2e15ff0d0df322afa19cfc2d0b9b42d1ffeeb528cbf000b8303d01f07e33592"
+    }
+  }
+}
