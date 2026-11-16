@@ -28,8 +28,8 @@
     },
     "ibni-haldun-ve-machiavelli.html": {
       "english": "en/ibni-haldun-ve-machiavelli.html",
-      "source_sha256": "38e450948727171a7f0fae1eccf38d238d44a1e69308bb17687d1dbddd4e156f",
-      "english_sha256": "8966fd3ab7058f3ec3f0c05229d748d3d9bdd878d36fdd95dc3d534fe38a3569"
+      "source_sha256": "db100b48f7bf4c44bf4aac7ba2793ff6ffee5e949b1b2e75e5ac63d13420ea2f",
+      "english_sha256": "cc6937a0511b6dfa09a884bb15c7fc8a0ed5c92a3a511991cae1ed6990bd14d6"
     },
     "ibni-haldunu-anlamak.html": {
       "english": "en/ibni-haldunu-anlamak.html",
@@ -43,13 +43,13 @@
     },
     "index-turkce.html": {
       "english": "en/index-turkce.html",
-      "source_sha256": "a38757a93a65a1fed8608be5da6a846b6292325bfc42b7cd5ce6f4ebcd51767b",
-      "english_sha256": "728d091e5512cbe80a0e8755a8a135db292680bbfae7a1e15c1e4cd45ed8aeda"
+      "source_sha256": "f9265fc9883860cd718c1016ee19891607b2e0b87001bc10c3d6147344f39b1b",
+      "english_sha256": "c5acc99be335e98dc90b73c83939c436ba280027d900410c9309983ddd5460b2"
     },
     "index.html": {
       "english": "en/index.html",
-      "source_sha256": "ab49178ea79119b928706c901fb4e4b1065bd0a7e9e5ae6627fe51ae2984cc6c",
-      "english_sha256": "0f1e7c4254bb46422b9d83e17f142e93f1d6a1f63cd46f05f12a2bb582bfe1d6"
+      "source_sha256": "8792b00e60af531fa5bcf14eaf68d3cdd8044631382967b348635d0fb0ee1dd3",
+      "english_sha256": "8fb8c6243e048f2ee76f2203e450c436ae9a35890c871d099ace485f37f57f8b"
     },
     "insan-ozgurluk-sorumluluk.html": {
       "english": "en/insan-ozgurluk-sorumluluk.html",
@@ -68,13 +68,13 @@
     },
     "istikrar-egitim-erdem-ekonomik-duzen.html": {
       "english": "en/istikrar-egitim-erdem-ekonomik-duzen.html",
-      "source_sha256": "473f2f9a04f29b845629924d79c8c58c2c0ae490f79fd90cb03b3f61d6fd8f74",
-      "english_sha256": "f5d60aa5d168c8b0e0a5395936f443be1e46fb36da338b9a4f2636d3f190e797"
+      "source_sha256": "2d441ba6a9dd20cc6e4d69c089a58015eca884170a6181dcd4367a18b15b57e6",
+      "english_sha256": "7df050c8407da509d046c3c05e0a4c7ebd5182e91b542297580ca26536162100"
     },
     "istikrardan-insan-bikar-mi.html": {
       "english": "en/istikrardan-insan-bikar-mi.html",
-      "source_sha256": "1e11c2d8b658dde0bf2318414d450d2c910006a4c6f4ea5eaca9ae91703e2cf7",
-      "english_sha256": "133a2a90de29c5f31efee34b424f69e8da63d28b53c7a80599c46012e96e373e"
+      "source_sha256": "15663212e94e7e5fe59c519e7ff4b9141f730a32ccaa050f942f7cbdb8f8fa64",
+      "english_sha256": "785b36dd7045db2062dbd35e7730fb1441e9b1112617fe83ec63e49a098ad425"
     },
     "kitaplar/ibn-haldunla-devlet-refah-ve-cozulme.html": {
       "english": "en/kitaplar/ibn-haldunla-devlet-refah-ve-cozulme.html",
@@ -140,6 +140,11 @@
       "english": "en/yapay-zeka-nedir-nasil-kullanilir.html",
       "source_sha256": "2f01ad11262cd86c36c29c39eb459b6b55fc69febf4fc268c6de1b8b27fe5888",
       "english_sha256": "23ef119e5c63d4d66ee0da2714249bd32b1ccce14bb328bb10532ba9f82cd05d"
+    },
+    "arastirma-arsivi.html": {
+      "english": "en/arastirma-arsivi.html",
+      "source_sha256": "d9a7ab7553bb9016dfe974397e0990a9442cc2c3f3a20690744aef3162e77881",
+      "english_sha256": "9cbc70e6923f3ae6b83e15127bb95a2bd2d962c1448ebd96531af4f5e7c0eb24"
     }
   }
 }
