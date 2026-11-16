@@ -33,8 +33,8 @@
     },
     "ibni-haldunu-anlamak.html": {
       "english": "en/ibni-haldunu-anlamak.html",
-      "source_sha256": "5457048e4860700b19b8844a3e00f92611d56de6f4650a193061946184939aec",
-      "english_sha256": "cff0ae598551b1f6f997410d6683eec5846b119c0223f18d394d548c62ca3407"
+      "source_sha256": "c0aae17da1dc2033e3b572d4033fd0a92764d094159e648fb8dc220a94413ace",
+      "english_sha256": "e8db933c635cbb6db6ffb12ebca55139d05ac6896163e9d94a9d6a01005c92ba"
     },
     "iktidar-siyasal-gercekcilik.html": {
       "english": "en/iktidar-siyasal-gercekcilik.html",
@@ -48,8 +48,8 @@
     },
     "index.html": {
       "english": "en/index.html",
-      "source_sha256": "10d49632a77c46b17ec3df8026ba21c219dbc3f1bb8bc33c0371b854fad38d37",
-      "english_sha256": "8fc6d0b4bf5b96932c2518834424c4c92ab1dd9b46c8530b66da5bb58022e18d"
+      "source_sha256": "ab49178ea79119b928706c901fb4e4b1065bd0a7e9e5ae6627fe51ae2984cc6c",
+      "english_sha256": "0f1e7c4254bb46422b9d83e17f142e93f1d6a1f63cd46f05f12a2bb582bfe1d6"
     },
     "insan-ozgurluk-sorumluluk.html": {
       "english": "en/insan-ozgurluk-sorumluluk.html",
@@ -88,8 +88,8 @@
     },
     "mekanda-kalan-insan-izi.html": {
       "english": "en/mekanda-kalan-insan-izi.html",
-      "source_sha256": "2a234fb462a5ad4fb8098ca832ac99af0ce8aca16ace670700561423b507580b",
-      "english_sha256": "e4a5c09e63444d492653f110e0e57c882a49eb5409cbab2e00ad0defcda26973"
+      "source_sha256": "f1f4df36a9d10b4b1f7aeca1068b8c25b0ab60e47fb90da49aa2bd1aaa0573e0",
+      "english_sha256": "a944d88f680057f06d3299e6d621e4942b1cd5394952653c4e7a4bab6353f7ff"
     },
     "siyasal-istikrar-ve-toplumsal-memnuniyetsizlik.html": {
       "english": "en/siyasal-istikrar-ve-toplumsal-memnuniyetsizlik.html",
@@ -98,8 +98,8 @@
     },
     "sorumluluk-daireleri.html": {
       "english": "en/sorumluluk-daireleri.html",
-      "source_sha256": "26d06e160ac213c56b22e39785f080821665c0a7ce6f50d3af559a42272ecb87",
-      "english_sha256": "b8ad9a0d793bc84818f73003380b3477a7e5b3187990f5dca64dceab86ede873"
+      "source_sha256": "add515c7ff2eb2be90806108ca4ceea507bed5d7d34fb5a97665bfed646dabfb",
+      "english_sha256": "3404f9f88219a028b51567bd4b59175c84cb5fb953849568a6a507e3946ff8ef"
     },
     "toplum_iktidar_duzen_kitap_serisi.html": {
       "english": "en/toplum_iktidar_duzen_kitap_serisi.html",
@@ -123,8 +123,8 @@
     },
     "yapay-zeka-dusunsel-sinerji.html": {
       "english": "en/yapay-zeka-dusunsel-sinerji.html",
-      "source_sha256": "af9aee6ae419eed23d2a241a502fca5913ce6b0eab0cac01463b5ff8d75d78a4",
-      "english_sha256": "fd56c66868039c45e1d982954fc788061397f63d778980c022e8a9a38854681a"
+      "source_sha256": "eeb2192b3976d9b33a150fa2e8416c5a81ba264bc24a0e8ca3ff35a41d9e6e46",
+      "english_sha256": "8f203fce6cd4a3846087bd8279115ae3933ae5fc9401c6643f564ceaa9690367"
     },
     "yapay-zeka-reklamlarinda-karsilastirma-ve-fayda-2.html": {
       "english": "en/yapay-zeka-reklamlarinda-karsilastirma-ve-fayda-2.html",
@@ -135,6 +135,11 @@
       "english": "en/yapay-zeka-reklamlarinda-karsilastirma-ve-fayda.html",
       "source_sha256": "17850d55d62d2889ae7d839b6c800228b91993b7675c001f813bedea5bd9d12e",
       "english_sha256": "a2e15ff0d0df322afa19cfc2d0b9b42d1ffeeb528cbf000b8303d01f07e33592"
+    },
+    "yapay-zeka-nedir-nasil-kullanilir.html": {
+      "english": "en/yapay-zeka-nedir-nasil-kullanilir.html",
+      "source_sha256": "2f01ad11262cd86c36c29c39eb459b6b55fc69febf4fc268c6de1b8b27fe5888",
+      "english_sha256": "23ef119e5c63d4d66ee0da2714249bd32b1ccce14bb328bb10532ba9f82cd05d"
     }
   }
 }
