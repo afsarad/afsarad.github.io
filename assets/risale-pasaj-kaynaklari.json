@@ -1,0 +1,27 @@
+{
+  "checked_on": "2026-11-16",
+  "publisher": "Sözler Neşriyat",
+  "digital_presentation": "eRisale",
+  "publisher_relationship_source": "https://www.erisale.com/tr/about",
+  "scope": "Short excerpts only; context summaries and glossary notes are separate editorial text.",
+  "passages": [
+    {
+      "id": "pasaj-1",
+      "work": "Sözler",
+      "section": "Yirmiüçüncü Söz / Birinci Mebhas / Birinci Nokta",
+      "url": "https://www.erisale.com/tr/sozler/yirmiucuncu-soz-birinci-mebhas"
+    },
+    {
+      "id": "pasaj-2",
+      "work": "Lem’alar",
+      "section": "Ondokuzuncu Lem’a / Birinci Nükte",
+      "url": "https://www.erisale.com/tr/lemalar/ondokuzuncu-lema-iktisad-risalesi"
+    },
+    {
+      "id": "pasaj-3",
+      "work": "Lem’alar",
+      "section": "Onyedinci Lem’a / Beşinci Nota",
+      "url": "https://www.erisale.com/tr/lemalar/onyedinci-lema-besinci-nota"
+    }
+  ]
+}
