@@ -1,0 +1,4 @@
+/* Kullanıcının sağladığı Barla yazı tipleri. */
+@font-face{font-family:"Risale Liva Nur";src:url("/assets/fonts/risale/liva-nur.woff") format("woff");font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:"Risale Aria Script";src:url("/assets/fonts/risale/aria-script.woff") format("woff");font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:"Risale Souvenir Demi";src:url("/assets/fonts/risale/souvenir-demi.woff") format("woff");font-style:normal;font-weight:700;font-display:swap}
