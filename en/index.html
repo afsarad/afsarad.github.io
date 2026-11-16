@@ -713,7 +713,81 @@ header{padding:38px 20px}.motto{margin-top:22px;padding:18px}.motto-aciklama{mar
 .makale h3 a:hover{background:transparent;color:var(--vurgu)}
 #makale-listesi .makale:last-child{border-bottom:0}
 @media(max-width:650px){.arsiv-icindekiler ol{columns:1}.okur-menu{gap:3px 16px}header{padding:28px 16px}.motto blockquote{font-size:23px}.yazar-ozet{gap:16px}}
-</style></head>
+</style><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&amp;display=swap"/>
+<style>
+/* Risale-i Nur: kapaklardan esinlenen bordo ve altın bölüm */
+#risale-i-nur-sosyolojisi {
+  position:relative;
+  isolation:isolate;
+  padding:clamp(32px,6vw,58px);
+  border:1px solid #d8b65c;
+  border-radius:6px;
+  color:#f5df9b;
+  background:
+    radial-gradient(ellipse at 30% 0%,rgba(255,216,153,.09),transparent 65%),
+    linear-gradient(115deg,#5b0e1c,#7d2031 48%,#5a0d1c);
+  box-shadow:inset 0 0 0 5px #651424,inset 0 0 0 6px #caa14b,0 12px 32px rgba(60,7,17,.14);
+}
+#risale-i-nur-sosyolojisi::before {
+  content:"";
+  position:absolute;
+  inset:15px;
+  border:3px double #d1ae59;
+  border-radius:3px;
+  pointer-events:none;
+  z-index:-1;
+}
+#risale-i-nur-sosyolojisi .risale-bezeme {
+  text-align:center;
+  color:#e3c675;
+  font-size:25px;
+  letter-spacing:.28em;
+  margin:0 0 14px;
+}
+#risale-i-nur-sosyolojisi .etiket {color:#e8cb80;text-align:center}
+#risale-i-nur-sosyolojisi h2 {
+  font-family:"Grenze Gotisch",Georgia,serif;
+  font-weight:500;
+  font-size:clamp(32px,5.8vw,52px);
+  line-height:1.25;
+  text-align:center;
+  color:#f1d57c;
+  text-shadow:0 1px 0 #49101a,0 2px 3px #300912;
+  margin-bottom:25px;
+}
+@supports (background-clip:text) or (-webkit-background-clip:text) {
+  #risale-i-nur-sosyolojisi h2 {
+    background:linear-gradient(105deg,#d4af50 8%,#fff0ae 34%,#dfbc62 55%,#fff0ae 76%,#d4af50);
+    -webkit-background-clip:text;
+    background-clip:text;
+    color:transparent;
+    text-shadow:none;
+  }
+}
+#risale-i-nur-sosyolojisi .girizgah {color:#f7e5ad}
+#risale-i-nur-sosyolojisi .arastirma-notu {
+  background:rgba(40,3,11,.23);
+  border-left-color:#e2bd62;
+  border-top:1px solid #bc934b;
+  border-bottom:1px solid #bc934b;
+}
+#risale-i-nur-sosyolojisi h3 {color:#f1d57c}
+#risale-i-nur-sosyolojisi .kucuk-not {color:#e4ca8b}
+#risale-i-nur-sosyolojisi .sozluk-kelime {color:inherit}
+#risale-i-nur-sosyolojisi a {color:#ffe4a1}
+#risale-i-nur-sosyolojisi :focus-visible {outline-color:#ffe4a1}
+@media(max-width:650px) {
+  #risale-i-nur-sosyolojisi {scroll-margin-top:210px}
+}
+@media(forced-colors:active) {
+  #risale-i-nur-sosyolojisi h2 {background:none;color:CanvasText;text-shadow:none}
+}
+@media print {
+  #risale-i-nur-sosyolojisi {background:white;color:#222;box-shadow:none}
+  #risale-i-nur-sosyolojisi h2,#risale-i-nur-sosyolojisi h3,#risale-i-nur-sosyolojisi .girizgah,#risale-i-nur-sosyolojisi .kucuk-not {background:none;color:#222}
+}
+</style>
+</head>
 <body id="sayfa-basi"><nav aria-label="Language selection" class="language-switch" style="max-width:1100px;margin:12px auto;padding:8px 18px;font:15px/1.6 Arial,sans-serif"><a href="/index.html" hreflang="tr" lang="tr">Türkçe</a> · English</nav>
 <a class="icerige-gec" href="#ana-icerik">Skip to main content</a>
 <div class="ust-cizgi"></div>
@@ -998,6 +1072,7 @@ header{padding:38px 20px}.motto{margin-top:22px;padding:18px}.motto-aciklama{mar
     </p>
 </div>
 </section><section aria-labelledby="risale-sosyolojisi-baslik" id="risale-i-nur-sosyolojisi">
+<div class="risale-bezeme" aria-hidden="true">❦ ◇ ❦</div>
 <div class="etiket">Religion, individual and society</div>
 <h2 id="risale-sosyolojisi-baslik">Sociology of the Risale-i Nur Collection</h2>
 <p class="girizgah">I read the Risale-i Nur Collection from my own perspective, exploring the inner life, faith, free will, belonging and living together.</p>
@@ -1284,3 +1359,4 @@ close.addEventListener('click',hide);panel.addEventListener('click',e=>{if(e.tar
 <script async="" data-goatcounter="https://afsarad.goatcounter.com/count" src="https://gc.zgo.at/count.js"></script>
 <script>(function(){const input=document.getElementById('makale-arama'),cards=[...document.querySelectorAll('#makale-listesi .makale')],counter=document.getElementById('makale-sayac'),empty=document.getElementById('makale-bos');function norm(v){return v.toLocaleLowerCase('en').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ı/g,'i')}function search(){const terms=norm(input.value).trim().split(/\s+/).filter(Boolean);let n=0;cards.forEach(c=>{c.hidden=!terms.every(t=>norm(c.textContent).includes(t));if(!c.hidden)n++});counter.textContent=n+' articles shown.';empty.hidden=n!==0}input.addEventListener('input',search);search();document.querySelectorAll('.makale-paylas').forEach(b=>b.addEventListener('click',async()=>{const url=new URL(b.dataset.url,location.href).href;try{if(navigator.share)await navigator.share({title:b.dataset.baslik,url});else{await navigator.clipboard.writeText(url);b.textContent='Link copied'}}catch(e){if(e.name!=='AbortError')window.prompt('Copy the link:',url)}}));})();</script><script>(function(){const ids=["ae-001", "ae-002", "ae-003", "ae-004", "ae-005", "ae-006", "akademik-atif-haritasi", "akademik-etkinlikler", "ar-dosya-01", "ar-dosya-02", "ar-dosya-03", "ar-dosya-04", "ar-dosya-05", "arastirma", "arastirma-baslik", "arastirma-dosyalari", "arastirma-yol-haritasi", "arsiv-ilkeleri-baslik", "atif-baglanti-001", "atif-baglanti-002", "atif-baglanti-003", "atif-baglanti-004", "atif-haritasi-baslik", "bd-001-sorumluluk-matrisi", "bd-001-tam-metin", "bd001-kamu-sosyal-yardim-v43", "bd001-karsilastirmali-sinama", "bd001-kaynak-denetimi-v40", "bd001-ozet-v37", "bd001-ozgunluk-v41", "bildiri-bd001", "dosya-baslik", "ek-001", "ek-002", "ek-003", "ek-004", "ek-005", "ek-006", "elestirel-baslik", "elestirel-karsilastirma", "eser-iliskileri", "eser-iliskileri-baslik", "eser-kimlikleri", "eser-kimlikleri-baslik", "etkinlikler-baslik", "gonulluluk-adalet-v45", "gonulluluk-literatur-v46", "harita-baslik", "icerik-haritasi", "iddia-baslik", "iddia-eslestirme", "iddia-ie-001", "iddia-ie-002", "iddia-ie-003", "iddia-ie-004", "iddia-ie-005", "kanit-baslik", "kanit-kayitlari", "katman-asabiyet", "katman-kamusal", "katman-sarmal", "katman-sorumluluk", "katman-tez", "katmanli-okuma", "katmanli-okuma-baslik", "kavram-adi", "kavram-ayrim", "kavram-baslik", "kavram-cagdas", "kavram-eser", "kavram-genel", "kavram-koken", "kavram-literatur", "kavram-panel", "kavram-sozlugu", "kavram-yorum", "kaynak-k001", "kaynak-k002", "kaynak-k003", "kaynak-k004", "kaynak-k005", "kaynak-k006", "kaynak-k007", "kaynak-karsilastirma", "kaynak-karsilastirma-baslik", "ok-001", "ok-002", "ok-003", "ok-004", "ok-005", "ok-006", "okuyucu-rehberi", "okuyucu-rehberi-baslik", "onerme-arsivi", "onerme-arsivi-baslik", "ozgunluk-baslik", "ozgunluk-matrisi", "sdv44-title", "sinama-baslik", "sinanabilirlik", "sorumluluk-aile-dayanisma-v51", "sorumluluk-daireleri-kapsam-v44", "sorumluluk-olcum-modeli-v47", "sorumluluk-sinirlari-cekilme-v50", "sorumluluk-talep-eden-v49", "sorumluluk-vaka-sinamasi-v48", "sozluk-arama", "sozluk-dizin", "sozluk-filtreler", "sozluk-sonuc-sayisi", "sozluk-sonuclar", "v48-baslik", "v49-baslik", "v50-baslik", "yayin-baslik", "yayin-dosyalari", "yayin-etigi", "yayin-etigi-baslik", "yayin-yd-001", "yayin-yd-002", "yayin-yd-003", "yayin-yd-004", "yayin-yd-005", "yol-ar001", "yol-ar002", "yol-ar003", "yol-ar004", "yol-ar005", "yol-baslik"];const h=decodeURIComponent(location.hash.slice(1));if(ids.includes(h))location.replace("/en/arastirma-arsivi.html#"+encodeURIComponent(h));else{const aliases={"icerik-ara": "makaleler", "gundeme-bakis": "makaleler", "site-arama": "makale-arama"};if(aliases[h])location.replace("#"+aliases[h]);}})();</script></body>
 </html>
+
