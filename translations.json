@@ -48,8 +48,8 @@
     },
     "index.html": {
       "english": "en/index.html",
-      "source_sha256": "da42e42005ff1ee1695fd3b01ae2d7df763a141309648c2798278d00e136e07e",
-      "english_sha256": "c31151b9e49ec91952349e4d75eaba9512b44ef973ee221e72bf12db012550e3"
+      "source_sha256": "a1c2208648fdae2b6a63c6753f8877b42b6eee03f9eec3fb12b66a53fc78e34c",
+      "english_sha256": "eafda7e77be95edb43cc7352f3d0d2a4cfe8b0485423a39e99508a99fe091a9f"
     },
     "insan-ozgurluk-sorumluluk.html": {
       "english": "en/insan-ozgurluk-sorumluluk.html",
@@ -145,6 +145,11 @@
       "english": "en/arastirma-arsivi.html",
       "source_sha256": "d9a7ab7553bb9016dfe974397e0990a9442cc2c3f3a20690744aef3162e77881",
       "english_sha256": "9cbc70e6923f3ae6b83e15127bb95a2bd2d962c1448ebd96531af4f5e7c0eb24"
+    },
+    "risale-i-nur-modern-insan-ihtiyac-arzu-anlam.html": {
+      "english": "en/risale-i-nur-modern-insan-ihtiyac-arzu-anlam.html",
+      "source_sha256": "7cf77602ded2b1da664b76baec95f7bebdf5947d941ddd30dbd0c42bbb08164a",
+      "english_sha256": "02f81f0c69fa5897cf17f21297629e218e39169eeb9b38ab45bfe8a30700cacd"
     }
   }
 }

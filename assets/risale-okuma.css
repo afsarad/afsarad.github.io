@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&display=swap");
+:root{color-scheme:light;--bordo:#701b2b;--altin:#e6c976;--kagit:#fffdec;--murekkep:#24211d}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#eeeadf;color:var(--murekkep);font-family:Georgia,"Times New Roman",serif;line-height:1.8}
+a{color:#731c2b;text-underline-offset:4px;overflow-wrap:anywhere}
+a:focus-visible,summary:focus-visible{outline:3px solid #a36d27;outline-offset:5px}
+.atla{position:absolute;top:-100px;left:15px;background:var(--kagit);padding:10px;z-index:3}
+.atla:focus{top:10px}
+.ust-serit{background:var(--bordo);color:var(--altin);border-top:3px solid #c49b4c;border-bottom:1px solid #ba934c;padding:16px 22px}
+.ust-ic{max-width:850px;margin:auto;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}
+.ust-serit a{color:#f5df9b;font:14px/1.6 Arial,sans-serif}
+.dil{font:14px/1.6 Arial,sans-serif}
+main{max-width:850px;margin:36px auto 60px;background:var(--kagit);border:1px solid #d6cfba;box-shadow:0 12px 35px #40321815;padding:clamp(25px,6vw,70px)}
+.sayfa-ustu{display:flex;justify-content:space-between;gap:20px;padding-bottom:8px;border-bottom:3px double #aaa18a;font:12px/1.5 Arial,sans-serif;text-transform:uppercase;letter-spacing:.04em}
+header{text-align:center;padding:48px 0 28px}
+.bezeme{color:#92702c;font-size:27px;letter-spacing:.2em;margin:0 0 15px}
+h1{font-family:"Grenze Gotisch",Georgia,serif;font-size:clamp(35px,6vw,54px);font-weight:500;line-height:1.2;margin:0 0 18px;overflow-wrap:break-word}
+.alt-baslik{font-size:clamp(20px,3vw,25px);font-weight:bold;line-height:1.45;margin:0}
+.kunye{font:13px/1.6 Arial,sans-serif;color:#655d4e;margin:19px 0 0}
+.icindekiler{margin:0 0 28px;border-top:1px solid #d0c6aa;border-bottom:1px solid #d0c6aa;padding:14px 0;font:14px/1.7 Arial,sans-serif}
+summary{cursor:pointer;font-weight:bold}
+.icindekiler ol{margin:12px 0 2px;padding-left:23px}
+article{font-size:19px}
+article p{margin:0 0 19px;text-align:justify;hyphens:auto}
+article .lead{font-size:21px;line-height:1.7;font-style:italic;text-align:left}
+h2{margin:37px 0 17px;text-align:center;font-size:clamp(23px,4vw,28px);line-height:1.4;scroll-margin-top:25px}
+.ref{font-family:Arial,sans-serif;font-size:13px;white-space:nowrap}
+.kaynaklar{margin-top:38px;border-top:3px double #aaa18a;padding-top:3px;font-size:15px}
+.kaynaklar h2{font-size:23px;margin-top:22px}
+.kaynaklar ol{padding-left:25px}
+.kaynaklar li{padding-left:5px;margin:0 0 16px;scroll-margin-top:25px}
+.kaynak-not{font-size:13px;color:#655d4e;text-align:left}
+.sayfa-sonu{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-top:35px;padding-top:20px;border-top:1px solid #cfc5ab;font:14px/1.7 Arial,sans-serif}
+footer{text-align:center;color:#655d4e;font:12px/1.7 Arial,sans-serif;padding:0 20px 30px}
+footer a{color:inherit}
+@media(max-width:600px){main{margin:16px 10px 30px;padding:24px 21px}.ust-serit{padding:13px 18px}.sayfa-ustu{font-size:10px;gap:12px}header{padding:32px 0 24px}article{font-size:18px}article p{text-align:left}article .lead{font-size:20px}h2{margin-top:30px}}
+@media print{body{background:white}.ust-serit,.atla,.icindekiler,.sayfa-sonu,footer{display:none}main{border:0;box-shadow:none;max-width:none;margin:0;padding:0;background:white}article{font-size:12pt}h1{font-family:Georgia,serif;font-size:28pt}h2{break-after:avoid}p{orphans:3;widows:3}a{color:inherit}.kaynaklar{break-inside:avoid}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
