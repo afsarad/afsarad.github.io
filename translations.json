@@ -48,8 +48,8 @@
     },
     "index.html": {
       "english": "en/index.html",
-      "source_sha256": "8e731323ab31f909a3c02b09d3edc341aba448238627ba71b0ae347322468f12",
-      "english_sha256": "60aa4283d0a497e9e9a7114a2b692fef4646e110b14ccda906ccbf270236749c"
+      "source_sha256": "0e4f206802a3d9dcf2cbd12fc155e8916fdf69c54830293d47b105da593d9cbd",
+      "english_sha256": "d240b231494bc2b8d15c517f6a7ee8bc2a73b225f177e31670fdb94ce8f71fb7"
     },
     "insan-ozgurluk-sorumluluk.html": {
       "english": "en/insan-ozgurluk-sorumluluk.html",
@@ -180,6 +180,11 @@
       "english": "en/cevabul-ahmak-es-sukut.html",
       "source_sha256": "3521935207fba50fd6400e2dc0bf26d614da50755df1d4fd888b22cf7838d0cd",
       "english_sha256": "f8babfa682ddc7278a472c7772b880981094c14daec17e071fe9d61d451848ca"
+    },
+    "konular-ve-sorular.html": {
+      "english": "en/konular-ve-sorular.html",
+      "source_sha256": "8115c180be129f1c1ede6da71c6898a39854279904659478f27d7f0755c6fc4f",
+      "english_sha256": "5cf8b27522f1ce315e4e060ff6a911835eb39bb08988bb8d4bc5eeb291e84c84"
     }
   }
 }
