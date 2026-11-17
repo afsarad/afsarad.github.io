@@ -48,8 +48,8 @@
     },
     "index.html": {
       "english": "en/index.html",
-      "source_sha256": "1e487e1b68126457e2dd47cff8c18e7d57e170553ffe55b2a52722701b7751f9",
-      "english_sha256": "8e1d82e29d2e3be350634b11827e023cbd553b6163e7fd9ffccc7ab9ec87a6c8"
+      "source_sha256": "d1f52d314ee70ddb482e566e88870188384cd233c2d988a7f3d2f0afc227fb0a",
+      "english_sha256": "7eb9829135cf435e76102273c388e682cfcf1b3a0a698e33f718797e7a71735f"
     },
     "insan-ozgurluk-sorumluluk.html": {
       "english": "en/insan-ozgurluk-sorumluluk.html",
@@ -148,18 +148,23 @@
     },
     "risale-i-nur-modern-insan-ihtiyac-arzu-anlam.html": {
       "english": "en/risale-i-nur-modern-insan-ihtiyac-arzu-anlam.html",
-      "source_sha256": "2e02d1fa548004d9ecb8ab58fd5bdb1e29c1f18eb1f116094192f8d322ef4206",
-      "english_sha256": "c80ad683bd0b5f55dfcf439dd6b765d1d5f67a1dfe4559aff4cd608af7e2c2d8"
+      "source_sha256": "9817157e9cbd718f2d8311f13a0c2358385efaa5164ac61257483975a40e81f8",
+      "english_sha256": "0ce70494c6e0fea45311d95f4c9b305524db6d33b2320c917db996039512b4e1"
     },
     "risale-i-nur-birlikte-olmak.html": {
       "english": "en/risale-i-nur-birlikte-olmak.html",
-      "source_sha256": "1f5ca6073e56be1abf80570bc7b5cf38bc1be00b53a75d9f8d2ca6fcd707177b",
-      "english_sha256": "82aeb53e359a050244ed0862cc9041faec4b96541a31eb72ba2b22f7599a391b"
+      "source_sha256": "d1bea67a77a78353426b3f735ccaed881d30b98857461b245500851b3628d5c1",
+      "english_sha256": "f47beaa8debd1c088a734b810ccff16a82d3f64058eac2c64f40c994ea053945"
     },
     "risale-i-nur-yeniden-okumak.html": {
       "english": "en/risale-i-nur-yeniden-okumak.html",
-      "source_sha256": "5c841d7bbccbefaea60f87b314e7a2bea9e2696f9a816203c1aba55e8e326cf0",
-      "english_sha256": "798f853ad67612886d869d5ae03692fd29c52953a8745513a0ebb48513e28be9"
+      "source_sha256": "73298edadca16d9919a1e1b09e88fff1b8fdfb7dfa5582b8db14fbd5a5018e9f",
+      "english_sha256": "0ba2b700ed6894f49be9c8252b81f451610aee2e8319c3fd2eb8095a73ba655a"
+    },
+    "risale-i-nur-kulliyati-sosyolojisi.html": {
+      "english": "en/risale-i-nur-kulliyati-sosyolojisi.html",
+      "source_sha256": "4c46ea9c28692f1ef00060267be7779ce4628c415548fee893ab7a27c4ab56d8",
+      "english_sha256": "cda3065f6c625f4542355261e14e89bbe333244a513f4da7cbd92a6e7bcf1474"
     }
   }
 }
