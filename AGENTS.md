@@ -16,3 +16,8 @@ The author requires full content parity between Turkish and English editions.
 - In Turkish text, refer to the author as “Bediüzzaman Said Nursi” or “Bediüzzaman hazretleri”, never by the surname alone or as “Said Nursi” alone.
 - Use “Bediüzzaman Said Nursi” in the English editions and source credits as well.
 - Preserve verbatim historical quotations; apply this convention to authored prose, commentary and source attributions.
+
+# Pinned Risale essay
+
+- Keep risale-i-nur-ilham-vahiy-kainati-okumak.html pinned first on both language homepages and Risale section pages when adding new writing.
+- Introduce it with “Risale-i Nur Külliyatı vahiy mi, ilham mı?” in Turkish and “Is the Risale-i Nur Collection revelation or inspiration?” in English. Preserve its existing article title and URL.
