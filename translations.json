@@ -163,8 +163,8 @@
     },
     "risale-i-nur-kulliyati-sosyolojisi.html": {
       "english": "en/risale-i-nur-kulliyati-sosyolojisi.html",
-      "source_sha256": "71d80a067ba393e72647caaf7ca0ac93aea773d48e0e3eabc7a4f5c92ffde245",
-      "english_sha256": "a398f45c95c2be82624dd36afde4deef23428c4dadc07fe7b00a16773d992e5c"
+      "source_sha256": "8448529e1a78b83d147e20162deb3415697d1d3953b2522994d8a559e1b8a32a",
+      "english_sha256": "46e9b7431e288d4c22143d34ed06683cffade013743bfde7e089c78b6ba6b411"
     },
     "risale-i-nur-ilham-vahiy-kainati-okumak.html": {
       "english": "en/risale-i-nur-ilham-vahiy-kainati-okumak.html",
@@ -173,8 +173,8 @@
     },
     "sorularla-islamiyet.html": {
       "english": "en/sorularla-islamiyet.html",
-      "source_sha256": "32a625dd1fd0f2842bd2df54430aa049709562e631cbd9dc8272c79515e3d1e0",
-      "english_sha256": "d75c83ee101867112f4458621ab26675d23fa2c93e35f16bbf21becd90735d19"
+      "source_sha256": "8feb2bdce19a12df55556580481ceabc24ee7063465cabce4c99d8621ac011c6",
+      "english_sha256": "287cd1d5775e644ec74f63de71cac4a5e20f56fce1f71ec4e66e10f60206db84"
     },
     "cevabul-ahmak-es-sukut.html": {
       "english": "en/cevabul-ahmak-es-sukut.html",
@@ -185,6 +185,11 @@
       "english": "en/konular-ve-sorular.html",
       "source_sha256": "8115c180be129f1c1ede6da71c6898a39854279904659478f27d7f0755c6fc4f",
       "english_sha256": "5cf8b27522f1ce315e4e060ff6a911835eb39bb08988bb8d4bc5eeb291e84c84"
+    },
+    "kuran-hadis-risale-i-nur-okuma-rehberi.html": {
+      "english": "en/kuran-hadis-risale-i-nur-okuma-rehberi.html",
+      "source_sha256": "9c238db38af4c3881cbbb453c3aa4dcc39d8d6dfc0b444041193f39933fc5c3d",
+      "english_sha256": "ce6fb6121704d330b6cc9942ee72cb824d6a94e7c098c09a9666717dc51ec149"
     }
   }
 }
