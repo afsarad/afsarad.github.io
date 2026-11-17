@@ -10,3 +10,9 @@ The author requires full content parity between Turkish and English editions.
 - Update the matching SHA-256 entries in translations.json only after reviewing the two editions. The manifest records checked content; changing hashes alone is not translation.
 - Run `python3 scripts/check_translations.py` before publishing. The Pages workflow runs it before deployment and must remain gated by this check.
 - Do not add editorial coaching, implementation details or conversation notes to the author's published articles.
+
+# Referring to the author of Risale-i Nur
+
+- In Turkish text, refer to the author as “Bediüzzaman Said Nursi” or “Bediüzzaman hazretleri”, never by the surname alone or as “Said Nursi” alone.
+- Use “Bediüzzaman Said Nursi” in the English editions and source credits as well.
+- Preserve verbatim historical quotations; apply this convention to authored prose, commentary and source attributions.

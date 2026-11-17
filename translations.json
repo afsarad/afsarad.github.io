@@ -153,13 +153,13 @@
     },
     "risale-i-nur-birlikte-olmak.html": {
       "english": "en/risale-i-nur-birlikte-olmak.html",
-      "source_sha256": "a651abeb8161bbefab1ba2c8e07832dba9a1aa7d150ac52c35305c7963e99820",
-      "english_sha256": "19980d394db096bf88cf82219534ae580cf4099dec294b39742c2a59e100fd6f"
+      "source_sha256": "1f5ca6073e56be1abf80570bc7b5cf38bc1be00b53a75d9f8d2ca6fcd707177b",
+      "english_sha256": "82aeb53e359a050244ed0862cc9041faec4b96541a31eb72ba2b22f7599a391b"
     },
     "risale-i-nur-yeniden-okumak.html": {
       "english": "en/risale-i-nur-yeniden-okumak.html",
-      "source_sha256": "66c63978e1a0b55c49c4d87c4924edd8ce88614ce524566ff9b82678e0b42f1c",
-      "english_sha256": "3f28d1471c48ae671355aa25325b62dbfb84e5e50f18da4cc8d76b66dfff2b4d"
+      "source_sha256": "5c841d7bbccbefaea60f87b314e7a2bea9e2696f9a816203c1aba55e8e326cf0",
+      "english_sha256": "798f853ad67612886d869d5ae03692fd29c52953a8745513a0ebb48513e28be9"
     }
   }
 }
