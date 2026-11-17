@@ -1,27 +1,34 @@
 {
-  "checked_on": "2026-11-16",
-  "publisher": "Sözler Neşriyat",
-  "digital_presentation": "eRisale",
-  "publisher_relationship_source": "https://www.erisale.com/tr/about",
-  "scope": "Short excerpts only; context summaries and glossary notes are separate editorial text.",
+  "checked_on": "2026-11-17",
+  "source_type": "user_supplied_pdf",
+  "publisher": null,
+  "publisher_verification": "No publishing imprint verified in the supplied PDFs.",
+  "transcription": "Source spelling and capitalisation retained; line-end word divisions rejoined.",
+  "glossary_scope": "All word occurrences in the three extended excerpts and their English renderings.",
   "passages": [
     {
       "id": "pasaj-1",
-      "work": "Sözler",
-      "section": "Yirmiüçüncü Söz / Birinci Mebhas / Birinci Nokta",
-      "url": "https://www.erisale.com/tr/sozler/yirmiucuncu-soz-birinci-mebhas"
+      "section": "Sözler · Yirmi Üçüncü Söz · Birinci Mebhas · Birinci Nokta",
+      "source_file": "SOZLER.pdf",
+      "source_sha256": "5e266e140fd82467360f5917c92ccabba787937ca760fd597e5c74dd2844467c",
+      "text_page": 311,
+      "pdf_page": 309
     },
     {
       "id": "pasaj-2",
-      "work": "Lem’alar",
-      "section": "Ondokuzuncu Lem’a / Birinci Nükte",
-      "url": "https://www.erisale.com/tr/lemalar/ondokuzuncu-lema-iktisad-risalesi"
+      "section": "Lem’alar · On Dokuzuncu Lem’a · İktisad Risalesi · Birinci Nükte",
+      "source_file": "LEMALAR.pdf",
+      "source_sha256": "772db113a0547bbed9cefbe1b6d8962666a13ef1e9cac17175bd5e509b595030",
+      "text_page": 139,
+      "pdf_page": 136
     },
     {
       "id": "pasaj-3",
-      "work": "Lem’alar",
-      "section": "Onyedinci Lem’a / Beşinci Nota",
-      "url": "https://www.erisale.com/tr/lemalar/onyedinci-lema-besinci-nota"
+      "section": "Lem’alar · On Yedinci Lem’a · Beşinci Nota",
+      "source_file": "LEMALAR.pdf",
+      "source_sha256": "772db113a0547bbed9cefbe1b6d8962666a13ef1e9cac17175bd5e509b595030",
+      "text_page": 115,
+      "pdf_page": 112
     }
   ]
 }
