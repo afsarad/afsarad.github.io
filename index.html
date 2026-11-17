@@ -787,6 +787,79 @@ header{padding:38px 20px}.motto{margin-top:22px;padding:18px}.motto-aciklama{mar
   #risale-i-nur-sosyolojisi h2,#risale-i-nur-sosyolojisi h3,#risale-i-nur-sosyolojisi .girizgah,#risale-i-nur-sosyolojisi .kucuk-not {background:none;color:#222}
 }
 </style>
+<style>
+/* Risale-i Nur: kapaklardan esinlenen yeşil ve altın bölüm */
+#sorularla-islamiyet-projesi {
+  position:relative;
+  isolation:isolate;
+  padding:clamp(32px,6vw,58px);
+  border:1px solid #d8b65c;
+  border-radius:6px;
+  color:#f5df9b;
+  background:
+    radial-gradient(ellipse at 30% 0%,rgba(255,216,153,.09),transparent 65%),
+    linear-gradient(115deg,#0c392b,#1b6346 48%,#0b3528);
+  box-shadow:inset 0 0 0 5px #174a36,inset 0 0 0 6px #caa14b,0 12px 32px rgba(7,60,37,.14);
+}
+#sorularla-islamiyet-projesi::before {
+  content:"";
+  position:absolute;
+  inset:15px;
+  border:3px double #d1ae59;
+  border-radius:3px;
+  pointer-events:none;
+  z-index:-1;
+}
+#sorularla-islamiyet-projesi .risale-bezeme {
+  text-align:center;
+  color:#e3c675;
+  font-size:25px;
+  letter-spacing:.28em;
+  margin:0 0 14px;
+}
+#sorularla-islamiyet-projesi .etiket {color:#e8cb80;text-align:center}
+#sorularla-islamiyet-projesi h2 {
+  font-family:"Risale Liva Nur",Georgia,serif;
+  font-weight:400;
+  font-size:clamp(32px,5.8vw,52px);
+  line-height:1.25;
+  text-align:center;
+  color:#f1d57c;
+  text-shadow:0 1px 0 #103d2a,0 2px 3px #082819;
+  margin-bottom:25px;
+}
+@supports (background-clip:text) or (-webkit-background-clip:text) {
+  #sorularla-islamiyet-projesi h2 {
+    background:linear-gradient(105deg,#d4af50 8%,#fff0ae 34%,#dfbc62 55%,#fff0ae 76%,#d4af50);
+    -webkit-background-clip:text;
+    background-clip:text;
+    color:transparent;
+    text-shadow:none;
+  }
+}
+#sorularla-islamiyet-projesi .girizgah {color:#f7e5ad}
+#sorularla-islamiyet-projesi .arastirma-notu {
+  background:rgba(40,3,11,.23);
+  border-left-color:#e2bd62;
+  border-top:1px solid #bc934b;
+  border-bottom:1px solid #bc934b;
+}
+#sorularla-islamiyet-projesi h3 {color:#f1d57c;font-family:"Risale Souvenir Demi",Georgia,serif;font-weight:700}
+#sorularla-islamiyet-projesi .kucuk-not {color:#e4ca8b}
+#sorularla-islamiyet-projesi .sozluk-kelime {color:inherit}
+#sorularla-islamiyet-projesi a {color:#ffe4a1}
+#sorularla-islamiyet-projesi :focus-visible {outline-color:#ffe4a1}
+@media(max-width:650px) {
+  #sorularla-islamiyet-projesi {scroll-margin-top:210px}
+}
+@media(forced-colors:active) {
+  #sorularla-islamiyet-projesi h2 {background:none;color:CanvasText;text-shadow:none}
+}
+@media print {
+  #sorularla-islamiyet-projesi {background:white;color:#222;box-shadow:none}
+  #sorularla-islamiyet-projesi h2,#sorularla-islamiyet-projesi h3,#sorularla-islamiyet-projesi .girizgah,#sorularla-islamiyet-projesi .kucuk-not {background:none;color:#222}
+}
+</style>
 </head>
 <body id="sayfa-basi"><nav aria-label="Dil seçimi" class="language-switch" style="max-width:1100px;margin:12px auto;padding:8px 18px;font:15px/1.6 Arial,sans-serif">Türkçe · <a href="/en/index.html" hreflang="en" lang="en">English</a></nav>
 <a class="icerige-gec" href="#ana-icerik">Ana içeriğe geç</a>
@@ -1158,7 +1231,8 @@ header{padding:38px 20px}.motto{margin-top:22px;padding:18px}.motto-aciklama{mar
       karşılaştırmalar genişletilecektir.
     </p>
 </div>
-</section><section aria-labelledby="risale-sosyolojisi-baslik" id="risale-i-nur-sosyolojisi"><h2 id="risale-sosyolojisi-baslik"><a href="/risale-i-nur-kulliyati-sosyolojisi.html">Risale-i Nur Külliyatı Sosyolojisi →</a></h2></section>
+</section><section aria-labelledby="risale-sosyolojisi-baslik" id="risale-i-nur-sosyolojisi"><h2 id="risale-sosyolojisi-baslik"><a href="/risale-i-nur-kulliyati-sosyolojisi.html">Risale-i Nur Külliyatı Sosyolojisi<br/><span aria-hidden="true">→</span></a></h2></section>
+<section aria-labelledby="sorularla-islamiyet-baslik" id="sorularla-islamiyet-projesi"><h2 id="sorularla-islamiyet-baslik"><a href="/sorularla-islamiyet.html">Sorularla İslamiyet<br/><span aria-hidden="true">→</span></a></h2></section>
 <section id="makaleler"><div class="etiket">Yayımlanmış yazılar</div><h2>Makaleler ve denemeler</h2><p>Toplum, tarih, teknoloji ve gündelik yaşam üzerine tamamlanmış yazılar. Başlık veya konuya göre arayabilirsiniz.</p><div class="makale-araclar" role="search"><label for="makale-arama">Yazılarda ara</label><input class="makale-arama" id="makale-arama" placeholder="Başlık veya konu…" type="search"/></div><p aria-live="polite" class="makale-sayac" id="makale-sayac" role="status"></p><div id="makale-listesi"><article class="makale" data-durum="yayinda"><h3><a href="/yapay-zeka-nedir-nasil-kullanilir.html">Yapay Zekâ Nedir, Nasıl Kullanılır?</a></h3><p>Günlük kullanım, doğru soru sorma ve karar sorumluluğu.</p></article><article class="makale" data-durum="yayinda"><span class="makale-durum yayinda">Yayımlanmış makale</span><h3>Mekânda Kalan İnsan İzi: Arkeolojik Miras, Kişisel Anlamlandırma ve Koruma</h3><p>Arkeolojik kalıntılardaki insan izi, ziyaretçinin kişisel anlamlandırması ve gelecek kuşaklar için koruma sorumluluğu üzerine kuramsal bir inceleme.</p><p class="kucuk-not">Kuramsal inceleme · <time datetime="2026-11-13">13 Kasım 2026</time> · Adem Afşar</p><a class="makale-baglantisi" href="mekanda-kalan-insan-izi.html">Makaleyi oku</a><button aria-label="Mekânda Kalan İnsan İzi yazısını paylaş" class="makale-paylas" data-baslik="Mekânda Kalan İnsan İzi: Arkeolojik Miras, Kişisel Anlamlandırma ve Koruma — Adem Afşar" data-url="mekanda-kalan-insan-izi.html" type="button">Paylaş</button></article><article class="makale" data-durum="yayinda"><div class="etiket">10 Kasım 2026 · Sosyolojik inceleme · II. Bölüm</div><h3><a class="makale-baglantisi" href="yapay-zeka-reklamlarinda-karsilastirma-ve-fayda-2.html">Yapay Zekâ Platformu Seçiminde Reklamın Gücü — II. Bölüm</a></h3><p>Vincen ve Merlin reklam örneklerinde sıralama, otorite, çoklu abonelik vaadi ve kullanıcıya özgü gerçekleşen fayda.</p><a class="makale-baglantisi" href="yapay-zeka-reklamlarinda-karsilastirma-ve-fayda-2.html">Makaleyi oku →</a></article><article class="makale" data-durum="yayinda"><div class="etiket">8 Kasım 2026 · Sosyolojik inceleme</div><h3><a class="makale-baglantisi" href="yapay-zeka-reklamlarinda-karsilastirma-ve-fayda.html">Yapay Zekâ Platformu Seçiminde Reklamın Gücü</a></h3><p>Görsel üstünlük, karşılaştırılabilirlik, kullanıcı beklentileri ve gerçekleşen fayda üzerine kaynaklandırılmış kavramsal inceleme.</p><a class="makale-baglantisi" href="yapay-zeka-reklamlarinda-karsilastirma-ve-fayda.html">Makaleyi oku →</a></article><div class="makale" data-durum="yayinda">
 <span class="makale-durum yayinda">Yayımlanmış deneme</span>
 <h3>Hangi Sonuç Bizi İkna Eder?</h3>
