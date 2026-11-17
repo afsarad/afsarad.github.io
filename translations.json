@@ -48,8 +48,8 @@
     },
     "index.html": {
       "english": "en/index.html",
-      "source_sha256": "d1f52d314ee70ddb482e566e88870188384cd233c2d988a7f3d2f0afc227fb0a",
-      "english_sha256": "7eb9829135cf435e76102273c388e682cfcf1b3a0a698e33f718797e7a71735f"
+      "source_sha256": "1a3d1625047bf0a7e8130e151d75491a67f90fa78689d009841d0609ccb1b40d",
+      "english_sha256": "e612a100677374a8ca92f5a2b6d2039d5f0069de416c0d7a473d9184d0413680"
     },
     "insan-ozgurluk-sorumluluk.html": {
       "english": "en/insan-ozgurluk-sorumluluk.html",
@@ -163,8 +163,13 @@
     },
     "risale-i-nur-kulliyati-sosyolojisi.html": {
       "english": "en/risale-i-nur-kulliyati-sosyolojisi.html",
-      "source_sha256": "4c46ea9c28692f1ef00060267be7779ce4628c415548fee893ab7a27c4ab56d8",
-      "english_sha256": "cda3065f6c625f4542355261e14e89bbe333244a513f4da7cbd92a6e7bcf1474"
+      "source_sha256": "8fc202cc5c70a914b483c2592bdcfc5550c1a3ba8b26be1ffaeca1c90f2eddf7",
+      "english_sha256": "40f00226332873d4b484c043ed185f836077681dec05dad3fe5c51417f7ed893"
+    },
+    "risale-i-nur-ilham-vahiy-kainati-okumak.html": {
+      "english": "en/risale-i-nur-ilham-vahiy-kainati-okumak.html",
+      "source_sha256": "dc3f10fc33764ccbd12688a13386ac3f644d1dd14e3ba1f7f42b7ea8381abbb8",
+      "english_sha256": "516b71e6ff380f8d7ed4d2c0d4842325c7dedbbfcf88b68685c5f577236d3e00"
     }
   }
 }
