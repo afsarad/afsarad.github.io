@@ -48,8 +48,8 @@
     },
     "index.html": {
       "english": "en/index.html",
-      "source_sha256": "f47c1d85ec5d892036d2a3261602a88441106d58e7542c79549fdc3a9be21523",
-      "english_sha256": "7292a5fb38e4e10fadfaab13579ba93e24f2feb46354daeaf706467ae165ab22"
+      "source_sha256": "e9c0ad4c38cb8f882ec0b5c80ff480adc49923d90f475229e40de2ae23820df7",
+      "english_sha256": "039347ef55bd5dd24b4099a5352808944272f6911dfd8abcb4cebb912318be6f"
     },
     "insan-ozgurluk-sorumluluk.html": {
       "english": "en/insan-ozgurluk-sorumluluk.html",
@@ -170,6 +170,11 @@
       "english": "en/risale-i-nur-ilham-vahiy-kainati-okumak.html",
       "source_sha256": "f2f489475032506e5a57836e922634fecafe0c44d6a03c1fabfb4d0014dbd1a4",
       "english_sha256": "4ae80b47b047bbfee1eda5fc34a2e306254695987ec45d595abed01f1d8e0765"
+    },
+    "sorularla-islamiyet.html": {
+      "english": "en/sorularla-islamiyet.html",
+      "source_sha256": "791023a306d3e5251ba7d2827fe47fc5a22cb6ce5d1c2173439adf6da1216f2f",
+      "english_sha256": "010d399aab2e01b8b957185f8dbc7acda60b9fba4ad3870a9efc13c210f4995c"
     }
   }
 }
