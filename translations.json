@@ -173,8 +173,13 @@
     },
     "sorularla-islamiyet.html": {
       "english": "en/sorularla-islamiyet.html",
-      "source_sha256": "32a625dd1fd0f2842bd2df54430aa049709562e631cbd9dc8272c79515e3d1e0",
-      "english_sha256": "d75c83ee101867112f4458621ab26675d23fa2c93e35f16bbf21becd90735d19"
+      "source_sha256": "901d5b60dfb7a7310b395bbcc2e87da06ae11e2f0d51133469bf7dac6fbd86a0",
+      "english_sha256": "30d9d79bb06fef5076c0c5a1682939c819b0726abe176c82298a0305bf2e1f1c"
+    },
+    "cevabul-ahmak-es-sukut.html": {
+      "english": "en/cevabul-ahmak-es-sukut.html",
+      "source_sha256": "ba75665d0c365bf6a9b635eb4dfde1aab7c5c2f009e36ae477a66537248629a0",
+      "english_sha256": "a95161cc1b69493c103b4dce00f9efdee2f521b3f051adfe6f4f689c8b2988b2"
     }
   }
 }
