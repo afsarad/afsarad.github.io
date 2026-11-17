@@ -148,18 +148,18 @@
     },
     "risale-i-nur-modern-insan-ihtiyac-arzu-anlam.html": {
       "english": "en/risale-i-nur-modern-insan-ihtiyac-arzu-anlam.html",
-      "source_sha256": "9817157e9cbd718f2d8311f13a0c2358385efaa5164ac61257483975a40e81f8",
-      "english_sha256": "0ce70494c6e0fea45311d95f4c9b305524db6d33b2320c917db996039512b4e1"
+      "source_sha256": "aca582dd596636026d1e84971be89dde124777f5a9a0c6823aef57f53d24b771",
+      "english_sha256": "79797cf286dcdfd3a45c56b7cfb3fe30d2985a2c78632c854c3b403c4474ff56"
     },
     "risale-i-nur-birlikte-olmak.html": {
       "english": "en/risale-i-nur-birlikte-olmak.html",
-      "source_sha256": "d1bea67a77a78353426b3f735ccaed881d30b98857461b245500851b3628d5c1",
-      "english_sha256": "f47beaa8debd1c088a734b810ccff16a82d3f64058eac2c64f40c994ea053945"
+      "source_sha256": "32c65c2dc3f5818ce2d99bfaabfc331ed8a833279a84b34e3c942207d3598bca",
+      "english_sha256": "5508e525628dc0c6255967485257d6c391ebd42521aa1184ab7faa09c4584a18"
     },
     "risale-i-nur-yeniden-okumak.html": {
       "english": "en/risale-i-nur-yeniden-okumak.html",
-      "source_sha256": "73298edadca16d9919a1e1b09e88fff1b8fdfb7dfa5582b8db14fbd5a5018e9f",
-      "english_sha256": "0ba2b700ed6894f49be9c8252b81f451610aee2e8319c3fd2eb8095a73ba655a"
+      "source_sha256": "0c392ec1cae80307d8f189ac28c4229d876ef7bea6868fefc7efeab45ba4ad47",
+      "english_sha256": "18481987eddbf8d451eb973e672295b13ec3553c6fa89cbdcecd5c6610b92308"
     },
     "risale-i-nur-kulliyati-sosyolojisi.html": {
       "english": "en/risale-i-nur-kulliyati-sosyolojisi.html",
@@ -168,8 +168,8 @@
     },
     "risale-i-nur-ilham-vahiy-kainati-okumak.html": {
       "english": "en/risale-i-nur-ilham-vahiy-kainati-okumak.html",
-      "source_sha256": "dc3f10fc33764ccbd12688a13386ac3f644d1dd14e3ba1f7f42b7ea8381abbb8",
-      "english_sha256": "516b71e6ff380f8d7ed4d2c0d4842325c7dedbbfcf88b68685c5f577236d3e00"
+      "source_sha256": "b66279d7ba3513ba1757677aee1f2d395f66ab3cd447914dd761f20ff5021801",
+      "english_sha256": "b73896757787599d659bd38629dc57c4cdf416e4938c8dd3df6bd050c8029b3c"
     }
   }
 }

@@ -63,3 +63,5 @@ footer a{color:inherit}
 body.lugat-acik{overflow:hidden}
 @media(max-width:600px){.risale-pasaj{padding:15px}.risale-pasaj blockquote{padding-left:12px;font-size:20px}.risale-lugat{padding:23px}}
 @media print{.lugat-yardim,.risale-lugat{display:none!important}.risale-pasaj{break-inside:avoid}.risale-kelime{text-decoration:none!important}}
+
+.risale-lugat .lugat-karsilik{font:700 18px/1.6 Georgia,serif;color:#701b2b;margin:0 0 12px}.risale-terim{font-weight:inherit}

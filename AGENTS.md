@@ -26,3 +26,7 @@ The author requires full content parity between Turkish and English editions.
 
 - The general homepages index.html and en/index.html may contain only links to their dedicated Risale-i Nur Külliyatı Sosyolojisi page. Do not include Risale article cards, previews, excerpts, summaries or pinned essays on those general homepages.
 - List and feature Risale essays only on risale-i-nur-kulliyati-sosyolojisi.html and en/risale-i-nur-kulliyati-sosyolojisi.html. Preserve the existing article URLs.
+
+# Glossary for retained Turkish terms
+
+- When retaining Turkish or Ottoman terms in English Risale essays, provide an English equivalent and a short English explanation through the accessible on-click glossary, including terms in authored prose as well as source excerpts. Maintain the corresponding Turkish glossary support.
