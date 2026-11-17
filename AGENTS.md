@@ -30,3 +30,9 @@ The author requires full content parity between Turkish and English editions.
 # Glossary for retained Turkish terms
 
 - When retaining Turkish or Ottoman terms in English Risale essays, provide an English equivalent and a short English explanation through the accessible on-click glossary, including terms in authored prose as well as source excerpts. Maintain the corresponding Turkish glossary support.
+
+# Pinned homepage section links
+
+- Keep the three decorative section links immediately after the complete author biography section (`section#hakkinda`) on both `index.html` and `en/index.html`.
+- Preserve this order: `risale-i-nur-sosyolojisi`, `sorularla-islamiyet-projesi`, `cevabul-ahmak-baglantisi`.
+- These are links to independent pages. Keep their existing fonts, colors, borders and destinations when adding other homepage content. Do not move them below the books section.
