@@ -48,8 +48,8 @@
     },
     "index.html": {
       "english": "en/index.html",
-      "source_sha256": "d2cfe04f55f9f9c6b9aef93951d0898688adf5026ef07f57126a7f98bb5f3c1a",
-      "english_sha256": "5760895574f725a2058f57c462a5e609e88acf94d1547810cc3da3f2e210c74b"
+      "source_sha256": "7051da6146a6e3aa919c3fb96b28f503989b1769e5048fc18ac985312a0de959",
+      "english_sha256": "912a7aed06f10b64886a9847895ecf920ff5d28ef72b4b7f1da31a5cd61d2d06"
     },
     "insan-ozgurluk-sorumluluk.html": {
       "english": "en/insan-ozgurluk-sorumluluk.html",
@@ -173,13 +173,13 @@
     },
     "sorularla-islamiyet.html": {
       "english": "en/sorularla-islamiyet.html",
-      "source_sha256": "901d5b60dfb7a7310b395bbcc2e87da06ae11e2f0d51133469bf7dac6fbd86a0",
-      "english_sha256": "30d9d79bb06fef5076c0c5a1682939c819b0726abe176c82298a0305bf2e1f1c"
+      "source_sha256": "32a625dd1fd0f2842bd2df54430aa049709562e631cbd9dc8272c79515e3d1e0",
+      "english_sha256": "d75c83ee101867112f4458621ab26675d23fa2c93e35f16bbf21becd90735d19"
     },
     "cevabul-ahmak-es-sukut.html": {
       "english": "en/cevabul-ahmak-es-sukut.html",
-      "source_sha256": "6b624a2dea4ed19b842d15f998444f093d116c9529282bdc0c32326893486e83",
-      "english_sha256": "1311a408327512319776e74c75ae59872b1ba7371b80e03a0188d46bf28e0e70"
+      "source_sha256": "7c311a9716d9de7ed004dba3c1d41c9564fbdf7c43237c5cae4b38875293ed56",
+      "english_sha256": "d37b1d24740b154709d866c196de844e29353ffc72208aca491af48a49100ea5"
     }
   }
 }
