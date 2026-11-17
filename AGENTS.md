@@ -21,3 +21,8 @@ The author requires full content parity between Turkish and English editions.
 
 - Keep risale-i-nur-ilham-vahiy-kainati-okumak.html pinned first ONLY on risale-i-nur-kulliyati-sosyolojisi.html and en/risale-i-nur-kulliyati-sosyolojisi.html when adding new writing. Do not pin it on index.html or en/index.html. Use the dedicated Risale section URLs when sharing its pinned position.
 - Introduce it with “Risale-i Nur Külliyatı vahiy mi, ilham mı?” in Turkish and “Is the Risale-i Nur Collection revelation or inspiration?” in English. Preserve its existing article title and URL.
+
+# Separate Risale publication area
+
+- The general homepages index.html and en/index.html may contain only links to their dedicated Risale-i Nur Külliyatı Sosyolojisi page. Do not include Risale article cards, previews, excerpts, summaries or pinned essays on those general homepages.
+- List and feature Risale essays only on risale-i-nur-kulliyati-sosyolojisi.html and en/risale-i-nur-kulliyati-sosyolojisi.html. Preserve the existing article URLs.
