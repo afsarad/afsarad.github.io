@@ -48,8 +48,8 @@
     },
     "index.html": {
       "english": "en/index.html",
-      "source_sha256": "08001b2ee1d48638c125e5c61b5307d61def2a9b729d8bae7d11056b62affabf",
-      "english_sha256": "14f398010cd4d5ad03e85527130b983b91a17c0b1cdbdf6cc4659f288f912c46"
+      "source_sha256": "1e487e1b68126457e2dd47cff8c18e7d57e170553ffe55b2a52722701b7751f9",
+      "english_sha256": "8e1d82e29d2e3be350634b11827e023cbd553b6163e7fd9ffccc7ab9ec87a6c8"
     },
     "insan-ozgurluk-sorumluluk.html": {
       "english": "en/insan-ozgurluk-sorumluluk.html",
@@ -150,6 +150,16 @@
       "english": "en/risale-i-nur-modern-insan-ihtiyac-arzu-anlam.html",
       "source_sha256": "2e02d1fa548004d9ecb8ab58fd5bdb1e29c1f18eb1f116094192f8d322ef4206",
       "english_sha256": "c80ad683bd0b5f55dfcf439dd6b765d1d5f67a1dfe4559aff4cd608af7e2c2d8"
+    },
+    "risale-i-nur-birlikte-olmak.html": {
+      "english": "en/risale-i-nur-birlikte-olmak.html",
+      "source_sha256": "a651abeb8161bbefab1ba2c8e07832dba9a1aa7d150ac52c35305c7963e99820",
+      "english_sha256": "19980d394db096bf88cf82219534ae580cf4099dec294b39742c2a59e100fd6f"
+    },
+    "risale-i-nur-yeniden-okumak.html": {
+      "english": "en/risale-i-nur-yeniden-okumak.html",
+      "source_sha256": "66c63978e1a0b55c49c4d87c4924edd8ce88614ce524566ff9b82678e0b42f1c",
+      "english_sha256": "3f28d1471c48ae671355aa25325b62dbfb84e5e50f18da4cc8d76b66dfff2b4d"
     }
   }
 }
