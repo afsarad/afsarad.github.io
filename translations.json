@@ -48,8 +48,8 @@
     },
     "index.html": {
       "english": "en/index.html",
-      "source_sha256": "0e4f206802a3d9dcf2cbd12fc155e8916fdf69c54830293d47b105da593d9cbd",
-      "english_sha256": "d240b231494bc2b8d15c517f6a7ee8bc2a73b225f177e31670fdb94ce8f71fb7"
+      "source_sha256": "04e0090e334aa147f73e749198ae0e82e2ba9410ce8daf536c2d60e7185d4a82",
+      "english_sha256": "2cb6495ffc5283bcb848e5b6ff511f694afed42894ac4f7f240a817dcfdd5bf9"
     },
     "insan-ozgurluk-sorumluluk.html": {
       "english": "en/insan-ozgurluk-sorumluluk.html",
@@ -190,6 +190,11 @@
       "english": "en/kuran-hadis-risale-i-nur-okuma-rehberi.html",
       "source_sha256": "9c238db38af4c3881cbbb453c3aa4dcc39d8d6dfc0b444041193f39933fc5c3d",
       "english_sha256": "ce6fb6121704d330b6cc9942ee72cb824d6a94e7c098c09a9666717dc51ec149"
+    },
+    "2026-kpss-ortaogretim-sonuclari.html": {
+      "english": "en/2026-kpss-ortaogretim-sonuclari.html",
+      "source_sha256": "2890583509f602bcb4b0e1e6e0e62c610f963144a5cf6d1f6b92cc0e91bfd9f9",
+      "english_sha256": "3fe06087dea5d6540f9d5231af1ac82e515ca6271726ed4cf61fb11c46ec6789"
     }
   }
 }
