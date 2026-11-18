@@ -163,8 +163,8 @@
     },
     "risale-i-nur-kulliyati-sosyolojisi.html": {
       "english": "en/risale-i-nur-kulliyati-sosyolojisi.html",
-      "source_sha256": "8448529e1a78b83d147e20162deb3415697d1d3953b2522994d8a559e1b8a32a",
-      "english_sha256": "46e9b7431e288d4c22143d34ed06683cffade013743bfde7e089c78b6ba6b411"
+      "source_sha256": "27c10021d2b2ae388d45f8189d059f763f8bb911d671a4f5775706396b81c125",
+      "english_sha256": "1742bd3503b936f4ec889a75c34fc488423781e4563190f80fe42a3fed7c74cb"
     },
     "risale-i-nur-ilham-vahiy-kainati-okumak.html": {
       "english": "en/risale-i-nur-ilham-vahiy-kainati-okumak.html",
@@ -195,6 +195,11 @@
       "english": "en/2026-kpss-ortaogretim-sonuclari.html",
       "source_sha256": "2890583509f602bcb4b0e1e6e0e62c610f963144a5cf6d1f6b92cc0e91bfd9f9",
       "english_sha256": "3fe06087dea5d6540f9d5231af1ac82e515ca6271726ed4cf61fb11c46ec6789"
+    },
+    "risale-i-nur-iman-ve-soru-sormak.html": {
+      "english": "en/risale-i-nur-iman-ve-soru-sormak.html",
+      "source_sha256": "acd69623defc935f8929f3df75d91a26c56cbcfe793c344421213258c2317538",
+      "english_sha256": "10d88f44973c2d19ca310bd8f7729e9d3ca7a177dabc1bd4de8308e129fee515"
     }
   }
 }
