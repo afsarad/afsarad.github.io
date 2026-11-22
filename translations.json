@@ -1,10 +1,30 @@
 {
   "policy": "Full Turkish and English editions must be reviewed and published together.",
   "pages": {
+    "2026-kpss-ortaogretim-sonuclari.html": {
+      "english": "en/2026-kpss-ortaogretim-sonuclari.html",
+      "source_sha256": "2890583509f602bcb4b0e1e6e0e62c610f963144a5cf6d1f6b92cc0e91bfd9f9",
+      "english_sha256": "3fe06087dea5d6540f9d5231af1ac82e515ca6271726ed4cf61fb11c46ec6789"
+    },
+    "arastirma-arsivi.html": {
+      "english": "en/arastirma-arsivi.html",
+      "source_sha256": "d9a7ab7553bb9016dfe974397e0990a9442cc2c3f3a20690744aef3162e77881",
+      "english_sha256": "9cbc70e6923f3ae6b83e15127bb95a2bd2d962c1448ebd96531af4f5e7c0eb24"
+    },
     "asabiyet-ve-ortak-hareket.html": {
       "english": "en/asabiyet-ve-ortak-hareket.html",
       "source_sha256": "f4d37f2bae34bd25b3e0ee020e408d5368814b566d8ca92ba9e02d4bbb6eeb6d",
       "english_sha256": "17b6ff36f4fd9c1eaba87e27996ec881773051da7b243732bc4e4103a599a980"
+    },
+    "bedenin-sinirindan-ortak-yasamin-kuralina.html": {
+      "english": "en/bedenin-sinirindan-ortak-yasamin-kuralina.html",
+      "source_sha256": "adbd02a5c9580718968610ca52cd04a80d486aebf1053be9c33ef2ee5630e8ed",
+      "english_sha256": "0020641cfc7c92ac83922b05f04cddc29430e7b5f4bc4bca74d95c2b57f88654"
+    },
+    "cevabul-ahmak-es-sukut.html": {
+      "english": "en/cevabul-ahmak-es-sukut.html",
+      "source_sha256": "529fd13dab7b9dfc7392463583391058101b12b480e2f58adc6e6e59bd3f2cf8",
+      "english_sha256": "7ae8a43714ca349983a6583f1842b2d81304d689647685c6e0276c3821628de0"
     },
     "dongu-degil-sarmal.html": {
       "english": "en/dongu-degil-sarmal.html",
@@ -81,6 +101,16 @@
       "source_sha256": "4c7255dd32284f92f8d6780003747e812f05482a33f9b1a55602cde63ac9b61b",
       "english_sha256": "f58229886487927f68533e05c1183297e491b0a92c9f71bfa56cafbd1b07b037"
     },
+    "konular-ve-sorular.html": {
+      "english": "en/konular-ve-sorular.html",
+      "source_sha256": "8115c180be129f1c1ede6da71c6898a39854279904659478f27d7f0755c6fc4f",
+      "english_sha256": "5cf8b27522f1ce315e4e060ff6a911835eb39bb08988bb8d4bc5eeb291e84c84"
+    },
+    "kuran-hadis-risale-i-nur-okuma-rehberi.html": {
+      "english": "en/kuran-hadis-risale-i-nur-okuma-rehberi.html",
+      "source_sha256": "9c238db38af4c3881cbbb453c3aa4dcc39d8d6dfc0b444041193f39933fc5c3d",
+      "english_sha256": "ce6fb6121704d330b6cc9942ee72cb824d6a94e7c098c09a9666717dc51ec149"
+    },
     "kusaklar-arasinda-cinsiyet-algisi.html": {
       "english": "en/kusaklar-arasinda-cinsiyet-algisi.html",
       "source_sha256": "d6290955df2b3c082c1c18a25d82669b94c5fa124ae608eeb929d4abc1f2e189",
@@ -91,10 +121,50 @@
       "source_sha256": "f1f4df36a9d10b4b1f7aeca1068b8c25b0ab60e47fb90da49aa2bd1aaa0573e0",
       "english_sha256": "a944d88f680057f06d3299e6d621e4942b1cd5394952653c4e7a4bab6353f7ff"
     },
+    "risale-i-nur-birlikte-olmak.html": {
+      "english": "en/risale-i-nur-birlikte-olmak.html",
+      "source_sha256": "32c65c2dc3f5818ce2d99bfaabfc331ed8a833279a84b34e3c942207d3598bca",
+      "english_sha256": "5508e525628dc0c6255967485257d6c391ebd42521aa1184ab7faa09c4584a18"
+    },
+    "risale-i-nur-ilham-vahiy-kainati-okumak.html": {
+      "english": "en/risale-i-nur-ilham-vahiy-kainati-okumak.html",
+      "source_sha256": "f2f489475032506e5a57836e922634fecafe0c44d6a03c1fabfb4d0014dbd1a4",
+      "english_sha256": "4ae80b47b047bbfee1eda5fc34a2e306254695987ec45d595abed01f1d8e0765"
+    },
+    "risale-i-nur-iman-ve-soru-sormak.html": {
+      "english": "en/risale-i-nur-iman-ve-soru-sormak.html",
+      "source_sha256": "acd69623defc935f8929f3df75d91a26c56cbcfe793c344421213258c2317538",
+      "english_sha256": "10d88f44973c2d19ca310bd8f7729e9d3ca7a177dabc1bd4de8308e129fee515"
+    },
+    "risale-i-nur-kulliyati-sosyolojisi.html": {
+      "english": "en/risale-i-nur-kulliyati-sosyolojisi.html",
+      "source_sha256": "dc428d5103244345198d0b3321c46cd0e3e73ed3da7fe44138a9761d9135cd9f",
+      "english_sha256": "585fd9469d9def5e2fca2c31bbd67988765c6bbdb94b8d5612b74699e7cb6fa3"
+    },
+    "risale-i-nur-modern-insan-ihtiyac-arzu-anlam.html": {
+      "english": "en/risale-i-nur-modern-insan-ihtiyac-arzu-anlam.html",
+      "source_sha256": "aca582dd596636026d1e84971be89dde124777f5a9a0c6823aef57f53d24b771",
+      "english_sha256": "79797cf286dcdfd3a45c56b7cfb3fe30d2985a2c78632c854c3b403c4474ff56"
+    },
+    "risale-i-nur-omrun-gayesi-umut-ihlas-teslimiyet.html": {
+      "english": "en/risale-i-nur-omrun-gayesi-umut-ihlas-teslimiyet.html",
+      "source_sha256": "afebfbaea7372d9f4accf9ab40b3dbe4a1a71ea6d45476d9ff8b373a0f1d8a1d",
+      "english_sha256": "683900fa7edf46ee955228150b26b2c801dada2355faaeb84287ff43b429564e"
+    },
+    "risale-i-nur-yeniden-okumak.html": {
+      "english": "en/risale-i-nur-yeniden-okumak.html",
+      "source_sha256": "0c392ec1cae80307d8f189ac28c4229d876ef7bea6868fefc7efeab45ba4ad47",
+      "english_sha256": "18481987eddbf8d451eb973e672295b13ec3553c6fa89cbdcecd5c6610b92308"
+    },
     "siyasal-istikrar-ve-toplumsal-memnuniyetsizlik.html": {
       "english": "en/siyasal-istikrar-ve-toplumsal-memnuniyetsizlik.html",
       "source_sha256": "e6b60eebfe10a1337eac57ab09fa7e0b27a613f00ed28a85aa79b0f3c1fafe84",
       "english_sha256": "9eba07d39e7cf8fcc7c5befda17fc0f5c759fb7f1de8b1487d313009d9d7febd"
+    },
+    "sorularla-islamiyet.html": {
+      "english": "en/sorularla-islamiyet.html",
+      "source_sha256": "4768a11a6806951f97d4f228892f591b176c9c5234511a52bac59a4934fb957c",
+      "english_sha256": "ff29bb58f106c285ae6aa5eef40ec2901d5d08a42fb6f8f82f91707cbdbc24fb"
     },
     "sorumluluk-daireleri.html": {
       "english": "en/sorumluluk-daireleri.html",
@@ -126,6 +196,11 @@
       "source_sha256": "eeb2192b3976d9b33a150fa2e8416c5a81ba264bc24a0e8ca3ff35a41d9e6e46",
       "english_sha256": "8f203fce6cd4a3846087bd8279115ae3933ae5fc9401c6643f564ceaa9690367"
     },
+    "yapay-zeka-nedir-nasil-kullanilir.html": {
+      "english": "en/yapay-zeka-nedir-nasil-kullanilir.html",
+      "source_sha256": "2f01ad11262cd86c36c29c39eb459b6b55fc69febf4fc268c6de1b8b27fe5888",
+      "english_sha256": "23ef119e5c63d4d66ee0da2714249bd32b1ccce14bb328bb10532ba9f82cd05d"
+    },
     "yapay-zeka-reklamlarinda-karsilastirma-ve-fayda-2.html": {
       "english": "en/yapay-zeka-reklamlarinda-karsilastirma-ve-fayda-2.html",
       "source_sha256": "819383f19a8c45cc7397f41bba55dbc42a004c6699fcbcdfa93ba88f1dc343a1",
@@ -135,76 +210,6 @@
       "english": "en/yapay-zeka-reklamlarinda-karsilastirma-ve-fayda.html",
       "source_sha256": "17850d55d62d2889ae7d839b6c800228b91993b7675c001f813bedea5bd9d12e",
       "english_sha256": "a2e15ff0d0df322afa19cfc2d0b9b42d1ffeeb528cbf000b8303d01f07e33592"
-    },
-    "yapay-zeka-nedir-nasil-kullanilir.html": {
-      "english": "en/yapay-zeka-nedir-nasil-kullanilir.html",
-      "source_sha256": "2f01ad11262cd86c36c29c39eb459b6b55fc69febf4fc268c6de1b8b27fe5888",
-      "english_sha256": "23ef119e5c63d4d66ee0da2714249bd32b1ccce14bb328bb10532ba9f82cd05d"
-    },
-    "arastirma-arsivi.html": {
-      "english": "en/arastirma-arsivi.html",
-      "source_sha256": "d9a7ab7553bb9016dfe974397e0990a9442cc2c3f3a20690744aef3162e77881",
-      "english_sha256": "9cbc70e6923f3ae6b83e15127bb95a2bd2d962c1448ebd96531af4f5e7c0eb24"
-    },
-    "risale-i-nur-modern-insan-ihtiyac-arzu-anlam.html": {
-      "english": "en/risale-i-nur-modern-insan-ihtiyac-arzu-anlam.html",
-      "source_sha256": "aca582dd596636026d1e84971be89dde124777f5a9a0c6823aef57f53d24b771",
-      "english_sha256": "79797cf286dcdfd3a45c56b7cfb3fe30d2985a2c78632c854c3b403c4474ff56"
-    },
-    "risale-i-nur-birlikte-olmak.html": {
-      "english": "en/risale-i-nur-birlikte-olmak.html",
-      "source_sha256": "32c65c2dc3f5818ce2d99bfaabfc331ed8a833279a84b34e3c942207d3598bca",
-      "english_sha256": "5508e525628dc0c6255967485257d6c391ebd42521aa1184ab7faa09c4584a18"
-    },
-    "risale-i-nur-yeniden-okumak.html": {
-      "english": "en/risale-i-nur-yeniden-okumak.html",
-      "source_sha256": "0c392ec1cae80307d8f189ac28c4229d876ef7bea6868fefc7efeab45ba4ad47",
-      "english_sha256": "18481987eddbf8d451eb973e672295b13ec3553c6fa89cbdcecd5c6610b92308"
-    },
-    "risale-i-nur-kulliyati-sosyolojisi.html": {
-      "english": "en/risale-i-nur-kulliyati-sosyolojisi.html",
-      "source_sha256": "dc428d5103244345198d0b3321c46cd0e3e73ed3da7fe44138a9761d9135cd9f",
-      "english_sha256": "585fd9469d9def5e2fca2c31bbd67988765c6bbdb94b8d5612b74699e7cb6fa3"
-    },
-    "risale-i-nur-ilham-vahiy-kainati-okumak.html": {
-      "english": "en/risale-i-nur-ilham-vahiy-kainati-okumak.html",
-      "source_sha256": "f2f489475032506e5a57836e922634fecafe0c44d6a03c1fabfb4d0014dbd1a4",
-      "english_sha256": "4ae80b47b047bbfee1eda5fc34a2e306254695987ec45d595abed01f1d8e0765"
-    },
-    "sorularla-islamiyet.html": {
-      "english": "en/sorularla-islamiyet.html",
-      "source_sha256": "4768a11a6806951f97d4f228892f591b176c9c5234511a52bac59a4934fb957c",
-      "english_sha256": "ff29bb58f106c285ae6aa5eef40ec2901d5d08a42fb6f8f82f91707cbdbc24fb"
-    },
-    "cevabul-ahmak-es-sukut.html": {
-      "english": "en/cevabul-ahmak-es-sukut.html",
-      "source_sha256": "529fd13dab7b9dfc7392463583391058101b12b480e2f58adc6e6e59bd3f2cf8",
-      "english_sha256": "7ae8a43714ca349983a6583f1842b2d81304d689647685c6e0276c3821628de0"
-    },
-    "konular-ve-sorular.html": {
-      "english": "en/konular-ve-sorular.html",
-      "source_sha256": "8115c180be129f1c1ede6da71c6898a39854279904659478f27d7f0755c6fc4f",
-      "english_sha256": "5cf8b27522f1ce315e4e060ff6a911835eb39bb08988bb8d4bc5eeb291e84c84"
-    },
-    "kuran-hadis-risale-i-nur-okuma-rehberi.html": {
-      "english": "en/kuran-hadis-risale-i-nur-okuma-rehberi.html",
-      "source_sha256": "9c238db38af4c3881cbbb453c3aa4dcc39d8d6dfc0b444041193f39933fc5c3d",
-      "english_sha256": "ce6fb6121704d330b6cc9942ee72cb824d6a94e7c098c09a9666717dc51ec149"
-    },
-    "2026-kpss-ortaogretim-sonuclari.html": {
-      "english": "en/2026-kpss-ortaogretim-sonuclari.html",
-      "source_sha256": "2890583509f602bcb4b0e1e6e0e62c610f963144a5cf6d1f6b92cc0e91bfd9f9",
-      "english_sha256": "3fe06087dea5d6540f9d5231af1ac82e515ca6271726ed4cf61fb11c46ec6789"
-    },
-    "risale-i-nur-iman-ve-soru-sormak.html": {
-      "english": "en/risale-i-nur-iman-ve-soru-sormak.html",
-      "source_sha256": "acd69623defc935f8929f3df75d91a26c56cbcfe793c344421213258c2317538",
-      "english_sha256": "10d88f44973c2d19ca310bd8f7729e9d3ca7a177dabc1bd4de8308e129fee515"
-    },
-    "risale-i-nur-omrun-gayesi-umut-ihlas-teslimiyet.html": {
-      "english": "en/risale-i-nur-omrun-gayesi-umut-ihlas-teslimiyet.html",
-      "source_sha256": "afebfbaea7372d9f4accf9ab40b3dbe4a1a71ea6d45476d9ff8b373a0f1d8a1d",
-      "english_sha256": "683900fa7edf46ee955228150b26b2c801dada2355faaeb84287ff43b429564e"
     }
   }
 }
