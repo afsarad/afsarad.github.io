@@ -37,6 +37,7 @@ jobs:
         run: python3 scripts/check_risale_glossary.py
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      # Fresh commit starts a new workflow run with a single Pages artifact.
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
