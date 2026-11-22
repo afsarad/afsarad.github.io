@@ -48,8 +48,8 @@
     },
     "index.html": {
       "english": "en/index.html",
-      "source_sha256": "04e0090e334aa147f73e749198ae0e82e2ba9410ce8daf536c2d60e7185d4a82",
-      "english_sha256": "2cb6495ffc5283bcb848e5b6ff511f694afed42894ac4f7f240a817dcfdd5bf9"
+      "source_sha256": "491f29603829888b21cfb6db06b2b82369a7c95e002563a5f376406e9dca33da",
+      "english_sha256": "ea8b3d17bf2325b02dc26b6711600cf304a1a0dc5b528975f93c269e8bfe98e5"
     },
     "insan-ozgurluk-sorumluluk.html": {
       "english": "en/insan-ozgurluk-sorumluluk.html",
@@ -163,8 +163,8 @@
     },
     "risale-i-nur-kulliyati-sosyolojisi.html": {
       "english": "en/risale-i-nur-kulliyati-sosyolojisi.html",
-      "source_sha256": "27c10021d2b2ae388d45f8189d059f763f8bb911d671a4f5775706396b81c125",
-      "english_sha256": "1742bd3503b936f4ec889a75c34fc488423781e4563190f80fe42a3fed7c74cb"
+      "source_sha256": "dc428d5103244345198d0b3321c46cd0e3e73ed3da7fe44138a9761d9135cd9f",
+      "english_sha256": "585fd9469d9def5e2fca2c31bbd67988765c6bbdb94b8d5612b74699e7cb6fa3"
     },
     "risale-i-nur-ilham-vahiy-kainati-okumak.html": {
       "english": "en/risale-i-nur-ilham-vahiy-kainati-okumak.html",
@@ -200,6 +200,11 @@
       "english": "en/risale-i-nur-iman-ve-soru-sormak.html",
       "source_sha256": "acd69623defc935f8929f3df75d91a26c56cbcfe793c344421213258c2317538",
       "english_sha256": "10d88f44973c2d19ca310bd8f7729e9d3ca7a177dabc1bd4de8308e129fee515"
+    },
+    "risale-i-nur-omrun-gayesi-umut-ihlas-teslimiyet.html": {
+      "english": "en/risale-i-nur-omrun-gayesi-umut-ihlas-teslimiyet.html",
+      "source_sha256": "afebfbaea7372d9f4accf9ab40b3dbe4a1a71ea6d45476d9ff8b373a0f1d8a1d",
+      "english_sha256": "683900fa7edf46ee955228150b26b2c801dada2355faaeb84287ff43b429564e"
     }
   }
 }
