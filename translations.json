@@ -235,6 +235,11 @@
       "english": "en/risale-i-nur-haber-merak-sorumluluk-tevekkul.html",
       "source_sha256": "a59ab7edc799bed4efc021c5cc22e9e976b236bfe812490013f7271eed6a3683",
       "english_sha256": "5ba9a92a29ce8214926546856169fdd18e43db986d2816227c14df115eadf65f"
+    },
+    "ayni-sarkida-aglamak-ve-oynamak-hakimin-narinda-huzun-ritim-ve-donusum.html": {
+      "english": "en/ayni-sarkida-aglamak-ve-oynamak-hakimin-narinda-huzun-ritim-ve-donusum.html",
+      "source_sha256": "04ddb16884bfaf875dfeeaeafb4a6e4ed9234d93560061a1f8027fd9f03d9de3",
+      "english_sha256": "36c9417fb79774b68f0ccbd983076393b1f4e04aeec30d8b0f5b1c03cc3309af"
     }
   }
 }
