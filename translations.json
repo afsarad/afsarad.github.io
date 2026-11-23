@@ -21,6 +21,11 @@
       "source_sha256": "adbd02a5c9580718968610ca52cd04a80d486aebf1053be9c33ef2ee5630e8ed",
       "english_sha256": "0020641cfc7c92ac83922b05f04cddc29430e7b5f4bc4bca74d95c2b57f88654"
     },
+    "bekleyisin-icindeki-gelecek.html": {
+      "english": "en/bekleyisin-icindeki-gelecek.html",
+      "source_sha256": "2391a99372ab03c8388abda4f8be81b8c1fe2d042ac9b29b225bc58fa6338316",
+      "english_sha256": "f49c4af53859fd91ddd4577b70013c1544cc9f0b415b50414a834307073de8f6"
+    },
     "cevabul-ahmak-es-sukut.html": {
       "english": "en/cevabul-ahmak-es-sukut.html",
       "source_sha256": "529fd13dab7b9dfc7392463583391058101b12b480e2f58adc6e6e59bd3f2cf8",
@@ -95,6 +100,16 @@
       "english": "en/istikrardan-insan-bikar-mi.html",
       "source_sha256": "15663212e94e7e5fe59c519e7ff4b9141f730a32ccaa050f942f7cbdb8f8fa64",
       "english_sha256": "785b36dd7045db2062dbd35e7730fb1441e9b1112617fe83ec63e49a098ad425"
+    },
+    "kavramlar.html": {
+      "english": "en/kavramlar.html",
+      "source_sha256": "2c03532875654ed5d567d4d98ff6027b2ad20fe302997ac8481fe887f17dfcde",
+      "english_sha256": "78b1b12107b62296f54555e89017344bd4d9882e586f80c44a3f6a5051b3607c"
+    },
+    "kitaplar.html": {
+      "english": "en/kitaplar.html",
+      "source_sha256": "94b77a8e58272bc8a1230c60c8dd3dcd7074688b6e63e57b5193621a8a5f6ddc",
+      "english_sha256": "b19c05b9c750a3b5e5782065efdda4f56e5afde20f6d2e114046f10f2478cb2b"
     },
     "kitaplar/ibn-haldunla-devlet-refah-ve-cozulme.html": {
       "english": "en/kitaplar/ibn-haldunla-devlet-refah-ve-cozulme.html",
@@ -213,18 +228,8 @@
     },
     "yazilar.html": {
       "english": "en/yazilar.html",
-      "source_sha256": "84abebee8e7dee63bf3c4a7b414f0fc890631d8fa2defa0febed0acd98dce910",
-      "english_sha256": "1963673276005c1b897918ffe475a7ece6d82e1e189ad1a46a22eda572a59f45"
-    },
-    "kitaplar.html": {
-      "english": "en/kitaplar.html",
-      "source_sha256": "94b77a8e58272bc8a1230c60c8dd3dcd7074688b6e63e57b5193621a8a5f6ddc",
-      "english_sha256": "b19c05b9c750a3b5e5782065efdda4f56e5afde20f6d2e114046f10f2478cb2b"
-    },
-    "kavramlar.html": {
-      "english": "en/kavramlar.html",
-      "source_sha256": "2c03532875654ed5d567d4d98ff6027b2ad20fe302997ac8481fe887f17dfcde",
-      "english_sha256": "78b1b12107b62296f54555e89017344bd4d9882e586f80c44a3f6a5051b3607c"
+      "source_sha256": "d70d4346e9561924a6e1c7b34914f8349bc90477890adb6269f7eb98cfbd9b9d",
+      "english_sha256": "dc7f7a3c74bab712c490b45b9d16fbeb92a57fb43d98a9277e3c17b651f75050"
     }
   }
 }
