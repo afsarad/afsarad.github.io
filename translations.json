@@ -210,6 +210,21 @@
       "english": "en/yapay-zeka-reklamlarinda-karsilastirma-ve-fayda.html",
       "source_sha256": "17850d55d62d2889ae7d839b6c800228b91993b7675c001f813bedea5bd9d12e",
       "english_sha256": "a2e15ff0d0df322afa19cfc2d0b9b42d1ffeeb528cbf000b8303d01f07e33592"
+    },
+    "yazilar.html": {
+      "english": "en/yazilar.html",
+      "source_sha256": "53117c8b3ee05c5e5fadc947c5d51e980c67d4d052a87c4e05e8637d75a73bbe",
+      "english_sha256": "3d367562c635d39d2481e32a2726205f8576d4347627e63601b29ece654a28d3"
+    },
+    "kitaplar.html": {
+      "english": "en/kitaplar.html",
+      "source_sha256": "62ff118552487d7d112d4f434c6c4d9db6d0d6e0561322ebe19eb376ee5b983b",
+      "english_sha256": "4080c9a3a1b7afd4c8fe5c029d5872e942b6f57ba7fff110f5df73402d8713d1"
+    },
+    "kavramlar.html": {
+      "english": "en/kavramlar.html",
+      "source_sha256": "00938a46f89fa976acd0cb259cf610aa9013ac987ab02628d044c4bb1ff42210",
+      "english_sha256": "e07e7c75b70ec7ab424a3f9892daa0c4fabc4cb65fbe38245c7c66ec2a1b7bfe"
     }
   }
 }
