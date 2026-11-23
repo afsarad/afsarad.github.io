@@ -153,8 +153,8 @@
     },
     "risale-i-nur-kulliyati-sosyolojisi.html": {
       "english": "en/risale-i-nur-kulliyati-sosyolojisi.html",
-      "source_sha256": "a6c49aff673586333130db4f6ba1cc683438b3a2886c24d7c012f69586d28224",
-      "english_sha256": "6b1f8f03f36bd85e4675aafe0bfef18e41fa38edb849e01cf75724bf0aa8b87a"
+      "source_sha256": "30fa8f3fbe9f5c77f7bba5125d9f98846e395273621b6a6c2ac18a27efdc1fc5",
+      "english_sha256": "8d8f602ec839526e390733856cae5ce41977ddf02eede3bc904e449c1061339f"
     },
     "risale-i-nur-modern-insan-ihtiyac-arzu-anlam.html": {
       "english": "en/risale-i-nur-modern-insan-ihtiyac-arzu-anlam.html",
@@ -230,6 +230,11 @@
       "english": "en/yazilar.html",
       "source_sha256": "d70d4346e9561924a6e1c7b34914f8349bc90477890adb6269f7eb98cfbd9b9d",
       "english_sha256": "dc7f7a3c74bab712c490b45b9d16fbeb92a57fb43d98a9277e3c17b651f75050"
+    },
+    "risale-i-nur-haber-merak-sorumluluk-tevekkul.html": {
+      "english": "en/risale-i-nur-haber-merak-sorumluluk-tevekkul.html",
+      "source_sha256": "a59ab7edc799bed4efc021c5cc22e9e976b236bfe812490013f7271eed6a3683",
+      "english_sha256": "5ba9a92a29ce8214926546856169fdd18e43db986d2816227c14df115eadf65f"
     }
   }
 }
