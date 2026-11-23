@@ -68,8 +68,8 @@
     },
     "index.html": {
       "english": "en/index.html",
-      "source_sha256": "48aa253a4816888f6bcadd96e4e36ba26b3ab9a3238da4608a91d3f3dc639544",
-      "english_sha256": "40cb71bf66eccff35bd2643cf6bd12f690f75a0b96a1a87e37f6470ac18dab7f"
+      "source_sha256": "7dd1f423445f12d1c22ddeb1473b7251a5d33983b1290ae3e57672fa845b3314",
+      "english_sha256": "5711f0cabcfd7855b37eb7bed88d08b5ecd7c1e6d6ea791a3ecc32607e6bad86"
     },
     "insan-ozgurluk-sorumluluk.html": {
       "english": "en/insan-ozgurluk-sorumluluk.html",
@@ -213,18 +213,18 @@
     },
     "yazilar.html": {
       "english": "en/yazilar.html",
-      "source_sha256": "53117c8b3ee05c5e5fadc947c5d51e980c67d4d052a87c4e05e8637d75a73bbe",
-      "english_sha256": "3d367562c635d39d2481e32a2726205f8576d4347627e63601b29ece654a28d3"
+      "source_sha256": "84abebee8e7dee63bf3c4a7b414f0fc890631d8fa2defa0febed0acd98dce910",
+      "english_sha256": "1963673276005c1b897918ffe475a7ece6d82e1e189ad1a46a22eda572a59f45"
     },
     "kitaplar.html": {
       "english": "en/kitaplar.html",
-      "source_sha256": "62ff118552487d7d112d4f434c6c4d9db6d0d6e0561322ebe19eb376ee5b983b",
-      "english_sha256": "4080c9a3a1b7afd4c8fe5c029d5872e942b6f57ba7fff110f5df73402d8713d1"
+      "source_sha256": "94b77a8e58272bc8a1230c60c8dd3dcd7074688b6e63e57b5193621a8a5f6ddc",
+      "english_sha256": "b19c05b9c750a3b5e5782065efdda4f56e5afde20f6d2e114046f10f2478cb2b"
     },
     "kavramlar.html": {
       "english": "en/kavramlar.html",
-      "source_sha256": "00938a46f89fa976acd0cb259cf610aa9013ac987ab02628d044c4bb1ff42210",
-      "english_sha256": "e07e7c75b70ec7ab424a3f9892daa0c4fabc4cb65fbe38245c7c66ec2a1b7bfe"
+      "source_sha256": "2c03532875654ed5d567d4d98ff6027b2ad20fe302997ac8481fe887f17dfcde",
+      "english_sha256": "78b1b12107b62296f54555e89017344bd4d9882e586f80c44a3f6a5051b3607c"
     }
   }
 }
