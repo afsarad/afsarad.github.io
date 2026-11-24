@@ -240,6 +240,11 @@
       "english": "en/ayni-sarkida-aglamak-ve-oynamak-hakimin-narinda-huzun-ritim-ve-donusum.html",
       "source_sha256": "9be15c2d91f79190221bcfc094bb38baa3ebd3948583f98702f800f7594474f2",
       "english_sha256": "54b34b7a92e84ddf6d11d1a07b37bede9a0787fad7c775cbdfc11ae266b56545"
+    },
+    "egzotik-hayvan-sahipliginin-sosyolojisi.html": {
+      "english": "en/egzotik-hayvan-sahipliginin-sosyolojisi.html",
+      "source_sha256": "afa310a7d0629a1a42b713a3c3301ff4552e54deb1bf76a7c5ae7f5c82ac571e",
+      "english_sha256": "c678381df37f2f04c78adee650f205fa70ef192a7cca1df0ba507e2163131a0d"
     }
   }
 }
