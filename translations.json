@@ -245,6 +245,11 @@
       "english": "en/egzotik-hayvan-sahipliginin-sosyolojisi.html",
       "source_sha256": "afa310a7d0629a1a42b713a3c3301ff4552e54deb1bf76a7c5ae7f5c82ac571e",
       "english_sha256": "c678381df37f2f04c78adee650f205fa70ef192a7cca1df0ba507e2163131a0d"
+    },
+    "yonetici-degisikligi-kamu-hizmetini-nasil-tazeler.html": {
+      "english": "en/yonetici-degisikligi-kamu-hizmetini-nasil-tazeler.html",
+      "source_sha256": "255190b86a6b87121a467e4d0da5cbb1964d5dcf40bdc1396785f071d25f5f6b",
+      "english_sha256": "facd6650241ad14dc4da9e2590e6cdaab66994d75d8c6a657d1516303d0a94ab"
     }
   }
 }
