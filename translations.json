@@ -228,8 +228,8 @@
     },
     "yazilar.html": {
       "english": "en/yazilar.html",
-      "source_sha256": "0a06e64c7f42a8eb16e25f6605eb0bf760fb4180ca08fa832fe749e0b194aa20",
-      "english_sha256": "68c2a55c39f604dbebab82f4e7f2b5ab7d4d99e3f2161b0f18e0c1a23aac2841"
+      "source_sha256": "1bc8ee513cfb198bf0491612897b1770bc8e4582b0cc16af7045c29929dcbe77",
+      "english_sha256": "9da01db3c998942454762c5bbb57400d448aefe02988eeb9c8a37c81779ba2ca"
     },
     "risale-i-nur-haber-merak-sorumluluk-tevekkul.html": {
       "english": "en/risale-i-nur-haber-merak-sorumluluk-tevekkul.html",
@@ -250,6 +250,11 @@
       "english": "en/yonetici-degisikligi-kamu-hizmetini-nasil-tazeler.html",
       "source_sha256": "255190b86a6b87121a467e4d0da5cbb1964d5dcf40bdc1396785f071d25f5f6b",
       "english_sha256": "facd6650241ad14dc4da9e2590e6cdaab66994d75d8c6a657d1516303d0a94ab"
+    },
+    "bir-futbolcudan-bir-ulkeye.html": {
+      "english": "en/one-player-one-country.html",
+      "source_sha256": "57ea206006baf0675bd01766690b99524bfe5f55c8371579fd37462e84683eea",
+      "english_sha256": "f711cf2277c70df6c3040a9921ceb7ab1fd1fdde2d05e809987f1892fa5de672"
     }
   }
 }
