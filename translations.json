@@ -16,6 +16,11 @@
       "source_sha256": "f4d37f2bae34bd25b3e0ee020e408d5368814b566d8ca92ba9e02d4bbb6eeb6d",
       "english_sha256": "17b6ff36f4fd9c1eaba87e27996ec881773051da7b243732bc4e4103a599a980"
     },
+    "ayni-sarkida-aglamak-ve-oynamak-hakimin-narinda-huzun-ritim-ve-donusum.html": {
+      "english": "en/ayni-sarkida-aglamak-ve-oynamak-hakimin-narinda-huzun-ritim-ve-donusum.html",
+      "source_sha256": "89c69c4ef6bfb58a29b68371c0f1ba0ae3e65cde7702d84d35e293135c823f36",
+      "english_sha256": "9bf8def6bc19df91c0b5547634f2913d46f0ddf2e7d22752e31ab47487f1c886"
+    },
     "bedenin-sinirindan-ortak-yasamin-kuralina.html": {
       "english": "en/bedenin-sinirindan-ortak-yasamin-kuralina.html",
       "source_sha256": "87686c8bb879a1a46e864c255b76287f7dd714349002b17fc239925831c2144d",
@@ -26,6 +31,11 @@
       "source_sha256": "6cf5e1c8297a7ef210554b09b31da775a250463e3e4fcd3af00aa7869bfe1e12",
       "english_sha256": "a74354071e4073fd90cfecbc4b6381b7f68aeb07f98e30fb5cfbccef2693f028"
     },
+    "bir-futbolcudan-bir-ulkeye.html": {
+      "english": "en/one-player-one-country.html",
+      "source_sha256": "dbb99983f6d44b4c9a5352ff55ae49432dad9fdf68caaf6c7d04c47a7ae38675",
+      "english_sha256": "91beaa591bb8f67e749f5caf61dc0245ebd3c345f0d46aeb89da0f1370d1ba00"
+    },
     "cevabul-ahmak-es-sukut.html": {
       "english": "en/cevabul-ahmak-es-sukut.html",
       "source_sha256": "529fd13dab7b9dfc7392463583391058101b12b480e2f58adc6e6e59bd3f2cf8",
@@ -35,6 +45,11 @@
       "english": "en/dongu-degil-sarmal.html",
       "source_sha256": "fa5b3cd339f55d3ef37cbaa108f0288675384c9ab7aee88e678cf9bd5d0cc2bb",
       "english_sha256": "746cf335e4d069a1a67b84afb87c0c9a086d704fde1ab3738323099519145e48"
+    },
+    "egzotik-hayvan-sahipliginin-sosyolojisi.html": {
+      "english": "en/egzotik-hayvan-sahipliginin-sosyolojisi.html",
+      "source_sha256": "1a79a1ef26fb176a8d167820cbad25e0569bae8ee728d3990392968e70843ae5",
+      "english_sha256": "3f23598701834e5c8f286b017eb4eb4f755ea16eb4282a115826c58f06f9c803"
     },
     "gizlilik.html": {
       "english": "en/gizlilik.html",
@@ -73,8 +88,8 @@
     },
     "index.html": {
       "english": "en/index.html",
-      "source_sha256": "fef4b5515a31b8353d5a0b29e96090f0dd9ec4609c00b5d9284f9f7dabe47882",
-      "english_sha256": "f523574d1a49aee57d4ee7f365544115fed2593600d653052b86aca8b3686b63"
+      "source_sha256": "bea1269daee81b1e93b95a0848481db824bdd67492696d87b7a7e2bd68e1c8bc",
+      "english_sha256": "11deea3eb93dcb53f85d70a730c5bea606621e48efe5e092de1aef5434681cf5"
     },
     "insan-ozgurluk-sorumluluk.html": {
       "english": "en/insan-ozgurluk-sorumluluk.html",
@@ -105,6 +120,11 @@
       "english": "en/kavramlar.html",
       "source_sha256": "2c03532875654ed5d567d4d98ff6027b2ad20fe302997ac8481fe887f17dfcde",
       "english_sha256": "78b1b12107b62296f54555e89017344bd4d9882e586f80c44a3f6a5051b3607c"
+    },
+    "kendi-olmak-farkindalik-ve-toplumsal-butunluk.html": {
+      "english": "en/kendi-olmak-farkindalik-ve-toplumsal-butunluk.html",
+      "source_sha256": "145be8a0f13fe24e2622b0f50aa2d7a71ae1e6e11817db31174db83641f3d711",
+      "english_sha256": "f3c1d39f31478808477f2e4e55ab10c72121c6f32015afb0cfcae1f5434c4019"
     },
     "kitaplar.html": {
       "english": "en/kitaplar.html",
@@ -140,6 +160,11 @@
       "english": "en/risale-i-nur-birlikte-olmak.html",
       "source_sha256": "a64ef60f3f0897e837c226da59f8d3b1da90d985608c2b59c96dc04ff1a4bfcf",
       "english_sha256": "133b92f159a9c0b5271dc9cc4e27279eba2da0c216de18eb42d8ec59a673e7d1"
+    },
+    "risale-i-nur-haber-merak-sorumluluk-tevekkul.html": {
+      "english": "en/risale-i-nur-haber-merak-sorumluluk-tevekkul.html",
+      "source_sha256": "a59ab7edc799bed4efc021c5cc22e9e976b236bfe812490013f7271eed6a3683",
+      "english_sha256": "5ba9a92a29ce8214926546856169fdd18e43db986d2816227c14df115eadf65f"
     },
     "risale-i-nur-ilham-vahiy-kainati-okumak.html": {
       "english": "en/risale-i-nur-ilham-vahiy-kainati-okumak.html",
@@ -206,6 +231,11 @@
       "source_sha256": "b00c048c4308776c676fed9ac75119c08037370fa7eb7c421f868cb9dbbdc8ea",
       "english_sha256": "936955f5a6f6acee764c7da2778e277c94a43f698e60c26fcbdf8172d0ab33bd"
     },
+    "tribundeki-ofkenin-bedelini-kim-oduyor.html": {
+      "english": "en/who-pays-for-terrace-anger.html",
+      "source_sha256": "b7327b85dbe52c42a3f7b0d77da4e5b9d35de27b41eb0bc4f03fb71a5220aeeb",
+      "english_sha256": "8647be83d1d34e2f7d1762b3fe30e87e68f6371ca1562143262fca6c9224389c"
+    },
     "yapay-zeka-dusunsel-sinerji.html": {
       "english": "en/yapay-zeka-dusunsel-sinerji.html",
       "source_sha256": "38b6270b844a2e9d5c8e4047f3e0bb92cfe5f2c6934edb49eb83b5c41ef0c240",
@@ -228,33 +258,13 @@
     },
     "yazilar.html": {
       "english": "en/yazilar.html",
-      "source_sha256": "7d55176ce6d4107db3c9d01e0bfc6c4b076d4fa58edf5201a0b9945633602d26",
-      "english_sha256": "af6b4ed2b7d7ffe1ac69f870c3d1498dfd26272d38e49a544058729a551339b4"
-    },
-    "risale-i-nur-haber-merak-sorumluluk-tevekkul.html": {
-      "english": "en/risale-i-nur-haber-merak-sorumluluk-tevekkul.html",
-      "source_sha256": "a59ab7edc799bed4efc021c5cc22e9e976b236bfe812490013f7271eed6a3683",
-      "english_sha256": "5ba9a92a29ce8214926546856169fdd18e43db986d2816227c14df115eadf65f"
-    },
-    "ayni-sarkida-aglamak-ve-oynamak-hakimin-narinda-huzun-ritim-ve-donusum.html": {
-      "english": "en/ayni-sarkida-aglamak-ve-oynamak-hakimin-narinda-huzun-ritim-ve-donusum.html",
-      "source_sha256": "89c69c4ef6bfb58a29b68371c0f1ba0ae3e65cde7702d84d35e293135c823f36",
-      "english_sha256": "9bf8def6bc19df91c0b5547634f2913d46f0ddf2e7d22752e31ab47487f1c886"
-    },
-    "egzotik-hayvan-sahipliginin-sosyolojisi.html": {
-      "english": "en/egzotik-hayvan-sahipliginin-sosyolojisi.html",
-      "source_sha256": "1a79a1ef26fb176a8d167820cbad25e0569bae8ee728d3990392968e70843ae5",
-      "english_sha256": "3f23598701834e5c8f286b017eb4eb4f755ea16eb4282a115826c58f06f9c803"
+      "source_sha256": "ebec19ddd825721a549b93fcd62cea3d74ccf7066ce512e4b2f76c5704ec5aa0",
+      "english_sha256": "883551cc66cb591e691f301130aa181350d0b7c7ccb92b851d64e0ad34571e0c"
     },
     "yonetici-degisikligi-kamu-hizmetini-nasil-tazeler.html": {
       "english": "en/yonetici-degisikligi-kamu-hizmetini-nasil-tazeler.html",
       "source_sha256": "d7a38a0fa46860c760e9234d04035231991cbcb9f96febe8a6912cecf1d37732",
       "english_sha256": "2a7c0d45397e9eab2113063d63c9aed6196ca2a0435c6b7fa4f2ddd918d9d505"
-    },
-    "bir-futbolcudan-bir-ulkeye.html": {
-      "english": "en/one-player-one-country.html",
-      "source_sha256": "dbb99983f6d44b4c9a5352ff55ae49432dad9fdf68caaf6c7d04c47a7ae38675",
-      "english_sha256": "91beaa591bb8f67e749f5caf61dc0245ebd3c345f0d46aeb89da0f1370d1ba00"
     }
   }
 }
