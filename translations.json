@@ -88,8 +88,8 @@
     },
     "index.html": {
       "english": "en/index.html",
-      "source_sha256": "bea1269daee81b1e93b95a0848481db824bdd67492696d87b7a7e2bd68e1c8bc",
-      "english_sha256": "11deea3eb93dcb53f85d70a730c5bea606621e48efe5e092de1aef5434681cf5"
+      "source_sha256": "d68d3d8c83706410ee751c9fbd3deb39f54180247574fc4c790694e5b7d11603",
+      "english_sha256": "be252f3d9a8160ec7610985e70239ca71e32ae00ae9c9c4d526d5bf35983f381"
     },
     "insan-ozgurluk-sorumluluk.html": {
       "english": "en/insan-ozgurluk-sorumluluk.html",
@@ -265,6 +265,11 @@
       "english": "en/yonetici-degisikligi-kamu-hizmetini-nasil-tazeler.html",
       "source_sha256": "14d51984e3a183e933219b4995e5d5a59312c8a9bb20b1f139211618d694afda",
       "english_sha256": "31c25be3cb0163dfcf298aa79e0c54428f7536eda06e29e39c709e18f621f59a"
+    },
+    "yayin-yaklasimi-ve-kaynaklar.html": {
+      "english": "en/yayin-yaklasimi-ve-kaynaklar.html",
+      "source_sha256": "7645436068fd4b36d555c135df5584154e967777c3617da4cb2bdb410d9ac710",
+      "english_sha256": "ab2089c113af3e4979633ee5e509b43803121caaf67ecba93d08d22f2adc1f6e"
     }
   }
 }
