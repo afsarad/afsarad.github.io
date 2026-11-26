@@ -3,8 +3,8 @@
   "pages": {
     "2026-kpss-ortaogretim-sonuclari.html": {
       "english": "en/2026-kpss-ortaogretim-sonuclari.html",
-      "source_sha256": "2aa9d20b922240683539eb54daf2ae19e9b225ddc207067c44ce758007a085ff",
-      "english_sha256": "b7fa10d73ee10a5fe637f7a95c664a6b78cab578cad04ece4808e564fed9bb65"
+      "source_sha256": "f7f8372bd928910a8a666a7ccbbd83b80efb499e68f396df42275b87c81a93d6",
+      "english_sha256": "0408fcadbe91948024796adae0b2a3344a2be1d41f11e1852f12a4bc15946bde"
     },
     "arastirma-arsivi.html": {
       "english": "en/arastirma-arsivi.html",
@@ -13,43 +13,43 @@
     },
     "asabiyet-ve-ortak-hareket.html": {
       "english": "en/asabiyet-ve-ortak-hareket.html",
-      "source_sha256": "f4d37f2bae34bd25b3e0ee020e408d5368814b566d8ca92ba9e02d4bbb6eeb6d",
-      "english_sha256": "17b6ff36f4fd9c1eaba87e27996ec881773051da7b243732bc4e4103a599a980"
+      "source_sha256": "e6dc34f48a41e8281993158c864b2d206f7007557f730968668a8f106972e4d0",
+      "english_sha256": "08c4e192d50c4ea7407a959083654b16827eeef1c93258cffe86e45f1e451bf8"
     },
     "ayni-sarkida-aglamak-ve-oynamak-hakimin-narinda-huzun-ritim-ve-donusum.html": {
       "english": "en/ayni-sarkida-aglamak-ve-oynamak-hakimin-narinda-huzun-ritim-ve-donusum.html",
-      "source_sha256": "89c69c4ef6bfb58a29b68371c0f1ba0ae3e65cde7702d84d35e293135c823f36",
-      "english_sha256": "9bf8def6bc19df91c0b5547634f2913d46f0ddf2e7d22752e31ab47487f1c886"
+      "source_sha256": "c1748ab759682c0539d2589300d0ff52897c81206ab42b077ea787632a2aacf7",
+      "english_sha256": "cc74606306a6494732218d3dbe873389d6dde2a789265b35017b098a8cde1e69"
     },
     "bedenin-sinirindan-ortak-yasamin-kuralina.html": {
       "english": "en/bedenin-sinirindan-ortak-yasamin-kuralina.html",
-      "source_sha256": "87686c8bb879a1a46e864c255b76287f7dd714349002b17fc239925831c2144d",
-      "english_sha256": "a3a3e9bc7d9e3ce1fdb61067ee04d95190f85b48580b1949bf9a8c5b2631d544"
+      "source_sha256": "5b801cc265351111a36acb6f8918c97139cc3be91425ec210a18c1687fbdbb67",
+      "english_sha256": "a30916626a491df15e92a8cac12fc01747e28745cb1aec566409fa49eae289cf"
     },
     "bekleyisin-icindeki-gelecek.html": {
       "english": "en/bekleyisin-icindeki-gelecek.html",
-      "source_sha256": "6cf5e1c8297a7ef210554b09b31da775a250463e3e4fcd3af00aa7869bfe1e12",
-      "english_sha256": "a74354071e4073fd90cfecbc4b6381b7f68aeb07f98e30fb5cfbccef2693f028"
+      "source_sha256": "8d7149bd3b68331991b9e1076a24d0ec916a2543d0cd552675d559a1627ecf3a",
+      "english_sha256": "252c6292bffd89445ea7d50333ff733d8ae302715508afc35bcf177eb1d6109c"
     },
     "bir-futbolcudan-bir-ulkeye.html": {
       "english": "en/one-player-one-country.html",
-      "source_sha256": "dbb99983f6d44b4c9a5352ff55ae49432dad9fdf68caaf6c7d04c47a7ae38675",
-      "english_sha256": "91beaa591bb8f67e749f5caf61dc0245ebd3c345f0d46aeb89da0f1370d1ba00"
+      "source_sha256": "c367da9e945f1b845803916014453ab1cd168079ef976f58d5e42f5a70d918ac",
+      "english_sha256": "26bfe75d33985eeb9953006d2a143b36ecea3d5628899e4894ff5c69140373f6"
     },
     "cevabul-ahmak-es-sukut.html": {
       "english": "en/cevabul-ahmak-es-sukut.html",
-      "source_sha256": "529fd13dab7b9dfc7392463583391058101b12b480e2f58adc6e6e59bd3f2cf8",
-      "english_sha256": "7ae8a43714ca349983a6583f1842b2d81304d689647685c6e0276c3821628de0"
+      "source_sha256": "0e5bb8a2def17a17492c194a251cf76085303611848d9cc82553c378ba8124bb",
+      "english_sha256": "f46981bb16bd7f346ef0424adab94987056bec402203d1d8c08fbf11daf0e452"
     },
     "dongu-degil-sarmal.html": {
       "english": "en/dongu-degil-sarmal.html",
-      "source_sha256": "fa5b3cd339f55d3ef37cbaa108f0288675384c9ab7aee88e678cf9bd5d0cc2bb",
-      "english_sha256": "746cf335e4d069a1a67b84afb87c0c9a086d704fde1ab3738323099519145e48"
+      "source_sha256": "e5929a7619db9b3fe759756e92c5e0092a1f7655c832e4e0beb4b89aeeda5b5a",
+      "english_sha256": "4020e8c04185f851b99c077fe0e867b68045eb04bbfc272ce7f367e64c2c0a29"
     },
     "egzotik-hayvan-sahipliginin-sosyolojisi.html": {
       "english": "en/egzotik-hayvan-sahipliginin-sosyolojisi.html",
-      "source_sha256": "1a79a1ef26fb176a8d167820cbad25e0569bae8ee728d3990392968e70843ae5",
-      "english_sha256": "3f23598701834e5c8f286b017eb4eb4f755ea16eb4282a115826c58f06f9c803"
+      "source_sha256": "7a7e92cd4ac17b09bad41cb47a9cffee5cca84f35e3c7e57bdedd599f23edb3a",
+      "english_sha256": "1233841b88ec50a4291064cadaeaa37c79358ae5bbe7ec5a3d5a5f8433baf442"
     },
     "gizlilik.html": {
       "english": "en/gizlilik.html",
@@ -58,13 +58,13 @@
     },
     "goc-politikalari-ve-toplumsal-guvenlik.html": {
       "english": "en/goc-politikalari-ve-toplumsal-guvenlik.html",
-      "source_sha256": "e7d919c4271833a51bff2875ca5d8738f2720082d72f263de482655736c18102",
-      "english_sha256": "7558eddc9c751c631a97a657269c4c0f61bfc07fe0e8381d649049e01b11f654"
+      "source_sha256": "10dcdd1632e1c88f712465ad44df5c7b3cac66ff0cd95671a2dcf37983f30285",
+      "english_sha256": "cec9724da7a135ea6a0da282c6a0608c018fb77ad6485e595525c91befeb609c"
     },
     "hangi-sonuc-bizi-ikna-eder.html": {
       "english": "en/hangi-sonuc-bizi-ikna-eder.html",
-      "source_sha256": "5a9d3800719ffedba724a1d74336ef1e75c382bc87e23fa16c53f223640e64f1",
-      "english_sha256": "942c564275547418e5aec11a413a38a72a9652b706ed853d97a2d43cc0dc3104"
+      "source_sha256": "073c2285842b0aaf62071f71734f78aba762f27764490b05d3d99c1a3f295a7a",
+      "english_sha256": "fbbb76c9ef0d234c748ce459d6ea09e8e06f0d60d71f40c9d107ad03da371a94"
     },
     "ibni-haldun-ve-machiavelli.html": {
       "english": "en/ibni-haldun-ve-machiavelli.html",
@@ -78,8 +78,8 @@
     },
     "iktidar-siyasal-gercekcilik.html": {
       "english": "en/iktidar-siyasal-gercekcilik.html",
-      "source_sha256": "2af4737742c19848c338e64307e3e047b185dfb392c60a90f58490dbae6c8d4c",
-      "english_sha256": "b037a36fea19c1b6276c17aceaa41e83d5b03983eabc96f6d5f18f87e692b314"
+      "source_sha256": "a5a39b3974c9b34e51b3467cdc63673c32cf8dcd744297d758c47186931ccc63",
+      "english_sha256": "56827fe333de7b2bf19367b255821e0ec6233e1007362027be9eff0856581090"
     },
     "index-turkce.html": {
       "english": "en/index-turkce.html",
@@ -93,28 +93,28 @@
     },
     "insan-ozgurluk-sorumluluk.html": {
       "english": "en/insan-ozgurluk-sorumluluk.html",
-      "source_sha256": "c92d117f45c49a38e5af073271304b9543795d2268a41c942d45395b2942cfc1",
-      "english_sha256": "30dc904571bb5bca01f14d91bd37392e909e90cc9b086e67304cd71505d8769a"
+      "source_sha256": "0de9c0944c7bcaf68a77d53d698e9f2b53416d690ea63333d0282e0f1804d26a",
+      "english_sha256": "546a6af54dfa31de594120df099e667ea164afae156a27fac3c27ba8f1c53ef9"
     },
     "insan-toplum-ve-sorumluluk.html": {
       "english": "en/insan-toplum-ve-sorumluluk.html",
-      "source_sha256": "0d5da929ea65fea22ce30fcdc21d4561e2b5882dc27399d0722c977492a53994",
-      "english_sha256": "faa39564eeccc55401adcf22bb30eaf3b9d29ac1b6d4f7c37deb04abbc229f91"
+      "source_sha256": "c6d87529569c90b65f5d3b0cd7bd9299e044953e60ca767dba43d7fa53cceb77",
+      "english_sha256": "160073261022d023441706293595c8c4b2ca3ff72055a1c72d8e548b245db474"
     },
     "irade-ve-gercek-ozgurluk.html": {
       "english": "en/irade-ve-gercek-ozgurluk.html",
-      "source_sha256": "fd413acde5d537904d995a384bfece3782a6bee685ec6d1cc1dee1436ba020b0",
-      "english_sha256": "1161592a74e9604596bc3aeec3bae0e41cedf0ae329c57f6356e03021b78ba55"
+      "source_sha256": "edb1f2446a882363c938419a44dcdfa95de4a736b94a9bc2bdc642af89f87330",
+      "english_sha256": "58638898e3cea71bea0fd1e572ce2d280d9aa50d4338cdc1b3ed5e0bd2006fcd"
     },
     "istikrar-egitim-erdem-ekonomik-duzen.html": {
       "english": "en/istikrar-egitim-erdem-ekonomik-duzen.html",
-      "source_sha256": "1939af834359cd5895940afc6dcc4604a2e85327e1a1af7a7935ac812e2bd291",
-      "english_sha256": "117f300ad07103f6832368be27e95130bf5c2033977954f420b49b3cffe1df48"
+      "source_sha256": "b9cc2f1241de50967dd0c3b3f73c8867c916c0a6b10f2b6bfc978ee2d3802e3a",
+      "english_sha256": "b336bf874d8cddc90ad2cb7498d66044d659be61d8f52d2bc831fa0ef93fd753"
     },
     "istikrardan-insan-bikar-mi.html": {
       "english": "en/istikrardan-insan-bikar-mi.html",
-      "source_sha256": "4453c7374ef223103a5abfcaff2ad93b9346e16697ad5ee4370a0ecbfbdee419",
-      "english_sha256": "dfe44479b2d6dc264c3c4ad639b59a991723105c411822cb46b68b4f92772291"
+      "source_sha256": "45cf102faaba30ad68f3ff885e5b615c77b5a7c853ea7dbf34e91084bac59bdf",
+      "english_sha256": "51243bbf0a43686386dc1094fe62a67400a26f877228b1cfe1bce5fc67605df2"
     },
     "kavramlar.html": {
       "english": "en/kavramlar.html",
@@ -123,8 +123,8 @@
     },
     "kendi-olmak-farkindalik-ve-toplumsal-butunluk.html": {
       "english": "en/kendi-olmak-farkindalik-ve-toplumsal-butunluk.html",
-      "source_sha256": "145be8a0f13fe24e2622b0f50aa2d7a71ae1e6e11817db31174db83641f3d711",
-      "english_sha256": "f3c1d39f31478808477f2e4e55ab10c72121c6f32015afb0cfcae1f5434c4019"
+      "source_sha256": "73ee7bceaa74fdcc3e081ba428a50808709505e5712fcb79cfd35839febdb00b",
+      "english_sha256": "a43156b13d155ab8e9774deca1764e20fc3c7f4f1c9581cf1f6a360f42336842"
     },
     "kitaplar.html": {
       "english": "en/kitaplar.html",
@@ -143,38 +143,38 @@
     },
     "kuran-hadis-risale-i-nur-okuma-rehberi.html": {
       "english": "en/kuran-hadis-risale-i-nur-okuma-rehberi.html",
-      "source_sha256": "9c238db38af4c3881cbbb453c3aa4dcc39d8d6dfc0b444041193f39933fc5c3d",
-      "english_sha256": "ce6fb6121704d330b6cc9942ee72cb824d6a94e7c098c09a9666717dc51ec149"
+      "source_sha256": "aa5df27209563e9862460c96b6e2d010b4909cb0942860ce70adfe6b7f9b5271",
+      "english_sha256": "23f9efb77258891c0e2418a8c2036e553363808257e098d0aaf74dc86cddc919"
     },
     "kusaklar-arasinda-cinsiyet-algisi.html": {
       "english": "en/kusaklar-arasinda-cinsiyet-algisi.html",
-      "source_sha256": "87e5124bfcd854fa018328d43cb3bfe694b36804157f9b889bcb27de0fd57e01",
-      "english_sha256": "532e38cf1533dd5e99c4c593a7c631ff9cb745f96d1416c37ef2755771c4be95"
+      "source_sha256": "7ef1ce81e77979484a85393f9750d1bfce13a4d4d3b469ff71960c98328bcf21",
+      "english_sha256": "1bce2d22c5ddc2afaecc38f0c7ad93145e3cd5e03a5475f47906435629032521"
     },
     "mekanda-kalan-insan-izi.html": {
       "english": "en/mekanda-kalan-insan-izi.html",
-      "source_sha256": "05a49a6c0f63fdbcacd79fc6e78d736c5513fc954a7fdc7a371d3b89e51aa01d",
-      "english_sha256": "6b9805f7e12eefe7152a647753c1148ad08cf71ff6a7564af1a746ff0fc75703"
+      "source_sha256": "2a96d7be3bafa573314337f11c1c118f96b9803a4fa5bc96e15b1d3b00a3b0d0",
+      "english_sha256": "f7c0cbf8ef6da1eba0cc4e31a049c8b85bb0c2fdcdca99b7f6e82d480280463d"
     },
     "risale-i-nur-birlikte-olmak.html": {
       "english": "en/risale-i-nur-birlikte-olmak.html",
-      "source_sha256": "a64ef60f3f0897e837c226da59f8d3b1da90d985608c2b59c96dc04ff1a4bfcf",
-      "english_sha256": "133b92f159a9c0b5271dc9cc4e27279eba2da0c216de18eb42d8ec59a673e7d1"
+      "source_sha256": "32110b1439fa852a43638975c86b78e41ae4237e41838ccd38fa3d5e13f3a241",
+      "english_sha256": "0e66d3a54ec8b9245d32785b590eae5a38c5c5645ef03c9599e5a61372690818"
     },
     "risale-i-nur-haber-merak-sorumluluk-tevekkul.html": {
       "english": "en/risale-i-nur-haber-merak-sorumluluk-tevekkul.html",
-      "source_sha256": "a59ab7edc799bed4efc021c5cc22e9e976b236bfe812490013f7271eed6a3683",
-      "english_sha256": "5ba9a92a29ce8214926546856169fdd18e43db986d2816227c14df115eadf65f"
+      "source_sha256": "d996730cc7e5585a74885982308fa2d00a4b06fbf1759ecf3fd4e3f30407c7d8",
+      "english_sha256": "ff41a25bbc70cbba6944a9291bea40f69c7f66b7f408a5adb74ed3e34417aea3"
     },
     "risale-i-nur-ilham-vahiy-kainati-okumak.html": {
       "english": "en/risale-i-nur-ilham-vahiy-kainati-okumak.html",
-      "source_sha256": "38136c2dad195c87940f3e775c66fddd5c59c424416a9949141e82237edfb144",
-      "english_sha256": "9a9023ff63332d674b82f98277fa4dbee9d83803e7fecd4f4decd0351ec86433"
+      "source_sha256": "e5d2078f83759dda3c861e6deae2470fa1671d9012859272f50abaaceb96ab44",
+      "english_sha256": "cb1c62331736cbe171ed55768ab3b029130d143168cb8928fc971d8b5efb7418"
     },
     "risale-i-nur-iman-ve-soru-sormak.html": {
       "english": "en/risale-i-nur-iman-ve-soru-sormak.html",
-      "source_sha256": "e2fdd66082310fd9cf28f547342c4ae3920a6289b3eba790efbd6b850f845413",
-      "english_sha256": "65a8384ba200acccb68297172f4d811ed61662fd884b1e7f1f975c75b9512c88"
+      "source_sha256": "9de8668e5296608f2ffbc9b216a1868aec2973f6771d220ee10e91771f898fc6",
+      "english_sha256": "64cfbece723d5c870cc64d5f2a7c5e11c533d5f09d91b56b79ea8f6344a2fcac"
     },
     "risale-i-nur-kulliyati-sosyolojisi.html": {
       "english": "en/risale-i-nur-kulliyati-sosyolojisi.html",
@@ -183,23 +183,23 @@
     },
     "risale-i-nur-modern-insan-ihtiyac-arzu-anlam.html": {
       "english": "en/risale-i-nur-modern-insan-ihtiyac-arzu-anlam.html",
-      "source_sha256": "aca582dd596636026d1e84971be89dde124777f5a9a0c6823aef57f53d24b771",
-      "english_sha256": "79797cf286dcdfd3a45c56b7cfb3fe30d2985a2c78632c854c3b403c4474ff56"
+      "source_sha256": "b5ad0f9f8831402fedb0511d7968d1e52db9e9f87366830190515cbcb92bca38",
+      "english_sha256": "5975a69802f5b0351c3b905280c5c8cf7a4ac19c211ca73c6396c9bcce8a215c"
     },
     "risale-i-nur-omrun-gayesi-umut-ihlas-teslimiyet.html": {
       "english": "en/risale-i-nur-omrun-gayesi-umut-ihlas-teslimiyet.html",
-      "source_sha256": "938a62833de971f82f250bcb452c2240770e5ee14d7a42b0b711a200ff57dfa6",
-      "english_sha256": "0c9ba0092340dfcdb228ccea3206d65e17ecc3e389489be05eb784e842cb3e0a"
+      "source_sha256": "bd1244844ba63cb564596980811b6746da5ed7ac73edfc5f05adc2ec1013736c",
+      "english_sha256": "730ab3bf335cf93bf649017aca9d134172f7dce05402043be6cc0905e10126e2"
     },
     "risale-i-nur-yeniden-okumak.html": {
       "english": "en/risale-i-nur-yeniden-okumak.html",
-      "source_sha256": "a7ecd37e07b88c2e440dbd372eb232bec9069cdab37c5822baad08253e3722cc",
-      "english_sha256": "71cef496deece1a1ba661a6de57fbedf5138d70ef8aea0a7c2266033939ff1ee"
+      "source_sha256": "e133eee05a084230d247aee80c712479bf25a6dae132afee4f11a62c81ffdc0c",
+      "english_sha256": "1da2308fe0dff7437ffb88702ab85bce2325499659416b502e6847c1f0d0cf46"
     },
     "siyasal-istikrar-ve-toplumsal-memnuniyetsizlik.html": {
       "english": "en/siyasal-istikrar-ve-toplumsal-memnuniyetsizlik.html",
-      "source_sha256": "6858b6644988addf3c9aebc561adaeb023ba80588112b04eb823f6b773b23c07",
-      "english_sha256": "a89e8cea43fc1c6a1389be5810fc976628347b910cbf0754dfa6901aa49b45cb"
+      "source_sha256": "a60987245f7243f267f905a11c3fdcfd8515182d91cc31b8e4e906e418a91596",
+      "english_sha256": "e20f0c63f4bff3f78e8503d09555007eda1db26e2e624ad576b12674cfb0421a"
     },
     "sorularla-islamiyet.html": {
       "english": "en/sorularla-islamiyet.html",
@@ -208,8 +208,8 @@
     },
     "sorumluluk-daireleri.html": {
       "english": "en/sorumluluk-daireleri.html",
-      "source_sha256": "add515c7ff2eb2be90806108ca4ceea507bed5d7d34fb5a97665bfed646dabfb",
-      "english_sha256": "3404f9f88219a028b51567bd4b59175c84cb5fb953849568a6a507e3946ff8ef"
+      "source_sha256": "e505da8267acc1403b8773ac8a74f02493cfa10ba4f8de054b0bf9694ae43a92",
+      "english_sha256": "afeb9d641619b435342dfb4c8befaba3c673a7498058afd326147b021a89bf72"
     },
     "toplum_iktidar_duzen_kitap_serisi.html": {
       "english": "en/toplum_iktidar_duzen_kitap_serisi.html",
@@ -218,53 +218,53 @@
     },
     "toplumsal-dayaniklilik.html": {
       "english": "en/toplumsal-dayaniklilik.html",
-      "source_sha256": "290074290ffa3395637dc1fb70709e8cf3deeff691fbf77bd3a5ea5c58049151",
-      "english_sha256": "cf25f20686b53d51dbcc6062ba6e5e02b1a83b30e4901934542c24e6bcae672e"
+      "source_sha256": "894a2e35dfb982704d8a9101e8ae649281807260cc091b1d23091551879d316d",
+      "english_sha256": "38867c60cb2d6b8eaa341575514c43bcadd7038cbbeb3ba72f8d0c849e42e69f"
     },
     "toplumsal-hayatin-sonbahari.html": {
       "english": "en/toplumsal-hayatin-sonbahari.html",
-      "source_sha256": "594b7cfa9a86a6b43a39adbed6f6ba30f8d7ae1ba1436b6d1b2c898f792e112e",
-      "english_sha256": "f62b8bf991fd7fc92de8c6751a83a60855fa819c0eee79135bee72796a344309"
+      "source_sha256": "8b2bccad8228d952830fce1b0a67cba3d819394fc5fb1aa08c43a301332d90b5",
+      "english_sha256": "fbcdf2ae1d51f6214eee46383a1ec98225c501d7abb718ca0f2fa71bfa57cab8"
     },
     "toplumsal-iliskiler-ve-gorunmeyen-suistimaller.html": {
       "english": "en/toplumsal-iliskiler-ve-gorunmeyen-suistimaller.html",
-      "source_sha256": "b00c048c4308776c676fed9ac75119c08037370fa7eb7c421f868cb9dbbdc8ea",
-      "english_sha256": "936955f5a6f6acee764c7da2778e277c94a43f698e60c26fcbdf8172d0ab33bd"
+      "source_sha256": "5f1d0b4c6a315a3a421c536b5857d217ef8c9a220f3d06d4653d1b8fe0307a0f",
+      "english_sha256": "491d1ff04ed61fa486910528e9f0f945c2f806741ae282bb2591985599618c59"
     },
     "tribundeki-ofkenin-bedelini-kim-oduyor.html": {
       "english": "en/who-pays-for-terrace-anger.html",
-      "source_sha256": "b7327b85dbe52c42a3f7b0d77da4e5b9d35de27b41eb0bc4f03fb71a5220aeeb",
-      "english_sha256": "8647be83d1d34e2f7d1762b3fe30e87e68f6371ca1562143262fca6c9224389c"
+      "source_sha256": "fe7f8621c7dc94add45e6435d3dbbb5386931933bfd98ebac42c449f533845c5",
+      "english_sha256": "f62d5e492fc1df437a4de46e00ccd2296637ef3bae8b5a2ae9efe9ff315fea59"
     },
     "yapay-zeka-dusunsel-sinerji.html": {
       "english": "en/yapay-zeka-dusunsel-sinerji.html",
-      "source_sha256": "38b6270b844a2e9d5c8e4047f3e0bb92cfe5f2c6934edb49eb83b5c41ef0c240",
-      "english_sha256": "5c0466b2b5e88b732a602e64496c617c461ef7bac5532502bbe8094c534af024"
+      "source_sha256": "914ff880908b49c194bfda78e8abf0688b75b982961422481cdbd68d6364b6a3",
+      "english_sha256": "9e34b00a170f951ad8eedc5ab1fc79e87646023f47fe487e1e56120f7a4f3e1d"
     },
     "yapay-zeka-nedir-nasil-kullanilir.html": {
       "english": "en/yapay-zeka-nedir-nasil-kullanilir.html",
-      "source_sha256": "888a51caf5ddd663596f9e5244665c4f6c6f93592814042f3e208d57f50829dc",
-      "english_sha256": "d0f6ce271aad6e47b344d2b6602875624cdbe7990db7f2f3074094f3356cecde"
+      "source_sha256": "4cfd184f42adf5301be19cb21e202391b1561ee634405782a79f04858f99f5fe",
+      "english_sha256": "c6b865e6f3bc02e66461c837c10080e3c7032a987807680c1b0432eca01cd32f"
     },
     "yapay-zeka-reklamlarinda-karsilastirma-ve-fayda-2.html": {
       "english": "en/yapay-zeka-reklamlarinda-karsilastirma-ve-fayda-2.html",
-      "source_sha256": "a639e65bb84db1fec2de7532b26f717cc1ac981a3f608de5f7ab215eb09d1fcb",
-      "english_sha256": "ef971a79eb5a793506001d73c8583705cc3db265f89e9f145c90b39e542d3b76"
+      "source_sha256": "3ac6d6a6042c47978ad2971039384d6012df6fe6a0b020c7a2b6cd3c00dcbb33",
+      "english_sha256": "201312fff9e646f656cd7048692c857c2ca53f44e81e75ff6263500cd34027cb"
     },
     "yapay-zeka-reklamlarinda-karsilastirma-ve-fayda.html": {
       "english": "en/yapay-zeka-reklamlarinda-karsilastirma-ve-fayda.html",
-      "source_sha256": "ea632c79c63289bf9e37026c0f78aca0b43cf595831a2dc4d4f5da8d05c33444",
-      "english_sha256": "3c374f680ec25d8699f74176728f930a31c0e0261689611887c2030098193c23"
+      "source_sha256": "ff519b294e46121166ef553e7232f0c8411190b6ac6f97a604f9db4de9039c9d",
+      "english_sha256": "b64099e598fd257f0bf14b48184cb16fab38a7030094e84ed1c004ff92058ad6"
     },
     "yazilar.html": {
       "english": "en/yazilar.html",
-      "source_sha256": "ebec19ddd825721a549b93fcd62cea3d74ccf7066ce512e4b2f76c5704ec5aa0",
-      "english_sha256": "883551cc66cb591e691f301130aa181350d0b7c7ccb92b851d64e0ad34571e0c"
+      "source_sha256": "9ea3a2f020e4ae44659928e9b0099563d34c473546374892efca55433514f80e",
+      "english_sha256": "fdfcdffe73e1bd241e66ad64275aac0c5a4fb46b9b4020f14d17adfd022dc56e"
     },
     "yonetici-degisikligi-kamu-hizmetini-nasil-tazeler.html": {
       "english": "en/yonetici-degisikligi-kamu-hizmetini-nasil-tazeler.html",
-      "source_sha256": "d7a38a0fa46860c760e9234d04035231991cbcb9f96febe8a6912cecf1d37732",
-      "english_sha256": "2a7c0d45397e9eab2113063d63c9aed6196ca2a0435c6b7fa4f2ddd918d9d505"
+      "source_sha256": "14d51984e3a183e933219b4995e5d5a59312c8a9bb20b1f139211618d694afda",
+      "english_sha256": "31c25be3cb0163dfcf298aa79e0c54428f7536eda06e29e39c709e18f621f59a"
     }
   }
 }
