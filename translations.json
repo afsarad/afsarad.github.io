@@ -88,8 +88,8 @@
     },
     "index.html": {
       "english": "en/index.html",
-      "source_sha256": "d68d3d8c83706410ee751c9fbd3deb39f54180247574fc4c790694e5b7d11603",
-      "english_sha256": "be252f3d9a8160ec7610985e70239ca71e32ae00ae9c9c4d526d5bf35983f381"
+      "source_sha256": "3bab63f87b13ba397c65241dd553b4069e1b034d59497bc3d68e1d80f322d4c9",
+      "english_sha256": "6b880824929e906201f79c97dac709b8ed8a2715f6ae6d40f20f39c29f677ff9"
     },
     "insan-ozgurluk-sorumluluk.html": {
       "english": "en/insan-ozgurluk-sorumluluk.html",
@@ -258,8 +258,8 @@
     },
     "yazilar.html": {
       "english": "en/yazilar.html",
-      "source_sha256": "9ea3a2f020e4ae44659928e9b0099563d34c473546374892efca55433514f80e",
-      "english_sha256": "fdfcdffe73e1bd241e66ad64275aac0c5a4fb46b9b4020f14d17adfd022dc56e"
+      "source_sha256": "f9adf75cc2247b2fdc75616c179ad844171b31b97b712b76f1987957bfbf40bb",
+      "english_sha256": "b1f996ae85cc93a76a038f2f1da501493352d4a33669b0c530b2545246d5c16f"
     },
     "yonetici-degisikligi-kamu-hizmetini-nasil-tazeler.html": {
       "english": "en/yonetici-degisikligi-kamu-hizmetini-nasil-tazeler.html",
@@ -270,6 +270,11 @@
       "english": "en/yayin-yaklasimi-ve-kaynaklar.html",
       "source_sha256": "7645436068fd4b36d555c135df5584154e967777c3617da4cb2bdb410d9ac710",
       "english_sha256": "ab2089c113af3e4979633ee5e509b43803121caaf67ecba93d08d22f2adc1f6e"
+    },
+    "karadag-ab-uyeligi-ve-vize.html": {
+      "english": "en/montenegro-eu-membership-and-visas.html",
+      "source_sha256": "e4ae47b17d31451e1e16ed70fe48e90bc1c914223a93e80f2854915f8f321b2e",
+      "english_sha256": "c528bc630324f094c7d56be986fe2dce74757a0f8caa2e7722bf4fb09444f494"
     }
   }
 }
