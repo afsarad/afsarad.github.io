@@ -88,8 +88,8 @@
     },
     "index.html": {
       "english": "en/index.html",
-      "source_sha256": "3bab63f87b13ba397c65241dd553b4069e1b034d59497bc3d68e1d80f322d4c9",
-      "english_sha256": "6b880824929e906201f79c97dac709b8ed8a2715f6ae6d40f20f39c29f677ff9"
+      "source_sha256": "1e18c9c0248f3fc9fb0100c265c9585e28676791c3017441292e2294832d942e",
+      "english_sha256": "26090e641e4a681fe079d2ce888a54519063772749d07de898b7ea76658fe556"
     },
     "insan-ozgurluk-sorumluluk.html": {
       "english": "en/insan-ozgurluk-sorumluluk.html",
@@ -258,8 +258,8 @@
     },
     "yazilar.html": {
       "english": "en/yazilar.html",
-      "source_sha256": "f9adf75cc2247b2fdc75616c179ad844171b31b97b712b76f1987957bfbf40bb",
-      "english_sha256": "b1f996ae85cc93a76a038f2f1da501493352d4a33669b0c530b2545246d5c16f"
+      "source_sha256": "ba7de8f08a173472c57f3f9c5d9dd40228116bb1838babfc2f111e16e5d4dbe5",
+      "english_sha256": "c3b2997c2059e2ef4b0b5ba998a4227945da5932b8db3a4dd4f0e73e594a3b90"
     },
     "yonetici-degisikligi-kamu-hizmetini-nasil-tazeler.html": {
       "english": "en/yonetici-degisikligi-kamu-hizmetini-nasil-tazeler.html",
@@ -275,6 +275,11 @@
       "english": "en/montenegro-eu-membership-and-visas.html",
       "source_sha256": "e4ae47b17d31451e1e16ed70fe48e90bc1c914223a93e80f2854915f8f321b2e",
       "english_sha256": "c528bc630324f094c7d56be986fe2dce74757a0f8caa2e7722bf4fb09444f494"
+    },
+    "benzin-otv-sosyal-devlet.html": {
+      "english": "en/petrol-excise-and-social-policy.html",
+      "source_sha256": "9d4273c5e34ad510d4840fb1fef756d5a1af0760ea635b68251ee463e6b83b9b",
+      "english_sha256": "4ede32f735f9aa40b9e22fac30a6531f3b76e9b4111f6d736363701a945330d5"
     }
   }
 }
